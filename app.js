@@ -51,8 +51,21 @@
   async function imageReady(page) {
     const image = new Image(); image.src = page.image;
     if (image.decode) await image.decode();
-    else await new Promise((resolve, reject) => { image.onload = resolve; image.onerror = reject; });
+    else if (!image.complete) await new Promise((resolve, reject) => { image.onload = resolve; image.onerror = reject; });
     if (!image.naturalWidth) throw new Error('image');
+    return image;
+  }
+  function showReadyImage(image, page) {
+    // Keep the decoded object itself. Assigning its URL to a different <img>
+    // can start a second load in WebKit while the old pixels remain visible.
+    const previous = $('pageImage');
+    for (const attribute of previous.attributes) {
+      if (attribute.name !== 'src') image.setAttribute(attribute.name, attribute.value);
+    }
+    image.alt = `${titleFor(page)}: ${page.title}`;
+    previous.replaceWith(image);
+    previous.removeAttribute('id'); previous.alt = '';
+    return previous;
   }
   async function turnTo(index, {silent = false} = {}) {
     if (!state.book || state.turning || index === state.index || index < 0 || index >= state.book.pages.length) return;
@@ -65,15 +78,15 @@
     const old = state.book.pages[state.index], next = state.book.pages[index], direction = index > state.index ? 'forward' : 'reverse';
     let loadingTimer = setTimeout(() => { $('pageLoading').hidden = false; }, 160);
     try {
-      await imageReady(next); clearTimeout(loadingTimer); $('pageLoading').hidden = true;
+      const readyImage = await imageReady(next);
       if (!silent) state.audio.flipSound().catch(() => {});
       const sheet = document.createElement('div'); sheet.className = `turn-sheet ${direction}`;
       const front = document.createElement('div'); front.className = 'turn-face';
-      const oldImage = document.createElement('img'); oldImage.src = old.image; oldImage.alt = ''; front.append(oldImage);
+      const oldImage = showReadyImage(readyImage, next); front.append(oldImage);
       const shade = document.createElement('div'); shade.className = 'turn-shade'; front.append(shade);
       const back = document.createElement('div'); back.className = 'turn-face turn-back'; sheet.append(front,back);
-      $('pageImage').src = next.image; $('pageImage').alt = `${titleFor(next)}: ${next.title}`;
       $('turnLayer').replaceChildren(sheet);
+      clearTimeout(loadingTimer); $('pageLoading').hidden = true;
       if (!reducedMotion.matches) await new Promise(resolve => { let done = false; const finish = () => {if (!done) { done = true; resolve(); }}; sheet.addEventListener('animationend',finish,{once:true}); setTimeout(finish,760); });
       $('turnLayer').replaceChildren(); state.index = index; state.turning = false;
       savePreference('page', index); syncControls(); renderTranscript();
@@ -180,7 +193,7 @@
         }
       }});
       const saved = Number(loadPreference('page',0)); state.index = Number.isInteger(saved) && saved >= 0 && saved < state.book.pages.length ? saved : 0;
-      const page = state.book.pages[state.index]; await imageReady(page); $('pageImage').src = page.image; $('pageImage').alt = `${titleFor(page)}: ${page.title}`;
+      const page = state.book.pages[state.index]; showReadyImage(await imageReady(page), page);
       $('pageGrid').innerHTML = state.book.pages.map(page => `<button class="thumbnail-button" data-page="${page.book_page}"><img src="${escapeHTML(page.image)}" alt="" loading="lazy" width="1448" height="1086"><span>${escapeHTML(titleFor(page))} · ${escapeHTML(page.title)}</span></button>`).join('');
       $('pageGrid').querySelectorAll('button').forEach(button => button.addEventListener('click',() => { $('contentsDialog').close(); turnTo(Number(button.dataset.page)); }));
       if (state.book.creditsText) $('creditsText').textContent = state.book.creditsText;

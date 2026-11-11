@@ -1,11 +1,11 @@
 {
-  "version": "3f2831e51637258a",
-  "total_bytes": 38587225,
+  "version": "28a0609a4b72c911",
+  "total_bytes": 38587628,
   "files": [
     {
       "url": "./app.js",
-      "bytes": 16565,
-      "sha256": "b7ab214c7b10294bf9a8670604924221e104fb6ebff3736f9fffb8635e35b2f2",
+      "bytes": 16968,
+      "sha256": "9f4b3d6bbc68ad8f218be5adde39547cb65c5269818146e3d0db064e2399dbff",
       "core": true
     },
     {
