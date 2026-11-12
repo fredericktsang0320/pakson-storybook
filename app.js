@@ -2,9 +2,9 @@
 (() => {
   const $ = id => document.getElementById(id);
   const roleNames = {narrator:'Narrator',pakson:'Pakson',pikachu:'Pikachu',fireman:'Fireman',policeman:'Policeman',policewoman:'Officer Jenny',doctor:'Doctor',nurse:'Nurse Joy',duck:'Little Duck'};
-  const state = {book:null,index:0,turning:false,started:false,audio:null,autoTurn:false,wasHidden:false,worker:null,flip:null,ready:false,visualLeaf:0,leaves:[],pairs:[],decodedSpreads:new Set(),navigation:null,gesture:null,lastError:null};
+  const state = {book:null,index:0,turning:false,started:false,audio:null,autoTurn:false,wasHidden:false,worker:null,flip:null,ready:false,visualLeaf:0,pages:[],images:[],imagePromises:new Map(),decodedPages:new Set(),navigation:null,gesture:null,lastError:null,canvas:null,image:null,renderInfo:null,lastReleaseMs:0};
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  let currentSegment = '', frame = 0, resizePending = false, sequence = 0, lastCornerPointer = 0;
+  let currentSegment = '', frame = 0, resizePending = false, sequence = 0, ignorePointerClickUntil = 0;
   const escapeHTML = text => String(text).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const nextFrame = () => new Promise(resolve => requestAnimationFrame(resolve));
   const painted = async () => { await nextFrame(); await nextFrame(); };
@@ -19,25 +19,25 @@
   }
   function syncControls() {
     const disabled = !state.ready || state.turning;
-    $('pageStage').disabled = disabled; $('playButton').disabled = disabled;
-    $('previousButton').disabled = !state.ready || state.index === 0;
-    $('nextButton').disabled = !state.ready;
-    for (const id of ['previousButton','nextButton']) $(id).setAttribute('aria-disabled',String(disabled || $(id).disabled));
-    $('nextButton').setAttribute('aria-label',state.book && state.index === state.book.pages.length - 1 ? 'Read again from the cover' : 'Next spread');
+    // Keep the surface enabled during a captured drag so Safari continues
+    // delivering its pointer stream; a navigation lock rejects new gestures.
+    $('pageStage').disabled = !state.ready;
+    $('pageStage').setAttribute('aria-disabled',String(disabled));
+    $('playButton').disabled = disabled;
     $('bookShell').classList.toggle('is-turning',state.turning);
-    $('bookShell').setAttribute('aria-busy',String(!state.ready || state.turning));
+    $('bookShell').setAttribute('aria-busy',String(disabled));
+    if (state.book) $('flipbook').setAttribute('aria-label',`${titleFor(state.book.pages[state.index])}: ${state.book.pages[state.index].title}`);
     document.querySelectorAll('.thumbnail-button').forEach(button => button.setAttribute('aria-current',String(Number(button.dataset.page) === state.index)));
-    state.leaves.forEach((leaf,index) => leaf.setAttribute('aria-hidden',String(Math.floor(index/2) !== state.index)));
   }
   function updateAudioUI(status,detail) {
     const playing = status === 'playing', loading = status === 'loading';
     $('bookShell').classList.toggle('is-playing',playing);
     $('playIcon').querySelector('use').setAttribute('href',loading ? '#i-loading' : playing ? '#i-pause' : '#i-play');
-    const label = loading ? 'Loading the narration. Tap to cancel' : playing ? 'Pause the story' : status === 'paused' ? 'Continue the story' : status === 'ended' ? 'Read this spread again' : 'Listen to the story';
+    const label = loading ? 'Loading the narration. Tap to cancel' : playing ? 'Pause the story' : status === 'paused' ? 'Continue the story' : status === 'ended' ? 'Read this page again' : 'Listen to the story';
     $('playButton').setAttribute('aria-label',label); $('pageStage').setAttribute('aria-label',label);
     if (status === 'error') report(detail || 'The sound could not load. Tap the picture to try again.');
     else if (status === 'paused') announce('Narration paused. Tap the picture to continue.');
-    else if (status === 'ended') announce('This spread has ended. Turn a lower corner to carry on, or tap to listen again.');
+    else if (status === 'ended') announce('This page has ended. Tap anywhere on the picture to listen again, or swipe to carry on.');
   }
   function renderTranscript() {
     if (!state.book) return;
@@ -50,47 +50,75 @@
     const reader = $('reader'), style = getComputedStyle(reader);
     const availableWidth = reader.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
     const availableHeight = reader.clientHeight - parseFloat(style.paddingTop) - parseFloat(style.paddingBottom);
-    const width = Math.max(1,Math.min(availableWidth,availableHeight*4/3));
-    $('bookShell').style.width = `${width}px`; $('bookShell').style.height = `${width*.75}px`;
-    if (state.flip) state.flip.update();
+    // Whole CSS pixels and an exact 4:3 ratio keep the Canvas logical bounds
+    // aligned at every size, including fractional iPad viewport dimensions.
+    const width = Math.max(4,Math.floor(Math.min(availableWidth,availableHeight*4/3)/4)*4), height = width*.75;
+    $('bookShell').style.width = `${width}px`; $('bookShell').style.height = `${height}px`;
+    $('flipbook').style.minWidth = `${width}px`; $('flipbook').style.minHeight = `${height}px`;
+    if (state.flip) {
+      Object.assign(state.flip.getSettings(),{width,height,minWidth:width,maxWidth:width,minHeight:height,maxHeight:height});
+      state.flip.getUI().update(); state.flip.update();
+    }
     const rect = $('bookShell').getBoundingClientRect();
     for (const [key,value] of Object.entries({left:rect.left,top:rect.top,width:rect.width,height:rect.height})) document.documentElement.style.setProperty(`--book-${key}`,`${value}px`);
     resizePending = false;
+    return {width,height};
   }
-  function makeLeaves() {
-    const fragment = document.createDocumentFragment();
-    state.book.pages.forEach((page,index) => {
-      const pair = {images:[],promise:null};
-      for (const half of ['left','right']) {
-        const leaf = document.createElement('div'); leaf.className = 'book-leaf'; leaf.dataset.density = 'soft'; leaf.dataset.spread = index; leaf.dataset.half = half;
-        const window = document.createElement('div'); window.className = 'leaf-window';
-        const image = new Image(); image.className = 'leaf-image'; image.width = 1448; image.height = 1086; image.draggable = false;
-        image.alt = half === 'left' ? `${titleFor(page)}: ${page.title}` : ''; image.decoding = 'async';
-        window.append(image); leaf.append(window); fragment.append(leaf); state.leaves.push(leaf); pair.images.push(image);
-      }
-      state.pairs.push(pair);
-    });
-    $('flipbook').append(fragment);
+  function installCanvasAdapters() {
+    const ui = state.flip.getUI(), render = state.flip.getRender(), canvas = ui.getDistElement();
+    if (!(canvas instanceof HTMLCanvasElement) || typeof ui.resizeCanvas !== 'function' || typeof render.drawBookShadow !== 'function') throw new Error('The whole-page paper renderer is unavailable.');
+    state.canvas = canvas; canvas.setAttribute('aria-hidden','true');
+    // StPageFlip 2.0.7 uses CSS offsetWidth/Height for geometry. Only the backing
+    // bitmap is enlarged, so Pointer Events remain in unscaled CSS coordinates.
+    ui.resizeCanvas = () => {
+      const style = getComputedStyle(canvas), width = parseFloat(style.width), height = parseFloat(style.height), ratio = Math.min(devicePixelRatio || 1,2);
+      canvas.width = Math.max(1,Math.round(width*ratio)); canvas.height = Math.max(1,Math.round(height*ratio));
+      const ctx = canvas.getContext('2d'); ctx.setTransform(ratio,0,0,ratio,0,0); ctx.imageSmoothingEnabled = true; ctx.imageSmoothingQuality = 'high';
+      state.renderInfo = {cssWidth:width,cssHeight:height,backingWidth:canvas.width,backingHeight:canvas.height,ratio};
+    };
+    // Remove the permanent binding shadow only. Native moving inner and outer
+    // paper shadows stay intact during a fold; there is no line at rest.
+    render.drawBookShadow = () => {};
+    const nativeStart = render.startAnimation.bind(render);
+    render.startAnimation = (frames,duration,finished) => {
+      const milliseconds = Math.min(1100,Math.max(720,duration)), count = Math.max(48,Math.ceil(milliseconds*.06));
+      const eased = Array.from({length:count+1},(_,index) => frames[Math.round((1-Math.pow(1-index/count,3))*(frames.length-1))]);
+      state.lastReleaseMs = milliseconds;
+      nativeStart(eased,milliseconds,finished);
+    };
+    ui.update();
   }
-  async function decodeImage(image,url) {
-    // Decode the actual node that StPageFlip renders. Never clone it or reassign
-    // its src after success: WebKit can start another request with stale pixels.
-    if (!image.getAttribute('src')) image.src = url;
-    else if (image.complete && !image.naturalWidth) image.src = url;
-    if (image.decode) await image.decode();
-    else if (!image.complete) await new Promise((resolve,reject) => { image.addEventListener('load',resolve,{once:true}); image.addEventListener('error',reject,{once:true}); });
-    if (!image.complete || !image.naturalWidth) throw new Error('The picture is not ready.');
-  }
-  async function ensureSpread(index) {
-    const pair = state.pairs[index];
-    if (!pair) throw new Error('This spread is unavailable.');
-    if (!pair.promise) pair.promise = Promise.all(pair.images.map(image => decodeImage(image,state.book.pages[index].image))).then(() => {state.decodedSpreads.add(index); return pair.images;}).catch(error => {pair.promise = null; state.decodedSpreads.delete(index); throw error;});
-    const images = await pair.promise;
-    if (images.some(image => !image.complete || !image.naturalWidth || !image.isConnected)) throw new Error('The picture is not ready.');
-    return images;
+  async function ensurePage(index) {
+    const page = state.pages[index];
+    let image = state.images[index];
+    if (!page || !image) throw new Error('This page is unavailable.');
+    if (!state.imagePromises.has(index)) {
+      const promise = (async () => {
+        // WebKit can keep a failed request on an Image after assigning the
+        // same src. Replace only a never-decoded failure with the renderer's
+        // actual fresh Image; successful images retain their original identity.
+        if (image.complete && !image.naturalWidth && !state.decodedPages.has(index)) {
+          image.onload = null; image.onerror = null;
+          image = new Image(); image.decoding = 'async';
+          page.image = image; state.images[index] = image; page.isLoad = false;
+          page.load(); // Install the pinned ImagePage's native onload handler.
+          image.src = state.book.pages[index].image;
+        }
+        if (image.decode) await image.decode();
+        else if (!image.complete) await new Promise((resolve,reject) => {image.addEventListener('load',resolve,{once:true});image.addEventListener('error',reject,{once:true});});
+        if (!image.complete || image.naturalWidth!==1448 || image.naturalHeight!==1086) throw new Error('The picture is not ready.');
+        // isLoad is the pinned renderer's real onload flag, not a substitute
+        // image or successful decode mock. Give the native handler its frame.
+        if (!page.isLoad) await painted();
+        if (!page.isLoad) throw new Error('The paper image could not be prepared.');
+        state.decodedPages.add(index); return image;
+      })().catch(error => {state.imagePromises.delete(index);throw error;});
+      state.imagePromises.set(index,promise);
+    }
+    return state.imagePromises.get(index);
   }
   function warmNeighbours(index) {
-    for (const next of [index+1,index-1]) if (next >= 0 && next < state.pairs.length) ensureSpread(next).catch(() => {});
+    for (const next of [index+1,index-1]) if (next>=0 && next<state.pages.length) ensurePage(next).catch(() => {});
   }
   function active(tx) { return state.navigation === tx; }
   function beginNavigation(index,{silent=false,autoplay} = {}) {
@@ -112,13 +140,13 @@
   }
   async function settle(tx) {
     if (!active(tx)) return false;
-    const actual = Math.floor(state.flip.getCurrentPageIndex()/2);
-    await ensureSpread(actual); await painted();
+    const actual = state.flip.getCurrentPageIndex();
+    await ensurePage(actual); await painted();
     if (!active(tx)) return false;
     const changed = actual !== tx.from;
-    state.index = actual; state.visualLeaf = actual*2; state.navigation = null; state.gesture = null; state.turning = false;
+    state.index = actual; state.visualLeaf = actual; state.image = state.images[actual]; state.navigation = null; state.gesture = null; state.turning = false;
     savePreference('page',actual); renderTranscript(); syncControls(); if (resizePending) fitBook();
-    announce(`${titleFor(state.book.pages[actual])}. Spread ${actual+1} of ${state.book.pages.length}.`); warmNeighbours(actual);
+    announce(`${titleFor(state.book.pages[actual])}. Page ${actual+1} of ${state.book.pages.length}.`); warmNeighbours(actual);
     if (!changed) await restoreSnapshot(tx);
     else if (tx.autoplay && !document.hidden) {
       const generation = state.audio.generation;
@@ -139,121 +167,146 @@
   }
   async function failNavigation(tx,error) {
     if (!active(tx)) return false;
-    try { state.flip.getRender().finishAnimation(); state.flip.turnToPage(tx.from*2); } catch {}
-    state.navigation = null; state.gesture = null; state.turning = false; state.index = tx.from; state.visualLeaf = tx.from*2; syncControls(); if (resizePending) fitBook();
-    report('This spread has not loaded. Check your connection, then try its paper corner again.');
+    try { state.flip.getRender().finishAnimation(); state.flip.turnToPage(tx.from); } catch {}
+    state.navigation = null; state.gesture = null; state.turning = false; state.index = tx.from; state.visualLeaf = tx.from; syncControls(); if (resizePending) fitBook();
+    report('This page has not loaded. Check your connection, then swipe again.');
     await restoreSnapshot(tx); return false;
   }
   function paperSound(tx) { if (!tx.silent) state.audio.flipSound().catch(() => {}); }
   async function animateTo(tx) {
     if (!active(tx)) return false;
-    await ensureSpread(tx.target); if (!active(tx)) return false;
+    await ensurePage(tx.target); if (!active(tx)) return false;
     paperSound(tx);
-    if (reducedMotion.matches) { state.flip.turnToPage(tx.target*2); return settle(tx); }
-    state.flip.flip(tx.target*2,'bottom'); return waitForPaper(tx);
+    if (reducedMotion.matches) { state.flip.turnToPage(tx.target); return settle(tx); }
+    state.flip.flip(tx.target,'bottom'); return waitForPaper(tx);
   }
   async function turnTo(index,options = {}) {
     const tx = beginNavigation(index,options); if (!tx) return false;
     try { return await animateTo(tx); } catch (error) { return failNavigation(tx,error); }
   }
-  const forward = () => turnTo(state.index === state.book.pages.length-1 ? 0 : state.index+1);
-  function localPoint(event) { const rect = $('flipbook').getBoundingClientRect(); return {x:event.clientX-rect.left,y:event.clientY-rect.top}; }
+  const forward = () => turnTo(Math.min(state.book.pages.length-1,state.index+1));
+  function localPoint(event) { const rect = $('bookShell').getBoundingClientRect(); return {x:event.clientX-rect.left,y:event.clientY-rect.top}; }
+  function foldPoint(gesture) {
+    const rect = state.flip.getBoundsRect(), width = rect.pageWidth, height = rect.height;
+    const dx = gesture.latest.x-gesture.start.x, dy = gesture.latest.y-gesture.start.y;
+    const progress = Math.max(0,Math.min(1.02,-gesture.direction*dx/width));
+    gesture.progress = progress;
+    return {x:gesture.direction>0 ? width-2*width*progress : -width+2*width*progress,
+      y:Math.max(1,Math.min(height-1,gesture.cornerY+(gesture.start.y-gesture.cornerY)*Math.min(1,progress*3)+dy*.55))};
+  }
+  function primeGesture(gesture) {
+    const controller = state.flip.getFlipController(), rect = state.flip.getBoundsRect();
+    if (typeof controller.start!=='function' || typeof controller.animateFlippingTo!=='function' || typeof controller.setState!=='function') throw new Error('The touch paper controls are unavailable.');
+    const seed = {x:gesture.direction>0 ? rect.pageWidth-2 : 2,y:gesture.cornerY};
+    if (!controller.start(seed)) throw new Error('This page cannot turn further.');
+    gesture.native = true;
+    controller.fold(foldPoint(gesture));
+  }
   function moveGesture(gesture) {
-    if (!gesture.primed) {
-      // Start the fold in its original half before following a fast pointer
-      // across the spine. The renderer chooses direction at the first fold.
-      state.flip.userMove({x:gesture.start.x-gesture.direction*6,y:gesture.start.y},true);
-      gesture.primed = true;
-    }
-    state.flip.userMove(gesture.latest,true);
+    if (gesture.native) state.flip.getFlipController().fold(foldPoint(gesture));
+  }
+  function shouldCommit(gesture) {
+    if (gesture.cancelled) return false;
+    const width = state.flip.getBoundsRect().pageWidth, delta = -gesture.direction*(gesture.latest.x-gesture.start.x);
+    const recent = gesture.history.find(point => gesture.releasedAt-point.at<=100) || gesture.history[0];
+    const velocity = recent ? -gesture.direction*(gesture.latest.x-recent.x)/Math.max(1,gesture.releasedAt-recent.at) : 0;
+    return delta>=width*.30 || (delta>=Math.min(75,width*.12) && velocity>.50);
   }
   async function finishGesture(gesture) {
-    const tx = gesture.tx; if (!active(tx) || gesture.finishing || !gesture.ready || !gesture.released) return;
+    const tx = gesture.tx;
+    if (!tx || !active(tx) || gesture.finishing || !gesture.ready || !gesture.released) return;
     gesture.finishing = true;
     try {
-      if (gesture.cancelled) {
-        if (gesture.native && gesture.primed) { state.flip.userMove({x:gesture.start.x-gesture.direction*6,y:gesture.start.y},true); state.flip.userStop(gesture.start); await waitForPaper(tx); }
-        else if (gesture.native) {state.flip.userStop(gesture.start,true); await settle(tx);}
-        else await settle(tx);
-      } else if (gesture.native) {
-        paperSound(tx); state.flip.userStop(gesture.latest); await waitForPaper(tx);
-      } else {
-        const cross = gesture.direction > 0 ? gesture.latest.x < $('flipbook').clientWidth/2 : gesture.latest.x > $('flipbook').clientWidth/2;
-        if (gesture.moved && !cross && !gesture.wrap) await settle(tx);
-        else await animateTo(tx);
-      }
+      const commit = shouldCommit(gesture);
+      if (gesture.native) {
+        const controller = state.flip.getFlipController(), calculation = controller.getCalculation(), rect = state.flip.getBoundsRect();
+        if (!calculation) throw new Error('The paper touch was interrupted.');
+        if (commit) paperSound(tx);
+        controller.setState('flipping');
+        controller.animateFlippingTo(calculation.getPosition(),{x:commit ? -rect.pageWidth : rect.pageWidth,y:gesture.cornerY>rect.height/2 ? rect.height : 0},commit,true);
+        await waitForPaper(tx);
+      } else if (commit) await animateTo(tx);
+      else await settle(tx);
     } catch (error) { await failNavigation(tx,error); }
   }
-  function bindCorner(id,direction) {
-    const button = $(id);
-    button.addEventListener('pointerdown',event => {
-      if (event.button !== 0 || !event.isPrimary || state.turning || !state.ready) return;
-      const target = direction > 0 ? (state.index+1)%state.book.pages.length : state.index-1;
-      const tx = beginNavigation(target); if (!tx) return;
-      event.preventDefault(); event.stopPropagation(); lastCornerPointer = performance.now();
-      const start = localPoint(event), gesture = {tx,pointer:event.pointerId,direction,start,latest:start,moved:false,released:false,cancelled:false,ready:false,native:false,finishing:false,wrap:direction>0 && target===0};
-      state.gesture = gesture; button.setPointerCapture(event.pointerId);
-      ensureSpread(target).then(() => {
-        if (!active(tx)) return;
-        gesture.ready = true;
-        if (!gesture.released && !gesture.wrap && !reducedMotion.matches) {
-          state.flip.startUserTouch(gesture.start); gesture.native = true;
-          if (gesture.moved) moveGesture(gesture);
-        }
-        finishGesture(gesture);
-      }).catch(error => failNavigation(tx,error));
+  function bindSurfaceGesture() {
+    const surface = $('pageStage');
+    surface.addEventListener('pointerdown',event => {
+      if (event.button!==0 || !event.isPrimary || state.turning || !state.ready) return;
+      event.preventDefault();
+      const start = localPoint(event), now = performance.now();
+      state.gesture = {pointer:event.pointerId,start,latest:start,history:[{x:start.x,at:now}],blocked:false,moved:false,tx:null,native:false,ready:false,released:false,cancelled:false,finishing:false};
+      surface.setPointerCapture(event.pointerId);
     });
-    button.addEventListener('pointermove',event => {
+    surface.addEventListener('pointermove',event => {
       const gesture = state.gesture;
-      if (!gesture || event.pointerId !== gesture.pointer || gesture.released) return;
+      if (!gesture || event.pointerId!==gesture.pointer || gesture.released) return;
       event.preventDefault(); gesture.latest = localPoint(event);
-      gesture.moved ||= Math.hypot(gesture.latest.x-gesture.start.x,gesture.latest.y-gesture.start.y)>5;
-      if (gesture.native && gesture.moved) moveGesture(gesture);
+      const now = performance.now(), dx = gesture.latest.x-gesture.start.x, dy = gesture.latest.y-gesture.start.y;
+      gesture.history.push({x:gesture.latest.x,at:now}); gesture.history = gesture.history.filter(point => now-point.at<160);
+      gesture.moved ||= Math.hypot(dx,dy)>12;
+      if (gesture.blocked) return;
+      if (!gesture.tx) {
+        if (Math.abs(dy)>12 && Math.abs(dy)>Math.abs(dx)*1.25) {gesture.blocked=true;return;}
+        if (Math.abs(dx)<12 || Math.abs(dx)<Math.abs(dy)*1.15) return;
+        gesture.direction = dx<0 ? 1 : -1;
+        const target = state.index+gesture.direction;
+        if (target<0 || target>=state.book.pages.length) {gesture.blocked=true;announce(target<0 ? 'This is the first page.' : 'This is the last page. Tap the picture to hear it again.');return;}
+        const rect = state.flip.getBoundsRect(); gesture.cornerY = gesture.start.y<rect.height/2 ? 2 : rect.height-2;
+        gesture.tx = beginNavigation(target);
+        if (!gesture.tx) {gesture.blocked=true;return;}
+        ensurePage(target).then(() => {
+          if (!active(gesture.tx)) return;
+          gesture.ready = true;
+          if (!gesture.released && !reducedMotion.matches) primeGesture(gesture);
+          finishGesture(gesture);
+        }).catch(error => failNavigation(gesture.tx,error));
+      } else if (gesture.native) moveGesture(gesture);
     });
     const release = event => {
       const gesture = state.gesture;
-      if (!gesture || event.pointerId !== gesture.pointer || gesture.released) return;
-      event.preventDefault(); event.stopPropagation(); lastCornerPointer = performance.now();
-      gesture.latest = localPoint(event); gesture.released = true; gesture.cancelled = event.type === 'pointercancel';
-      if (button.hasPointerCapture(event.pointerId)) button.releasePointerCapture(event.pointerId);
-      finishGesture(gesture);
+      if (!gesture || event.pointerId!==gesture.pointer || gesture.released) return;
+      event.preventDefault(); gesture.latest = localPoint(event); gesture.releasedAt = performance.now();
+      gesture.released = true; gesture.cancelled = event.type==='pointercancel'; ignorePointerClickUntil = performance.now()+500;
+      if (surface.hasPointerCapture(event.pointerId)) surface.releasePointerCapture(event.pointerId);
+      if (gesture.tx) finishGesture(gesture);
+      else {state.gesture=null;if (!gesture.cancelled && !gesture.moved && !gesture.blocked) playPause();}
     };
-    button.addEventListener('pointerup',release); button.addEventListener('pointercancel',release);
-    button.addEventListener('click',event => {
-      event.preventDefault(); event.stopPropagation();
-      // Native keyboard activation has detail=0; pointer clicks were handled above.
-      if (event.detail === 0 && performance.now()-lastCornerPointer>300) direction > 0 ? forward() : turnTo(state.index-1);
+    surface.addEventListener('pointerup',release); surface.addEventListener('pointercancel',release);
+    surface.addEventListener('lostpointercapture',event => {
+      const gesture=state.gesture;
+      if (gesture && !gesture.released && event.pointerId===gesture.pointer) {
+        gesture.released=true;gesture.cancelled=true;gesture.releasedAt=performance.now();
+        if (gesture.tx) finishGesture(gesture); else state.gesture=null;
+      }
     });
+    surface.addEventListener('click',event => {event.preventDefault();if(event.detail===0 && performance.now()>ignorePointerClickUntil) playPause();});
   }
   async function playPause(restart = false) {
     if (!state.ready || !state.book || state.turning) return;
+    restart = restart || state.audio.state === 'ended';
     if (!restart && ['playing','loading'].includes(state.audio.state)) {state.audio.pause(); return;}
     if (restart) state.audio.navigation();
     const requestedIndex = state.index, generation = state.audio.generation;
     state.audio.emit('loading');
     try {
       // Invoke unlock in the original user event, before the first await.
-      const unlocked = state.audio.unlock(); await ensureSpread(requestedIndex); await unlocked;
+      const unlocked = state.audio.unlock(); await ensurePage(requestedIndex); await unlocked;
       if (state.turning || state.index !== requestedIndex || state.audio.generation !== generation || document.hidden) return;
       state.started = true; await state.audio.play(state.book.pages[requestedIndex],restart);
     } catch (error) { if (state.index === requestedIndex && !state.turning && state.audio.generation === generation) state.audio.emit('error',error.message); }
   }
   function menuView(view) {
     for (const section of document.querySelectorAll('[data-menu-view]')) section.hidden = section.dataset.menuView !== view;
-    $('panelBack').hidden = view === 'main'; $('panelTitle').textContent = ({main:'Story menu',contents:'Choose a spread',transcript:'Read along',settings:'Sound & reading'})[view];
+    $('panelBack').hidden = view === 'main'; $('panelTitle').textContent = ({main:'Story menu',contents:'Choose a page',transcript:'Read along',settings:'Sound & reading'})[view];
     $('bookDialog').dataset.view = view; $('panelBody').scrollTop = 0;
     if (view === 'transcript') renderTranscript();
   }
   function openMenu(view = 'main') { menuView(view); if (!$('bookDialog').open) $('bookDialog').showModal(); $('panelClose').focus({preventScroll:true}); }
   function closeMenu() { $('bookDialog').close(); }
   function bindControls() {
-    let centreStart = null, ignoreCentreClick = false;
-    $('pageStage').addEventListener('pointerdown',event => {centreStart = {x:event.clientX,y:event.clientY}; ignoreCentreClick = false;});
-    $('pageStage').addEventListener('pointermove',event => {if (centreStart && Math.hypot(event.clientX-centreStart.x,event.clientY-centreStart.y)>12) ignoreCentreClick = true;});
-    $('pageStage').addEventListener('pointercancel',() => {ignoreCentreClick = true; centreStart = null;});
-    $('pageStage').addEventListener('click',() => {centreStart = null; if (!ignoreCentreClick) playPause(); ignoreCentreClick = false;});
+    bindSurfaceGesture();
     $('playButton').addEventListener('click',() => playPause());
-    bindCorner('previousButton',-1); bindCorner('nextButton',1);
     $('menuButton').addEventListener('click',() => openMenu()); $('panelClose').addEventListener('click',closeMenu); $('panelBack').addEventListener('click',() => {menuView('main'); $('contentsButton').focus({preventScroll:true});});
     $('bookDialog').addEventListener('close',() => $('menuButton').focus({preventScroll:true}));
     $('bookDialog').addEventListener('click',event => {if (event.target === $('bookDialog')) { const rect = event.target.getBoundingClientRect(); if (event.clientX<rect.left || event.clientX>rect.right || event.clientY<rect.top || event.clientY>rect.bottom) closeMenu(); }});
@@ -275,7 +328,13 @@
       if (event.key === 'ArrowLeft') {event.preventDefault(); turnTo(state.index-1);}
       if (event.code === 'Space' && event.target.tagName !== 'BUTTON') {event.preventDefault(); playPause();}
     });
-    const pauseWhenHidden = () => {if (['playing','loading'].includes(state.audio.state)) {state.audio.pause(); state.wasHidden = true;} if (state.turning && state.flip?.getState() === 'flipping') state.flip.getRender().finishAnimation();};
+    const pauseWhenHidden = () => {
+      if (['playing','loading'].includes(state.audio.state)) {state.audio.pause(); state.wasHidden=true;}
+      if (state.navigation) {state.navigation.autoplay=false;if(['playing','loading'].includes(state.navigation.snapshot.status))state.navigation.snapshot.status='paused';}
+      const gesture=state.gesture;
+      if (gesture?.tx && !gesture.released) {gesture.cancelled=true;gesture.released=true;gesture.releasedAt=performance.now();finishGesture(gesture);}
+      if (state.turning && state.flip?.getState()==='flipping') state.flip.getRender().finishAnimation();
+    };
     document.addEventListener('visibilitychange',() => {if (document.hidden) pauseWhenHidden(); else if (state.wasHidden) {announce('Tap the picture to continue.'); state.wasHidden = false;}});
     window.addEventListener('pagehide',pauseWhenHidden);
   }
@@ -322,12 +381,17 @@
           setTimeout(() => {if (state.autoTurn && state.index===index && state.audio.generation===generation && !state.turning && !document.hidden && !$('bookDialog').open) turnTo(index+1,{autoplay:true});},350);
         }
       }});
-      makeLeaves(); fitBook(); await ensureSpread(state.index);
-      state.flip = new St.PageFlip($('flipbook'),{width:724,height:1086,size:'stretch',minWidth:50,maxWidth:2000,minHeight:75,maxHeight:3000,startPage:state.index*2,usePortrait:false,showCover:false,autoSize:false,drawShadow:true,maxShadowOpacity:.22,flippingTime:850,useMouseEvents:false,showPageCorners:true,disableFlipByClick:true,mobileScrollSupport:false});
-      state.flip.on('flip',event => {state.visualLeaf = event.data;});
-      state.flip.loadFromHTML(state.leaves); await painted(); state.flip.update(); await painted();
-      if (state.flip.getOrientation() !== 'landscape' || state.flip.getPageCount() !== state.book.pages.length*2) throw new Error('The open book could not be prepared.');
-      await ensureSpread(state.index); $('bootCover').remove(); state.ready = true;
+      const size = fitBook();
+      state.flip = new St.PageFlip($('flipbook'),{width:size.width,height:size.height,size:'fixed',minWidth:size.width,maxWidth:size.width,minHeight:size.height,maxHeight:size.height,startPage:state.index,usePortrait:true,showCover:false,autoSize:false,drawShadow:true,maxShadowOpacity:.20,flippingTime:1000,useMouseEvents:false,showPageCorners:false,disableFlipByClick:false,mobileScrollSupport:false});
+      state.flip.on('flip',event => {state.visualLeaf=event.data;});
+      state.flip.loadFromImages(state.book.pages.map(page => page.image));
+      installCanvasAdapters();
+      state.pages = state.book.pages.map((_,index) => state.flip.getPage(index));
+      state.images = state.pages.map(page => page.image);
+      for (const page of state.pages) {page.setDensity('soft');page.setDrawingDensity('soft');}
+      await ensurePage(state.index); state.image=state.images[state.index]; await painted(); state.flip.update(); await painted();
+      if (state.flip.getOrientation()!=='portrait' || state.flip.getPageCount()!==state.book.pages.length) throw new Error('The whole-page book could not be prepared.');
+      $('bootCover').remove(); state.ready=true;
       $('pageGrid').innerHTML = state.book.pages.map((page,index) => `<button class="thumbnail-button" data-page="${index}"><img src="${escapeHTML(page.image)}" alt="" loading="lazy" width="1448" height="1086"><span>${escapeHTML(titleFor(page))} · ${escapeHTML(page.title)}</span></button>`).join('');
       $('pageGrid').querySelectorAll('button').forEach(button => button.addEventListener('click',() => {closeMenu(); turnTo(Number(button.dataset.page));}));
       if (state.book.creditsText) $('creditsText').textContent = state.book.creditsText;
@@ -336,6 +400,6 @@
       warmNeighbours(state.index); progressFrame(); offlineSetup(); announce('The storybook is ready. Tap the picture to listen.');
     } catch (error) {state.ready = false; syncControls(); report(`${error.message || 'The story could not load.'} Reopen this page to try again.`,true);}
   }
-  window.paksonReader = {state,turnTo,playPause,workerMessage,ensureSpread,getPageFlip:() => state.flip};
+  window.paksonReader = {state,turnTo,playPause,workerMessage,ensurePage,ensureSpread:ensurePage,getPageFlip:() => state.flip};
   init();
 })();

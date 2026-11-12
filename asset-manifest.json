@@ -1,11 +1,11 @@
 {
-  "version": "7c77e8bf84c93f3b",
-  "total_bytes": 37690060,
+  "version": "2232475ff03ae819",
+  "total_bytes": 37729934,
   "files": [
     {
       "url": "./app.js",
-      "bytes": 27563,
-      "sha256": "13568bbd9680e5f1884f6318f221f71a7cb1613bde6a6560ee473e21a6fb0792",
+      "bytes": 31697,
+      "sha256": "3702b11dde81a0657015cbb1d88f3cc17577367856e21ac456eddcebc7f30394",
       "core": true
     },
     {
@@ -273,9 +273,21 @@
       "core": true
     },
     {
+      "url": "./compat/shell/v2/app.js",
+      "bytes": 27563,
+      "sha256": "13568bbd9680e5f1884f6318f221f71a7cb1613bde6a6560ee473e21a6fb0792",
+      "core": true
+    },
+    {
+      "url": "./compat/shell/v2/styles.css",
+      "bytes": 9869,
+      "sha256": "a14b4d6284124280209b15f92d8aa2507d3c4d68b40cf66b908eec9c2f076347",
+      "core": true
+    },
+    {
       "url": "./index.html",
-      "bytes": 7699,
-      "sha256": "0a43d2e22e44b170d4b189bd444987d41657d5002f39e051f55df30e460e4426",
+      "bytes": 7513,
+      "sha256": "fda26c397c97830dac7c706f5cf14a659297c94dc8c94de3b2de969211bc6f3f",
       "core": true
     },
     {
@@ -286,8 +298,8 @@
     },
     {
       "url": "./styles.css",
-      "bytes": 9869,
-      "sha256": "a14b4d6284124280209b15f92d8aa2507d3c4d68b40cf66b908eec9c2f076347",
+      "bytes": 8363,
+      "sha256": "0a5ed48f1385d229ea942b51ce7de5981789f5bfab3558ba3d244ba543882baf",
       "core": true
     },
     {

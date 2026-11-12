@@ -1,22 +1,25 @@
 'use strict';
 // A unique import URL avoids an old registration's updateViaCache=imports entry.
-importScripts('./asset-manifest.js?reader-build=2345a45dcb6a137f7a0ec8d7');
+importScripts('./asset-manifest.js?reader-build=4800b78daf93e4d814e9b679');
 const SCOPE=new URL(self.registration.scope), BOOK=new URL('book.json',SCOPE).href;
-const WORKER_BUILD='2345a45dcb6a137f7a0ec8d7';
+const WORKER_BUILD='4800b78daf93e4d814e9b679';
 const INDEX=new URL('index.html',SCOPE).href;
 const LEGACY_SPEECH={"assets/speech/page_00.m4a":"0f58c4264f936e757f3200fbfad48267daf18837f22db35d20fdd1ef494060cb","assets/speech/page_01.m4a":"74fedc2ce1443dc71d61d275eaec8fcf0a8bc65ca3b72906e245fd0d859ae9d7","assets/speech/page_02.m4a":"97b22b30a5115fbdbb8ddcb5616cb6eb52d7dd00e8e6d40992bd185176e1ab9b","assets/speech/page_03.m4a":"f0c8b355871df93b220e144dac9f53f8d23c93f800c79115289ae4fa65b35940","assets/speech/page_04.m4a":"87f1fd2ea7b96fae7a5f0999ca9bf43190c31d777973cf4cb89ea2bb59700f21","assets/speech/page_05.m4a":"d4474dfd4510d44a9349fe067c1cec43d1ea884ae99e919f7659892c12bf1897","assets/speech/page_06.m4a":"c29e8d7f5aa1552c57ecedd670d0de64a614e4ffdd53b1650740c0bff41b96d9","assets/speech/page_07.m4a":"e01af98dd6332f6595434dfbe654a9382a02f0ae18533d4a3801dd08a8a6349d","assets/speech/page_08.m4a":"4e4ffc3f97553c4fee95c8e0132dc7af2290172a949dae900e02e2ca607aeff4","assets/speech/page_09.m4a":"74534692b394310c5f99025a16aab946955f3959395c489022305fab4971375b","assets/speech/page_10.m4a":"31a5840b4413798ab6f45a7e8b714fd494dc6bef3bd347f5d92c84445f5ee7f2","assets/speech/page_11.m4a":"04f932349aa55278a1be8b6df0ada92d4b5819b87832997e58bb36af15fb8a61","assets/speech/page_12.m4a":"bb7c0514b3a98c9bd45408653841c2cf38c2485a29058bde7dc9bbb61faadc79"};
 const legacySpeech=new Map(Object.entries(LEGACY_SPEECH).map(([url,sha])=>[new URL(url,SCOPE).href,sha]));
 const runtime=new Map(ASSET_MANIFEST.files.map(file=>[new URL(file.url,SCOPE).href,file]));
-// v1's worker treats these exact edition URLs as network misses, so a newly
-// fetched curl index cannot accidentally execute its old cached shell scripts.
-// Store only their canonical runtime keys; no general query normalisation.
-const SHELL_EDITION_QUERY='?edition=20261112-curl-v2';
-const shellFiles=new Set(['styles.css','vendor/page-flip.browser.js','audio.js','app.js'].map(file=>new URL(file,SCOPE).href));
-function runtimeURL(url){
- const value=new URL(url);
- if(value.search===SHELL_EDITION_QUERY){value.search='';if(shellFiles.has(value.href))return value.href;}
- return url;
+// Exact immutable shell aliases keep an already-open v2 DOM paired with its
+// original scripts/styles while this worker claims and reloads scope clients.
+// Current v3 documents use a distinct query; no other query is normalised.
+const SHELL_EDITION_QUERY='?edition=20261112-fullpage-v3';
+const PRIOR_SHELL_EDITION_QUERY='?edition=20261112-curl-v2';
+const shellFiles=['styles.css','vendor/page-flip.browser.js','audio.js','app.js'];
+const priorShell={'styles.css':'compat/shell/v2/styles.css','app.js':'compat/shell/v2/app.js'};
+const shellAliases=new Map();
+for(const file of shellFiles){
+ shellAliases.set(new URL(file+SHELL_EDITION_QUERY,SCOPE).href,new URL(file,SCOPE).href);
+ shellAliases.set(new URL(file+PRIOR_SHELL_EDITION_QUERY,SCOPE).href,new URL(priorShell[file]||file,SCOPE).href);
 }
+function runtimeURL(url){return shellAliases.get(url)||url;}
 async function digest(buffer){return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',buffer)),x=>x.toString(16).padStart(2,'0')).join('');}
 const environment=(async()=>{
  const tag=await digest(new TextEncoder().encode(SCOPE.href));
