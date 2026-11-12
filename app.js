@@ -20,9 +20,9 @@
   function syncControls() {
     const disabled = !state.ready || state.turning;
     // Keep the surface enabled during a captured drag so Safari continues
-    // delivering its pointer stream; a navigation lock rejects new gestures.
+    // delivering its pointer stream; a released turn can be interrupted by the next gesture.
     $('pageStage').disabled = !state.ready;
-    $('pageStage').setAttribute('aria-disabled',String(disabled));
+    $('pageStage').setAttribute('aria-disabled',String(!state.ready));
     $('playButton').disabled = disabled;
     syncNextHint();
     $('bookShell').classList.toggle('is-turning',state.turning);
@@ -179,10 +179,37 @@
     // older pointermove attempt must not overwrite a successful touch-end.
     tx.unlock=state.audio.unlock().catch(error=>{if (tx.unlockAttempt===attempt) tx.unlockError=error;});
   }
+  function interruptNavigation() {
+    const tx = state.navigation;
+    if (!tx) return;
+    // Retire the transaction before running native completion callbacks. Its
+    // pending decode, paint, unlock and waitForPaper continuations are stale.
+    state.navigation = null;
+    const destination = tx.landing ?? tx.from;
+    const actual = state.decodedPages.has(destination) ? destination : tx.from;
+    const render = state.flip.getRender(), controller = state.flip.getFlipController();
+    render.finishAnimation();
+    state.curl = null;
+    controller.reset(); controller.setState('read');
+    render.setFlippingPage(null); render.setBottomPage(null); render.clearShadow();
+    state.flip.turnToPage(actual);
+    state.audio.navigation();
+    if (actual === tx.from && tx.snapshot.page) {
+      state.audio.page = tx.snapshot.page; state.audio.offset = tx.snapshot.offset;
+      state.audio.emit(tx.snapshot.status === 'ended' ? 'ended' : 'paused');
+    }
+    state.index = actual; state.visualLeaf = actual; state.image = state.images[actual];
+    state.gesture = null; state.turning = false;
+    savePreference('page',actual); renderTranscript(); syncControls();
+    if (resizePending) fitBook();
+    warmNeighbours(actual);
+  }
   function beginNavigation(index,{silent=false,autoplay} = {}) {
-    if (!state.ready || !state.book || state.turning || index === state.index || index < 0 || index >= state.book.pages.length) return null;
+    if (!state.ready || !state.book || index < 0 || index >= state.book.pages.length) return null;
+    if (state.navigation) interruptNavigation();
+    if (index === state.index) return null;
     const audio = state.audio;
-    const tx = {id:++sequence,from:state.index,target:index,silent,autoplay:autoplay ?? !silent,snapshot:{status:audio.state,offset:audio.position(),page:audio.page},unlock:null};
+    const tx = {id:++sequence,from:state.index,target:index,landing:state.index,silent,autoplay:autoplay ?? !silent,snapshot:{status:audio.state,offset:audio.position(),page:audio.page},unlock:null};
     state.navigation = tx; state.turning = true;
     // Cancellation happens before any image request, animation or await.
     audio.navigation();
@@ -199,7 +226,9 @@
   async function settle(tx) {
     if (!active(tx)) return false;
     const actual = state.flip.getCurrentPageIndex();
-    await ensurePage(actual); state.curl=null; await painted();
+    await ensurePage(actual);
+    if (!active(tx)) return false;
+    state.curl=null; await painted();
     if (!active(tx)) return false;
     const changed = actual !== tx.from;
     state.index = actual; state.visualLeaf = actual; state.image = state.images[actual]; state.navigation = null; state.gesture = null; state.turning = false;
@@ -224,8 +253,8 @@
     return active(tx) ? settle(tx) : false;
   }
   async function failNavigation(tx,error) {
-    state.lastNavigationError=String(error?.stack || error);
     if (!active(tx)) return false;
+    state.lastNavigationError=String(error?.stack || error);
     try { state.flip.getRender().finishAnimation(); state.curl=null; state.flip.turnToPage(tx.from); } catch {}
     state.navigation = null; state.gesture = null; state.turning = false; state.index = tx.from; state.visualLeaf = tx.from; syncControls(); if (resizePending) fitBook();
     report('This page has not loaded. Check your connection, then swipe again.');
@@ -235,6 +264,7 @@
   async function animateTo(tx) {
     if (!active(tx)) return false;
     await ensurePage(tx.target); if (!active(tx)) return false;
+    tx.landing = tx.target;
     paperSound(tx);
     if (reducedMotion.matches) { state.flip.turnToPage(tx.target); return settle(tx); }
     startPaper(tx);
@@ -246,7 +276,8 @@
     const tx = beginNavigation(index,options); if (!tx) return false;
     try { return await animateTo(tx); } catch (error) { return failNavigation(tx,error); }
   }
-  const forward = () => turnTo(Math.min(state.book.pages.length-1,state.index+1));
+  const navigationIndex = () => state.navigation?.landing ?? state.index;
+  const forward = () => turnTo(Math.min(state.book.pages.length-1,navigationIndex()+1));
   function localPoint(event) { const rect = $('bookShell').getBoundingClientRect(); return {x:event.clientX-rect.left,y:event.clientY-rect.top}; }
   function foldPoint(gesture) {
     const rect=state.flip.getBoundsRect(), width=rect.pageWidth, height=rect.height;
@@ -284,6 +315,7 @@
     gesture.finishing = true;
     try {
       const commit = shouldCommit(gesture);
+      tx.landing = commit ? tx.target : tx.from;
       if (gesture.native) {
         const controller = state.flip.getFlipController(), calculation = controller.getCalculation(), rect = state.flip.getBoundsRect();
         if (!calculation) throw new Error('The paper touch was interrupted.');
@@ -298,8 +330,10 @@
   function bindSurfaceGesture() {
     const surface = $('pageStage');
     surface.addEventListener('pointerdown',event => {
-      if (event.button!==0 || !event.isPrimary || state.turning || !state.ready) return;
+      if (event.button!==0 || !event.isPrimary || !state.ready) return;
+      if (state.gesture && !state.gesture.released) return;
       event.preventDefault();
+      interruptNavigation();
       const start = localPoint(event), now = performance.now();
       state.gesture = {pointer:event.pointerId,start,latest:start,history:[{x:start.x,at:now}],blocked:false,moved:false,tx:null,native:false,ready:false,released:false,cancelled:false,finishing:false};
       surface.setPointerCapture(event.pointerId);
@@ -395,7 +429,7 @@
     document.addEventListener('keydown',event => {
       if ($('bookDialog').open || /INPUT|SUMMARY|TEXTAREA/.test(event.target.tagName) || event.altKey || event.ctrlKey || event.metaKey) return;
       if (event.key === 'ArrowRight') {event.preventDefault(); forward();}
-      if (event.key === 'ArrowLeft') {event.preventDefault(); turnTo(state.index-1);}
+      if (event.key === 'ArrowLeft') {event.preventDefault(); turnTo(navigationIndex()-1);}
       if (event.code === 'Space' && event.target.tagName !== 'BUTTON') {event.preventDefault(); playPause();}
     });
     const pauseWhenHidden = () => {

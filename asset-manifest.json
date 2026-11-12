@@ -1,13 +1,13 @@
 {
-  "version": "c8ec0cb1e0ebf580",
-  "total_bytes": 38107651,
+  "version": "62f217d2454e955a",
+  "total_bytes": 38109253,
   "speech_edition": "v4",
   "ui_only_staging": false,
   "files": [
     {
       "url": "./app.js",
-      "bytes": 36441,
-      "sha256": "5c7dbcca7de3541f54aedaaa66d5090985e6418d2fbd4854b7e60311cdc556d9",
+      "bytes": 38043,
+      "sha256": "18d09bde68613fcbacb0ab9599e78ac6aec50e62abf6de998a25e05174d0b12e",
       "core": true
     },
     {
