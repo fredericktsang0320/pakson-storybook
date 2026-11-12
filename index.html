@@ -7,87 +7,86 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Pakson’s Storybook">
-  <meta name="description" content="An English storybook for Pakson. Tap a page, and let the adventure begin.">
+  <meta name="description" content="An English storybook for Pakson. Tap the picture, and let the adventure begin.">
   <title>Pakson’s Storybook · Thank You!</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
   <link rel="icon" href="assets/icons/book.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
-  <script src="audio.js" defer></script>
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="styles.css?edition=20261112-curl-v2">
+  <script src="vendor/page-flip.browser.js?edition=20261112-curl-v2" defer></script>
+  <script src="audio.js?edition=20261112-curl-v2" defer></script>
+  <script src="app.js?edition=20261112-curl-v2" defer></script>
 </head>
 <body>
   <svg class="icon-defs" aria-hidden="true"><defs>
-    <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 5.5c-3-2-7-2-10-1v15c3-1 7-1 10 1 3-2 7-2 10-1v-15c-3-1-7-1-10 1Zm0 0v15"/></symbol>
     <symbol id="i-play" viewBox="0 0 24 24"><path d="m9 5 11 7-11 7z"/></symbol>
     <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></symbol>
-    <symbol id="i-next" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
-    <symbol id="i-prev" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></symbol>
-    <symbol id="i-repeat" viewBox="0 0 24 24"><path d="M4 10a8 8 0 1 1 1 8M4 4v6h6"/></symbol>
-    <symbol id="i-settings" viewBox="0 0 24 24"><path d="M5 3v18M12 3v18M19 3v18M2 8h6M9 16h6M16 7h6"/></symbol>
-    <symbol id="i-text" viewBox="0 0 24 24"><path d="M5 4h14M12 4v16M8 20h8"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
     <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="m11 5-7 7 7 7M4 12h16"/></symbol>
+    <symbol id="i-repeat" viewBox="0 0 24 24"><path d="M4 10a8 8 0 1 1 1 8M4 4v6h6"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 5.5c-3-2-7-2-10-1v15c3-1 7-1 10 1 3-2 7-2 10-1v-15c-3-1-7-1-10 1Zm0 0v15"/></symbol>
+    <symbol id="i-text" viewBox="0 0 24 24"><path d="M5 4h14M12 4v16M8 20h8"/></symbol>
+    <symbol id="i-settings" viewBox="0 0 24 24"><path d="M5 3v18M12 3v18M19 3v18M2 8h6M9 16h6M16 7h6"/></symbol>
     <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol>
     <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L20 5"/></symbol>
-    <symbol id="i-sound" viewBox="0 0 24 24"><path d="m10 5-5 4H2v6h3l5 4V5Zm4 3a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/></symbol>
+    <symbol id="i-loading" viewBox="0 0 24 24"><path d="M7 3h10M7 21h10M8 3c0 5 8 5 8 9s-8 4-8 9M16 3c0 5-8 5-8 9s8 4 8 9"/></symbol>
   </defs></svg>
-  <div class="reader" id="reader">
-    <header class="topbar">
-      <button class="book-menu quiet-button" id="chaptersButton" aria-label="Choose a page"><svg class="icon"><use href="#i-book"/></svg><span>Pakson’s Storybook</span></button>
-      <span class="chapter-name">Thank You!</span>
-      <div class="top-actions">
-        <button class="icon-button" id="transcriptButton" aria-label="Read the story script"><svg class="icon"><use href="#i-text"/></svg></button>
-        <button class="icon-button" id="settingsButton" aria-label="Sound and reading settings"><svg class="icon"><use href="#i-settings"/></svg></button>
-      </div>
-    </header>
 
-    <main class="reading-area">
-      <div class="book-frame" id="bookFrame">
-        <button class="page-stage" id="pageStage" aria-label="Tap to turn the page" aria-describedby="pageHint">
-          <img class="page-image" id="pageImage" src="assets/pages/page_00.png" alt="Pakson and Pikachu: Thank You! Cover" width="1448" height="1086" draggable="false">
-          <span class="page-glaze" aria-hidden="true"></span>
-        </button>
-        <div class="turn-layer" id="turnLayer" aria-hidden="true"></div>
-        <div class="page-loading" id="pageLoading" hidden><span class="loading-dot"></span><span>Opening this page…</span></div>
-      </div>
-      <p class="page-hint" id="pageHint">Tap the picture to turn the page</p>
-    </main>
-
-    <footer class="reading-controls">
-      <button class="nav-button" id="previousButton" aria-label="Previous" disabled><svg class="icon"><use href="#i-prev"/></svg><span>Previous</span></button>
-      <div class="listen-group">
-        <button class="replay-button icon-button" id="replayButton" aria-label="Read this page again"><svg class="icon"><use href="#i-repeat"/></svg></button>
-        <button class="play-button" id="playButton"><svg class="icon" id="playIcon"><use href="#i-play"/></svg><span id="playLabel">Read to me</span></button>
-        <div class="page-position"><span id="pageNumber">Cover</span><span class="position-dot" aria-hidden="true"></span><span id="pageCount">13 pages</span></div>
-      </div>
-      <button class="nav-button next-button" id="nextButton"><span>Next</span><svg class="icon"><use href="#i-next"/></svg></button>
-      <div class="audio-progress" role="progressbar" id="audioProgress" aria-label="Story audio progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="audioProgressFill"></span></div>
-    </footer>
-  </div>
-
-  <dialog class="panel settings-panel" id="settingsDialog" aria-labelledby="settingsTitle">
-    <header class="panel-header"><h1 id="settingsTitle">Sound & reading</h1><button class="icon-button close-dialog" aria-label="Close settings"><svg class="icon"><use href="#i-close"/></svg></button></header>
-    <div class="panel-content">
-      <label class="range-setting"><span><svg class="icon"><use href="#i-sound"/></svg>Story volume</span><input id="masterVolume" type="range" min="0" max="1" step="0.05" value="0.9"></label>
-      <label class="switch-setting"><span><strong>Background music</strong><small>Softens while the characters speak</small></span><input id="musicToggle" type="checkbox" role="switch" checked></label>
-      <label class="switch-setting"><span><strong>Story sounds</strong><small>Page turns, breezes and little surprises</small></span><input id="sfxToggle" type="checkbox" role="switch" checked></label>
-      <label class="switch-setting"><span><strong>Keep the story going</strong><small>Turn the page when the reading ends</small></span><input id="autoTurnToggle" type="checkbox" role="switch"></label>
-      <section class="offline-section" aria-labelledby="offlineTitle"><h2 id="offlineTitle">Take the story with you</h2><p id="offlineDescription">Save all the pictures and sounds for offline reading.</p><button class="secondary-button" id="offlineButton"><svg class="icon"><use href="#i-download"/></svg><span>Save for offline reading</span></button><progress id="downloadProgress" max="100" value="0" hidden></progress><p class="status-line" id="offlineStatus" role="status"></p></section>
-      <section class="install-section"><h2>Add to your iPad Home Screen</h2><p>In Safari, tap Share, choose Add to Home Screen, then enable Open as Web App.</p><p class="note">Tap Read to me to turn on the sound.</p></section>
-      <details class="credits"><summary>Story & sound credits</summary><div id="creditsText">Featuring Pakson’s chosen character and original page art, with distinct AI voices, original music and credited sound effects.</div></details>
+  <main class="reader" id="reader" aria-label="Pakson’s English storybook">
+    <h1 class="sr-only">Pakson and Pikachu: Thank You!</h1>
+    <div class="book-shell" id="bookShell" aria-busy="true">
+      <div class="boot-cover" id="bootCover"><img src="assets/pages/page_00.png" alt="Pakson and Pikachu: Thank You!" width="1448" height="1086" draggable="false"></div>
+      <div class="flipbook" id="flipbook" aria-label="Open storybook"></div>
+      <div class="book-spine" aria-hidden="true"></div>
+      <button class="book-tap" id="pageStage" aria-label="Tap the book to listen" aria-describedby="bookInstructions" disabled></button>
+      <p class="sr-only" id="bookInstructions">Tap the picture to play or pause. Tap or drag the lower paper corners to turn. You can also use the arrow keys and Space.</p>
+      <button class="book-control menu-control" id="menuButton" aria-label="Open the story menu" aria-haspopup="dialog"><svg class="icon"><use href="#i-menu"/></svg></button>
+      <button class="book-control play-control" id="playButton" aria-label="The story is loading" disabled><svg class="icon" id="playIcon"><use href="#i-loading"/></svg></button>
+      <button class="paper-corner previous-corner" id="previousButton" aria-label="Previous spread" disabled><span aria-hidden="true"></span></button>
+      <button class="paper-corner next-corner" id="nextButton" aria-label="Next spread" disabled><span aria-hidden="true"></span></button>
+      <span class="sr-only" id="bookStatus" role="status" aria-live="polite">Opening the storybook.</span>
     </div>
-  </dialog>
 
-  <dialog class="panel transcript-panel" id="transcriptDialog" aria-labelledby="transcriptTitle">
-    <header class="panel-header"><h1 id="transcriptTitle">The story on this page</h1><button class="icon-button close-dialog" aria-label="Close the story script"><svg class="icon"><use href="#i-close"/></svg></button></header>
-    <div class="panel-content transcript" id="transcriptContent"></div>
-  </dialog>
-
-  <dialog class="panel contents-panel" id="contentsDialog" aria-labelledby="contentsTitle">
-    <header class="panel-header"><h1 id="contentsTitle">Chapter 1 · Thank You!</h1><button class="icon-button close-dialog" aria-label="Close page selection"><svg class="icon"><use href="#i-close"/></svg></button></header>
-    <div class="panel-content"><p class="contents-intro">Choose a page. The adventure is waiting.</p><div class="page-grid" id="pageGrid"></div></div>
-  </dialog>
-  <div class="toast" id="toast" role="status" hidden></div>
-  <noscript><p class="no-script">Enable JavaScript to turn the pages and hear the story.</p></noscript>
+    <dialog class="book-panel" id="bookDialog" aria-labelledby="panelTitle">
+      <header class="panel-heading">
+        <button class="icon-button" id="panelBack" aria-label="Back to the story menu" hidden><svg class="icon"><use href="#i-back"/></svg></button>
+        <h2 id="panelTitle">Story menu</h2>
+        <button class="icon-button" id="panelClose" aria-label="Close the story menu"><svg class="icon"><use href="#i-close"/></svg></button>
+      </header>
+      <div class="panel-body" id="panelBody">
+        <section data-menu-view="main">
+          <p class="menu-intro">Tap the picture to listen or pause. Turn the lower paper corners to carry on.</p>
+          <p class="menu-status" id="menuStatus" role="status" hidden></p>
+          <nav class="menu-actions" aria-label="Story actions">
+            <button id="contentsButton"><svg class="icon"><use href="#i-book"/></svg><span>Choose a spread</span></button>
+            <button id="transcriptButton"><svg class="icon"><use href="#i-text"/></svg><span>Read along</span></button>
+            <button id="replayButton"><svg class="icon"><use href="#i-repeat"/></svg><span>Replay this spread</span></button>
+            <button id="settingsButton"><svg class="icon"><use href="#i-settings"/></svg><span>Sound & reading</span></button>
+          </nav>
+          <section class="offline-section" aria-labelledby="offlineTitle">
+            <h3 id="offlineTitle">Keep the story</h3>
+            <p id="offlineDescription">Save every picture and sound for offline reading.</p>
+            <button class="secondary-button" id="offlineButton"><svg class="icon"><use href="#i-download"/></svg><span>Save for offline reading</span></button>
+            <progress id="downloadProgress" max="100" value="0" hidden></progress>
+            <p class="status-line" id="offlineStatus" role="status"></p>
+          </section>
+          <details class="small-detail"><summary>Add to your iPad Home Screen</summary><p>In Safari, tap Share, choose Add to Home Screen, then enable Open as Web App.</p></details>
+          <details class="small-detail credits"><summary>Story & sound credits</summary><p id="creditsText">Original page art, distinct AI voices, music and credited sound effects.</p><p>Paper animation: <a href="vendor/page-flip.LICENSE.txt" target="_blank" rel="noopener">StPageFlip · MIT licence</a>.</p></details>
+          <button class="text-button" id="restartButton">Read again from the cover</button>
+          <button class="text-button" id="reloadButton" hidden>Reload the storybook</button>
+        </section>
+        <section data-menu-view="contents" hidden><div class="page-grid" id="pageGrid"></div></section>
+        <section data-menu-view="transcript" hidden><h3 class="transcript-title" id="transcriptTitle"></h3><div id="transcriptContent" lang="en-GB"></div></section>
+        <section data-menu-view="settings" hidden>
+          <label class="range-setting"><span>Story volume</span><input id="masterVolume" type="range" min="0" max="1" step="0.05" value="0.9"></label>
+          <label class="switch-setting"><span><strong>Background music</strong><small>Softens while the characters speak</small></span><input id="musicToggle" type="checkbox" role="switch" checked></label>
+          <label class="switch-setting"><span><strong>Story sounds</strong><small>Paper turns and little surprises</small></span><input id="sfxToggle" type="checkbox" role="switch" checked></label>
+          <label class="switch-setting"><span><strong>Keep reading</strong><small>Turn when the narration ends</small></span><input id="autoTurnToggle" type="checkbox" role="switch"></label>
+        </section>
+      </div>
+    </dialog>
+  </main>
+  <noscript>Enable JavaScript to open the storybook and hear the story.</noscript>
 </body>
 </html>

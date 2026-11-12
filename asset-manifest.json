@@ -1,11 +1,11 @@
 {
-  "version": "28a0609a4b72c911",
-  "total_bytes": 38587628,
+  "version": "7c77e8bf84c93f3b",
+  "total_bytes": 37690060,
   "files": [
     {
       "url": "./app.js",
-      "bytes": 16968,
-      "sha256": "9f4b3d6bbc68ad8f218be5adde39547cb65c5269818146e3d0db064e2399dbff",
+      "bytes": 27563,
+      "sha256": "13568bbd9680e5f1884f6318f221f71a7cb1613bde6a6560ee473e21a6fb0792",
       "core": true
     },
     {
@@ -183,81 +183,81 @@
       "core": false
     },
     {
-      "url": "./assets/speech/page_00.m4a",
-      "bytes": 251679,
-      "sha256": "0f58c4264f936e757f3200fbfad48267daf18837f22db35d20fdd1ef494060cb",
+      "url": "./assets/speech/v2/page_00.m4a",
+      "bytes": 188967,
+      "sha256": "320f7e9061c90a7d974bdc27ef3071583d91dd4145bcaec6f8cf52171bb15de0",
       "core": false
     },
     {
-      "url": "./assets/speech/page_01.m4a",
-      "bytes": 239923,
-      "sha256": "74fedc2ce1443dc71d61d275eaec8fcf0a8bc65ca3b72906e245fd0d859ae9d7",
+      "url": "./assets/speech/v2/page_01.m4a",
+      "bytes": 165919,
+      "sha256": "083fc6369b4a8299a5505aa42aaba644c9541db5285fb62262004af0754acf10",
       "core": false
     },
     {
-      "url": "./assets/speech/page_02.m4a",
-      "bytes": 203808,
-      "sha256": "97b22b30a5115fbdbb8ddcb5616cb6eb52d7dd00e8e6d40992bd185176e1ab9b",
+      "url": "./assets/speech/v2/page_02.m4a",
+      "bytes": 160534,
+      "sha256": "c26ecb9d75b806ba0e7d1ffd81bb7b5ddde433bc223a1c9faca5e672655b8857",
       "core": false
     },
     {
-      "url": "./assets/speech/page_03.m4a",
-      "bytes": 205575,
-      "sha256": "f0c8b355871df93b220e144dac9f53f8d23c93f800c79115289ae4fa65b35940",
+      "url": "./assets/speech/v2/page_03.m4a",
+      "bytes": 137981,
+      "sha256": "bdaebe9796ffde5c66b3419161ff18f5c284f1ed9f631b7de63bf74abd9328d5",
       "core": false
     },
     {
-      "url": "./assets/speech/page_04.m4a",
-      "bytes": 265791,
-      "sha256": "87f1fd2ea7b96fae7a5f0999ca9bf43190c31d777973cf4cb89ea2bb59700f21",
+      "url": "./assets/speech/v2/page_04.m4a",
+      "bytes": 194273,
+      "sha256": "9e29cd6269d3d5a71f931197a8afd861cc3b70e1a55bf7d304de5f33d7e8bb40",
       "core": false
     },
     {
-      "url": "./assets/speech/page_05.m4a",
-      "bytes": 226727,
-      "sha256": "d4474dfd4510d44a9349fe067c1cec43d1ea884ae99e919f7659892c12bf1897",
+      "url": "./assets/speech/v2/page_05.m4a",
+      "bytes": 157334,
+      "sha256": "cb962e58b81d1f635b5dc70549dd1e123dce7a0ea3a784baf265e0872e874d5d",
       "core": false
     },
     {
-      "url": "./assets/speech/page_06.m4a",
-      "bytes": 223706,
-      "sha256": "c29e8d7f5aa1552c57ecedd670d0de64a614e4ffdd53b1650740c0bff41b96d9",
+      "url": "./assets/speech/v2/page_06.m4a",
+      "bytes": 149973,
+      "sha256": "40b2f4de708dd861e66def0b9da2e5599b500726a3d6b44e06eb41597fdc6285",
       "core": false
     },
     {
-      "url": "./assets/speech/page_07.m4a",
-      "bytes": 204087,
-      "sha256": "e01af98dd6332f6595434dfbe654a9382a02f0ae18533d4a3801dd08a8a6349d",
+      "url": "./assets/speech/v2/page_07.m4a",
+      "bytes": 139176,
+      "sha256": "3b7099def71dabe851e9bb0ef1a13ed02625f4aaba98880634151962343eaf99",
       "core": false
     },
     {
-      "url": "./assets/speech/page_08.m4a",
-      "bytes": 230706,
-      "sha256": "4e4ffc3f97553c4fee95c8e0132dc7af2290172a949dae900e02e2ca607aeff4",
+      "url": "./assets/speech/v2/page_08.m4a",
+      "bytes": 163678,
+      "sha256": "70650c64a61d775dd91af5b1606b64fd1f0b6005c9e92058d640e92676faccb8",
       "core": false
     },
     {
-      "url": "./assets/speech/page_09.m4a",
-      "bytes": 205926,
-      "sha256": "74534692b394310c5f99025a16aab946955f3959395c489022305fab4971375b",
+      "url": "./assets/speech/v2/page_09.m4a",
+      "bytes": 132489,
+      "sha256": "8ed48e0ef7c9c7c6dec0bd664f46845bae7fffa41bb70223e3b1bcf6c2c4f09a",
       "core": false
     },
     {
-      "url": "./assets/speech/page_10.m4a",
-      "bytes": 239077,
-      "sha256": "31a5840b4413798ab6f45a7e8b714fd494dc6bef3bd347f5d92c84445f5ee7f2",
+      "url": "./assets/speech/v2/page_10.m4a",
+      "bytes": 156086,
+      "sha256": "d08e8798b71b41c8f4098fd26f51df8ae9890bc37ea755a90d6268ca54aea7ee",
       "core": false
     },
     {
-      "url": "./assets/speech/page_11.m4a",
-      "bytes": 363851,
-      "sha256": "04f932349aa55278a1be8b6df0ada92d4b5819b87832997e58bb36af15fb8a61",
+      "url": "./assets/speech/v2/page_11.m4a",
+      "bytes": 241884,
+      "sha256": "8886036e9e346108c9f5ef9546b1ff9da723b43989dde3dc4c4bf5a1de653c8e",
       "core": false
     },
     {
-      "url": "./assets/speech/page_12.m4a",
-      "bytes": 272842,
-      "sha256": "bb7c0514b3a98c9bd45408653841c2cf38c2485a29058bde7dc9bbb61faadc79",
+      "url": "./assets/speech/v2/page_12.m4a",
+      "bytes": 196136,
+      "sha256": "e55c9f4b4b6edfb26368817463a162f81f22b85de929a96c018a976b030e1e76",
       "core": false
     },
     {
@@ -268,14 +268,14 @@
     },
     {
       "url": "./book.json",
-      "bytes": 51101,
-      "sha256": "c8babc7771a6970fb315e4764b9cb28b8fe4d40ae0a4be2b7ca46408553d0474",
+      "bytes": 51608,
+      "sha256": "09a85a53fc4d36f1858b36a72240e89220eff3b81414ff61643a5b1e9f9a104a",
       "core": true
     },
     {
       "url": "./index.html",
-      "bytes": 7809,
-      "sha256": "5326a215606b87747411d56d9c035a8031d706766a68f49ae0aaa63087968c42",
+      "bytes": 7699,
+      "sha256": "0a43d2e22e44b170d4b189bd444987d41657d5002f39e051f55df30e460e4426",
       "core": true
     },
     {
@@ -286,8 +286,14 @@
     },
     {
       "url": "./styles.css",
-      "bytes": 13219,
-      "sha256": "3628822ee06a19bc07799f6ef87ab7b852ecce782b1cccb3f45fb365df46f0cc",
+      "bytes": 9869,
+      "sha256": "a14b4d6284124280209b15f92d8aa2507d3c4d68b40cf66b908eec9c2f076347",
+      "core": true
+    },
+    {
+      "url": "./vendor/page-flip.browser.js",
+      "bytes": 44058,
+      "sha256": "bbaca0bbef57a22bb66a3fc69d67baf9a17fb9a9c89ec9ed35e2b91abe4bd1e7",
       "core": true
     }
   ]

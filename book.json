@@ -10,9 +10,9 @@
       "page_type": "cover",
       "image": "assets/pages/page_00.png",
       "image_sha256": "1264e14d6c873e8b86643119462c22b4b25833af5a4a8511ccdc9adac27fa976",
-      "audio": "assets/speech/page_00.m4a",
-      "audio_sha256": "0f58c4264f936e757f3200fbfad48267daf18837f22db35d20fdd1ef494060cb",
-      "duration": 24.405333,
+      "audio": "assets/speech/v2/page_00.m4a",
+      "audio_sha256": "320f7e9061c90a7d974bdc27ef3071583d91dd4145bcaec6f8cf52171bb15de0",
+      "duration": 18.176,
       "bgm_cue": "bgm_warm",
       "segments": [
         {
@@ -75,57 +75,57 @@
       "timeline": [
         {
           "id": "p00_s01",
-          "at": 0.51,
-          "end": 3.151625,
+          "at": 0.3,
+          "end": 1.499042,
           "speaker": "narrator",
           "text": "Pakson and Pikachu."
         },
         {
           "id": "p00_s02",
-          "at": 3.371625,
-          "end": 4.90975,
+          "at": 2.179042,
+          "end": 2.739042,
           "speaker": "narrator",
           "text": "Thank You!"
         },
         {
           "id": "p00_s03",
-          "at": 5.18975,
-          "end": 7.47225,
+          "at": 3.099042,
+          "end": 5.159042,
           "speaker": "narrator",
           "text": "Book 5, Unit 1."
         },
         {
           "id": "p00_s04",
-          "at": 7.80225,
-          "end": 11.316375,
+          "at": 5.699042,
+          "end": 8.239042,
           "speaker": "narrator",
           "text": "Meet Pakson and his friend, Pikachu."
         },
         {
           "id": "p00_s05",
-          "at": 11.526375,
-          "end": 13.056917,
+          "at": 8.838167,
+          "end": 10.326417,
           "speaker": "pikachu",
           "text": "Pika, pika!"
         },
         {
           "id": "p00_s06",
-          "at": 13.266917,
-          "end": 15.975625,
+          "at": 10.546417,
+          "end": 12.329458,
           "speaker": "narrator",
           "text": "They are ready for a special day."
         },
         {
           "id": "p00_s07",
-          "at": 16.305625,
-          "end": 20.31525,
+          "at": 12.869458,
+          "end": 15.469458,
           "speaker": "narrator",
           "text": "Pakson has his doll, and Pikachu has a bag."
         },
         {
           "id": "p00_s08",
-          "at": 20.53525,
-          "end": 23.318625,
+          "at": 15.889458,
+          "end": 17.329458,
           "speaker": "narrator",
           "text": "Come along and see what happens!"
         }
@@ -138,9 +138,9 @@
       "page_type": "story",
       "image": "assets/pages/page_01.png",
       "image_sha256": "692c9ad94a889fef1015ab82e15dd7c28c1c52cc6cad196b9ae97a3fcfba36db",
-      "audio": "assets/speech/page_01.m4a",
-      "audio_sha256": "74fedc2ce1443dc71d61d275eaec8fcf0a8bc65ca3b72906e245fd0d859ae9d7",
-      "duration": 23.424,
+      "audio": "assets/speech/v2/page_01.m4a",
+      "audio_sha256": "083fc6369b4a8299a5505aa42aaba644c9541db5285fb62262004af0754acf10",
+      "duration": 15.957333,
       "bgm_cue": "bgm_warm",
       "segments": [
         {
@@ -203,57 +203,57 @@
       "timeline": [
         {
           "id": "p01_s01",
-          "at": 0.51,
-          "end": 3.054667,
+          "at": 0.3,
+          "end": 1.879625,
           "speaker": "narrator",
           "text": "Today is Helpers' Day."
         },
         {
           "id": "p01_s02",
-          "at": 3.464667,
-          "end": 6.9705,
+          "at": 2.519625,
+          "end": 4.419625,
           "speaker": "narrator",
           "text": "Pakson and Pikachu are ready to go."
         },
         {
           "id": "p01_s03",
-          "at": 7.2505,
-          "end": 9.558125,
+          "at": 5.039625,
+          "end": 6.319625,
           "speaker": "narrator",
           "text": "Pakson has a doll."
         },
         {
           "id": "p01_s04",
-          "at": 9.968125,
-          "end": 12.401167,
+          "at": 7.059625,
+          "end": 8.659625,
           "speaker": "narrator",
           "text": "Pikachu has a bag."
         },
         {
           "id": "p01_s05",
-          "at": 12.611167,
-          "end": 13.572542,
+          "at": 9.063083,
+          "end": 9.593,
           "speaker": "pikachu",
           "text": "Pika!"
         },
         {
           "id": "p01_s06",
-          "at": 13.782542,
-          "end": 16.418875,
+          "at": 9.813,
+          "end": 11.214792,
           "speaker": "narrator",
           "text": "They are going to see the helpers."
         },
         {
           "id": "p01_s07",
-          "at": 16.748875,
-          "end": 19.548167,
+          "at": 11.674792,
+          "end": 13.034792,
           "speaker": "narrator",
           "text": "It is time to open the door."
         },
         {
           "id": "p01_s08",
-          "at": 19.768167,
-          "end": 22.356,
+          "at": 13.734792,
+          "end": 15.214792,
           "speaker": "narrator",
           "text": "Pakson opens the door."
         }
@@ -266,9 +266,9 @@
       "page_type": "story",
       "image": "assets/pages/page_02.png",
       "image_sha256": "d6a585c2e4c0205b2f7151724611bf1dcd180914d86000c89260c64411067b29",
-      "audio": "assets/speech/page_02.m4a",
-      "audio_sha256": "97b22b30a5115fbdbb8ddcb5616cb6eb52d7dd00e8e6d40992bd185176e1ab9b",
-      "duration": 20.266667,
+      "audio": "assets/speech/v2/page_02.m4a",
+      "audio_sha256": "c26ecb9d75b806ba0e7d1ffd81bb7b5ddde433bc223a1c9faca5e672655b8857",
+      "duration": 15.530667,
       "bgm_cue": "bgm_curious",
       "segments": [
         {
@@ -331,64 +331,64 @@
       "timeline": [
         {
           "id": "p02_s01",
-          "at": 0.51,
-          "end": 1.405917,
+          "at": 0.3,
+          "end": 6.337833,
           "speaker": "narrator",
           "text": "Whoosh!"
         },
         {
           "id": "p02_s02",
-          "at": 1.815917,
-          "end": 5.011042,
+          "at": 0.3,
+          "end": 6.337833,
           "speaker": "narrator",
           "text": "The wind blows the doll into a tree."
         },
         {
           "id": "p02_s03",
-          "at": 5.291042,
-          "end": 7.73825,
+          "at": 0.3,
+          "end": 6.337833,
           "speaker": "narrator",
           "text": "The doll is in a tree."
         },
         {
           "id": "p02_s04",
-          "at": 8.14825,
-          "end": 10.961125,
+          "at": 6.457833,
+          "end": 8.41425,
           "speaker": "narrator",
           "text": "Oh dear, the doll is up high."
         },
         {
           "id": "p02_s05",
-          "at": 11.181125,
-          "end": 14.791583,
+          "at": 9.13425,
+          "end": 11.67425,
           "speaker": "narrator",
           "text": "Pakson and Pikachu look up at the tree."
         },
         {
           "id": "p02_s06",
-          "at": 15.001583,
-          "end": 15.963125,
+          "at": 12.317875,
+          "end": 12.807417,
           "speaker": "pikachu",
           "text": "Pika!"
         },
         {
           "id": "p02_s07",
-          "at": 16.173125,
-          "end": 17.391375,
+          "at": 13.027417,
+          "end": 13.467375,
           "speaker": "pakson",
           "text": "\"Help!\""
         },
         {
           "id": "p02_s08",
-          "at": 17.301375,
-          "end": 19.184833,
+          "at": 13.617375,
+          "end": 14.903833,
           "speaker": "narrator",
           "text": "says Pakson."
         }
       ],
       "effects": [
         {
-          "at": 0.43,
+          "at": 0.22,
           "id": "wind_whoosh",
           "gain": 0.75
         }
@@ -400,9 +400,9 @@
       "page_type": "story",
       "image": "assets/pages/page_03.png",
       "image_sha256": "a4cf2b83676f838c32172759373a34a94714203e0e0a6966bfa243e2e70107da",
-      "audio": "assets/speech/page_03.m4a",
-      "audio_sha256": "f0c8b355871df93b220e144dac9f53f8d23c93f800c79115289ae4fa65b35940",
-      "duration": 20.608,
+      "audio": "assets/speech/v2/page_03.m4a",
+      "audio_sha256": "bdaebe9796ffde5c66b3419161ff18f5c284f1ed9f631b7de63bf74abd9328d5",
+      "duration": 13.226667,
       "bgm_cue": "bgm_helpers",
       "segments": [
         {
@@ -465,57 +465,57 @@
       "timeline": [
         {
           "id": "p03_s01",
-          "at": 0.51,
-          "end": 3.127833,
+          "at": 0.3,
+          "end": 2.195125,
           "speaker": "narrator",
           "text": "There is a ladder by the tree."
         },
         {
           "id": "p03_s02",
-          "at": 3.347833,
-          "end": 5.740667,
+          "at": 2.775125,
+          "end": 4.115125,
           "speaker": "narrator",
           "text": "A fireman has a ladder."
         },
         {
           "id": "p03_s03",
-          "at": 6.150667,
-          "end": 8.862958,
+          "at": 4.755125,
+          "end": 6.475125,
           "speaker": "narrator",
           "text": "The fireman helps Pakson."
         },
         {
           "id": "p03_s04",
-          "at": 9.192958,
-          "end": 11.133375,
+          "at": 6.796917,
+          "end": 7.6225,
           "speaker": "narrator",
           "text": "He gets the doll."
         },
         {
           "id": "p03_s05",
-          "at": 11.543375,
-          "end": 14.085292,
+          "at": 7.8825,
+          "end": 9.1825,
           "speaker": "narrator",
           "text": "The doll is safe with them."
         },
         {
           "id": "p03_s06",
-          "at": 14.245292,
-          "end": 16.357167,
+          "at": 9.544375,
+          "end": 10.984708,
           "speaker": "pakson",
           "text": "\"Thank you, fireman.\""
         },
         {
           "id": "p03_s07",
-          "at": 16.517167,
-          "end": 18.361708,
+          "at": 11.204708,
+          "end": 11.922333,
           "speaker": "fireman",
           "text": "\"You are welcome.\""
         },
         {
           "id": "p03_s08",
-          "at": 18.571708,
-          "end": 19.53325,
+          "at": 12.142333,
+          "end": 12.600875,
           "speaker": "pikachu",
           "text": "Pika!"
         }
@@ -528,9 +528,9 @@
       "page_type": "story",
       "image": "assets/pages/page_04.png",
       "image_sha256": "f95fd277dc0b448d4a7fc233950538e83616d09af67b7222fa1146aab51e4360",
-      "audio": "assets/speech/page_04.m4a",
-      "audio_sha256": "87f1fd2ea7b96fae7a5f0999ca9bf43190c31d777973cf4cb89ea2bb59700f21",
-      "duration": 25.514667,
+      "audio": "assets/speech/v2/page_04.m4a",
+      "audio_sha256": "9e29cd6269d3d5a71f931197a8afd861cc3b70e1a55bf7d304de5f33d7e8bb40",
+      "duration": 18.090667,
       "bgm_cue": "bgm_curious",
       "segments": [
         {
@@ -600,76 +600,76 @@
       "timeline": [
         {
           "id": "p04_s01",
-          "at": 0.51,
-          "end": 3.920083,
+          "at": 0.3,
+          "end": 2.65975,
           "speaker": "narrator",
           "text": "Pakson and Pikachu are at the crossing."
         },
         {
           "id": "p04_s02",
-          "at": 4.140083,
-          "end": 7.387125,
+          "at": 3.17975,
+          "end": 5.35975,
           "speaker": "narrator",
           "text": "A policeman helps them cross the road."
         },
         {
           "id": "p04_s03",
-          "at": 7.547125,
-          "end": 9.785625,
+          "at": 5.773375,
+          "end": 7.070708,
           "speaker": "pakson",
           "text": "\"Thank you, policeman.\""
         },
         {
           "id": "p04_s04",
-          "at": 9.945625,
-          "end": 11.773042,
+          "at": 7.290708,
+          "end": 8.719375,
           "speaker": "policeman",
           "text": "\"You are welcome.\""
         },
         {
           "id": "p04_s05",
-          "at": 11.933042,
-          "end": 14.670958,
+          "at": 8.939375,
+          "end": 10.516167,
           "speaker": "narrator",
           "text": "The friends are safely across."
         },
         {
           "id": "p04_s06",
-          "at": 14.950958,
-          "end": 17.207333,
+          "at": 11.416167,
+          "end": 12.656167,
           "speaker": "narrator",
           "text": "\"Quack!\" goes the bag."
         },
         {
           "id": "p04_s07",
-          "at": 17.617333,
-          "end": 20.15675,
+          "at": 13.156167,
+          "end": 14.456167,
           "speaker": "narrator",
           "text": "What is that funny sound?"
         },
         {
           "id": "p04_s08",
-          "at": 20.36675,
-          "end": 21.363042,
+          "at": 14.958667,
+          "end": 15.559417,
           "speaker": "pikachu",
           "text": "Pika?"
         },
         {
           "id": "p04_s09",
-          "at": 21.573042,
-          "end": 24.431375,
+          "at": 15.779417,
+          "end": 17.489917,
           "speaker": "narrator",
           "text": "Pikachu puts the bag down."
         }
       ],
       "effects": [
         {
-          "at": 14.870958,
+          "at": 11.336167,
           "id": "mystery_sound",
           "gain": 0.75
         },
         {
-          "at": 21.723042,
+          "at": 15.929417,
           "id": "bag_rustle",
           "gain": 0.4
         }
@@ -681,9 +681,9 @@
       "page_type": "story",
       "image": "assets/pages/page_05.png",
       "image_sha256": "4c10dbb71467218eb15438890dc0701b4669ea313725935d1abb646065b589f4",
-      "audio": "assets/speech/page_05.m4a",
-      "audio_sha256": "d4474dfd4510d44a9349fe067c1cec43d1ea884ae99e919f7659892c12bf1897",
-      "duration": 22.442667,
+      "audio": "assets/speech/v2/page_05.m4a",
+      "audio_sha256": "cb962e58b81d1f635b5dc70549dd1e123dce7a0ea3a784baf265e0872e874d5d",
+      "duration": 14.848,
       "bgm_cue": "bgm_helpers",
       "segments": [
         {
@@ -746,64 +746,64 @@
       "timeline": [
         {
           "id": "p05_s01",
-          "at": 0.51,
-          "end": 3.286583,
+          "at": 0.3,
+          "end": 2.32725,
           "speaker": "narrator",
           "text": "Look, the bag is on the ground."
         },
         {
           "id": "p05_s02",
-          "at": 3.506583,
-          "end": 6.43575,
+          "at": 2.96725,
+          "end": 4.80725,
           "speaker": "narrator",
           "text": "A policewoman picks up the bag."
         },
         {
           "id": "p05_s03",
-          "at": 6.84575,
-          "end": 9.702458,
+          "at": 5.42725,
+          "end": 7.04725,
           "speaker": "narrator",
           "text": "Pikachu reaches for the bag."
         },
         {
           "id": "p05_s04",
-          "at": 10.032458,
-          "end": 12.727375,
+          "at": 7.52725,
+          "end": 8.66725,
           "speaker": "narrator",
           "text": "She gives it to Pikachu."
         },
         {
           "id": "p05_s05",
-          "at": 12.887375,
-          "end": 15.288625,
+          "at": 9.296208,
+          "end": 10.550833,
           "speaker": "pakson",
           "text": "\"Thank you, policewoman.\""
         },
         {
           "id": "p05_s06",
-          "at": 15.448625,
-          "end": 17.396,
+          "at": 10.770833,
+          "end": 11.875333,
           "speaker": "policewoman",
           "text": "\"You are welcome.\""
         },
         {
           "id": "p05_s07",
-          "at": 17.556,
-          "end": 20.185542,
+          "at": 12.095333,
+          "end": 13.472667,
           "speaker": "narrator",
           "text": "The friends are ready to go."
         },
         {
           "id": "p05_s08",
-          "at": 20.395542,
-          "end": 21.355875,
+          "at": 13.692667,
+          "end": 14.208042,
           "speaker": "pikachu",
           "text": "Pika!"
         }
       ],
       "effects": [
         {
-          "at": 3.656583,
+          "at": 3.11725,
           "id": "bag_rustle",
           "gain": 0.4
         }
@@ -815,9 +815,9 @@
       "page_type": "story",
       "image": "assets/pages/page_06.png",
       "image_sha256": "27b49e3336a53dac40fb71bf4f9f42d18a88f636ab66ea78e40eec9c79cd0a56",
-      "audio": "assets/speech/page_06.m4a",
-      "audio_sha256": "c29e8d7f5aa1552c57ecedd670d0de64a614e4ffdd53b1650740c0bff41b96d9",
-      "duration": 21.802667,
+      "audio": "assets/speech/v2/page_06.m4a",
+      "audio_sha256": "40b2f4de708dd861e66def0b9da2e5599b500726a3d6b44e06eb41597fdc6285",
+      "duration": 14.293333,
       "bgm_cue": "bgm_curious",
       "segments": [
         {
@@ -873,62 +873,62 @@
       "timeline": [
         {
           "id": "p06_s01",
-          "at": 0.51,
-          "end": 3.756625,
+          "at": 0.3,
+          "end": 1.970958,
           "speaker": "narrator",
           "text": "Now Pakson is sitting with the doctor."
         },
         {
           "id": "p06_s02",
-          "at": 3.976625,
-          "end": 7.971708,
+          "at": 2.450958,
+          "end": 4.970958,
           "speaker": "narrator",
           "text": "At the fair, a doctor listens to Pakson's heart."
         },
         {
           "id": "p06_s03",
-          "at": 8.381708,
-          "end": 11.1145,
+          "at": 5.530958,
+          "end": 6.930958,
           "speaker": "narrator",
           "text": "The doctor listens carefully."
         },
         {
           "id": "p06_s04",
-          "at": 11.4445,
-          "end": 13.700875,
+          "at": 7.350958,
+          "end": 8.330958,
           "speaker": "narrator",
           "text": "\"Quack!\" goes the bag."
         },
         {
           "id": "p06_s05",
-          "at": 13.910875,
-          "end": 14.907167,
+          "at": 8.63725,
+          "end": 9.171583,
           "speaker": "pikachu",
           "text": "Pika?"
         },
         {
           "id": "p06_s06",
-          "at": 15.117167,
-          "end": 17.300875,
+          "at": 9.391583,
+          "end": 10.160667,
           "speaker": "narrator",
           "text": "The doctor smiles."
         },
         {
           "id": "p06_s07",
-          "at": 17.710875,
-          "end": 20.736375,
+          "at": 11.000667,
+          "end": 12.980667,
           "speaker": "narrator",
           "text": "The funny sound comes from the bag."
         }
       ],
       "effects": [
         {
-          "at": 11.3645,
+          "at": 7.270958,
           "id": "mystery_sound",
           "gain": 0.75
         },
         {
-          "at": 4.126625,
+          "at": 2.600958,
           "id": "heartbeat_soft",
           "gain": 0.22
         }
@@ -940,9 +940,9 @@
       "page_type": "story",
       "image": "assets/pages/page_07.png",
       "image_sha256": "4aee3d4454839c412cb047c8abbbc8cf5624ad354f428004dda06c3b02002f6e",
-      "audio": "assets/speech/page_07.m4a",
-      "audio_sha256": "e01af98dd6332f6595434dfbe654a9382a02f0ae18533d4a3801dd08a8a6349d",
-      "duration": 19.797333,
+      "audio": "assets/speech/v2/page_07.m4a",
+      "audio_sha256": "3b7099def71dabe851e9bb0ef1a13ed02625f4aaba98880634151962343eaf99",
+      "duration": 13.44,
       "bgm_cue": "bgm_helpers",
       "segments": [
         {
@@ -998,50 +998,50 @@
       "timeline": [
         {
           "id": "p07_s01",
-          "at": 0.51,
-          "end": 4.541167,
+          "at": 0.3,
+          "end": 3.105875,
           "speaker": "narrator",
           "text": "The doctor has finished listening to Pakson's heart."
         },
         {
           "id": "p07_s02",
-          "at": 4.761167,
-          "end": 7.660042,
+          "at": 3.805875,
+          "end": 5.525875,
           "speaker": "narrator",
           "text": "Pakson smiles at the doctor."
         },
         {
           "id": "p07_s03",
-          "at": 7.820042,
-          "end": 9.930083,
+          "at": 5.972375,
+          "end": 6.986125,
           "speaker": "pakson",
           "text": "\"Thank you, doctor.\""
         },
         {
           "id": "p07_s04",
-          "at": 10.090083,
-          "end": 11.84125,
+          "at": 7.206125,
+          "end": 8.009458,
           "speaker": "doctor",
           "text": "\"You are welcome.\""
         },
         {
           "id": "p07_s05",
-          "at": 12.00125,
-          "end": 14.597125,
+          "at": 8.229458,
+          "end": 10.101792,
           "speaker": "narrator",
           "text": "Pikachu looks at the bag."
         },
         {
           "id": "p07_s06",
-          "at": 14.807125,
-          "end": 15.889167,
+          "at": 10.321792,
+          "end": 10.916625,
           "speaker": "pikachu",
           "text": "\"Pika?\""
         },
         {
           "id": "p07_s07",
-          "at": 16.099167,
-          "end": 18.726292,
+          "at": 11.136625,
+          "end": 12.833417,
           "speaker": "narrator",
           "text": "What could be inside the bag?"
         }
@@ -1054,9 +1054,9 @@
       "page_type": "story",
       "image": "assets/pages/page_08.png",
       "image_sha256": "8ce87a4c370b2c4338925292caf17322c8806eb74b39ab968ecc60c98fe7d114",
-      "audio": "assets/speech/page_08.m4a",
-      "audio_sha256": "4e4ffc3f97553c4fee95c8e0132dc7af2290172a949dae900e02e2ca607aeff4",
-      "duration": 22.656,
+      "audio": "assets/speech/v2/page_08.m4a",
+      "audio_sha256": "70650c64a61d775dd91af5b1606b64fd1f0b6005c9e92058d640e92676faccb8",
+      "duration": 15.829333,
       "bgm_cue": "bgm_warm",
       "segments": [
         {
@@ -1112,62 +1112,62 @@
       "timeline": [
         {
           "id": "p08_s01",
-          "at": 0.51,
-          "end": 3.08875,
+          "at": 0.3,
+          "end": 1.7605,
           "speaker": "narrator",
           "text": "A nurse has two stickers."
         },
         {
           "id": "p08_s02",
-          "at": 3.49875,
-          "end": 6.439833,
+          "at": 2.3805,
+          "end": 4.2605,
           "speaker": "narrator",
           "text": "One blue star is for Pakson."
         },
         {
           "id": "p08_s03",
-          "at": 6.719833,
-          "end": 10.060708,
+          "at": 4.7405,
+          "end": 6.8605,
           "speaker": "narrator",
           "text": "She helps Pakson put one on his shirt."
         },
         {
           "id": "p08_s04",
-          "at": 10.470708,
-          "end": 13.608,
+          "at": 7.17075,
+          "end": 8.887083,
           "speaker": "narrator",
           "text": "One blue star is for Pikachu."
         },
         {
           "id": "p08_s05",
-          "at": 13.828,
-          "end": 16.942375,
+          "at": 9.427083,
+          "end": 11.107083,
           "speaker": "narrator",
           "text": "Pikachu puts one on his nose!"
         },
         {
           "id": "p08_s06",
-          "at": 17.152375,
-          "end": 18.678,
+          "at": 11.675917,
+          "end": 12.876417,
           "speaker": "pikachu",
           "text": "Pika, pika!"
         },
         {
           "id": "p08_s07",
-          "at": 18.888,
-          "end": 21.577792,
+          "at": 13.096417,
+          "end": 15.211167,
           "speaker": "narrator",
           "text": "Pikachu looks so funny!"
         }
       ],
       "effects": [
         {
-          "at": 13.748,
+          "at": 9.347083,
           "id": "sticker_soft",
           "gain": 0.75
         },
         {
-          "at": 6.869833000000001,
+          "at": 4.8905,
           "id": "sticker_soft",
           "gain": 0.5
         }
@@ -1179,9 +1179,9 @@
       "page_type": "story",
       "image": "assets/pages/page_09.png",
       "image_sha256": "4d01adf3dd2f6fe77b9b7497cfa14d501155679ce54bb0bb5da31496a34339b9",
-      "audio": "assets/speech/page_09.m4a",
-      "audio_sha256": "74534692b394310c5f99025a16aab946955f3959395c489022305fab4971375b",
-      "duration": 20.736,
+      "audio": "assets/speech/v2/page_09.m4a",
+      "audio_sha256": "8ed48e0ef7c9c7c6dec0bd664f46845bae7fffa41bb70223e3b1bcf6c2c4f09a",
+      "duration": 12.8,
       "bgm_cue": "bgm_curious",
       "segments": [
         {
@@ -1244,64 +1244,64 @@
       "timeline": [
         {
           "id": "p09_s01",
-          "at": 0.51,
-          "end": 2.434042,
+          "at": 0.3,
+          "end": 1.02475,
           "speaker": "pakson",
           "text": "\"Thank you, nurse.\""
         },
         {
           "id": "p09_s02",
-          "at": 2.594042,
-          "end": 4.40675,
+          "at": 1.24475,
+          "end": 2.185958,
           "speaker": "nurse",
           "text": "\"You are welcome.\""
         },
         {
           "id": "p09_s03",
-          "at": 4.56675,
-          "end": 7.47575,
+          "at": 2.405958,
+          "end": 7.860417,
           "speaker": "narrator",
           "text": "Look at Pikachu's blue star."
         },
         {
           "id": "p09_s04",
-          "at": 7.80575,
-          "end": 10.374625,
+          "at": 2.405958,
+          "end": 7.860417,
           "speaker": "narrator",
           "text": "It is right on his nose."
         },
         {
           "id": "p09_s05",
-          "at": 10.594625,
-          "end": 12.704,
+          "at": 2.405958,
+          "end": 7.860417,
           "speaker": "narrator",
           "text": "Pakson laughs."
         },
         {
           "id": "p09_s06",
-          "at": 12.914,
-          "end": 13.875375,
+          "at": 8.080417,
+          "end": 8.602542,
           "speaker": "pikachu",
           "text": "Pika!"
         },
         {
           "id": "p09_s07",
-          "at": 14.085375,
-          "end": 16.34175,
+          "at": 8.822542,
+          "end": 9.989875,
           "speaker": "narrator",
           "text": "\"Quack!\" goes the bag."
         },
         {
           "id": "p09_s08",
-          "at": 16.75175,
-          "end": 19.651542,
+          "at": 10.349875,
+          "end": 11.949875,
           "speaker": "narrator",
           "text": "There is that funny sound again."
         }
       ],
       "effects": [
         {
-          "at": 14.005375,
+          "at": 8.742542,
           "id": "mystery_sound",
           "gain": 0.75
         }
@@ -1313,9 +1313,9 @@
       "page_type": "story",
       "image": "assets/pages/page_10.png",
       "image_sha256": "0de96302a636d105adc0bbba165803aa6081211686800070ae25c5f4fb8a1e3c",
-      "audio": "assets/speech/page_10.m4a",
-      "audio_sha256": "31a5840b4413798ab6f45a7e8b714fd494dc6bef3bd347f5d92c84445f5ee7f2",
-      "duration": 23.637333,
+      "audio": "assets/speech/v2/page_10.m4a",
+      "audio_sha256": "d08e8798b71b41c8f4098fd26f51df8ae9890bc37ea755a90d6268ca54aea7ee",
+      "duration": 15.189333,
       "bgm_cue": "bgm_reveal",
       "segments": [
         {
@@ -1385,76 +1385,76 @@
       "timeline": [
         {
           "id": "p10_s01",
-          "at": 0.51,
-          "end": 3.105875,
+          "at": 0.3,
+          "end": 1.70325,
           "speaker": "narrator",
           "text": "Pikachu looks at the bag."
         },
         {
           "id": "p10_s02",
-          "at": 3.325875,
-          "end": 6.097875,
+          "at": 2.18325,
+          "end": 3.92325,
           "speaker": "narrator",
           "text": "Pikachu opens the bag."
         },
         {
           "id": "p10_s03",
-          "at": 6.507875,
-          "end": 8.666917,
+          "at": 4.06325,
+          "end": 5.34325,
           "speaker": "narrator",
           "text": "A duck pops out!"
         },
         {
           "id": "p10_s04",
-          "at": 8.876917,
-          "end": 9.486708,
+          "at": 5.824583,
+          "end": 6.19725,
           "speaker": "duck",
           "text": "\"Quack!\""
         },
         {
           "id": "p10_s05",
-          "at": 9.696708,
-          "end": 12.632417,
+          "at": 6.41725,
+          "end": 7.944125,
           "speaker": "narrator",
           "text": "The little duck is saying hello."
         },
         {
           "id": "p10_s06",
-          "at": 12.912417,
-          "end": 15.922917,
+          "at": 7.944125,
+          "end": 10.004125,
           "speaker": "narrator",
           "text": "Pakson and Pikachu laugh."
         },
         {
           "id": "p10_s07",
-          "at": 16.132917,
-          "end": 17.653542,
+          "at": 10.414417,
+          "end": 11.804417,
           "speaker": "pikachu",
           "text": "Pika, pika!"
         },
         {
           "id": "p10_s08",
-          "at": 17.863542,
-          "end": 20.252625,
+          "at": 12.024417,
+          "end": 13.210333,
           "speaker": "narrator",
           "text": "All the helpers are here."
         },
         {
           "id": "p10_s09",
-          "at": 20.412625,
-          "end": 22.584375,
+          "at": 13.430333,
+          "end": 14.554917,
           "speaker": "pakson",
           "text": "\"Thank you so much!\""
         }
       ],
       "effects": [
         {
-          "at": 3.475875,
+          "at": 2.33325,
           "id": "bag_rustle",
           "gain": 0.45
         },
         {
-          "at": 6.657875000000001,
+          "at": 4.21325,
           "id": "sparkle_chime",
           "gain": 0.4
         }
@@ -1466,9 +1466,9 @@
       "page_type": "review",
       "image": "assets/pages/page_11.png",
       "image_sha256": "53403f0f9de7c70a03b0afa5cd3a59cf6748360218b16e038cc82c7138388039",
-      "audio": "assets/speech/page_11.m4a",
-      "audio_sha256": "04f932349aa55278a1be8b6df0ada92d4b5819b87832997e58bb36af15fb8a61",
-      "duration": 44.117333,
+      "audio": "assets/speech/v2/page_11.m4a",
+      "audio_sha256": "8886036e9e346108c9f5ef9546b1ff9da723b43989dde3dc4c4bf5a1de653c8e",
+      "duration": 29.397333,
       "bgm_cue": "bgm_learning",
       "segments": [
         {
@@ -1580,106 +1580,106 @@
       "timeline": [
         {
           "id": "p11_s01",
-          "at": 0.51,
-          "end": 2.284958,
+          "at": 0.3,
+          "end": 1.234375,
           "speaker": "narrator",
           "text": "D, d."
         },
         {
           "id": "p11_s02",
-          "at": 2.994958,
-          "end": 4.887583,
+          "at": 1.884375,
+          "end": 2.890958,
           "speaker": "narrator",
           "text": "Read and say."
         },
         {
           "id": "p11_s03",
-          "at": 5.4255,
-          "end": 6.1905,
+          "at": 3.540958,
+          "end": 3.713958,
           "speaker": "narrator",
           "text": "/d/"
         },
         {
           "id": "p11_s04",
-          "at": 6.906708,
-          "end": 7.927,
+          "at": 4.363958,
+          "end": 5.713375,
           "speaker": "narrator",
           "text": "doctor"
         },
         {
           "id": "p11_s05",
-          "at": 8.637,
-          "end": 9.472375,
+          "at": 6.363375,
+          "end": 6.972333,
           "speaker": "narrator",
           "text": "duck"
         },
         {
           "id": "p11_s06",
-          "at": 10.182375,
-          "end": 10.969,
+          "at": 7.622333,
+          "end": 8.127042,
           "speaker": "narrator",
           "text": "doll"
         },
         {
           "id": "p11_s07",
-          "at": 11.679,
-          "end": 12.464958,
+          "at": 8.777042,
+          "end": 9.141333,
           "speaker": "narrator",
           "text": "door"
         },
         {
           "id": "p11_s08",
-          "at": 13.174958,
-          "end": 14.139667,
+          "at": 9.791333,
+          "end": 10.719833,
           "speaker": "narrator",
           "text": "Spell:"
         },
         {
           "id": "p11_s09",
-          "at": 14.849667,
-          "end": 15.957875,
+          "at": 11.369833,
+          "end": 12.183958,
           "speaker": "narrator",
           "text": "fireman"
         },
         {
           "id": "p11_s10",
-          "at": 16.667875,
-          "end": 23.06775,
+          "at": 12.833958,
+          "end": 16.59875,
           "speaker": "narrator",
           "text": "F, I, R, E, M, A, N."
         },
         {
           "id": "p11_s11",
-          "at": 23.97775,
-          "end": 25.004,
+          "at": 17.34875,
+          "end": 17.848792,
           "speaker": "narrator",
           "text": "doctor"
         },
         {
           "id": "p11_s12",
-          "at": 25.714,
-          "end": 31.209333,
+          "at": 18.498792,
+          "end": 20.852042,
           "speaker": "narrator",
           "text": "D, O, C, T, O, R."
         },
         {
           "id": "p11_s13",
-          "at": 32.119333,
-          "end": 33.065083,
+          "at": 21.602042,
+          "end": 22.315625,
           "speaker": "narrator",
           "text": "nurse"
         },
         {
           "id": "p11_s14",
-          "at": 33.775083,
-          "end": 38.537917,
+          "at": 22.965625,
+          "end": 24.785083,
           "speaker": "narrator",
           "text": "N, U, R, S, E."
         },
         {
           "id": "p11_s15",
-          "at": 39.447917,
-          "end": 43.049625,
+          "at": 25.535083,
+          "end": 28.770875,
           "speaker": "narrator",
           "text": "Well done! Let us say them again another time."
         }
@@ -1692,9 +1692,9 @@
       "page_type": "song",
       "image": "assets/pages/page_12.png",
       "image_sha256": "432b239ef883925535e509f72b6fb368427ff0cb29c41860340f27f8d7287122",
-      "audio": "assets/speech/page_12.m4a",
-      "audio_sha256": "bb7c0514b3a98c9bd45408653841c2cf38c2485a29058bde7dc9bbb61faadc79",
-      "duration": 28.245333,
+      "audio": "assets/speech/v2/page_12.m4a",
+      "audio_sha256": "e55c9f4b4b6edfb26368817463a162f81f22b85de929a96c018a976b030e1e76",
+      "duration": 18.688,
       "bgm_cue": "bgm_chant",
       "segments": [
         {
@@ -1771,71 +1771,71 @@
       "timeline": [
         {
           "id": "p12_s01",
-          "at": 0.51,
-          "end": 4.170667,
+          "at": 0.3,
+          "end": 4.032042,
           "speaker": "narrator",
           "text": "Let us say thank you to all our helpers together."
         },
         {
           "id": "p12_s02",
-          "at": 4.390667,
-          "end": 6.652792,
+          "at": 4.152042,
+          "end": 5.091542,
           "speaker": "narrator",
           "text": "Thank you, policeman."
         },
         {
           "id": "p12_s03",
-          "at": 7.062792,
-          "end": 9.501542,
+          "at": 5.631542,
+          "end": 6.631542,
           "speaker": "narrator",
           "text": "Thank you, policewoman."
         },
         {
           "id": "p12_s04",
-          "at": 9.911542,
-          "end": 11.996833,
+          "at": 7.311542,
+          "end": 8.151542,
           "speaker": "narrator",
           "text": "Thank you, doctor."
         },
         {
           "id": "p12_s05",
-          "at": 12.406833,
-          "end": 14.391417,
+          "at": 8.931542,
+          "end": 10.171542,
           "speaker": "narrator",
           "text": "Thank you, nurse."
         },
         {
           "id": "p12_s06",
-          "at": 14.801417,
-          "end": 16.915708,
+          "at": 10.628125,
+          "end": 11.399833,
           "speaker": "narrator",
           "text": "Thank you, fireman."
         },
         {
           "id": "p12_s07",
-          "at": 17.325708,
-          "end": 19.309542,
+          "at": 11.919833,
+          "end": 12.619833,
           "speaker": "narrator",
           "text": "You are so great."
         },
         {
           "id": "p12_s08",
-          "at": 19.719542,
-          "end": 21.840333,
+          "at": 13.219833,
+          "end": 14.279833,
           "speaker": "narrator",
           "text": "Thank you so much."
         },
         {
           "id": "p12_s09",
-          "at": 22.250333,
-          "end": 23.841458,
+          "at": 14.659833,
+          "end": 15.539833,
           "speaker": "narrator",
           "text": "You are great."
         },
         {
           "id": "p12_s10",
-          "at": 24.251458,
-          "end": 27.193792,
+          "at": 15.994,
+          "end": 18.048833,
           "speaker": "narrator",
           "text": "What a lovely way to say thank you!"
         }
@@ -1937,10 +1937,17 @@
     }
   },
   "production": {
-    "voice_engine": "Kokoro neural speech",
+    "voice_engine": "Qwen3-TTS 1.7B Base with original VoiceDesign references; Kokoro phoneme cue only",
     "distinct_character_voices": true,
+    "voice_design_descriptions_applied_to_references": true,
+    "per_block_emotion_instructions_applied": false,
+    "per_block_emotion_flag_scope": "Base human narration and dialogue",
+    "pikachu_call_engine": "Qwen3-TTS VoiceDesign original character calls",
     "official_character_recordings": false,
-    "professional_human_cast": false
+    "professional_human_cast": false,
+    "child_voice_cloning": false,
+    "human_listening_completed": false,
+    "voice_version": "v2"
   },
-  "creditsText": "Story and page art: Pakson’s family reading project. Distinct AI character voices made locally with Kokoro (Apache-2.0 model). Original music and Foley created for this book. Cartoon Duck Quack by Breviceps, Freesound 445960, CC0. Pikachu calls are an original character interpretation, not recordings from the animation. No tracking or advertising."
+  "creditsText": "Story and page art: Pakson’s family reading project. Original synthetic human voices use Qwen3-TTS VoiceDesign references and Base speech; original Pika calls use VoiceDesign (Apache-2.0 models). The short /d/ teaching cue uses Kokoro. Original music and Foley created for this book. Cartoon Duck Quack by Breviceps, Freesound 445960, CC0. Pikachu calls are original character interpretations, not recordings from the animation. No tracking or advertising."
 }
