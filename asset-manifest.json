@@ -1,11 +1,13 @@
 {
-  "version": "2232475ff03ae819",
-  "total_bytes": 37729934,
+  "version": "c8ec0cb1e0ebf580",
+  "total_bytes": 38107651,
+  "speech_edition": "v4",
+  "ui_only_staging": false,
   "files": [
     {
       "url": "./app.js",
-      "bytes": 31697,
-      "sha256": "3702b11dde81a0657015cbb1d88f3cc17577367856e21ac456eddcebc7f30394",
+      "bytes": 36441,
+      "sha256": "5c7dbcca7de3541f54aedaaa66d5090985e6418d2fbd4854b7e60311cdc556d9",
       "core": true
     },
     {
@@ -183,81 +185,81 @@
       "core": false
     },
     {
-      "url": "./assets/speech/v2/page_00.m4a",
-      "bytes": 188967,
-      "sha256": "320f7e9061c90a7d974bdc27ef3071583d91dd4145bcaec6f8cf52171bb15de0",
+      "url": "./assets/speech/v4/page_00.m4a",
+      "bytes": 214349,
+      "sha256": "30a0425b23ca5cca573ff6478d959277d266a1fdc8a771b9e5eb561b2f341968",
       "core": false
     },
     {
-      "url": "./assets/speech/v2/page_01.m4a",
-      "bytes": 165919,
-      "sha256": "083fc6369b4a8299a5505aa42aaba644c9541db5285fb62262004af0754acf10",
+      "url": "./assets/speech/v4/page_01.m4a",
+      "bytes": 188511,
+      "sha256": "ea86f69e658800b549761e4c275fa0d40aa5707a7dd90080d2231855b802813e",
       "core": false
     },
     {
-      "url": "./assets/speech/v2/page_02.m4a",
-      "bytes": 160534,
-      "sha256": "c26ecb9d75b806ba0e7d1ffd81bb7b5ddde433bc223a1c9faca5e672655b8857",
+      "url": "./assets/speech/v4/page_02.m4a",
+      "bytes": 181718,
+      "sha256": "ffe20e51de059d655cf78a10085aa4b2ae86a19855553c4ccdb14ea9303e8d39",
       "core": false
     },
     {
-      "url": "./assets/speech/v2/page_03.m4a",
-      "bytes": 137981,
-      "sha256": "bdaebe9796ffde5c66b3419161ff18f5c284f1ed9f631b7de63bf74abd9328d5",
+      "url": "./assets/speech/v4/page_03.m4a",
+      "bytes": 156783,
+      "sha256": "176b2e68aa84cca467f03887961a5add8e2f5449dd8f6b53ca91e0f73d06aaf3",
       "core": false
     },
     {
-      "url": "./assets/speech/v2/page_04.m4a",
-      "bytes": 194273,
-      "sha256": "9e29cd6269d3d5a71f931197a8afd861cc3b70e1a55bf7d304de5f33d7e8bb40",
+      "url": "./assets/speech/v4/page_04.m4a",
+      "bytes": 229095,
+      "sha256": "0f93c62d9dfef931acc74a2c33b01c2d760cbc16b5f54c8fbf0aa833f03d5cbe",
       "core": false
     },
     {
-      "url": "./assets/speech/v2/page_05.m4a",
-      "bytes": 157334,
-      "sha256": "cb962e58b81d1f635b5dc70549dd1e123dce7a0ea3a784baf265e0872e874d5d",
+      "url": "./assets/speech/v4/page_05.m4a",
+      "bytes": 185795,
+      "sha256": "f6b40c39ad89ca2771550c3eded11ee07f4dfb026b798f554a2759f889fbb3b9",
       "core": false
     },
     {
-      "url": "./assets/speech/v2/page_06.m4a",
-      "bytes": 149973,
-      "sha256": "40b2f4de708dd861e66def0b9da2e5599b500726a3d6b44e06eb41597fdc6285",
+      "url": "./assets/speech/v4/page_06.m4a",
+      "bytes": 173180,
+      "sha256": "f1764c8b45a5b3520965bf1fd3749522d806bc37804f5dbe5152a521d8221b92",
       "core": false
     },
     {
-      "url": "./assets/speech/v2/page_07.m4a",
-      "bytes": 139176,
-      "sha256": "3b7099def71dabe851e9bb0ef1a13ed02625f4aaba98880634151962343eaf99",
+      "url": "./assets/speech/v4/page_07.m4a",
+      "bytes": 165591,
+      "sha256": "c533a7e00748b596150476faa7f64e83629fb3df938fa1855121218e8d002f26",
       "core": false
     },
     {
-      "url": "./assets/speech/v2/page_08.m4a",
-      "bytes": 163678,
-      "sha256": "70650c64a61d775dd91af5b1606b64fd1f0b6005c9e92058d640e92676faccb8",
+      "url": "./assets/speech/v4/page_08.m4a",
+      "bytes": 193218,
+      "sha256": "539dc9e91c3a5c8d61c94adac357b06a6f4d6c1bf19ef03baf31c9d6fc7b5a43",
       "core": false
     },
     {
-      "url": "./assets/speech/v2/page_09.m4a",
-      "bytes": 132489,
-      "sha256": "8ed48e0ef7c9c7c6dec0bd664f46845bae7fffa41bb70223e3b1bcf6c2c4f09a",
+      "url": "./assets/speech/v4/page_09.m4a",
+      "bytes": 158899,
+      "sha256": "2f838dc2614c3a1cf5971576cc4c7bd1c36753497be3854e4b30689d98bd6a8d",
       "core": false
     },
     {
-      "url": "./assets/speech/v2/page_10.m4a",
-      "bytes": 156086,
-      "sha256": "d08e8798b71b41c8f4098fd26f51df8ae9890bc37ea755a90d6268ca54aea7ee",
+      "url": "./assets/speech/v4/page_10.m4a",
+      "bytes": 182684,
+      "sha256": "ba113f5ece008f778b1b98b0b8e94cc16cf19793d6706e11c53d7ad2ac3ec97b",
       "core": false
     },
     {
-      "url": "./assets/speech/v2/page_11.m4a",
-      "bytes": 241884,
-      "sha256": "8886036e9e346108c9f5ef9546b1ff9da723b43989dde3dc4c4bf5a1de653c8e",
+      "url": "./assets/speech/v4/page_11.m4a",
+      "bytes": 267000,
+      "sha256": "70a6119d78416e0e0a9794ac2c8dcb38337e32832bf6b084d92aa2dff91eb2c8",
       "core": false
     },
     {
-      "url": "./assets/speech/v2/page_12.m4a",
-      "bytes": 196136,
-      "sha256": "e55c9f4b4b6edfb26368817463a162f81f22b85de929a96c018a976b030e1e76",
+      "url": "./assets/speech/v4/page_12.m4a",
+      "bytes": 219623,
+      "sha256": "07b55ed508cebff5dc3935b0f971ae8b2a455f347bea831d79f0cc9df6a47227",
       "core": false
     },
     {
@@ -268,8 +270,8 @@
     },
     {
       "url": "./book.json",
-      "bytes": 51608,
-      "sha256": "09a85a53fc4d36f1858b36a72240e89220eff3b81414ff61643a5b1e9f9a104a",
+      "bytes": 51687,
+      "sha256": "6ac2f7e2deefd8ca3dd1efe2d1fc94a0604c08489db4abb5d02d9b5a1f0386f2",
       "core": true
     },
     {
@@ -285,9 +287,21 @@
       "core": true
     },
     {
+      "url": "./compat/shell/v3/app.js",
+      "bytes": 31697,
+      "sha256": "3702b11dde81a0657015cbb1d88f3cc17577367856e21ac456eddcebc7f30394",
+      "core": true
+    },
+    {
+      "url": "./compat/shell/v3/styles.css",
+      "bytes": 8363,
+      "sha256": "0a5ed48f1385d229ea942b51ce7de5981789f5bfab3558ba3d244ba543882baf",
+      "core": true
+    },
+    {
       "url": "./index.html",
-      "bytes": 7513,
-      "sha256": "fda26c397c97830dac7c706f5cf14a659297c94dc8c94de3b2de969211bc6f3f",
+      "bytes": 7576,
+      "sha256": "38d61151d7749588d17cf365a558b6a2e74ddaf4447092e9f9910349ca5413b8",
       "core": true
     },
     {
@@ -298,8 +312,8 @@
     },
     {
       "url": "./styles.css",
-      "bytes": 8363,
-      "sha256": "0a5ed48f1385d229ea942b51ce7de5981789f5bfab3558ba3d244ba543882baf",
+      "bytes": 9118,
+      "sha256": "87d1145c1c1b5b56140dd4f931aaf17d138e19cdd779dd72fc9520ebd0ff48ae",
       "core": true
     },
     {

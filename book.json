@@ -10,9 +10,9 @@
       "page_type": "cover",
       "image": "assets/pages/page_00.png",
       "image_sha256": "1264e14d6c873e8b86643119462c22b4b25833af5a4a8511ccdc9adac27fa976",
-      "audio": "assets/speech/v2/page_00.m4a",
-      "audio_sha256": "320f7e9061c90a7d974bdc27ef3071583d91dd4145bcaec6f8cf52171bb15de0",
-      "duration": 18.176,
+      "audio": "assets/speech/v4/page_00.m4a",
+      "audio_sha256": "30a0425b23ca5cca573ff6478d959277d266a1fdc8a771b9e5eb561b2f341968",
+      "duration": 18.158583,
       "bgm_cue": "bgm_warm",
       "segments": [
         {
@@ -138,9 +138,9 @@
       "page_type": "story",
       "image": "assets/pages/page_01.png",
       "image_sha256": "692c9ad94a889fef1015ab82e15dd7c28c1c52cc6cad196b9ae97a3fcfba36db",
-      "audio": "assets/speech/v2/page_01.m4a",
-      "audio_sha256": "083fc6369b4a8299a5505aa42aaba644c9541db5285fb62262004af0754acf10",
-      "duration": 15.957333,
+      "audio": "assets/speech/v4/page_01.m4a",
+      "audio_sha256": "ea86f69e658800b549761e4c275fa0d40aa5707a7dd90080d2231855b802813e",
+      "duration": 15.938917,
       "bgm_cue": "bgm_warm",
       "segments": [
         {
@@ -266,9 +266,9 @@
       "page_type": "story",
       "image": "assets/pages/page_02.png",
       "image_sha256": "d6a585c2e4c0205b2f7151724611bf1dcd180914d86000c89260c64411067b29",
-      "audio": "assets/speech/v2/page_02.m4a",
-      "audio_sha256": "c26ecb9d75b806ba0e7d1ffd81bb7b5ddde433bc223a1c9faca5e672655b8857",
-      "duration": 15.530667,
+      "audio": "assets/speech/v4/page_02.m4a",
+      "audio_sha256": "ffe20e51de059d655cf78a10085aa4b2ae86a19855553c4ccdb14ea9303e8d39",
+      "duration": 15.591958,
       "bgm_cue": "bgm_curious",
       "segments": [
         {
@@ -374,14 +374,14 @@
         {
           "id": "p02_s07",
           "at": 13.027417,
-          "end": 13.467375,
+          "end": 13.5555,
           "speaker": "pakson",
           "text": "\"Help!\""
         },
         {
           "id": "p02_s08",
-          "at": 13.617375,
-          "end": 14.903833,
+          "at": 13.7055,
+          "end": 14.991958,
           "speaker": "narrator",
           "text": "says Pakson."
         }
@@ -400,9 +400,9 @@
       "page_type": "story",
       "image": "assets/pages/page_03.png",
       "image_sha256": "a4cf2b83676f838c32172759373a34a94714203e0e0a6966bfa243e2e70107da",
-      "audio": "assets/speech/v2/page_03.m4a",
-      "audio_sha256": "bdaebe9796ffde5c66b3419161ff18f5c284f1ed9f631b7de63bf74abd9328d5",
-      "duration": 13.226667,
+      "audio": "assets/speech/v4/page_03.m4a",
+      "audio_sha256": "176b2e68aa84cca467f03887961a5add8e2f5449dd8f6b53ca91e0f73d06aaf3",
+      "duration": 13.027,
       "bgm_cue": "bgm_helpers",
       "segments": [
         {
@@ -501,21 +501,21 @@
         {
           "id": "p03_s06",
           "at": 9.544375,
-          "end": 10.984708,
+          "end": 10.810958,
           "speaker": "pakson",
           "text": "\"Thank you, fireman.\""
         },
         {
           "id": "p03_s07",
-          "at": 11.204708,
-          "end": 11.922333,
+          "at": 11.030958,
+          "end": 11.748583,
           "speaker": "fireman",
           "text": "\"You are welcome.\""
         },
         {
           "id": "p03_s08",
-          "at": 12.142333,
-          "end": 12.600875,
+          "at": 11.968583,
+          "end": 12.427125,
           "speaker": "pikachu",
           "text": "Pika!"
         }
@@ -528,9 +528,9 @@
       "page_type": "story",
       "image": "assets/pages/page_04.png",
       "image_sha256": "f95fd277dc0b448d4a7fc233950538e83616d09af67b7222fa1146aab51e4360",
-      "audio": "assets/speech/v2/page_04.m4a",
-      "audio_sha256": "9e29cd6269d3d5a71f931197a8afd861cc3b70e1a55bf7d304de5f33d7e8bb40",
-      "duration": 18.090667,
+      "audio": "assets/speech/v4/page_04.m4a",
+      "audio_sha256": "0f93c62d9dfef931acc74a2c33b01c2d760cbc16b5f54c8fbf0aa833f03d5cbe",
+      "duration": 18.090708,
       "bgm_cue": "bgm_curious",
       "segments": [
         {
@@ -615,61 +615,61 @@
         {
           "id": "p04_s03",
           "at": 5.773375,
-          "end": 7.070708,
+          "end": 7.0715,
           "speaker": "pakson",
           "text": "\"Thank you, policeman.\""
         },
         {
           "id": "p04_s04",
-          "at": 7.290708,
-          "end": 8.719375,
+          "at": 7.2915,
+          "end": 8.720167,
           "speaker": "policeman",
           "text": "\"You are welcome.\""
         },
         {
           "id": "p04_s05",
-          "at": 8.939375,
-          "end": 10.516167,
+          "at": 8.940167,
+          "end": 10.516958,
           "speaker": "narrator",
           "text": "The friends are safely across."
         },
         {
           "id": "p04_s06",
-          "at": 11.416167,
-          "end": 12.656167,
+          "at": 11.416958,
+          "end": 12.656958,
           "speaker": "narrator",
           "text": "\"Quack!\" goes the bag."
         },
         {
           "id": "p04_s07",
-          "at": 13.156167,
-          "end": 14.456167,
+          "at": 13.156958,
+          "end": 14.456958,
           "speaker": "narrator",
           "text": "What is that funny sound?"
         },
         {
           "id": "p04_s08",
-          "at": 14.958667,
-          "end": 15.559417,
+          "at": 14.959458,
+          "end": 15.560208,
           "speaker": "pikachu",
           "text": "Pika?"
         },
         {
           "id": "p04_s09",
-          "at": 15.779417,
-          "end": 17.489917,
+          "at": 15.780208,
+          "end": 17.490708,
           "speaker": "narrator",
           "text": "Pikachu puts the bag down."
         }
       ],
       "effects": [
         {
-          "at": 11.336167,
+          "at": 11.336958,
           "id": "mystery_sound",
           "gain": 0.75
         },
         {
-          "at": 15.929417,
+          "at": 15.930208,
           "id": "bag_rustle",
           "gain": 0.4
         }
@@ -681,9 +681,9 @@
       "page_type": "story",
       "image": "assets/pages/page_05.png",
       "image_sha256": "4c10dbb71467218eb15438890dc0701b4669ea313725935d1abb646065b589f4",
-      "audio": "assets/speech/v2/page_05.m4a",
-      "audio_sha256": "cb962e58b81d1f635b5dc70549dd1e123dce7a0ea3a784baf265e0872e874d5d",
-      "duration": 14.848,
+      "audio": "assets/speech/v4/page_05.m4a",
+      "audio_sha256": "f6b40c39ad89ca2771550c3eded11ee07f4dfb026b798f554a2759f889fbb3b9",
+      "duration": 15.087,
       "bgm_cue": "bgm_helpers",
       "segments": [
         {
@@ -775,28 +775,28 @@
         {
           "id": "p05_s05",
           "at": 9.296208,
-          "end": 10.550833,
+          "end": 10.829875,
           "speaker": "pakson",
           "text": "\"Thank you, policewoman.\""
         },
         {
           "id": "p05_s06",
-          "at": 10.770833,
-          "end": 11.875333,
+          "at": 11.049875,
+          "end": 12.154375,
           "speaker": "policewoman",
           "text": "\"You are welcome.\""
         },
         {
           "id": "p05_s07",
-          "at": 12.095333,
-          "end": 13.472667,
+          "at": 12.374375,
+          "end": 13.751708,
           "speaker": "narrator",
           "text": "The friends are ready to go."
         },
         {
           "id": "p05_s08",
-          "at": 13.692667,
-          "end": 14.208042,
+          "at": 13.971708,
+          "end": 14.487083,
           "speaker": "pikachu",
           "text": "Pika!"
         }
@@ -815,9 +815,9 @@
       "page_type": "story",
       "image": "assets/pages/page_06.png",
       "image_sha256": "27b49e3336a53dac40fb71bf4f9f42d18a88f636ab66ea78e40eec9c79cd0a56",
-      "audio": "assets/speech/v2/page_06.m4a",
-      "audio_sha256": "40b2f4de708dd861e66def0b9da2e5599b500726a3d6b44e06eb41597fdc6285",
-      "duration": 14.293333,
+      "audio": "assets/speech/v4/page_06.m4a",
+      "audio_sha256": "f1764c8b45a5b3520965bf1fd3749522d806bc37804f5dbe5152a521d8221b92",
+      "duration": 14.252417,
       "bgm_cue": "bgm_curious",
       "segments": [
         {
@@ -940,9 +940,9 @@
       "page_type": "story",
       "image": "assets/pages/page_07.png",
       "image_sha256": "4aee3d4454839c412cb047c8abbbc8cf5624ad354f428004dda06c3b02002f6e",
-      "audio": "assets/speech/v2/page_07.m4a",
-      "audio_sha256": "3b7099def71dabe851e9bb0ef1a13ed02625f4aaba98880634151962343eaf99",
-      "duration": 13.44,
+      "audio": "assets/speech/v4/page_07.m4a",
+      "audio_sha256": "c533a7e00748b596150476faa7f64e83629fb3df938fa1855121218e8d002f26",
+      "duration": 13.570792,
       "bgm_cue": "bgm_helpers",
       "segments": [
         {
@@ -1013,35 +1013,35 @@
         {
           "id": "p07_s03",
           "at": 5.972375,
-          "end": 6.986125,
+          "end": 7.1235,
           "speaker": "pakson",
           "text": "\"Thank you, doctor.\""
         },
         {
           "id": "p07_s04",
-          "at": 7.206125,
-          "end": 8.009458,
+          "at": 7.3435,
+          "end": 8.146833,
           "speaker": "doctor",
           "text": "\"You are welcome.\""
         },
         {
           "id": "p07_s05",
-          "at": 8.229458,
-          "end": 10.101792,
+          "at": 8.366833,
+          "end": 10.239167,
           "speaker": "narrator",
           "text": "Pikachu looks at the bag."
         },
         {
           "id": "p07_s06",
-          "at": 10.321792,
-          "end": 10.916625,
+          "at": 10.459167,
+          "end": 11.054,
           "speaker": "pikachu",
           "text": "\"Pika?\""
         },
         {
           "id": "p07_s07",
-          "at": 11.136625,
-          "end": 12.833417,
+          "at": 11.274,
+          "end": 12.970792,
           "speaker": "narrator",
           "text": "What could be inside the bag?"
         }
@@ -1054,9 +1054,9 @@
       "page_type": "story",
       "image": "assets/pages/page_08.png",
       "image_sha256": "8ce87a4c370b2c4338925292caf17322c8806eb74b39ab968ecc60c98fe7d114",
-      "audio": "assets/speech/v2/page_08.m4a",
-      "audio_sha256": "70650c64a61d775dd91af5b1606b64fd1f0b6005c9e92058d640e92676faccb8",
-      "duration": 15.829333,
+      "audio": "assets/speech/v4/page_08.m4a",
+      "audio_sha256": "539dc9e91c3a5c8d61c94adac357b06a6f4d6c1bf19ef03baf31c9d6fc7b5a43",
+      "duration": 15.811,
       "bgm_cue": "bgm_warm",
       "segments": [
         {
@@ -1179,9 +1179,9 @@
       "page_type": "story",
       "image": "assets/pages/page_09.png",
       "image_sha256": "4d01adf3dd2f6fe77b9b7497cfa14d501155679ce54bb0bb5da31496a34339b9",
-      "audio": "assets/speech/v2/page_09.m4a",
-      "audio_sha256": "8ed48e0ef7c9c7c6dec0bd664f46845bae7fffa41bb70223e3b1bcf6c2c4f09a",
-      "duration": 12.8,
+      "audio": "assets/speech/v4/page_09.m4a",
+      "audio_sha256": "2f838dc2614c3a1cf5971576cc4c7bd1c36753497be3854e4b30689d98bd6a8d",
+      "duration": 13.114,
       "bgm_cue": "bgm_curious",
       "segments": [
         {
@@ -1245,63 +1245,63 @@
         {
           "id": "p09_s01",
           "at": 0.3,
-          "end": 1.02475,
+          "end": 1.360125,
           "speaker": "pakson",
           "text": "\"Thank you, nurse.\""
         },
         {
           "id": "p09_s02",
-          "at": 1.24475,
-          "end": 2.185958,
+          "at": 1.580125,
+          "end": 2.521333,
           "speaker": "nurse",
           "text": "\"You are welcome.\""
         },
         {
           "id": "p09_s03",
-          "at": 2.405958,
-          "end": 7.860417,
+          "at": 2.741333,
+          "end": 8.195792,
           "speaker": "narrator",
           "text": "Look at Pikachu's blue star."
         },
         {
           "id": "p09_s04",
-          "at": 2.405958,
-          "end": 7.860417,
+          "at": 2.741333,
+          "end": 8.195792,
           "speaker": "narrator",
           "text": "It is right on his nose."
         },
         {
           "id": "p09_s05",
-          "at": 2.405958,
-          "end": 7.860417,
+          "at": 2.741333,
+          "end": 8.195792,
           "speaker": "narrator",
           "text": "Pakson laughs."
         },
         {
           "id": "p09_s06",
-          "at": 8.080417,
-          "end": 8.602542,
+          "at": 8.415792,
+          "end": 8.937917,
           "speaker": "pikachu",
           "text": "Pika!"
         },
         {
           "id": "p09_s07",
-          "at": 8.822542,
-          "end": 9.989875,
+          "at": 9.157917,
+          "end": 10.32525,
           "speaker": "narrator",
           "text": "\"Quack!\" goes the bag."
         },
         {
           "id": "p09_s08",
-          "at": 10.349875,
-          "end": 11.949875,
+          "at": 10.68525,
+          "end": 12.28525,
           "speaker": "narrator",
           "text": "There is that funny sound again."
         }
       ],
       "effects": [
         {
-          "at": 8.742542,
+          "at": 9.077917,
           "id": "mystery_sound",
           "gain": 0.75
         }
@@ -1313,9 +1313,9 @@
       "page_type": "story",
       "image": "assets/pages/page_10.png",
       "image_sha256": "0de96302a636d105adc0bbba165803aa6081211686800070ae25c5f4fb8a1e3c",
-      "audio": "assets/speech/v2/page_10.m4a",
-      "audio_sha256": "d08e8798b71b41c8f4098fd26f51df8ae9890bc37ea755a90d6268ca54aea7ee",
-      "duration": 15.189333,
+      "audio": "assets/speech/v4/page_10.m4a",
+      "audio_sha256": "ba113f5ece008f778b1b98b0b8e94cc16cf19793d6706e11c53d7ad2ac3ec97b",
+      "duration": 15.388,
       "bgm_cue": "bgm_reveal",
       "segments": [
         {
@@ -1442,7 +1442,7 @@
         {
           "id": "p10_s09",
           "at": 13.430333,
-          "end": 14.554917,
+          "end": 14.788083,
           "speaker": "pakson",
           "text": "\"Thank you so much!\""
         }
@@ -1466,9 +1466,9 @@
       "page_type": "review",
       "image": "assets/pages/page_11.png",
       "image_sha256": "53403f0f9de7c70a03b0afa5cd3a59cf6748360218b16e038cc82c7138388039",
-      "audio": "assets/speech/v2/page_11.m4a",
-      "audio_sha256": "8886036e9e346108c9f5ef9546b1ff9da723b43989dde3dc4c4bf5a1de653c8e",
-      "duration": 29.397333,
+      "audio": "assets/speech/v4/page_11.m4a",
+      "audio_sha256": "70a6119d78416e0e0a9794ac2c8dcb38337e32832bf6b084d92aa2dff91eb2c8",
+      "duration": 29.370875,
       "bgm_cue": "bgm_learning",
       "segments": [
         {
@@ -1692,9 +1692,9 @@
       "page_type": "song",
       "image": "assets/pages/page_12.png",
       "image_sha256": "432b239ef883925535e509f72b6fb368427ff0cb29c41860340f27f8d7287122",
-      "audio": "assets/speech/v2/page_12.m4a",
-      "audio_sha256": "e55c9f4b4b6edfb26368817463a162f81f22b85de929a96c018a976b030e1e76",
-      "duration": 18.688,
+      "audio": "assets/speech/v4/page_12.m4a",
+      "audio_sha256": "07b55ed508cebff5dc3935b0f971ae8b2a455f347bea831d79f0cc9df6a47227",
+      "duration": 18.648833,
       "bgm_cue": "bgm_chant",
       "segments": [
         {
@@ -1947,7 +1947,9 @@
     "professional_human_cast": false,
     "child_voice_cloning": false,
     "human_listening_completed": false,
-    "voice_version": "v2"
+    "voice_version": "v4",
+    "pakson_voice_id": "pakson-storybook.pakson.v1",
+    "parent_accepted_pakson_tone": true
   },
   "creditsText": "Story and page art: Pakson’s family reading project. Original synthetic human voices use Qwen3-TTS VoiceDesign references and Base speech; original Pika calls use VoiceDesign (Apache-2.0 models). The short /d/ teaching cue uses Kokoro. Original music and Foley created for this book. Cartoon Duck Quack by Breviceps, Freesound 445960, CC0. Pikachu calls are original character interpretations, not recordings from the animation. No tracking or advertising."
 }

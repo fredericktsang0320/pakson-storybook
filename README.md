@@ -3,8 +3,8 @@
 A 13-page illustrated English audiobook with Pakson and Pikachu.
 
 - Each illustration fills one complete, seamless landscape page.
-- Tap the picture to start, pause or resume. Swipe right to left for the next page, or left to right for the previous page. The paper follows your finger. When narration ends, tap anywhere on the picture to hear that page again.
-- Open the menu inside the picture corner to replay, read the English transcript, adjust volume, or change music, sound effects and automatic turning.
+- Tap the picture to start, pause or resume. Swipe right to left for the next page, or left to right for the previous page. The paper corner follows your finger in either direction. Narration waits when a page ends. Tap Next page or turn the paper yourself to continue; the new page starts reading after it lands. Tap the finished picture to hear the same page again.
+- Open the menu inside the picture corner to replay, read the English transcript, adjust the story volume, or switch background music and sound effects on or off.
 - In Safari, choose **Share > Add to Home Screen** to open the book as a web app.
 - While connected to the secure website, save the chapter for offline reading. Keep the page open until every picture and sound has been checked. Browser storage can be cleared by the browser or device.
 
