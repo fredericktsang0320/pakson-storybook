@@ -9,3 +9,5 @@
 - Music and the remaining Foley are unchanged original project assets. The printed song lines use rhythmic spoken delivery; no original melody is claimed.
 - Original child photographs, private character references, model weights, credentials and full project backups are excluded from the published website.
 - Paper curl rendering: [StPageFlip](https://github.com/Nodlik/StPageFlip), version 2.0.7, MIT licence; the unmodified browser library and its licence are bundled locally.
+
+Home icon: Tabler Icons, MIT licence. See vendor/tabler-icons.LICENSE.txt.

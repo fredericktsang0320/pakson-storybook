@@ -1,6 +1,8 @@
 # Pakson's Storybook: Thank You!
 
-A 13-page illustrated English audiobook with Pakson and Pikachu.
+A 14-page illustrated English audiobook with Pakson and Pikachu, including a quiet closing mascot page.
+
+Use the Home control inside the top-left book corner to open the library. The library currently contains this English book; Chinese readers will appear when added. New Home Screen installations open the library.
 
 - Each illustration fills one complete, seamless landscape page.
 - Tap the picture to start, pause or resume. Swipe right to left for the next page, or left to right for the previous page. The paper corner follows your finger in either direction. Narration waits when a page ends. Tap Next page or turn the paper yourself to continue; the new page starts reading after it lands. Tap the finished picture to hear the same page again.

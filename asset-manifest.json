@@ -1,13 +1,13 @@
 {
-  "version": "62f217d2454e955a",
-  "total_bytes": 38109253,
+  "version": "0ea33623878cb2d2",
+  "total_bytes": 39926633,
   "speech_edition": "v4",
   "ui_only_staging": false,
   "files": [
     {
       "url": "./app.js",
-      "bytes": 38043,
-      "sha256": "18d09bde68613fcbacb0ab9599e78ac6aec50e62abf6de998a25e05174d0b12e",
+      "bytes": 39101,
+      "sha256": "3425915c1c4c2a2643652f975e415103b855a80e10541eaf0587a35a56f865ec",
       "core": true
     },
     {
@@ -20,6 +20,12 @@
       "url": "./assets/icons/book.svg",
       "bytes": 479,
       "sha256": "922acff0dae275e66897d141cbd2d4f612f33e2aab5c3208b1e4da901b588dbd",
+      "core": true
+    },
+    {
+      "url": "./assets/icons/home.svg",
+      "bytes": 506,
+      "sha256": "ece3ca689d65b8f852986ddcb5ef1885d7f241d40d6a5e6b36f107b8c3159010",
       "core": true
     },
     {
@@ -135,6 +141,12 @@
       "bytes": 2605214,
       "sha256": "432b239ef883925535e509f72b6fb368427ff0cb29c41860340f27f8d7287122",
       "core": false
+    },
+    {
+      "url": "./assets/pages/page_13.png",
+      "bytes": 1797587,
+      "sha256": "24ce1383651eec6b0af3f1ec18b8ef67e584d91562ea160cfe9d43c6c2f81cd7",
+      "core": true
     },
     {
       "url": "./assets/sfx/bag_rustle.m4a",
@@ -264,14 +276,14 @@
     },
     {
       "url": "./audio.js",
-      "bytes": 8806,
-      "sha256": "9f705aad2c54530ee0bb29a9aca4c02cc555bfa826da0b6b50b2986bfcf78bd8",
+      "bytes": 9220,
+      "sha256": "da140eb4a67657b5f63fcd5f7c193de9831607d4cb49044dd7e828fdc0e7df20",
       "core": true
     },
     {
       "url": "./book.json",
-      "bytes": 51687,
-      "sha256": "6ac2f7e2deefd8ca3dd1efe2d1fc94a0604c08489db4abb5d02d9b5a1f0386f2",
+      "bytes": 52131,
+      "sha256": "c1fec5049331f85d1876dd01d605e364d7739b0dbefcd4942b9cc74de65122fe",
       "core": true
     },
     {
@@ -300,20 +312,44 @@
     },
     {
       "url": "./index.html",
-      "bytes": 7576,
-      "sha256": "38d61151d7749588d17cf365a558b6a2e74ddaf4447092e9f9910349ca5413b8",
+      "bytes": 7755,
+      "sha256": "e71103f49960b417c99ffb01fceb1be96aea260939c817c8bc30ff65f6e02179",
+      "core": true
+    },
+    {
+      "url": "./library.css",
+      "bytes": 7139,
+      "sha256": "55e431c7f52e3d8a8b7a159f18ec8780bae0835cfbc4681f218de475e8eac3fd",
+      "core": true
+    },
+    {
+      "url": "./library.html",
+      "bytes": 3168,
+      "sha256": "c4b5c3b1643e866f37444d391bac6c50e7612132f4d026dda201da536e4564f3",
+      "core": true
+    },
+    {
+      "url": "./library.js",
+      "bytes": 5850,
+      "sha256": "b0b19eb9f9559a2567be3f37824926bebe5a71b45bb430c58c0b5de54872757b",
+      "core": true
+    },
+    {
+      "url": "./library.json",
+      "bytes": 509,
+      "sha256": "f77477a9b22fa1c6c5573d69ec280dc1a022b06097434d24cf9e78189455b2bb",
       "core": true
     },
     {
       "url": "./manifest.webmanifest",
-      "bytes": 653,
-      "sha256": "d03f4904d0fdd61f2acae7041b34088842d8fa200791aa69d38235e948304658",
+      "bytes": 749,
+      "sha256": "4e8cadb6bad9a10299497924d3769d24c235e863c4b6e8246d87756dc86a3d01",
       "core": true
     },
     {
       "url": "./styles.css",
-      "bytes": 9118,
-      "sha256": "87d1145c1c1b5b56140dd4f931aaf17d138e19cdd779dd72fc9520ebd0ff48ae",
+      "bytes": 9548,
+      "sha256": "e94437a4e86145075110f542c32808a4dab2f635728d5c736b2eff29d43adf85",
       "core": true
     },
     {

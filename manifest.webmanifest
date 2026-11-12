@@ -1,18 +1,33 @@
 {
   "id": "./",
-  "name": "Pakson’s Storybook",
-  "short_name": "Pakson Stories",
-  "description": "An English storybook for Pakson and Pikachu",
-  "lang": "en-GB",
-  "start_url": "./",
+  "name": "Pakson's Library",
+  "short_name": "Pakson Library",
+  "description": "Pakson's English and Chinese picturebooks",
+  "lang": "zh-HK",
+  "start_url": "./library.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "landscape",
   "background_color": "#f5f0e5",
   "theme_color": "#f5f0e5",
   "icons": [
-    {"src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
-    {"src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
-    {"src": "assets/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }

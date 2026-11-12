@@ -1841,6 +1841,17 @@
         }
       ],
       "effects": []
+    },
+    {
+      "book_page": 13,
+      "title": "Pakson",
+      "page_type": "closing_logo",
+      "image": "assets/pages/page_13.png",
+      "image_sha256": "24ce1383651eec6b0af3f1ec18b8ef67e584d91562ea160cfe9d43c6c2f81cd7",
+      "duration": 0,
+      "segments": [],
+      "timeline": [],
+      "effects": []
     }
   ],
   "sfx": {
@@ -1949,7 +1960,10 @@
     "human_listening_completed": false,
     "voice_version": "v4",
     "pakson_voice_id": "pakson-storybook.pakson.v1",
-    "parent_accepted_pakson_tone": true
+    "parent_accepted_pakson_tone": true,
+    "closing_logo_page_added": true,
+    "original_thirteen_pages_and_AAC_preserved": true
   },
-  "creditsText": "Story and page art: Pakson’s family reading project. Original synthetic human voices use Qwen3-TTS VoiceDesign references and Base speech; original Pika calls use VoiceDesign (Apache-2.0 models). The short /d/ teaching cue uses Kokoro. Original music and Foley created for this book. Cartoon Duck Quack by Breviceps, Freesound 445960, CC0. Pikachu calls are original character interpretations, not recordings from the animation. No tracking or advertising."
+  "creditsText": "Story and page art: Pakson’s family reading project. Original synthetic human voices use Qwen3-TTS VoiceDesign references and Base speech; original Pika calls use VoiceDesign (Apache-2.0 models). The short /d/ teaching cue uses Kokoro. Original music and Foley created for this book. Cartoon Duck Quack by Breviceps, Freesound 445960, CC0. Pikachu calls are original character interpretations, not recordings from the animation. No tracking or advertising.",
+  "id": "pakson-k3-b5-u01-thank-you"
 }

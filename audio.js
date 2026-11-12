@@ -60,6 +60,9 @@ class StoryAudio {
     return this.offset;
   }
   async play(page, restart = false) {
+    if (page.page_type === 'closing_logo') {
+      this.navigation(); this.stopMusic(); this.page = page; this.emit('ended'); return;
+    }
     if (this.state === 'playing' && this.page?.book_page === page.book_page && !restart) return;
     const token = ++this.generation;
     await this.unlock();
@@ -142,6 +145,12 @@ class StoryAudio {
     this.musicNode = this.ctx.createGain(); this.musicNode.gain.value = 0; this.musicBase = info.gain ?? .17;
     this.musicSource.connect(this.musicNode); this.musicNode.connect(this.master); this.musicId = info.url;
     this.musicSource.start(); this.duckMusic(this.state === 'playing');
+  }
+  stopMusic() {
+    ++this.musicRequest;
+    if (this.musicSource) { try { this.musicSource.stop(); } catch {} this.musicSource.disconnect(); }
+    if (this.musicNode) this.musicNode.disconnect();
+    this.musicSource = null; this.musicNode = null; this.musicId = null;
   }
   duckMusic(speaking, paused = false) {
     if (!this.musicNode || !this.ctx) return;

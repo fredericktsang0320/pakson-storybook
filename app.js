@@ -8,9 +8,10 @@
   const escapeHTML = text => String(text).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const nextFrame = () => new Promise(resolve => requestAnimationFrame(resolve));
   const painted = async () => { await nextFrame(); await nextFrame(); };
-  const loadPreference = (key,fallback) => { try { const value = localStorage.getItem(`pakson:${key}`); return value === null ? fallback : JSON.parse(value); } catch { return fallback; } };
-  const savePreference = (key,value) => { try { localStorage.setItem(`pakson:${key}`,JSON.stringify(value)); } catch {} };
-  const titleFor = page => page.book_page === 0 ? 'Cover' : page.book_page === 11 ? 'Read & spell' : page.book_page === 12 ? 'Song' : `Story page ${page.book_page}`;
+  const preferenceKey = key => key === 'page' && state.book?.id ? `pakson:book:${state.book.id}:page` : `pakson:${key}`;
+  const loadPreference = (key,fallback) => { try { let value = localStorage.getItem(preferenceKey(key)); if (value === null && key === 'page' && state.book?.id === 'pakson-k3-b5-u01-thank-you') value = localStorage.getItem('pakson:page'); return value === null ? fallback : JSON.parse(value); } catch { return fallback; } };
+  const savePreference = (key,value) => { try { localStorage.setItem(preferenceKey(key),JSON.stringify(value)); if (key === 'page' && state.book?.id === 'pakson-k3-b5-u01-thank-you') localStorage.setItem('pakson:page',JSON.stringify(value)); } catch {} };
+  const titleFor = page => page.page_type === 'closing_logo' ? 'Pakson' : page.book_page === 0 ? 'Cover' : page.book_page === 11 ? 'Read & spell' : page.book_page === 12 ? 'Song' : `Story page ${page.book_page}`;
   const highlighted = text => escapeHTML(text).replace(/\b(fireman|policeman|policewoman|doctor|nurse|duck|doll|door)\b/gi,'<strong>$1</strong>');
   function announce(message) { $('bookStatus').textContent = message; }
   function report(message, fatal = false) {
@@ -23,7 +24,9 @@
     // delivering its pointer stream; a released turn can be interrupted by the next gesture.
     $('pageStage').disabled = !state.ready;
     $('pageStage').setAttribute('aria-disabled',String(!state.ready));
-    $('playButton').disabled = disabled;
+    const closing = state.book?.pages[state.index]?.page_type === 'closing_logo';
+    $('playButton').hidden = closing;
+    $('playButton').disabled = disabled || closing;
     syncNextHint();
     $('bookShell').classList.toggle('is-turning',state.turning);
     $('bookShell').setAttribute('aria-busy',String(disabled));
@@ -40,7 +43,8 @@
     const playing = status === 'playing', loading = status === 'loading';
     $('bookShell').classList.toggle('is-playing',playing);
     $('playIcon').querySelector('use').setAttribute('href',loading ? '#i-loading' : playing ? '#i-pause' : '#i-play');
-    const label = loading ? 'Loading the narration. Tap to cancel' : playing ? 'Pause the story' : status === 'paused' ? 'Continue the story' : status === 'ended' ? 'Read this page again' : 'Listen to the story';
+    const closing = state.book?.pages[state.index]?.page_type === 'closing_logo';
+    const label = closing ? 'Pakson. Swipe right to return to the story.' : loading ? 'Loading the narration. Tap to cancel' : playing ? 'Pause the story' : status === 'paused' ? 'Continue the story' : status === 'ended' ? 'Read this page again' : 'Listen to the story';
     $('playButton').setAttribute('aria-label',label); $('pageStage').setAttribute('aria-label',label);
     syncNextHint();
     if (status === 'error') report(detail || 'The sound could not load. Tap the picture to try again.');
@@ -388,6 +392,7 @@
   }
   async function playPause(restart = false) {
     if (!state.ready || !state.book || state.turning) return;
+    if (state.book.pages[state.index].page_type === 'closing_logo') return;
     restart = restart || state.audio.state === 'ended';
     if (!restart && ['playing','loading'].includes(state.audio.state)) {state.audio.pause(); return;}
     if (restart) state.audio.navigation();
@@ -410,6 +415,7 @@
   function closeMenu() { $('bookDialog').close(); }
   function bindControls() {
     bindSurfaceGesture();
+    $('homeButton').addEventListener('click',() => {interruptNavigation();savePreference('page',state.index);state.audio.navigation();state.audio.stopMusic();});
     $('playButton').addEventListener('click',() => playPause());
     $('nextPageButton').addEventListener('click',event => {event.preventDefault();event.stopPropagation();turnTo(state.index+1,{autoplay:true});});
     $('menuButton').addEventListener('click',() => openMenu()); $('panelClose').addEventListener('click',closeMenu); $('panelBack').addEventListener('click',() => {menuView('main'); $('contentsButton').focus({preventScroll:true});});
@@ -498,7 +504,7 @@
       $('pageGrid').querySelectorAll('button').forEach(button => button.addEventListener('click',() => {closeMenu(); turnTo(Number(button.dataset.page));}));
       if (state.book.creditsText) $('creditsText').textContent = state.book.creditsText;
       $('menuButton').onclick = null; $('panelClose').onclick = null; $('reloadButton').onclick = null;
-      bindControls(); syncControls(); updateAudioUI('idle'); renderTranscript(); fitBook(); new ResizeObserver(fitBook).observe($('reader')); window.visualViewport?.addEventListener('resize',fitBook);
+      bindControls(); syncControls(); updateAudioUI('idle'); if (state.book.pages[state.index].page_type === 'closing_logo') state.audio.play(state.book.pages[state.index]); renderTranscript(); fitBook(); new ResizeObserver(fitBook).observe($('reader')); window.visualViewport?.addEventListener('resize',fitBook);
       warmNeighbours(state.index); progressFrame(); offlineSetup(); announce('The storybook is ready. Tap the picture to listen.');
     } catch (error) {state.ready = false; syncControls(); report(`${error.message || 'The story could not load.'} Reopen this page to try again.`,true);}
   }
