@@ -1,0 +1,14 @@
+/* Web-only viewport; original art and logical practice layout stay intact. */
+html,body{position:fixed;inset:0;width:100%;height:100%;overflow:hidden}
+.reader{position:fixed;inset:0;width:100%;height:100%;height:100dvh;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
+.book-shell{box-shadow:0 4px 30px #182c431c}
+.book-controls{position:absolute;left:12px;top:50%;transform:translateY(-50%);z-index:220;pointer-events:none;display:flex;align-items:center;padding:3px;border:1px solid #d7cfbf;border-radius:50%;background:#fffaf0ed}
+.book-controls .book-control{position:static;pointer-events:auto;inset:auto;width:46px;height:46px;margin:0;border:0;border-radius:50%;background:transparent;opacity:1;box-shadow:none}
+.book-controls .book-control .icon{width:24px;height:24px}
+.next-page-hint{top:50%;bottom:auto;right:12px;translate:0 -50%}
+.start-gate{position:absolute;inset:0;z-index:500;display:grid;place-items:end center;padding-bottom:7%;background:linear-gradient(transparent 55%,#152b4317);cursor:pointer}
+.start-gate button{min-height:58px;min-width:200px;padding:13px 30px;border-radius:40px;border:2px solid #eab43c;background:#fff9e8;color:#182c43;font-weight:750;font-size:22px;box-shadow:0 4px 16px #182c4333}
+.start-gate button:disabled{opacity:.8}
+.menu-actions a{display:flex;align-items:center;min-height:48px;padding:12px 16px;color:inherit;text-decoration:none;border:1px solid var(--line);border-radius:14px;background:#fffaf0;font-weight:650}
+.offline-status{font-size:13px;color:var(--muted);line-height:1.5;margin:16px 0 0}
+@media (max-width:600px){.book-controls{left:6px;padding:1px}.book-controls .book-control{width:36px;height:36px}.book-controls .book-control .icon{width:20px;height:20px}.next-page-hint{right:6px}.start-gate button{font-size:17px;min-height:44px;min-width:155px;padding:8px 20px}.book-panel{left:max(10px,calc(var(--book-left) + 10px));top:max(10px,calc(var(--book-top) + 6px));width:calc(100vw - 20px);max-height:calc(100dvh - 20px)}}

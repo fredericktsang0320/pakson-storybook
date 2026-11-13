@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 3,
   "title": "Pakson and Pikachu: Thank You!",
   "chapter_number": 1,
   "language": "en-GB",
@@ -8,12 +8,10 @@
       "book_page": 0,
       "title": "Pakson and Pikachu",
       "page_type": "cover",
-      "image": "assets/pages/page_00.png",
-      "image_sha256": "1264e14d6c873e8b86643119462c22b4b25833af5a4a8511ccdc9adac27fa976",
-      "audio": "assets/speech/v4/page_00.m4a",
-      "audio_sha256": "30a0425b23ca5cca573ff6478d959277d266a1fdc8a771b9e5eb561b2f341968",
-      "duration": 18.158583,
-      "bgm_cue": "bgm_warm",
+      "image": "reader-v18/assets/pages/page_00.png",
+      "audio": "reader-v18/assets/audio/page_00.m4a",
+      "duration": 18.176,
+      "bgm_cue": null,
       "segments": [
         {
           "id": "p00_s01",
@@ -130,18 +128,19 @@
           "text": "Come along and see what happens!"
         }
       ],
-      "effects": []
+      "effects": [],
+      "source_book_page": 0,
+      "source_story_page": null,
+      "page_id": "u01-cover"
     },
     {
       "book_page": 1,
       "title": "Let’s go!",
       "page_type": "story",
-      "image": "assets/pages/page_01.png",
-      "image_sha256": "692c9ad94a889fef1015ab82e15dd7c28c1c52cc6cad196b9ae97a3fcfba36db",
-      "audio": "assets/speech/v4/page_01.m4a",
-      "audio_sha256": "ea86f69e658800b549761e4c275fa0d40aa5707a7dd90080d2231855b802813e",
-      "duration": 15.938917,
-      "bgm_cue": "bgm_warm",
+      "image": "reader-v18/assets/pages/page_01.png",
+      "audio": "reader-v18/assets/audio/page_01.m4a",
+      "duration": 15.957333333333333,
+      "bgm_cue": null,
       "segments": [
         {
           "id": "p01_s01",
@@ -258,18 +257,19 @@
           "text": "Pakson opens the door."
         }
       ],
-      "effects": []
+      "effects": [],
+      "source_book_page": 1,
+      "source_story_page": 1,
+      "page_id": "u01-story-01"
     },
     {
       "book_page": 2,
       "title": "The doll in the tree",
       "page_type": "story",
-      "image": "assets/pages/page_02.png",
-      "image_sha256": "d6a585c2e4c0205b2f7151724611bf1dcd180914d86000c89260c64411067b29",
-      "audio": "assets/speech/v4/page_02.m4a",
-      "audio_sha256": "ffe20e51de059d655cf78a10085aa4b2ae86a19855553c4ccdb14ea9303e8d39",
-      "duration": 15.591958,
-      "bgm_cue": "bgm_curious",
+      "image": "reader-v18/assets/pages/page_02.png",
+      "audio": "reader-v18/assets/audio/page_02.m4a",
+      "duration": 15.616,
+      "bgm_cue": null,
       "segments": [
         {
           "id": "p02_s01",
@@ -386,24 +386,19 @@
           "text": "says Pakson."
         }
       ],
-      "effects": [
-        {
-          "at": 0.22,
-          "id": "wind_whoosh",
-          "gain": 0.75
-        }
-      ]
+      "effects": [],
+      "source_book_page": 2,
+      "source_story_page": 2,
+      "page_id": "u01-story-02"
     },
     {
       "book_page": 3,
       "title": "The helpful fireman",
       "page_type": "story",
-      "image": "assets/pages/page_03.png",
-      "image_sha256": "a4cf2b83676f838c32172759373a34a94714203e0e0a6966bfa243e2e70107da",
-      "audio": "assets/speech/v4/page_03.m4a",
-      "audio_sha256": "176b2e68aa84cca467f03887961a5add8e2f5449dd8f6b53ca91e0f73d06aaf3",
-      "duration": 13.027,
-      "bgm_cue": "bgm_helpers",
+      "image": "reader-v18/assets/pages/page_03.png",
+      "audio": "reader-v18/assets/audio/page_03.m4a",
+      "duration": 13.056,
+      "bgm_cue": null,
       "segments": [
         {
           "id": "p03_s01",
@@ -520,18 +515,796 @@
           "text": "Pika!"
         }
       ],
-      "effects": []
+      "effects": [],
+      "source_book_page": 3,
+      "source_story_page": 3,
+      "page_id": "u01-story-03"
     },
     {
       "book_page": 4,
+      "page_id": "u01-review-group-01",
+      "page_type": "word_practice",
+      "group_number": 1,
+      "source_story_page": 3,
+      "source_story_pages": [
+        1,
+        2,
+        3
+      ],
+      "title": "The rescue words",
+      "targets": [
+        {
+          "word": "doll",
+          "display_word": "doll",
+          "display_style": {
+            "colour": "#b32428",
+            "weight": "bold"
+          },
+          "textbook_mandatory_spelling_goal": false
+        },
+        {
+          "word": "door",
+          "display_word": "door",
+          "display_style": {
+            "colour": "#b32428",
+            "weight": "bold"
+          },
+          "textbook_mandatory_spelling_goal": false
+        },
+        {
+          "word": "fireman",
+          "display_word": "fireman",
+          "display_style": {
+            "colour": "#b32428",
+            "weight": "bold"
+          },
+          "textbook_mandatory_spelling_goal": true
+        }
+      ],
+      "target_words": [
+        "doll",
+        "door",
+        "fireman"
+      ],
+      "intro": {
+        "audio_id": "u01-review-group-01-intro",
+        "audio": "reader-v18/assets/audio/practice/review_01_intro.m4a",
+        "duration": 33.1,
+        "timeline": [
+          {
+            "kind": "speech",
+            "speaker": "narrator",
+            "text": "Our toy is safe again! Hooray! Pakson, listen to each word and its letters. Then have a go.",
+            "cue_state": "read_with_me",
+            "function": "story_reflection_and_invitation",
+            "type": "speech",
+            "source_event_index": 0,
+            "source_key": "7d3cb0f75b34c77bc746",
+            "source_sample_start": 0,
+            "source_sample_end": 167040,
+            "target_word": null,
+            "ui_phase": "Read with me",
+            "forced_alignment": true,
+            "start": 0.0,
+            "at": 0.0,
+            "end": 6.96,
+            "duration": 6.96,
+            "id": "u01-review-group-01-intro-event-01"
+          },
+          {
+            "kind": "speech",
+            "speaker": "narrator",
+            "text": "Doll. D, O, L, L. Doll.",
+            "cue_state": "read_with_me",
+            "function": "model",
+            "word": "doll",
+            "type": "speech",
+            "source_event_index": 1,
+            "source_key": "7d3cb0f75b34c77bc746",
+            "source_sample_start": 167040,
+            "source_sample_end": 226800,
+            "target_word": "doll",
+            "ui_phase": "Read with me",
+            "forced_alignment": true,
+            "start": 6.96,
+            "at": 6.96,
+            "end": 9.45,
+            "duration": 2.49,
+            "id": "u01-review-group-01-intro-event-02"
+          },
+          {
+            "kind": "response_gap",
+            "word": "doll",
+            "seconds": 6,
+            "cue_state": "your_turn",
+            "cue_text": "Your turn",
+            "visible_countdown": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "pause_with_media": true,
+            "wait_for_actual_media_time": true,
+            "type": "response_gap",
+            "source_event_index": 2,
+            "target_word": "doll",
+            "ui_phase": "Your turn",
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true,
+            "start": 9.45,
+            "at": 9.45,
+            "end": 15.45,
+            "duration": 6.0,
+            "id": "u01-review-group-01-intro-event-03"
+          },
+          {
+            "kind": "speech",
+            "speaker": "narrator",
+            "text": "Door. D, O, O, R. Door.",
+            "cue_state": "read_with_me",
+            "function": "model",
+            "word": "door",
+            "type": "speech",
+            "source_event_index": 3,
+            "source_key": "7d3cb0f75b34c77bc746",
+            "source_sample_start": 226800,
+            "source_sample_end": 282720,
+            "target_word": "door",
+            "ui_phase": "Read with me",
+            "forced_alignment": true,
+            "start": 15.45,
+            "at": 15.45,
+            "end": 17.78,
+            "duration": 2.33,
+            "id": "u01-review-group-01-intro-event-04"
+          },
+          {
+            "kind": "response_gap",
+            "word": "door",
+            "seconds": 6,
+            "cue_state": "your_turn",
+            "cue_text": "Your turn",
+            "visible_countdown": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "pause_with_media": true,
+            "wait_for_actual_media_time": true,
+            "type": "response_gap",
+            "source_event_index": 4,
+            "target_word": "door",
+            "ui_phase": "Your turn",
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true,
+            "start": 17.78,
+            "at": 17.78,
+            "end": 23.78,
+            "duration": 6.0,
+            "id": "u01-review-group-01-intro-event-05"
+          },
+          {
+            "kind": "speech",
+            "speaker": "narrator",
+            "text": "Fireman. F, I, R, E, M, A, N. Fireman.",
+            "cue_state": "read_with_me",
+            "function": "model",
+            "word": "fireman",
+            "type": "speech",
+            "source_event_index": 5,
+            "source_key": "7d3cb0f75b34c77bc746",
+            "source_sample_start": 282720,
+            "source_sample_end": 360000,
+            "target_word": "fireman",
+            "ui_phase": "Read with me",
+            "forced_alignment": true,
+            "start": 23.78,
+            "at": 23.78,
+            "end": 27.0,
+            "duration": 3.22,
+            "id": "u01-review-group-01-intro-event-06"
+          },
+          {
+            "kind": "response_gap",
+            "word": "fireman",
+            "seconds": 6,
+            "cue_state": "your_turn",
+            "cue_text": "Your turn",
+            "visible_countdown": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "pause_with_media": true,
+            "wait_for_actual_media_time": true,
+            "type": "response_gap",
+            "source_event_index": 6,
+            "target_word": "fireman",
+            "ui_phase": "Your turn",
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true,
+            "start": 27.0,
+            "at": 27.0,
+            "end": 33.0,
+            "duration": 6.0,
+            "id": "u01-review-group-01-intro-event-07"
+          }
+        ],
+        "segments": [
+          {
+            "id": "u01-review-group-01-intro-event-01",
+            "speaker": "narrator",
+            "text": "Our toy is safe again! Hooray! Pakson, listen to each word and its letters. Then have a go.",
+            "at": 0.0,
+            "end": 6.96
+          },
+          {
+            "id": "u01-review-group-01-intro-event-02",
+            "speaker": "narrator",
+            "text": "Doll. D, O, L, L. Doll.",
+            "at": 6.96,
+            "end": 9.45
+          },
+          {
+            "id": "u01-review-group-01-intro-event-04",
+            "speaker": "narrator",
+            "text": "Door. D, O, O, R. Door.",
+            "at": 15.45,
+            "end": 17.78
+          },
+          {
+            "id": "u01-review-group-01-intro-event-06",
+            "speaker": "narrator",
+            "text": "Fireman. F, I, R, E, M, A, N. Fireman.",
+            "at": 23.78,
+            "end": 27.0
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "group1-question1",
+          "word": "doll",
+          "prompt": "Which word names the toy?",
+          "spoken_prompt": "Which word names the toy?",
+          "options": [
+            {
+              "id": "0",
+              "label": "doll"
+            },
+            {
+              "id": "1",
+              "label": "door"
+            }
+          ],
+          "correct_option_id": "0",
+          "reward": "hearts",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "audio": "review_01_q01.m4a",
+          "events": [
+            {
+              "kind": "speech",
+              "speaker": "narrator",
+              "text": "Which word names the toy?",
+              "cue_state": "listen_to_question"
+            }
+          ],
+          "decision": "parent-selected automatic continuation; root-frozen whole-word meaning question; same fixed story narrator",
+          "wrong_effect_policy": "Hint text may restore after 1200 ms; longer wrong FX follows the current question epoch and voice-priority scheduling, not an unconditional 1200 ms cutoff.",
+          "transition": "auto next question after correct + genuine current prompt ended + FX terminal + short visible reward; final question offers manual Next page",
+          "media": {
+            "audio_id": "group1-question1",
+            "audio": "reader-v18/assets/audio/practice/review_01_q01.m4a",
+            "duration": 2.56,
+            "timeline": [
+              {
+                "kind": "speech",
+                "speaker": "narrator",
+                "text": "Which word names the toy?",
+                "cue_state": "listen_to_question",
+                "type": "speech",
+                "source_event_index": 0,
+                "source_key": "32d79deaa510f174f3a1",
+                "source_sample_start": 0,
+                "source_sample_end": 53280,
+                "target_word": "doll",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.32,
+                "duration": 2.22,
+                "forced_alignment": true,
+                "id": "group1-question1-event-01"
+              }
+            ],
+            "segments": [
+              {
+                "id": "group1-question1-event-01",
+                "speaker": "narrator",
+                "text": "Which word names the toy?",
+                "at": 0.1,
+                "end": 2.32
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "group1-question2",
+          "word": "door",
+          "prompt": "What did we open to go outside?",
+          "spoken_prompt": "What did we open to go outside?",
+          "options": [
+            {
+              "id": "0",
+              "label": "fireman"
+            },
+            {
+              "id": "1",
+              "label": "door"
+            }
+          ],
+          "correct_option_id": "1",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "audio": "review_01_q02.m4a",
+          "events": [
+            {
+              "kind": "speech",
+              "speaker": "narrator",
+              "text": "What did we open to go outside?",
+              "cue_state": "listen_to_question"
+            }
+          ],
+          "decision": "parent-selected automatic continuation; root-frozen whole-word meaning question; same fixed story narrator",
+          "wrong_effect_policy": "Hint text may restore after 1200 ms; longer wrong FX follows the current question epoch and voice-priority scheduling, not an unconditional 1200 ms cutoff.",
+          "transition": "auto next question after correct + genuine current prompt ended + FX terminal + short visible reward; final question offers manual Next page",
+          "media": {
+            "audio_id": "group1-question2",
+            "audio": "reader-v18/assets/audio/practice/review_01_q02.m4a",
+            "duration": 2.65,
+            "timeline": [
+              {
+                "kind": "speech",
+                "speaker": "narrator",
+                "text": "What did we open to go outside?",
+                "cue_state": "listen_to_question",
+                "type": "speech",
+                "source_event_index": 0,
+                "source_key": "32d79deaa510f174f3a1",
+                "source_sample_start": 53280,
+                "source_sample_end": 108720,
+                "target_word": "door",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.41,
+                "duration": 2.31,
+                "forced_alignment": true,
+                "id": "group1-question2-event-01"
+              }
+            ],
+            "segments": [
+              {
+                "id": "group1-question2-event-01",
+                "speaker": "narrator",
+                "text": "What did we open to go outside?",
+                "at": 0.1,
+                "end": 2.41
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "group1-question3",
+          "word": "fireman",
+          "prompt": "Who rescued the toy from the tree?",
+          "spoken_prompt": "Who rescued the toy from the tree?",
+          "options": [
+            {
+              "id": "0",
+              "label": "doll"
+            },
+            {
+              "id": "1",
+              "label": "fireman"
+            }
+          ],
+          "correct_option_id": "1",
+          "reward": "sparkles",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "audio": "review_01_q03.m4a",
+          "events": [
+            {
+              "kind": "speech",
+              "speaker": "narrator",
+              "text": "Who rescued the toy from the tree?",
+              "cue_state": "listen_to_question"
+            }
+          ],
+          "decision": "parent-selected automatic continuation; root-frozen whole-word meaning question; same fixed story narrator",
+          "wrong_effect_policy": "Hint text may restore after 1200 ms; longer wrong FX follows the current question epoch and voice-priority scheduling, not an unconditional 1200 ms cutoff.",
+          "transition": "auto next question after correct + genuine current prompt ended + FX terminal + short visible reward; final question offers manual Next page",
+          "media": {
+            "audio_id": "group1-question3",
+            "audio": "reader-v18/assets/audio/practice/review_01_q03.m4a",
+            "duration": 3.13,
+            "timeline": [
+              {
+                "kind": "speech",
+                "speaker": "narrator",
+                "text": "Who rescued the toy from the tree?",
+                "cue_state": "listen_to_question",
+                "type": "speech",
+                "source_event_index": 0,
+                "source_key": "32d79deaa510f174f3a1",
+                "source_sample_start": 108720,
+                "source_sample_end": 175680,
+                "target_word": "fireman",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.89,
+                "duration": 2.79,
+                "forced_alignment": true,
+                "id": "group1-question3-event-01"
+              }
+            ],
+            "segments": [
+              {
+                "id": "group1-question3-event-01",
+                "speaker": "narrator",
+                "text": "Who rescued the toy from the tree?",
+                "at": 0.1,
+                "end": 2.89
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "audio": "reader-v18/assets/audio/practice/review_01_intro.m4a",
+      "duration": 33.1,
+      "image": "reader-v18/assets/pages/review_group_01.png",
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          350,
+          724,
+          1145
+        ],
+        "widths": [
+          370,
+          300,
+          510
+        ],
+        "word_tops": [
+          570,
+          570,
+          570
+        ],
+        "plate_tops": [
+          565,
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "segments": [
+        {
+          "id": "u01-review-group-01-intro-event-01",
+          "speaker": "narrator",
+          "text": "Our toy is safe again! Hooray! Pakson, listen to each word and its letters. Then have a go.",
+          "at": 0.0,
+          "end": 6.96
+        },
+        {
+          "id": "u01-review-group-01-intro-event-02",
+          "speaker": "narrator",
+          "text": "Doll. D, O, L, L. Doll.",
+          "at": 6.96,
+          "end": 9.45
+        },
+        {
+          "id": "u01-review-group-01-intro-event-04",
+          "speaker": "narrator",
+          "text": "Door. D, O, O, R. Door.",
+          "at": 15.45,
+          "end": 17.78
+        },
+        {
+          "id": "u01-review-group-01-intro-event-06",
+          "speaker": "narrator",
+          "text": "Fireman. F, I, R, E, M, A, N. Fireman.",
+          "at": 23.78,
+          "end": 27.0
+        },
+        {
+          "id": "group1-question1-event-01",
+          "speaker": "narrator",
+          "text": "Which word names the toy?",
+          "at": 0.1,
+          "end": 2.32
+        },
+        {
+          "id": "group1-question2-event-01",
+          "speaker": "narrator",
+          "text": "What did we open to go outside?",
+          "at": 0.1,
+          "end": 2.41
+        },
+        {
+          "id": "group1-question3-event-01",
+          "speaker": "narrator",
+          "text": "Who rescued the toy from the tree?",
+          "at": 0.1,
+          "end": 2.89
+        }
+      ],
+      "timeline": [
+        {
+          "kind": "speech",
+          "speaker": "narrator",
+          "text": "Our toy is safe again! Hooray! Pakson, listen to each word and its letters. Then have a go.",
+          "cue_state": "read_with_me",
+          "function": "story_reflection_and_invitation",
+          "type": "speech",
+          "source_event_index": 0,
+          "source_key": "7d3cb0f75b34c77bc746",
+          "source_sample_start": 0,
+          "source_sample_end": 167040,
+          "target_word": null,
+          "ui_phase": "Read with me",
+          "forced_alignment": true,
+          "start": 0.0,
+          "at": 0.0,
+          "end": 6.96,
+          "duration": 6.96,
+          "id": "u01-review-group-01-intro-event-01"
+        },
+        {
+          "kind": "speech",
+          "speaker": "narrator",
+          "text": "Doll. D, O, L, L. Doll.",
+          "cue_state": "read_with_me",
+          "function": "model",
+          "word": "doll",
+          "type": "speech",
+          "source_event_index": 1,
+          "source_key": "7d3cb0f75b34c77bc746",
+          "source_sample_start": 167040,
+          "source_sample_end": 226800,
+          "target_word": "doll",
+          "ui_phase": "Read with me",
+          "forced_alignment": true,
+          "start": 6.96,
+          "at": 6.96,
+          "end": 9.45,
+          "duration": 2.49,
+          "id": "u01-review-group-01-intro-event-02"
+        },
+        {
+          "kind": "response_gap",
+          "word": "doll",
+          "seconds": 6,
+          "cue_state": "your_turn",
+          "cue_text": "Your turn",
+          "visible_countdown": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "pause_with_media": true,
+          "wait_for_actual_media_time": true,
+          "type": "response_gap",
+          "source_event_index": 2,
+          "target_word": "doll",
+          "ui_phase": "Your turn",
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true,
+          "start": 9.45,
+          "at": 9.45,
+          "end": 15.45,
+          "duration": 6.0,
+          "id": "u01-review-group-01-intro-event-03"
+        },
+        {
+          "kind": "speech",
+          "speaker": "narrator",
+          "text": "Door. D, O, O, R. Door.",
+          "cue_state": "read_with_me",
+          "function": "model",
+          "word": "door",
+          "type": "speech",
+          "source_event_index": 3,
+          "source_key": "7d3cb0f75b34c77bc746",
+          "source_sample_start": 226800,
+          "source_sample_end": 282720,
+          "target_word": "door",
+          "ui_phase": "Read with me",
+          "forced_alignment": true,
+          "start": 15.45,
+          "at": 15.45,
+          "end": 17.78,
+          "duration": 2.33,
+          "id": "u01-review-group-01-intro-event-04"
+        },
+        {
+          "kind": "response_gap",
+          "word": "door",
+          "seconds": 6,
+          "cue_state": "your_turn",
+          "cue_text": "Your turn",
+          "visible_countdown": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "pause_with_media": true,
+          "wait_for_actual_media_time": true,
+          "type": "response_gap",
+          "source_event_index": 4,
+          "target_word": "door",
+          "ui_phase": "Your turn",
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true,
+          "start": 17.78,
+          "at": 17.78,
+          "end": 23.78,
+          "duration": 6.0,
+          "id": "u01-review-group-01-intro-event-05"
+        },
+        {
+          "kind": "speech",
+          "speaker": "narrator",
+          "text": "Fireman. F, I, R, E, M, A, N. Fireman.",
+          "cue_state": "read_with_me",
+          "function": "model",
+          "word": "fireman",
+          "type": "speech",
+          "source_event_index": 5,
+          "source_key": "7d3cb0f75b34c77bc746",
+          "source_sample_start": 282720,
+          "source_sample_end": 360000,
+          "target_word": "fireman",
+          "ui_phase": "Read with me",
+          "forced_alignment": true,
+          "start": 23.78,
+          "at": 23.78,
+          "end": 27.0,
+          "duration": 3.22,
+          "id": "u01-review-group-01-intro-event-06"
+        },
+        {
+          "kind": "response_gap",
+          "word": "fireman",
+          "seconds": 6,
+          "cue_state": "your_turn",
+          "cue_text": "Your turn",
+          "visible_countdown": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "pause_with_media": true,
+          "wait_for_actual_media_time": true,
+          "type": "response_gap",
+          "source_event_index": 6,
+          "target_word": "fireman",
+          "ui_phase": "Your turn",
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true,
+          "start": 27.0,
+          "at": 27.0,
+          "end": 33.0,
+          "duration": 6.0,
+          "id": "u01-review-group-01-intro-event-07"
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows"
+    },
+    {
+      "book_page": 5,
       "title": "Across the road",
       "page_type": "story",
-      "image": "assets/pages/page_04.png",
-      "image_sha256": "f95fd277dc0b448d4a7fc233950538e83616d09af67b7222fa1146aab51e4360",
-      "audio": "assets/speech/v4/page_04.m4a",
-      "audio_sha256": "0f93c62d9dfef931acc74a2c33b01c2d760cbc16b5f54c8fbf0aa833f03d5cbe",
-      "duration": 18.090708,
-      "bgm_cue": "bgm_curious",
+      "image": "reader-v18/assets/pages/page_04.png",
+      "audio": "reader-v18/assets/audio/page_04.m4a",
+      "duration": 18.133333333333333,
+      "bgm_cue": null,
       "segments": [
         {
           "id": "p04_s01",
@@ -662,29 +1435,19 @@
           "text": "Pikachu puts the bag down."
         }
       ],
-      "effects": [
-        {
-          "at": 11.336958,
-          "id": "mystery_sound",
-          "gain": 0.75
-        },
-        {
-          "at": 15.930208,
-          "id": "bag_rustle",
-          "gain": 0.4
-        }
-      ]
+      "effects": [],
+      "source_book_page": 4,
+      "source_story_page": 4,
+      "page_id": "u01-story-04"
     },
     {
-      "book_page": 5,
+      "book_page": 6,
       "title": "A bag for Pikachu",
       "page_type": "story",
-      "image": "assets/pages/page_05.png",
-      "image_sha256": "4c10dbb71467218eb15438890dc0701b4669ea313725935d1abb646065b589f4",
-      "audio": "assets/speech/v4/page_05.m4a",
-      "audio_sha256": "f6b40c39ad89ca2771550c3eded11ee07f4dfb026b798f554a2759f889fbb3b9",
-      "duration": 15.087,
-      "bgm_cue": "bgm_helpers",
+      "image": "reader-v18/assets/pages/page_05.png",
+      "audio": "reader-v18/assets/audio/page_05.m4a",
+      "duration": 15.104,
+      "bgm_cue": null,
       "segments": [
         {
           "id": "p05_s01",
@@ -801,24 +1564,575 @@
           "text": "Pika!"
         }
       ],
-      "effects": [
-        {
-          "at": 3.11725,
-          "id": "bag_rustle",
-          "gain": 0.4
-        }
-      ]
+      "effects": [],
+      "source_book_page": 5,
+      "source_story_page": 5,
+      "page_id": "u01-story-05"
     },
     {
-      "book_page": 6,
+      "book_page": 7,
+      "page_id": "u01-review-group-02",
+      "page_type": "word_practice",
+      "group_number": 2,
+      "source_story_page": 5,
+      "source_story_pages": [
+        4,
+        5
+      ],
+      "title": "Two helpful officers",
+      "targets": [
+        {
+          "word": "policeman",
+          "display_word": "policeman",
+          "display_style": {
+            "colour": "#b32428",
+            "weight": "bold"
+          },
+          "textbook_mandatory_spelling_goal": false
+        },
+        {
+          "word": "policewoman",
+          "display_word": "policewoman",
+          "display_style": {
+            "colour": "#b32428",
+            "weight": "bold"
+          },
+          "textbook_mandatory_spelling_goal": false
+        }
+      ],
+      "target_words": [
+        "policeman",
+        "policewoman"
+      ],
+      "intro": {
+        "audio_id": "u01-review-group-02-intro",
+        "audio": "reader-v18/assets/audio/practice/review_02_intro.m4a",
+        "duration": 30.94,
+        "timeline": [
+          {
+            "kind": "speech",
+            "speaker": "narrator",
+            "text": "We crossed safely, and the bag is back! Pakson, listen to the two helpers' jobs and their letters. Then have a go.",
+            "cue_state": "read_with_me",
+            "function": "story_reflection_and_invitation",
+            "type": "speech",
+            "source_event_index": 0,
+            "source_key": "4f2865e337a20ff585cd",
+            "source_sample_start": 0,
+            "source_sample_end": 180120,
+            "target_word": null,
+            "ui_phase": "Read with me",
+            "forced_alignment": true,
+            "start": 0.0,
+            "at": 0.0,
+            "end": 7.505,
+            "duration": 7.505,
+            "id": "u01-review-group-02-intro-event-01"
+          },
+          {
+            "kind": "speech",
+            "speaker": "narrator",
+            "text": "Policeman. P, O, L, I, C, E, M, A, N. Policeman.",
+            "cue_state": "read_with_me",
+            "function": "model",
+            "word": "policeman",
+            "type": "speech",
+            "source_event_index": 1,
+            "source_key": "4f2865e337a20ff585cd",
+            "source_sample_start": 180120,
+            "source_sample_end": 303120,
+            "target_word": "policeman",
+            "ui_phase": "Read with me",
+            "forced_alignment": true,
+            "start": 7.505,
+            "at": 7.505,
+            "end": 12.63,
+            "duration": 5.125,
+            "id": "u01-review-group-02-intro-event-02"
+          },
+          {
+            "kind": "response_gap",
+            "word": "policeman",
+            "seconds": 6,
+            "cue_state": "your_turn",
+            "cue_text": "Your turn",
+            "visible_countdown": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "pause_with_media": true,
+            "wait_for_actual_media_time": true,
+            "type": "response_gap",
+            "source_event_index": 2,
+            "target_word": "policeman",
+            "ui_phase": "Your turn",
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true,
+            "start": 12.63,
+            "at": 12.63,
+            "end": 18.63,
+            "duration": 6.0,
+            "id": "u01-review-group-02-intro-event-03"
+          },
+          {
+            "kind": "speech",
+            "speaker": "narrator",
+            "text": "Policewoman. P, O, L, I, C, E, W, O, M, A, N. Policewoman.",
+            "cue_state": "read_with_me",
+            "function": "model",
+            "word": "policewoman",
+            "type": "speech",
+            "source_event_index": 3,
+            "source_key": "4f2865e337a20ff585cd",
+            "source_sample_start": 303120,
+            "source_sample_end": 452160,
+            "target_word": "policewoman",
+            "ui_phase": "Read with me",
+            "forced_alignment": true,
+            "start": 18.63,
+            "at": 18.63,
+            "end": 24.84,
+            "duration": 6.21,
+            "id": "u01-review-group-02-intro-event-04"
+          },
+          {
+            "kind": "response_gap",
+            "word": "policewoman",
+            "seconds": 6,
+            "cue_state": "your_turn",
+            "cue_text": "Your turn",
+            "visible_countdown": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "pause_with_media": true,
+            "wait_for_actual_media_time": true,
+            "type": "response_gap",
+            "source_event_index": 4,
+            "target_word": "policewoman",
+            "ui_phase": "Your turn",
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true,
+            "start": 24.84,
+            "at": 24.84,
+            "end": 30.84,
+            "duration": 6.0,
+            "id": "u01-review-group-02-intro-event-05"
+          }
+        ],
+        "segments": [
+          {
+            "id": "u01-review-group-02-intro-event-01",
+            "speaker": "narrator",
+            "text": "We crossed safely, and the bag is back! Pakson, listen to the two helpers' jobs and their letters. Then have a go.",
+            "at": 0.0,
+            "end": 7.505
+          },
+          {
+            "id": "u01-review-group-02-intro-event-02",
+            "speaker": "narrator",
+            "text": "Policeman. P, O, L, I, C, E, M, A, N. Policeman.",
+            "at": 7.505,
+            "end": 12.63
+          },
+          {
+            "id": "u01-review-group-02-intro-event-04",
+            "speaker": "narrator",
+            "text": "Policewoman. P, O, L, I, C, E, W, O, M, A, N. Policewoman.",
+            "at": 18.63,
+            "end": 24.84
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "group2-question1",
+          "word": "policeman",
+          "prompt": "Who helped us cross the road?",
+          "spoken_prompt": "Who helped us cross the road?",
+          "options": [
+            {
+              "id": "0",
+              "label": "policeman"
+            },
+            {
+              "id": "1",
+              "label": "policewoman"
+            }
+          ],
+          "correct_option_id": "0",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "audio": "review_02_q01.m4a",
+          "events": [
+            {
+              "kind": "speech",
+              "speaker": "narrator",
+              "text": "Who helped us cross the road?",
+              "cue_state": "listen_to_question"
+            }
+          ],
+          "decision": "parent-selected automatic continuation; root-frozen whole-word meaning question; same fixed story narrator",
+          "wrong_effect_policy": "Hint text may restore after 1200 ms; longer wrong FX follows the current question epoch and voice-priority scheduling, not an unconditional 1200 ms cutoff.",
+          "transition": "auto next question after correct + genuine current prompt ended + FX terminal + short visible reward; final question offers manual Next page",
+          "media": {
+            "audio_id": "group2-question1",
+            "audio": "reader-v18/assets/audio/practice/review_02_q01.m4a",
+            "duration": 2.5,
+            "timeline": [
+              {
+                "kind": "speech",
+                "speaker": "narrator",
+                "text": "Who helped us cross the road?",
+                "cue_state": "listen_to_question",
+                "type": "speech",
+                "source_event_index": 0,
+                "source_key": "dc620876c014b889d2fd",
+                "source_sample_start": 0,
+                "source_sample_end": 51840,
+                "target_word": "policeman",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.26,
+                "duration": 2.16,
+                "forced_alignment": true,
+                "id": "group2-question1-event-01"
+              }
+            ],
+            "segments": [
+              {
+                "id": "group2-question1-event-01",
+                "speaker": "narrator",
+                "text": "Who helped us cross the road?",
+                "at": 0.1,
+                "end": 2.26
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "group2-question2",
+          "word": "policewoman",
+          "prompt": "Who gave Pikachu his bag back?",
+          "spoken_prompt": "Who gave Pikachu his bag back?",
+          "options": [
+            {
+              "id": "0",
+              "label": "policewoman"
+            },
+            {
+              "id": "1",
+              "label": "policeman"
+            }
+          ],
+          "correct_option_id": "0",
+          "reward": "hearts",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "audio": "review_02_q02.m4a",
+          "events": [
+            {
+              "kind": "speech",
+              "speaker": "narrator",
+              "text": "Who gave Pikachu his bag back?",
+              "cue_state": "listen_to_question"
+            }
+          ],
+          "decision": "parent-selected automatic continuation; root-frozen whole-word meaning question; same fixed story narrator",
+          "wrong_effect_policy": "Hint text may restore after 1200 ms; longer wrong FX follows the current question epoch and voice-priority scheduling, not an unconditional 1200 ms cutoff.",
+          "transition": "auto next question after correct + genuine current prompt ended + FX terminal + short visible reward; final question offers manual Next page",
+          "media": {
+            "audio_id": "group2-question2",
+            "audio": "reader-v18/assets/audio/practice/review_02_q02.m4a",
+            "duration": 2.9171666666666667,
+            "timeline": [
+              {
+                "kind": "speech",
+                "speaker": "narrator",
+                "text": "Who gave Pikachu his bag back?",
+                "cue_state": "listen_to_question",
+                "type": "speech",
+                "source_event_index": 0,
+                "source_key": "dc620876c014b889d2fd",
+                "source_sample_start": 51840,
+                "source_sample_end": 113692,
+                "target_word": "policewoman",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.6771666666666665,
+                "duration": 2.577166666666667,
+                "forced_alignment": true,
+                "id": "group2-question2-event-01"
+              }
+            ],
+            "segments": [
+              {
+                "id": "group2-question2-event-01",
+                "speaker": "narrator",
+                "text": "Who gave Pikachu his bag back?",
+                "at": 0.1,
+                "end": 2.6771666666666665
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "audio": "reader-v18/assets/audio/practice/review_02_intro.m4a",
+      "duration": 30.94,
+      "image": "reader-v18/assets/pages/review_group_02.png",
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          380,
+          1068
+        ],
+        "widths": [
+          660,
+          660
+        ],
+        "word_tops": [
+          570,
+          570
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          -5
+        ],
+        "plate_extra_width": 20
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "segments": [
+        {
+          "id": "u01-review-group-02-intro-event-01",
+          "speaker": "narrator",
+          "text": "We crossed safely, and the bag is back! Pakson, listen to the two helpers' jobs and their letters. Then have a go.",
+          "at": 0.0,
+          "end": 7.505
+        },
+        {
+          "id": "u01-review-group-02-intro-event-02",
+          "speaker": "narrator",
+          "text": "Policeman. P, O, L, I, C, E, M, A, N. Policeman.",
+          "at": 7.505,
+          "end": 12.63
+        },
+        {
+          "id": "u01-review-group-02-intro-event-04",
+          "speaker": "narrator",
+          "text": "Policewoman. P, O, L, I, C, E, W, O, M, A, N. Policewoman.",
+          "at": 18.63,
+          "end": 24.84
+        },
+        {
+          "id": "group2-question1-event-01",
+          "speaker": "narrator",
+          "text": "Who helped us cross the road?",
+          "at": 0.1,
+          "end": 2.26
+        },
+        {
+          "id": "group2-question2-event-01",
+          "speaker": "narrator",
+          "text": "Who gave Pikachu his bag back?",
+          "at": 0.1,
+          "end": 2.6771666666666665
+        }
+      ],
+      "timeline": [
+        {
+          "kind": "speech",
+          "speaker": "narrator",
+          "text": "We crossed safely, and the bag is back! Pakson, listen to the two helpers' jobs and their letters. Then have a go.",
+          "cue_state": "read_with_me",
+          "function": "story_reflection_and_invitation",
+          "type": "speech",
+          "source_event_index": 0,
+          "source_key": "4f2865e337a20ff585cd",
+          "source_sample_start": 0,
+          "source_sample_end": 180120,
+          "target_word": null,
+          "ui_phase": "Read with me",
+          "forced_alignment": true,
+          "start": 0.0,
+          "at": 0.0,
+          "end": 7.505,
+          "duration": 7.505,
+          "id": "u01-review-group-02-intro-event-01"
+        },
+        {
+          "kind": "speech",
+          "speaker": "narrator",
+          "text": "Policeman. P, O, L, I, C, E, M, A, N. Policeman.",
+          "cue_state": "read_with_me",
+          "function": "model",
+          "word": "policeman",
+          "type": "speech",
+          "source_event_index": 1,
+          "source_key": "4f2865e337a20ff585cd",
+          "source_sample_start": 180120,
+          "source_sample_end": 303120,
+          "target_word": "policeman",
+          "ui_phase": "Read with me",
+          "forced_alignment": true,
+          "start": 7.505,
+          "at": 7.505,
+          "end": 12.63,
+          "duration": 5.125,
+          "id": "u01-review-group-02-intro-event-02"
+        },
+        {
+          "kind": "response_gap",
+          "word": "policeman",
+          "seconds": 6,
+          "cue_state": "your_turn",
+          "cue_text": "Your turn",
+          "visible_countdown": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "pause_with_media": true,
+          "wait_for_actual_media_time": true,
+          "type": "response_gap",
+          "source_event_index": 2,
+          "target_word": "policeman",
+          "ui_phase": "Your turn",
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true,
+          "start": 12.63,
+          "at": 12.63,
+          "end": 18.63,
+          "duration": 6.0,
+          "id": "u01-review-group-02-intro-event-03"
+        },
+        {
+          "kind": "speech",
+          "speaker": "narrator",
+          "text": "Policewoman. P, O, L, I, C, E, W, O, M, A, N. Policewoman.",
+          "cue_state": "read_with_me",
+          "function": "model",
+          "word": "policewoman",
+          "type": "speech",
+          "source_event_index": 3,
+          "source_key": "4f2865e337a20ff585cd",
+          "source_sample_start": 303120,
+          "source_sample_end": 452160,
+          "target_word": "policewoman",
+          "ui_phase": "Read with me",
+          "forced_alignment": true,
+          "start": 18.63,
+          "at": 18.63,
+          "end": 24.84,
+          "duration": 6.21,
+          "id": "u01-review-group-02-intro-event-04"
+        },
+        {
+          "kind": "response_gap",
+          "word": "policewoman",
+          "seconds": 6,
+          "cue_state": "your_turn",
+          "cue_text": "Your turn",
+          "visible_countdown": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "pause_with_media": true,
+          "wait_for_actual_media_time": true,
+          "type": "response_gap",
+          "source_event_index": 4,
+          "target_word": "policewoman",
+          "ui_phase": "Your turn",
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true,
+          "start": 24.84,
+          "at": 24.84,
+          "end": 30.84,
+          "duration": 6.0,
+          "id": "u01-review-group-02-intro-event-05"
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows"
+    },
+    {
+      "book_page": 8,
       "title": "A quiet heartbeat",
       "page_type": "story",
-      "image": "assets/pages/page_06.png",
-      "image_sha256": "27b49e3336a53dac40fb71bf4f9f42d18a88f636ab66ea78e40eec9c79cd0a56",
-      "audio": "assets/speech/v4/page_06.m4a",
-      "audio_sha256": "f1764c8b45a5b3520965bf1fd3749522d806bc37804f5dbe5152a521d8221b92",
-      "duration": 14.252417,
-      "bgm_cue": "bgm_curious",
+      "image": "reader-v18/assets/pages/page_06.png",
+      "audio": "reader-v18/assets/audio/page_06.m4a",
+      "duration": 14.293333333333333,
+      "bgm_cue": null,
       "segments": [
         {
           "id": "p06_s01",
@@ -921,29 +2235,19 @@
           "text": "The funny sound comes from the bag."
         }
       ],
-      "effects": [
-        {
-          "at": 7.270958,
-          "id": "mystery_sound",
-          "gain": 0.75
-        },
-        {
-          "at": 2.600958,
-          "id": "heartbeat_soft",
-          "gain": 0.22
-        }
-      ]
+      "effects": [],
+      "source_book_page": 6,
+      "source_story_page": 6,
+      "page_id": "u01-story-06"
     },
     {
-      "book_page": 7,
+      "book_page": 9,
       "title": "Thank you, doctor",
       "page_type": "story",
-      "image": "assets/pages/page_07.png",
-      "image_sha256": "4aee3d4454839c412cb047c8abbbc8cf5624ad354f428004dda06c3b02002f6e",
-      "audio": "assets/speech/v4/page_07.m4a",
-      "audio_sha256": "c533a7e00748b596150476faa7f64e83629fb3df938fa1855121218e8d002f26",
-      "duration": 13.570792,
-      "bgm_cue": "bgm_helpers",
+      "image": "reader-v18/assets/pages/page_07.png",
+      "audio": "reader-v18/assets/audio/page_07.m4a",
+      "duration": 13.610666666666667,
+      "bgm_cue": null,
       "segments": [
         {
           "id": "p07_s01",
@@ -1046,18 +2350,355 @@
           "text": "What could be inside the bag?"
         }
       ],
-      "effects": []
+      "effects": [],
+      "source_book_page": 7,
+      "source_story_page": 7,
+      "page_id": "u01-story-07"
     },
     {
-      "book_page": 8,
+      "book_page": 10,
+      "page_id": "u01-review-group-03",
+      "page_type": "word_practice",
+      "group_number": 3,
+      "source_story_page": 7,
+      "source_story_pages": [
+        6,
+        7
+      ],
+      "title": "The check-up word",
+      "targets": [
+        {
+          "word": "doctor",
+          "display_word": "doctor",
+          "display_style": {
+            "colour": "#b32428",
+            "weight": "bold"
+          },
+          "textbook_mandatory_spelling_goal": true
+        }
+      ],
+      "target_words": [
+        "doctor"
+      ],
+      "intro": {
+        "audio_id": "u01-review-group-03-intro",
+        "audio": "reader-v18/assets/audio/practice/review_03_intro.m4a",
+        "duration": 16.07,
+        "timeline": [
+          {
+            "kind": "speech",
+            "speaker": "narrator",
+            "text": "That was a funny check-up! Pakson, listen to this helper's job and its letters. Then have a go.",
+            "cue_state": "read_with_me",
+            "function": "story_reflection_and_invitation",
+            "type": "speech",
+            "source_event_index": 0,
+            "source_key": "4894e98714edbb89c2b1",
+            "source_sample_start": 0,
+            "source_sample_end": 155760,
+            "target_word": null,
+            "ui_phase": "Read with me",
+            "forced_alignment": true,
+            "start": 0.0,
+            "at": 0.0,
+            "end": 6.49,
+            "duration": 6.49,
+            "id": "u01-review-group-03-intro-event-01"
+          },
+          {
+            "kind": "speech",
+            "speaker": "narrator",
+            "text": "Doctor. D, O, C, T, O, R. Doctor.",
+            "cue_state": "read_with_me",
+            "function": "model",
+            "word": "doctor",
+            "type": "speech",
+            "source_event_index": 1,
+            "source_key": "4894e98714edbb89c2b1",
+            "source_sample_start": 155760,
+            "source_sample_end": 239280,
+            "target_word": "doctor",
+            "ui_phase": "Read with me",
+            "forced_alignment": true,
+            "start": 6.49,
+            "at": 6.49,
+            "end": 9.97,
+            "duration": 3.48,
+            "id": "u01-review-group-03-intro-event-02"
+          },
+          {
+            "kind": "response_gap",
+            "word": "doctor",
+            "seconds": 6,
+            "cue_state": "your_turn",
+            "cue_text": "Your turn",
+            "visible_countdown": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "pause_with_media": true,
+            "wait_for_actual_media_time": true,
+            "type": "response_gap",
+            "source_event_index": 2,
+            "target_word": "doctor",
+            "ui_phase": "Your turn",
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true,
+            "start": 9.97,
+            "at": 9.97,
+            "end": 15.97,
+            "duration": 6.0,
+            "id": "u01-review-group-03-intro-event-03"
+          }
+        ],
+        "segments": [
+          {
+            "id": "u01-review-group-03-intro-event-01",
+            "speaker": "narrator",
+            "text": "That was a funny check-up! Pakson, listen to this helper's job and its letters. Then have a go.",
+            "at": 0.0,
+            "end": 6.49
+          },
+          {
+            "id": "u01-review-group-03-intro-event-02",
+            "speaker": "narrator",
+            "text": "Doctor. D, O, C, T, O, R. Doctor.",
+            "at": 6.49,
+            "end": 9.97
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "group3-question1",
+          "word": "doctor",
+          "prompt": "Who checked Pakson?",
+          "spoken_prompt": "Who checked Pakson?",
+          "options": [
+            {
+              "id": "0",
+              "label": "doctor"
+            },
+            {
+              "id": "1",
+              "label": "nurse"
+            }
+          ],
+          "correct_option_id": "0",
+          "reward": "sparkles",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "audio": "review_03_q01.m4a",
+          "events": [
+            {
+              "kind": "speech",
+              "speaker": "narrator",
+              "text": "Who checked Pakson?",
+              "cue_state": "listen_to_question"
+            }
+          ],
+          "decision": "parent-selected automatic continuation; root-frozen whole-word meaning question; same fixed story narrator",
+          "wrong_effect_policy": "Hint text may restore after 1200 ms; longer wrong FX follows the current question epoch and voice-priority scheduling, not an unconditional 1200 ms cutoff.",
+          "transition": "auto next question after correct + genuine current prompt ended + FX terminal + short visible reward; final question offers manual Next page",
+          "media": {
+            "audio_id": "group3-question1",
+            "audio": "reader-v18/assets/audio/practice/review_03_q01.m4a",
+            "duration": 2.126333333333333,
+            "timeline": [
+              {
+                "kind": "speech",
+                "speaker": "narrator",
+                "text": "Who checked Pakson?",
+                "cue_state": "listen_to_question",
+                "type": "speech",
+                "source_event_index": 0,
+                "source_key": "01d74dec6d451a815a96",
+                "source_sample_start": 0,
+                "source_sample_end": 42872,
+                "target_word": "doctor",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 1.8863333333333334,
+                "duration": 1.7863333333333333,
+                "forced_alignment": true,
+                "id": "group3-question1-event-01"
+              }
+            ],
+            "segments": [
+              {
+                "id": "group3-question1-event-01",
+                "speaker": "narrator",
+                "text": "Who checked Pakson?",
+                "at": 0.1,
+                "end": 1.8863333333333334
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "audio": "reader-v18/assets/audio/practice/review_03_intro.m4a",
+      "duration": 16.07,
+      "image": "reader-v18/assets/pages/review_group_03.png",
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          724
+        ],
+        "widths": [
+          800
+        ],
+        "word_tops": [
+          570
+        ],
+        "plate_tops": [
+          565
+        ],
+        "plate_bottoms": [
+          700
+        ],
+        "word_letter_spacing": [
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "segments": [
+        {
+          "id": "u01-review-group-03-intro-event-01",
+          "speaker": "narrator",
+          "text": "That was a funny check-up! Pakson, listen to this helper's job and its letters. Then have a go.",
+          "at": 0.0,
+          "end": 6.49
+        },
+        {
+          "id": "u01-review-group-03-intro-event-02",
+          "speaker": "narrator",
+          "text": "Doctor. D, O, C, T, O, R. Doctor.",
+          "at": 6.49,
+          "end": 9.97
+        },
+        {
+          "id": "group3-question1-event-01",
+          "speaker": "narrator",
+          "text": "Who checked Pakson?",
+          "at": 0.1,
+          "end": 1.8863333333333334
+        }
+      ],
+      "timeline": [
+        {
+          "kind": "speech",
+          "speaker": "narrator",
+          "text": "That was a funny check-up! Pakson, listen to this helper's job and its letters. Then have a go.",
+          "cue_state": "read_with_me",
+          "function": "story_reflection_and_invitation",
+          "type": "speech",
+          "source_event_index": 0,
+          "source_key": "4894e98714edbb89c2b1",
+          "source_sample_start": 0,
+          "source_sample_end": 155760,
+          "target_word": null,
+          "ui_phase": "Read with me",
+          "forced_alignment": true,
+          "start": 0.0,
+          "at": 0.0,
+          "end": 6.49,
+          "duration": 6.49,
+          "id": "u01-review-group-03-intro-event-01"
+        },
+        {
+          "kind": "speech",
+          "speaker": "narrator",
+          "text": "Doctor. D, O, C, T, O, R. Doctor.",
+          "cue_state": "read_with_me",
+          "function": "model",
+          "word": "doctor",
+          "type": "speech",
+          "source_event_index": 1,
+          "source_key": "4894e98714edbb89c2b1",
+          "source_sample_start": 155760,
+          "source_sample_end": 239280,
+          "target_word": "doctor",
+          "ui_phase": "Read with me",
+          "forced_alignment": true,
+          "start": 6.49,
+          "at": 6.49,
+          "end": 9.97,
+          "duration": 3.48,
+          "id": "u01-review-group-03-intro-event-02"
+        },
+        {
+          "kind": "response_gap",
+          "word": "doctor",
+          "seconds": 6,
+          "cue_state": "your_turn",
+          "cue_text": "Your turn",
+          "visible_countdown": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "pause_with_media": true,
+          "wait_for_actual_media_time": true,
+          "type": "response_gap",
+          "source_event_index": 2,
+          "target_word": "doctor",
+          "ui_phase": "Your turn",
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true,
+          "start": 9.97,
+          "at": 9.97,
+          "end": 15.97,
+          "duration": 6.0,
+          "id": "u01-review-group-03-intro-event-03"
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows"
+    },
+    {
+      "book_page": 11,
       "title": "Two blue stars",
       "page_type": "story",
-      "image": "assets/pages/page_08.png",
-      "image_sha256": "8ce87a4c370b2c4338925292caf17322c8806eb74b39ab968ecc60c98fe7d114",
-      "audio": "assets/speech/v4/page_08.m4a",
-      "audio_sha256": "539dc9e91c3a5c8d61c94adac357b06a6f4d6c1bf19ef03baf31c9d6fc7b5a43",
-      "duration": 15.811,
-      "bgm_cue": "bgm_warm",
+      "image": "reader-v18/assets/pages/page_08.png",
+      "audio": "reader-v18/assets/audio/page_08.m4a",
+      "duration": 15.829333333333333,
+      "bgm_cue": null,
       "segments": [
         {
           "id": "p08_s01",
@@ -1160,29 +2801,19 @@
           "text": "Pikachu looks so funny!"
         }
       ],
-      "effects": [
-        {
-          "at": 9.347083,
-          "id": "sticker_soft",
-          "gain": 0.75
-        },
-        {
-          "at": 4.8905,
-          "id": "sticker_soft",
-          "gain": 0.5
-        }
-      ]
+      "effects": [],
+      "source_book_page": 8,
+      "source_story_page": 8,
+      "page_id": "u01-story-08"
     },
     {
-      "book_page": 9,
+      "book_page": 12,
       "title": "The funny sound",
       "page_type": "story",
-      "image": "assets/pages/page_09.png",
-      "image_sha256": "4d01adf3dd2f6fe77b9b7497cfa14d501155679ce54bb0bb5da31496a34339b9",
-      "audio": "assets/speech/v4/page_09.m4a",
-      "audio_sha256": "2f838dc2614c3a1cf5971576cc4c7bd1c36753497be3854e4b30689d98bd6a8d",
-      "duration": 13.114,
-      "bgm_cue": "bgm_curious",
+      "image": "reader-v18/assets/pages/page_09.png",
+      "audio": "reader-v18/assets/audio/page_09.m4a",
+      "duration": 13.141333333333334,
+      "bgm_cue": null,
       "segments": [
         {
           "id": "p09_s01",
@@ -1299,24 +2930,355 @@
           "text": "There is that funny sound again."
         }
       ],
-      "effects": [
-        {
-          "at": 9.077917,
-          "id": "mystery_sound",
-          "gain": 0.75
-        }
-      ]
+      "effects": [],
+      "source_book_page": 9,
+      "source_story_page": 9,
+      "page_id": "u01-story-09"
     },
     {
-      "book_page": 10,
+      "book_page": 13,
+      "page_id": "u01-review-group-04",
+      "page_type": "word_practice",
+      "group_number": 4,
+      "source_story_page": 9,
+      "source_story_pages": [
+        8,
+        9
+      ],
+      "title": "The sticker word",
+      "targets": [
+        {
+          "word": "nurse",
+          "display_word": "nurse",
+          "display_style": {
+            "colour": "#b32428",
+            "weight": "bold"
+          },
+          "textbook_mandatory_spelling_goal": true
+        }
+      ],
+      "target_words": [
+        "nurse"
+      ],
+      "intro": {
+        "audio_id": "u01-review-group-04-intro",
+        "audio": "reader-v18/assets/audio/practice/review_04_intro.m4a",
+        "duration": 16.970625,
+        "timeline": [
+          {
+            "kind": "speech",
+            "speaker": "narrator",
+            "text": "Those star stickers were a lovely surprise! Pakson, listen to the word and its letters. Then have a go.",
+            "cue_state": "read_with_me",
+            "function": "story_reflection_and_invitation",
+            "type": "speech",
+            "source_event_index": 0,
+            "source_key": "78d7128ebe7293526de6",
+            "source_sample_start": 0,
+            "source_sample_end": 173280,
+            "target_word": null,
+            "ui_phase": "Read with me",
+            "forced_alignment": true,
+            "start": 0.0,
+            "at": 0.0,
+            "end": 7.22,
+            "duration": 7.22,
+            "id": "u01-review-group-04-intro-event-01"
+          },
+          {
+            "kind": "speech",
+            "speaker": "narrator",
+            "text": "Nurse. N, U, R, S, E. Nurse.",
+            "cue_state": "read_with_me",
+            "function": "model",
+            "word": "nurse",
+            "type": "speech",
+            "source_event_index": 1,
+            "source_key": "78d7128ebe7293526de6",
+            "source_sample_start": 173280,
+            "source_sample_end": 260895,
+            "target_word": "nurse",
+            "ui_phase": "Read with me",
+            "forced_alignment": true,
+            "start": 7.22,
+            "at": 7.22,
+            "end": 10.870625,
+            "duration": 3.650625,
+            "id": "u01-review-group-04-intro-event-02"
+          },
+          {
+            "kind": "response_gap",
+            "word": "nurse",
+            "seconds": 6,
+            "cue_state": "your_turn",
+            "cue_text": "Your turn",
+            "visible_countdown": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "pause_with_media": true,
+            "wait_for_actual_media_time": true,
+            "type": "response_gap",
+            "source_event_index": 2,
+            "target_word": "nurse",
+            "ui_phase": "Your turn",
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true,
+            "start": 10.870625,
+            "at": 10.870625,
+            "end": 16.870625,
+            "duration": 6.0,
+            "id": "u01-review-group-04-intro-event-03"
+          }
+        ],
+        "segments": [
+          {
+            "id": "u01-review-group-04-intro-event-01",
+            "speaker": "narrator",
+            "text": "Those star stickers were a lovely surprise! Pakson, listen to the word and its letters. Then have a go.",
+            "at": 0.0,
+            "end": 7.22
+          },
+          {
+            "id": "u01-review-group-04-intro-event-02",
+            "speaker": "narrator",
+            "text": "Nurse. N, U, R, S, E. Nurse.",
+            "at": 7.22,
+            "end": 10.870625
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "group4-question1",
+          "word": "nurse",
+          "prompt": "Who gave us the star stickers?",
+          "spoken_prompt": "Who gave us the star stickers?",
+          "options": [
+            {
+              "id": "0",
+              "label": "doctor"
+            },
+            {
+              "id": "1",
+              "label": "nurse"
+            }
+          ],
+          "correct_option_id": "1",
+          "reward": "hearts",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "audio": "review_04_q01.m4a",
+          "events": [
+            {
+              "kind": "speech",
+              "speaker": "narrator",
+              "text": "Who gave us the star stickers?",
+              "cue_state": "listen_to_question"
+            }
+          ],
+          "decision": "parent-selected automatic continuation; root-frozen whole-word meaning question; same fixed story narrator",
+          "wrong_effect_policy": "Hint text may restore after 1200 ms; longer wrong FX follows the current question epoch and voice-priority scheduling, not an unconditional 1200 ms cutoff.",
+          "transition": "auto next question after correct + genuine current prompt ended + FX terminal + short visible reward; final question offers manual Next page",
+          "media": {
+            "audio_id": "group4-question1",
+            "audio": "reader-v18/assets/audio/practice/review_04_q01.m4a",
+            "duration": 2.58325,
+            "timeline": [
+              {
+                "kind": "speech",
+                "speaker": "narrator",
+                "text": "Who gave us the star stickers?",
+                "cue_state": "listen_to_question",
+                "type": "speech",
+                "source_event_index": 0,
+                "source_key": "0b94780222ef6214edc1",
+                "source_sample_start": 0,
+                "source_sample_end": 53838,
+                "target_word": "nurse",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.34325,
+                "duration": 2.24325,
+                "forced_alignment": true,
+                "id": "group4-question1-event-01"
+              }
+            ],
+            "segments": [
+              {
+                "id": "group4-question1-event-01",
+                "speaker": "narrator",
+                "text": "Who gave us the star stickers?",
+                "at": 0.1,
+                "end": 2.34325
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "audio": "reader-v18/assets/audio/practice/review_04_intro.m4a",
+      "duration": 16.970625,
+      "image": "reader-v18/assets/pages/review_group_04.png",
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          724
+        ],
+        "widths": [
+          800
+        ],
+        "word_tops": [
+          570
+        ],
+        "plate_tops": [
+          565
+        ],
+        "plate_bottoms": [
+          700
+        ],
+        "word_letter_spacing": [
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "segments": [
+        {
+          "id": "u01-review-group-04-intro-event-01",
+          "speaker": "narrator",
+          "text": "Those star stickers were a lovely surprise! Pakson, listen to the word and its letters. Then have a go.",
+          "at": 0.0,
+          "end": 7.22
+        },
+        {
+          "id": "u01-review-group-04-intro-event-02",
+          "speaker": "narrator",
+          "text": "Nurse. N, U, R, S, E. Nurse.",
+          "at": 7.22,
+          "end": 10.870625
+        },
+        {
+          "id": "group4-question1-event-01",
+          "speaker": "narrator",
+          "text": "Who gave us the star stickers?",
+          "at": 0.1,
+          "end": 2.34325
+        }
+      ],
+      "timeline": [
+        {
+          "kind": "speech",
+          "speaker": "narrator",
+          "text": "Those star stickers were a lovely surprise! Pakson, listen to the word and its letters. Then have a go.",
+          "cue_state": "read_with_me",
+          "function": "story_reflection_and_invitation",
+          "type": "speech",
+          "source_event_index": 0,
+          "source_key": "78d7128ebe7293526de6",
+          "source_sample_start": 0,
+          "source_sample_end": 173280,
+          "target_word": null,
+          "ui_phase": "Read with me",
+          "forced_alignment": true,
+          "start": 0.0,
+          "at": 0.0,
+          "end": 7.22,
+          "duration": 7.22,
+          "id": "u01-review-group-04-intro-event-01"
+        },
+        {
+          "kind": "speech",
+          "speaker": "narrator",
+          "text": "Nurse. N, U, R, S, E. Nurse.",
+          "cue_state": "read_with_me",
+          "function": "model",
+          "word": "nurse",
+          "type": "speech",
+          "source_event_index": 1,
+          "source_key": "78d7128ebe7293526de6",
+          "source_sample_start": 173280,
+          "source_sample_end": 260895,
+          "target_word": "nurse",
+          "ui_phase": "Read with me",
+          "forced_alignment": true,
+          "start": 7.22,
+          "at": 7.22,
+          "end": 10.870625,
+          "duration": 3.650625,
+          "id": "u01-review-group-04-intro-event-02"
+        },
+        {
+          "kind": "response_gap",
+          "word": "nurse",
+          "seconds": 6,
+          "cue_state": "your_turn",
+          "cue_text": "Your turn",
+          "visible_countdown": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "pause_with_media": true,
+          "wait_for_actual_media_time": true,
+          "type": "response_gap",
+          "source_event_index": 2,
+          "target_word": "nurse",
+          "ui_phase": "Your turn",
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true,
+          "start": 10.870625,
+          "at": 10.870625,
+          "end": 16.870625,
+          "duration": 6.0,
+          "id": "u01-review-group-04-intro-event-03"
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows"
+    },
+    {
+      "book_page": 14,
       "title": "Surprise!",
       "page_type": "story",
-      "image": "assets/pages/page_10.png",
-      "image_sha256": "0de96302a636d105adc0bbba165803aa6081211686800070ae25c5f4fb8a1e3c",
-      "audio": "assets/speech/v4/page_10.m4a",
-      "audio_sha256": "ba113f5ece008f778b1b98b0b8e94cc16cf19793d6706e11c53d7ad2ac3ec97b",
-      "duration": 15.388,
-      "bgm_cue": "bgm_reveal",
+      "image": "reader-v18/assets/pages/page_10.png",
+      "audio": "reader-v18/assets/audio/page_10.m4a",
+      "duration": 15.402666666666667,
+      "bgm_cue": null,
       "segments": [
         {
           "id": "p10_s01",
@@ -1447,29 +3409,354 @@
           "text": "\"Thank you so much!\""
         }
       ],
-      "effects": [
-        {
-          "at": 2.33325,
-          "id": "bag_rustle",
-          "gain": 0.45
-        },
-        {
-          "at": 4.21325,
-          "id": "sparkle_chime",
-          "gain": 0.4
-        }
-      ]
+      "effects": [],
+      "source_book_page": 10,
+      "source_story_page": 10,
+      "page_id": "u01-story-10"
     },
     {
-      "book_page": 11,
+      "book_page": 15,
+      "page_id": "u01-review-group-05",
+      "page_type": "word_practice",
+      "group_number": 5,
+      "source_story_page": 10,
+      "source_story_pages": [
+        10
+      ],
+      "title": "The surprise word",
+      "targets": [
+        {
+          "word": "duck",
+          "display_word": "duck",
+          "display_style": {
+            "colour": "#b32428",
+            "weight": "bold"
+          },
+          "textbook_mandatory_spelling_goal": false
+        }
+      ],
+      "target_words": [
+        "duck"
+      ],
+      "intro": {
+        "audio_id": "u01-review-group-05-intro",
+        "audio": "reader-v18/assets/audio/practice/review_05_intro.m4a",
+        "duration": 16.407375,
+        "timeline": [
+          {
+            "kind": "speech",
+            "speaker": "narrator",
+            "text": "What a funny surprise in the bag! Pakson, listen to the word and its letters. Then have a go.",
+            "cue_state": "read_with_me",
+            "function": "story_reflection_and_invitation",
+            "type": "speech",
+            "source_event_index": 0,
+            "source_key": "7336652e5cf1b2bd0b80",
+            "source_sample_start": 0,
+            "source_sample_end": 162720,
+            "target_word": null,
+            "ui_phase": "Read with me",
+            "forced_alignment": true,
+            "start": 0.0,
+            "at": 0.0,
+            "end": 6.78,
+            "duration": 6.78,
+            "id": "u01-review-group-05-intro-event-01"
+          },
+          {
+            "kind": "speech",
+            "speaker": "narrator",
+            "text": "Duck. D, U, C, K. Duck.",
+            "cue_state": "read_with_me",
+            "function": "model",
+            "word": "duck",
+            "type": "speech",
+            "source_event_index": 1,
+            "source_key": "7336652e5cf1b2bd0b80",
+            "source_sample_start": 162720,
+            "source_sample_end": 247377,
+            "target_word": "duck",
+            "ui_phase": "Read with me",
+            "forced_alignment": true,
+            "start": 6.78,
+            "at": 6.78,
+            "end": 10.307375,
+            "duration": 3.527375,
+            "id": "u01-review-group-05-intro-event-02"
+          },
+          {
+            "kind": "response_gap",
+            "word": "duck",
+            "seconds": 6,
+            "cue_state": "your_turn",
+            "cue_text": "Your turn",
+            "visible_countdown": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "pause_with_media": true,
+            "wait_for_actual_media_time": true,
+            "type": "response_gap",
+            "source_event_index": 2,
+            "target_word": "duck",
+            "ui_phase": "Your turn",
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true,
+            "start": 10.307375,
+            "at": 10.307375,
+            "end": 16.307375,
+            "duration": 6.0,
+            "id": "u01-review-group-05-intro-event-03"
+          }
+        ],
+        "segments": [
+          {
+            "id": "u01-review-group-05-intro-event-01",
+            "speaker": "narrator",
+            "text": "What a funny surprise in the bag! Pakson, listen to the word and its letters. Then have a go.",
+            "at": 0.0,
+            "end": 6.78
+          },
+          {
+            "id": "u01-review-group-05-intro-event-02",
+            "speaker": "narrator",
+            "text": "Duck. D, U, C, K. Duck.",
+            "at": 6.78,
+            "end": 10.307375
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "group5-question1",
+          "word": "duck",
+          "prompt": "What was hiding in the bag?",
+          "spoken_prompt": "What was hiding in the bag?",
+          "options": [
+            {
+              "id": "0",
+              "label": "duck"
+            },
+            {
+              "id": "1",
+              "label": "doll"
+            }
+          ],
+          "correct_option_id": "0",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "audio": "review_05_q01.m4a",
+          "events": [
+            {
+              "kind": "speech",
+              "speaker": "narrator",
+              "text": "What was hiding in the bag?",
+              "cue_state": "listen_to_question"
+            }
+          ],
+          "decision": "parent-selected automatic continuation; root-frozen whole-word meaning question; same fixed story narrator",
+          "wrong_effect_policy": "Hint text may restore after 1200 ms; longer wrong FX follows the current question epoch and voice-priority scheduling, not an unconditional 1200 ms cutoff.",
+          "transition": "auto next question after correct + genuine current prompt ended + FX terminal + short visible reward; final question offers manual Next page",
+          "media": {
+            "audio_id": "group5-question1",
+            "audio": "reader-v18/assets/audio/practice/review_05_q01.m4a",
+            "duration": 2.65725,
+            "timeline": [
+              {
+                "kind": "speech",
+                "speaker": "narrator",
+                "text": "What was hiding in the bag?",
+                "cue_state": "listen_to_question",
+                "type": "speech",
+                "source_event_index": 0,
+                "source_key": "f20773bb8b8b4c7966e2",
+                "source_sample_start": 0,
+                "source_sample_end": 55614,
+                "target_word": "duck",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.41725,
+                "duration": 2.31725,
+                "forced_alignment": true,
+                "id": "group5-question1-event-01"
+              }
+            ],
+            "segments": [
+              {
+                "id": "group5-question1-event-01",
+                "speaker": "narrator",
+                "text": "What was hiding in the bag?",
+                "at": 0.1,
+                "end": 2.41725
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "audio": "reader-v18/assets/audio/practice/review_05_intro.m4a",
+      "duration": 16.407375,
+      "image": "reader-v18/assets/pages/review_group_05.png",
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          724
+        ],
+        "widths": [
+          800
+        ],
+        "word_tops": [
+          570
+        ],
+        "plate_tops": [
+          565
+        ],
+        "plate_bottoms": [
+          700
+        ],
+        "word_letter_spacing": [
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "segments": [
+        {
+          "id": "u01-review-group-05-intro-event-01",
+          "speaker": "narrator",
+          "text": "What a funny surprise in the bag! Pakson, listen to the word and its letters. Then have a go.",
+          "at": 0.0,
+          "end": 6.78
+        },
+        {
+          "id": "u01-review-group-05-intro-event-02",
+          "speaker": "narrator",
+          "text": "Duck. D, U, C, K. Duck.",
+          "at": 6.78,
+          "end": 10.307375
+        },
+        {
+          "id": "group5-question1-event-01",
+          "speaker": "narrator",
+          "text": "What was hiding in the bag?",
+          "at": 0.1,
+          "end": 2.41725
+        }
+      ],
+      "timeline": [
+        {
+          "kind": "speech",
+          "speaker": "narrator",
+          "text": "What a funny surprise in the bag! Pakson, listen to the word and its letters. Then have a go.",
+          "cue_state": "read_with_me",
+          "function": "story_reflection_and_invitation",
+          "type": "speech",
+          "source_event_index": 0,
+          "source_key": "7336652e5cf1b2bd0b80",
+          "source_sample_start": 0,
+          "source_sample_end": 162720,
+          "target_word": null,
+          "ui_phase": "Read with me",
+          "forced_alignment": true,
+          "start": 0.0,
+          "at": 0.0,
+          "end": 6.78,
+          "duration": 6.78,
+          "id": "u01-review-group-05-intro-event-01"
+        },
+        {
+          "kind": "speech",
+          "speaker": "narrator",
+          "text": "Duck. D, U, C, K. Duck.",
+          "cue_state": "read_with_me",
+          "function": "model",
+          "word": "duck",
+          "type": "speech",
+          "source_event_index": 1,
+          "source_key": "7336652e5cf1b2bd0b80",
+          "source_sample_start": 162720,
+          "source_sample_end": 247377,
+          "target_word": "duck",
+          "ui_phase": "Read with me",
+          "forced_alignment": true,
+          "start": 6.78,
+          "at": 6.78,
+          "end": 10.307375,
+          "duration": 3.527375,
+          "id": "u01-review-group-05-intro-event-02"
+        },
+        {
+          "kind": "response_gap",
+          "word": "duck",
+          "seconds": 6,
+          "cue_state": "your_turn",
+          "cue_text": "Your turn",
+          "visible_countdown": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "pause_with_media": true,
+          "wait_for_actual_media_time": true,
+          "type": "response_gap",
+          "source_event_index": 2,
+          "target_word": "duck",
+          "ui_phase": "Your turn",
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true,
+          "start": 10.307375,
+          "at": 10.307375,
+          "end": 16.307375,
+          "duration": 6.0,
+          "id": "u01-review-group-05-intro-event-03"
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows"
+    },
+    {
+      "book_page": 16,
       "title": "Read & spell",
       "page_type": "review",
-      "image": "assets/pages/page_11.png",
-      "image_sha256": "53403f0f9de7c70a03b0afa5cd3a59cf6748360218b16e038cc82c7138388039",
-      "audio": "assets/speech/v4/page_11.m4a",
-      "audio_sha256": "70a6119d78416e0e0a9794ac2c8dcb38337e32832bf6b084d92aa2dff91eb2c8",
-      "duration": 29.370875,
-      "bgm_cue": "bgm_learning",
+      "image": "reader-v18/assets/pages/page_11.png",
+      "audio": "reader-v18/assets/audio/page_11.m4a",
+      "duration": 9.728,
+      "bgm_cue": null,
       "segments": [
         {
           "id": "p11_s01",
@@ -1519,62 +3806,6 @@
           "kind": "teaching",
           "text": "door",
           "emotion": "clear"
-        },
-        {
-          "id": "p11_s08",
-          "speaker": "narrator",
-          "kind": "teaching",
-          "text": "Spell:",
-          "emotion": "warm"
-        },
-        {
-          "id": "p11_s09",
-          "speaker": "narrator",
-          "kind": "teaching",
-          "text": "fireman",
-          "emotion": "clear"
-        },
-        {
-          "id": "p11_s10",
-          "speaker": "narrator",
-          "kind": "spelling",
-          "text": "F, I, R, E, M, A, N.",
-          "emotion": "clear"
-        },
-        {
-          "id": "p11_s11",
-          "speaker": "narrator",
-          "kind": "teaching",
-          "text": "doctor",
-          "emotion": "clear"
-        },
-        {
-          "id": "p11_s12",
-          "speaker": "narrator",
-          "kind": "spelling",
-          "text": "D, O, C, T, O, R.",
-          "emotion": "clear"
-        },
-        {
-          "id": "p11_s13",
-          "speaker": "narrator",
-          "kind": "teaching",
-          "text": "nurse",
-          "emotion": "clear"
-        },
-        {
-          "id": "p11_s14",
-          "speaker": "narrator",
-          "kind": "spelling",
-          "text": "N, U, R, S, E.",
-          "emotion": "clear"
-        },
-        {
-          "id": "p11_s15",
-          "speaker": "narrator",
-          "kind": "narration",
-          "text": "Well done! Let us say them again another time.",
-          "emotion": "cheerful"
         }
       ],
       "timeline": [
@@ -1626,76 +3857,21 @@
           "end": 9.141333,
           "speaker": "narrator",
           "text": "door"
-        },
-        {
-          "id": "p11_s08",
-          "at": 9.791333,
-          "end": 10.719833,
-          "speaker": "narrator",
-          "text": "Spell:"
-        },
-        {
-          "id": "p11_s09",
-          "at": 11.369833,
-          "end": 12.183958,
-          "speaker": "narrator",
-          "text": "fireman"
-        },
-        {
-          "id": "p11_s10",
-          "at": 12.833958,
-          "end": 16.59875,
-          "speaker": "narrator",
-          "text": "F, I, R, E, M, A, N."
-        },
-        {
-          "id": "p11_s11",
-          "at": 17.34875,
-          "end": 17.848792,
-          "speaker": "narrator",
-          "text": "doctor"
-        },
-        {
-          "id": "p11_s12",
-          "at": 18.498792,
-          "end": 20.852042,
-          "speaker": "narrator",
-          "text": "D, O, C, T, O, R."
-        },
-        {
-          "id": "p11_s13",
-          "at": 21.602042,
-          "end": 22.315625,
-          "speaker": "narrator",
-          "text": "nurse"
-        },
-        {
-          "id": "p11_s14",
-          "at": 22.965625,
-          "end": 24.785083,
-          "speaker": "narrator",
-          "text": "N, U, R, S, E."
-        },
-        {
-          "id": "p11_s15",
-          "at": 25.535083,
-          "end": 28.770875,
-          "speaker": "narrator",
-          "text": "Well done! Let us say them again another time."
         }
       ],
-      "effects": []
+      "effects": [],
+      "source_book_page": 11,
+      "source_story_page": null,
+      "page_id": "u01-review"
     },
     {
-      "book_page": 12,
+      "book_page": 17,
       "title": "Say thank you together",
       "page_type": "song",
-      "image": "assets/pages/page_12.png",
-      "image_sha256": "432b239ef883925535e509f72b6fb368427ff0cb29c41860340f27f8d7287122",
-      "audio": "assets/speech/v4/page_12.m4a",
-      "audio_sha256": "07b55ed508cebff5dc3935b0f971ae8b2a455f347bea831d79f0cc9df6a47227",
-      "duration": 18.648833,
-      "bgm_cue": "bgm_chant",
+      "image": "reader-v18/assets/pages/page_12.png",
+      "audio": "reader-v18/assets/audio/page_12.m4a",
+      "duration": 18.688,
+      "bgm_cue": null,
       "segments": [
         {
           "id": "p12_s01",
@@ -1840,130 +4016,122 @@
           "text": "What a lovely way to say thank you!"
         }
       ],
-      "effects": []
+      "effects": [],
+      "source_book_page": 12,
+      "source_story_page": null,
+      "page_id": "u01-song"
     },
     {
-      "book_page": 13,
+      "book_page": 18,
       "title": "Pakson",
       "page_type": "closing_logo",
-      "image": "assets/pages/page_13.png",
-      "image_sha256": "24ce1383651eec6b0af3f1ec18b8ef67e584d91562ea160cfe9d43c6c2f81cd7",
+      "image": "reader-v18/assets/pages/ending_logo_L04.svg",
       "duration": 0,
       "segments": [],
       "timeline": [],
-      "effects": []
+      "effects": [],
+      "bgm_cue": null,
+      "source_book_page": 13,
+      "source_story_page": null,
+      "page_id": "u01-closing"
     }
   ],
   "sfx": {
     "page_turn": {
-      "url": "assets/sfx/page_turn.m4a",
-      "duration": 0.92,
-      "gain": 0.35
+      "enabled": false,
+      "gain": 0
+    }
+  },
+  "music": {},
+  "creditsText": "Story and page art: Pakson’s family reading project. Original synthetic character voices use Qwen3-TTS references; original Pika calls use VoiceDesign. The short /d/ teaching cue uses Kokoro. Cartoon Duck Quack by Breviceps, Freesound 445960, CC0. Practice uses the existing fixed narrator. Answer sounds and one short logo reward are separate from speech. No tracking or advertising.",
+  "id": "pakson-k3-b5-u01-thank-you-web-v18",
+  "practice_layout": {
+    "family": "Arial Rounded MT Bold",
+    "word_px": 110,
+    "question_px": 72,
+    "answer_px": 72,
+    "answer_min_height_px": 168,
+    "question_row_px": 173,
+    "row_gap_px": 8,
+    "answer_row_px": 179,
+    "native_viewport": [
+      1448,
+      1086
+    ],
+    "scaled_width_checks": [
+      390,
+      430
+    ],
+    "no_automatic_font_reduction": true,
+    "display_letter_spelling": false,
+    "practice_next_action": "Automatically continue questions after genuine current voice and effect completion plus 900 ms visible reward; show manual Next page only when the entire group is complete. Free swipe skip remains available."
+  },
+  "feedback": {
+    "correct": {
+      "file": "feedback/correct.m4a",
+      "duration": 1.2,
+      "sha256": "d1d56e926439288cce2269fefe492fb807cc27da0dd0d73966648fe068c25b97",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 1.2,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -20.14,
+        "true_peak_dbtp": -9.82,
+        "nominal_voice_minus_effect_LU": 0.010000000000001563
+      },
+      "loop": false,
+      "trigger": "selected_answer_only",
+      "play_on_logo": false,
+      "description": "Four-note rounded ascending major-key chime",
+      "audio": "reader-v18/assets/audio/feedback/correct.m4a"
     },
-    "wind_whoosh": {
-      "url": "assets/sfx/wind_whoosh.m4a",
-      "duration": 1.0,
-      "gain": 0.32
-    },
-    "bag_rustle": {
-      "url": "assets/sfx/bag_rustle.m4a",
-      "duration": 1.35,
-      "gain": 0.3
-    },
-    "sticker_soft": {
-      "url": "assets/sfx/sticker_soft.m4a",
-      "duration": 0.63,
-      "gain": 0.3
-    },
-    "sparkle_chime": {
-      "url": "assets/sfx/sparkle_chime.m4a",
-      "duration": 1.75,
-      "gain": 0.25
-    },
-    "heartbeat_soft": {
-      "url": "assets/sfx/heartbeat_soft.m4a",
-      "duration": 1.25,
-      "gain": 0.18
-    },
-    "mystery_sound": {
-      "url": "assets/sfx/mystery_sound.m4a",
+    "incorrect": {
+      "file": "feedback/incorrect.m4a",
       "duration": 0.82,
-      "gain": 0.24
+      "sha256": "09bfb77bd9a09e110ed5b0407dd51ab6a6217331205e673bd4598f4fe20b2815",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 0.82,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -20.14,
+        "true_peak_dbtp": -10.32,
+        "nominal_voice_minus_effect_LU": 0.010000000000001563
+      },
+      "loop": false,
+      "trigger": "selected_answer_only",
+      "play_on_logo": false,
+      "description": "Three-note gentle descending retry chime; no buzzer",
+      "audio": "reader-v18/assets/audio/feedback/incorrect.m4a"
     },
-    "duck_quack": {
-      "url": "assets/sfx/duck_quack.m4a",
-      "duration": 0.383146,
-      "gain": 0.28
+    "logo_reward": {
+      "file": "feedback/logo_reward.m4a",
+      "duration": 1.95,
+      "sha256": "a352b48cb392b7eec1a5cc105a74b05211e66a393770dc365868b823fe764502",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 1.95,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -31.96,
+        "true_peak_dbtp": -18.48,
+        "nominal_voice_minus_effect_LU": 11.830000000000002
+      },
+      "loop": false,
+      "trigger": "closing_logo_navigation_entry",
+      "once_per_navigation_entry": true,
+      "cancel_on_leave": true,
+      "background_soundtrack_on_logo": false,
+      "description": "Original major-key soft wooden/8-bit-like game-clear phrase; no Mario melody copied.",
+      "reuse_mode": "v13 approved original bytes retained",
+      "audio": "reader-v18/assets/audio/feedback/logo_reward.m4a"
     }
-  },
-  "music": {
-    "bgm_warm": {
-      "url": "assets/music/bgm_warm.m4a",
-      "duration": 48.0,
-      "gain": 0.4,
-      "loopStart": 0,
-      "loopEnd": 48.0
-    },
-    "bgm_curious": {
-      "url": "assets/music/bgm_curious.m4a",
-      "duration": 40.0,
-      "gain": 0.4,
-      "loopStart": 0,
-      "loopEnd": 40.0
-    },
-    "bgm_celebration": {
-      "url": "assets/music/bgm_celebration.m4a",
-      "duration": 36.923083,
-      "gain": 0.4,
-      "loopStart": 0,
-      "loopEnd": 36.923083
-    },
-    "bgm_helpers": {
-      "url": "assets/music/bgm_celebration.m4a",
-      "duration": 36.923083,
-      "gain": 0.33,
-      "loopStart": 0,
-      "loopEnd": 36.923083
-    },
-    "bgm_reveal": {
-      "url": "assets/music/bgm_celebration.m4a",
-      "duration": 36.923083,
-      "gain": 0.4,
-      "loopStart": 0,
-      "loopEnd": 36.923083
-    },
-    "bgm_learning": {
-      "url": "assets/music/bgm_warm.m4a",
-      "duration": 48.0,
-      "gain": 0.24,
-      "loopStart": 0,
-      "loopEnd": 48.0
-    },
-    "bgm_chant": {
-      "url": "assets/music/bgm_warm.m4a",
-      "duration": 48.0,
-      "gain": 0.2,
-      "loopStart": 0,
-      "loopEnd": 48.0
-    }
-  },
-  "production": {
-    "voice_engine": "Qwen3-TTS 1.7B Base with original VoiceDesign references; Kokoro phoneme cue only",
-    "distinct_character_voices": true,
-    "voice_design_descriptions_applied_to_references": true,
-    "per_block_emotion_instructions_applied": false,
-    "per_block_emotion_flag_scope": "Base human narration and dialogue",
-    "pikachu_call_engine": "Qwen3-TTS VoiceDesign original character calls",
-    "official_character_recordings": false,
-    "professional_human_cast": false,
-    "child_voice_cloning": false,
-    "human_listening_completed": false,
-    "voice_version": "v4",
-    "pakson_voice_id": "pakson-storybook.pakson.v1",
-    "parent_accepted_pakson_tone": true,
-    "closing_logo_page_added": true,
-    "original_thirteen_pages_and_AAC_preserved": true
-  },
-  "creditsText": "Story and page art: Pakson’s family reading project. Original synthetic human voices use Qwen3-TTS VoiceDesign references and Base speech; original Pika calls use VoiceDesign (Apache-2.0 models). The short /d/ teaching cue uses Kokoro. Original music and Foley created for this book. Cartoon Duck Quack by Breviceps, Freesound 445960, CC0. Pikachu calls are original character interpretations, not recordings from the animation. No tracking or advertising.",
-  "id": "pakson-k3-b5-u01-thank-you"
+  }
 }

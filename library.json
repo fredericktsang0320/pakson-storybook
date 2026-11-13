@@ -1,8 +1,14 @@
 {
   "schema_version": 1,
   "subjects": [
-    { "id": "english", "label": "英文" },
-    { "id": "chinese", "label": "中文" }
+    {
+      "id": "english",
+      "label": "英文"
+    },
+    {
+      "id": "chinese",
+      "label": "中文"
+    }
   ],
   "books": [
     {
@@ -11,8 +17,8 @@
       "subtitle": "Pakson 和 Pikachu 的助人小冒險",
       "subject": "english",
       "level": "K3",
-      "page_count": 14,
-      "cover": "assets/pages/page_00.png",
+      "page_count": 19,
+      "cover": "reader-v18/assets/pages/page_00.png",
       "cover_alt": "Thank you!：Pakson 和 Pikachu 的故事封面",
       "href": "./index.html"
     }
