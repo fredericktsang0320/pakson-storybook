@@ -1,7 +1,8 @@
 {
-  "version": "d78424d4867058cf",
-  "total_bytes": 50357236,
+  "version": "79c36be55c9963c2",
+  "total_bytes": 62253094,
   "speech_edition": "approved-v18-unchanged",
+  "ui_edition": "illustrated-library-v19",
   "files": [
     {
       "url": "./assets/icons/apple-touch-icon.png",
@@ -40,45 +41,123 @@
       "core": true
     },
     {
+      "url": "./assets/library-v19/app-icon.png",
+      "bytes": 1078148,
+      "sha256": "58a782792a303deebd4f4087a161e51c6b197f55fe87a73c250d85102d73523b",
+      "core": true
+    },
+    {
+      "url": "./assets/library-v19/chinese-shelves.png",
+      "bytes": 3217677,
+      "sha256": "57d1e99824d8aaadb03aef5f5a707a86cdc271beb4af10222e69207da8b3f5b4",
+      "core": true
+    },
+    {
+      "url": "./assets/library-v19/english-shelves.png",
+      "bytes": 3120806,
+      "sha256": "35e3a3d0dc272baf269f51850cf5846265f6922bfab53289bb9cef70e9e97a36",
+      "core": true
+    },
+    {
+      "url": "./assets/library-v19/home.png",
+      "bytes": 3238245,
+      "sha256": "b57a7ff01feb83e478d08ace213cc15c4024f66bf4db6fc86c597ba76e64b6e3",
+      "core": true
+    },
+    {
+      "url": "./assets/library-v19/icon-1024.png",
+      "bytes": 728150,
+      "sha256": "6065168ab21b3e0ab3ebc84c89d784e74d4f451cd06d7cc1ae737073e41c3c94",
+      "core": true
+    },
+    {
+      "url": "./assets/library-v19/icon-180.png",
+      "bytes": 33762,
+      "sha256": "3a7f3b6f2940d0a787a8e9d4f2431d74ec3d203eb940bf3796eaedca31eaef8f",
+      "core": true
+    },
+    {
+      "url": "./assets/library-v19/icon-192.png",
+      "bytes": 37826,
+      "sha256": "08da02fc9228bb6d2e1ef40f7be88458a76b395489a46e4d660ba3812fd8394e",
+      "core": true
+    },
+    {
+      "url": "./assets/library-v19/icon-512.png",
+      "bytes": 218612,
+      "sha256": "39e41d66757ee2fdaee35e032624cd5d0e042b1ee3510c678c60387610c28545",
+      "core": true
+    },
+    {
+      "url": "./assets/library-v19/maskable-512.png",
+      "bytes": 218612,
+      "sha256": "39e41d66757ee2fdaee35e032624cd5d0e042b1ee3510c678c60387610c28545",
+      "core": true
+    },
+    {
       "url": "./book.json",
       "bytes": 120221,
       "sha256": "663794396e53871cad676c415e754270f97f7dbaee6df01fd0aca110f62ff20f",
       "core": true
     },
     {
-      "url": "./index.html",
-      "bytes": 7391,
-      "sha256": "dba0c7b1152034494586e7ffb33164e5acbd00e3cebb9747c253a53292bf10fa",
+      "url": "./chinese.html",
+      "bytes": 1684,
+      "sha256": "7663445702d8c7101b938031dfb29a49357321decaa69c4079825b0f71da08e7",
       "core": true
     },
     {
-      "url": "./library.css",
-      "bytes": 7139,
-      "sha256": "55e431c7f52e3d8a8b7a159f18ec8780bae0835cfbc4681f218de475e8eac3fd",
+      "url": "./english.html",
+      "bytes": 1670,
+      "sha256": "89b04bfaabe5f83c3c3eb3e0629dc365bba5f9aa95791d8349e775c526f23703",
+      "core": true
+    },
+    {
+      "url": "./index.html",
+      "bytes": 1960,
+      "sha256": "b20ccc9f5914d871233912f186d992b2d993bd1488bbbc6f7ea63700b4e9fce4",
+      "core": true
+    },
+    {
+      "url": "./library-ui-v19.css",
+      "bytes": 3978,
+      "sha256": "bd654f0fd16c0181389df893285de5f587bb63a5957b4fadb216dcb2e32574ff",
+      "core": true
+    },
+    {
+      "url": "./library-ui-v19.js",
+      "bytes": 6112,
+      "sha256": "4af34bcd9b47e64cd7173bc38d3c9ca9062200da7ad78924a913eed90890e2d3",
       "core": true
     },
     {
       "url": "./library.html",
-      "bytes": 3168,
-      "sha256": "c4b5c3b1643e866f37444d391bac6c50e7612132f4d026dda201da536e4564f3",
-      "core": true
-    },
-    {
-      "url": "./library.js",
-      "bytes": 5850,
-      "sha256": "b0b19eb9f9559a2567be3f37824926bebe5a71b45bb430c58c0b5de54872757b",
+      "bytes": 1960,
+      "sha256": "b20ccc9f5914d871233912f186d992b2d993bd1488bbbc6f7ea63700b4e9fce4",
       "core": true
     },
     {
       "url": "./library.json",
-      "bytes": 552,
-      "sha256": "39522cff600d2defc2f54a48bbc098edc92bbe543617b7aeeb40f55e4f9d955c",
+      "bytes": 551,
+      "sha256": "e37ea9babdf4f4ac7d5455c6cba2b2876899fa5f3a191efad210dba2e2095d9e",
       "core": true
     },
     {
       "url": "./manifest.webmanifest",
-      "bytes": 749,
-      "sha256": "4e8cadb6bad9a10299497924d3769d24c235e863c4b6e8246d87756dc86a3d01",
+      "bytes": 758,
+      "sha256": "b16b220e32f683c9fec47a229abca65e61b9ac84f09c32cc324a0f8b4d4829f5",
+      "core": true
+    },
+    {
+      "url": "./offline-v19.js",
+      "bytes": 2173,
+      "sha256": "fe938c00f959fe7d967f7a86cd30d5582cf1731c8ae3fc997d9e48548786d9b7",
+      "core": true
+    },
+    {
+      "url": "./read.html",
+      "bytes": 7480,
+      "sha256": "08d26945eee152c4156796ac96bb8fb7de6f9acdc057aef592965f8a83f14ac4",
       "core": true
     },
     {
@@ -469,6 +548,12 @@
       "url": "./reader-v18/web.js",
       "bytes": 2173,
       "sha256": "fe938c00f959fe7d967f7a86cd30d5582cf1731c8ae3fc997d9e48548786d9b7",
+      "core": true
+    },
+    {
+      "url": "./scene-layout.json",
+      "bytes": 543,
+      "sha256": "e8b5431ad5e51553b7190939d18a14f66c26f6eb1a7c5abbd3bee6575b942b1a",
       "core": true
     }
   ]

@@ -1,0 +1,32 @@
+{
+  "english": {
+    "image": "english-shelves.png",
+    "image_width": 1448,
+    "image_height": 1086,
+    "header_height": 350,
+    "shelf_top": 350,
+    "shelf_height": 350,
+    "board_top": 600,
+    "back_pixels": [
+      55,
+      70,
+      150,
+      150
+    ]
+  },
+  "chinese": {
+    "image": "chinese-shelves.png",
+    "image_width": 1448,
+    "image_height": 1086,
+    "header_height": 350,
+    "shelf_top": 350,
+    "shelf_height": 260,
+    "board_top": 535,
+    "back_pixels": [
+      45,
+      55,
+      160,
+      170
+    ]
+  }
+}

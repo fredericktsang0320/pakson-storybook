@@ -11,3 +11,5 @@
 - Paper curl rendering: [StPageFlip](https://github.com/Nodlik/StPageFlip), version 2.0.7, MIT licence; the unmodified browser library and its licence are bundled locally.
 
 Home icon: Tabler Icons, MIT licence. See vendor/tabler-icons.LICENSE.txt.
+
+Illustrated library UI: original felt-and-embroidery forest artwork generated for this family project with the built-in image_gen tool. The supplied complete PAKSON / Good job! logo is retained for app icons. Story art and existing synthetic Qwen performances are unchanged in this UI edition.
