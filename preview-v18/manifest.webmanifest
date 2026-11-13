@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "Pakson and Pikachu: Thank You!",
+  "short_name": "Pakson",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#f5f0e5",
+  "theme_color": "#f5f0e5",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
