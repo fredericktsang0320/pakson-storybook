@@ -9,3 +9,5 @@ The catalogue currently contains one English book, Thank You!, with 19 authored 
 If an older cached library remains visible, [refresh the library once](https://fredericktsang0320.github.io/pakson-storybook/repair-v23.html). This returns to the same library address.
 
 The permanent HOME and collection routes are independent of retired reader entry paths. Online HOME and catalogue requests refresh from the server, with a verified offline fallback. Previous offline copies are retired within this project scope; unrelated applications and reading preferences are retained.
+
+Tap the Pakson bag on HOME for a quiet burst of rising stars. Repeated taps are bounded, and reduced-motion preferences are respected.

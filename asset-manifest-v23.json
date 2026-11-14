@@ -1,12 +1,14 @@
 {
-  "version": "858be7758e4f8ba0",
-  "total_bytes": 59133569,
+  "version": "f0d1b30c5e34c7ef",
+  "total_bytes": 59138832,
   "speech_edition": "approved-v18-unchanged",
   "ui_edition": "whole-shelf-and-one-tap-reader-v21",
   "cache_policy": 20,
   "reader_edition": 21,
-  "home_edition": 22,
+  "home_edition": 24,
   "entry_edition": 23,
+  "home_layout_edition": 22,
+  "home_interaction_edition": 24,
   "files": [
     {
       "url": "./assets/icons/apple-touch-icon.png",
@@ -159,6 +161,24 @@
       "core": true
     },
     {
+      "url": "./home-client-v24.js",
+      "bytes": 540,
+      "sha256": "3f769a5722e4f19ab5a8ece34e9e1b255c51f019e3862c34da3863ae79e6a66f",
+      "core": true
+    },
+    {
+      "url": "./home-stars-v24.css",
+      "bytes": 590,
+      "sha256": "6c9751b25e029b6e907f07110fc18764f107fdf48ee4f30248b60631b50dfd95",
+      "core": true
+    },
+    {
+      "url": "./home-stars-v24.js",
+      "bytes": 3555,
+      "sha256": "89dfe082755d325e2b4d4ac38f684de73dc8e6671ead5d979ba74c3566268f4f",
+      "core": true
+    },
+    {
       "url": "./home-v22.css",
       "bytes": 1147,
       "sha256": "ff3137c0cbdf21317afd9aa94c7a1d26eae5b1f86e47ecd59d5ed95c90a27af6",
@@ -172,8 +192,8 @@
     },
     {
       "url": "./home.html",
-      "bytes": 2107,
-      "sha256": "fd6e848f751a15ef4e277a2f4fadf85fafa84b7aa175bbe04b208735edcf0d72",
+      "bytes": 2685,
+      "sha256": "2e6e21ff1728f1398f744996a23869cecef30bf93ef43fc6b9c73102f56defe8",
       "core": true
     },
     {
