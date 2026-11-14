@@ -1,10 +1,11 @@
 {
-  "version": "f34621df5eef5a8a",
-  "total_bytes": 59118102,
+  "version": "fd014306ce8ea9c6",
+  "total_bytes": 59111542,
   "speech_edition": "approved-v18-unchanged",
   "ui_edition": "whole-shelf-and-one-tap-reader-v21",
   "cache_policy": 20,
   "reader_edition": 21,
+  "home_edition": 22,
   "files": [
     {
       "url": "./assets/icons/apple-touch-icon.png",
@@ -115,21 +116,27 @@
       "core": true
     },
     {
+      "url": "./home-client-v22.js",
+      "bytes": 523,
+      "sha256": "f257d6e068d4f3b0e7c4233c489c39f51dcc0b782b2a8d96cfad6a9e5536934f",
+      "core": true
+    },
+    {
+      "url": "./home-v22.css",
+      "bytes": 1147,
+      "sha256": "ff3137c0cbdf21317afd9aa94c7a1d26eae5b1f86e47ecd59d5ed95c90a27af6",
+      "core": true
+    },
+    {
+      "url": "./home-v22.js",
+      "bytes": 1890,
+      "sha256": "c81c3840059a218a8ec1caefa65e336af14ea3e8d924182c52d6ead938b27d19",
+      "core": true
+    },
+    {
       "url": "./index.html",
-      "bytes": 2011,
-      "sha256": "56cd32e6421dae9c2fe3d364059c2a829579a5cb66fa9cbf0a277d1240c7234f",
-      "core": true
-    },
-    {
-      "url": "./library-ui-v19.css",
-      "bytes": 3978,
-      "sha256": "bd654f0fd16c0181389df893285de5f587bb63a5957b4fadb216dcb2e32574ff",
-      "core": true
-    },
-    {
-      "url": "./library-ui-v19.js",
-      "bytes": 6112,
-      "sha256": "4af34bcd9b47e64cd7173bc38d3c9ca9062200da7ad78924a913eed90890e2d3",
+      "bytes": 1996,
+      "sha256": "662704885ddd3bcd1774666aad90b83ee409bb5ba4607444187f99b2590d7301",
       "core": true
     },
     {
@@ -152,8 +159,8 @@
     },
     {
       "url": "./library.html",
-      "bytes": 2011,
-      "sha256": "56cd32e6421dae9c2fe3d364059c2a829579a5cb66fa9cbf0a277d1240c7234f",
+      "bytes": 1996,
+      "sha256": "662704885ddd3bcd1774666aad90b83ee409bb5ba4607444187f99b2590d7301",
       "core": true
     },
     {

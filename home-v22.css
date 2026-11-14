@@ -1,0 +1,11 @@
+:root{color-scheme:light;background:#f5f0e5;color:#17304a;font-family:"Arial Rounded MT Bold",ui-rounded,"SF Pro Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;overscroll-behavior:none}body{-webkit-text-size-adjust:100%;-webkit-user-select:none;user-select:none}
+.home-scene{position:fixed;inset:0;width:100%;height:100%;height:100dvh;overflow:hidden;background:#f5f0e5}
+.home-backdrop{position:absolute;inset:-24px;background:url("assets/library-v19/home.png") center/cover no-repeat;filter:blur(18px);transform:scale(1.05)}
+.home-svg{position:relative;display:block;width:100%;height:100%;overflow:hidden;touch-action:manipulation}
+.home-svg image{pointer-events:none}.home-nav{cursor:pointer;outline:none;-webkit-tap-highlight-color:transparent}
+.home-hit{fill:transparent;stroke:transparent;stroke-width:4;vector-effect:non-scaling-stroke}
+.home-nav:focus-visible .home-hit{fill:#fff8d91a;stroke:#fff1ad;stroke-dasharray:10 5}
+.home-nav:active .home-hit{fill:#fff8d915}
+
+.home-scene[data-layout="landscape-focus"] .home-backdrop{display:none}
