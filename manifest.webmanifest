@@ -4,7 +4,7 @@
   "short_name": "Pakson",
   "description": "Pakson 的中文及英文繪本典藏",
   "lang": "zh-HK",
-  "start_url": "./library.html",
+  "start_url": "./home.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",

@@ -1,0 +1,33 @@
+{
+  "id": "./",
+  "name": "Pakson 的繪本小天地",
+  "short_name": "Pakson",
+  "description": "Pakson 的中文及英文繪本典藏",
+  "lang": "zh-HK",
+  "start_url": "./home.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f0e5",
+  "theme_color": "#f5f0e5",
+  "icons": [
+    {
+      "src": "assets/library-v19/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/library-v19/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/library-v19/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

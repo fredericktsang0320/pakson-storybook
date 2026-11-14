@@ -1,8 +1,9 @@
 'use strict';
 // A unique import URL avoids an old registration's updateViaCache=imports entry.
-importScripts('./asset-manifest.js?reader-build=20261114-cachefix-v20-fd014306ce8ea9c6');
+importScripts('./asset-manifest.js?reader-build=20261114-cachefix-v20-858be7758e4f8ba0');
+importScripts('./cache-retirement-v23.js');
 const SCOPE=new URL(self.registration.scope), BOOK=new URL('book.json',SCOPE).href;
-const WORKER_BUILD='20261114-cachefix-v20-fd014306ce8ea9c6';
+const WORKER_BUILD='20261114-cachefix-v20-858be7758e4f8ba0';
 const INDEX=new URL('index.html',SCOPE).href;
 const LEGACY_SPEECH={"assets/speech/page_00.m4a":"0f58c4264f936e757f3200fbfad48267daf18837f22db35d20fdd1ef494060cb","assets/speech/page_01.m4a":"74fedc2ce1443dc71d61d275eaec8fcf0a8bc65ca3b72906e245fd0d859ae9d7","assets/speech/page_02.m4a":"97b22b30a5115fbdbb8ddcb5616cb6eb52d7dd00e8e6d40992bd185176e1ab9b","assets/speech/page_03.m4a":"f0c8b355871df93b220e144dac9f53f8d23c93f800c79115289ae4fa65b35940","assets/speech/page_04.m4a":"87f1fd2ea7b96fae7a5f0999ca9bf43190c31d777973cf4cb89ea2bb59700f21","assets/speech/page_05.m4a":"d4474dfd4510d44a9349fe067c1cec43d1ea884ae99e919f7659892c12bf1897","assets/speech/page_06.m4a":"c29e8d7f5aa1552c57ecedd670d0de64a614e4ffdd53b1650740c0bff41b96d9","assets/speech/page_07.m4a":"e01af98dd6332f6595434dfbe654a9382a02f0ae18533d4a3801dd08a8a6349d","assets/speech/page_08.m4a":"4e4ffc3f97553c4fee95c8e0132dc7af2290172a949dae900e02e2ca607aeff4","assets/speech/page_09.m4a":"74534692b394310c5f99025a16aab946955f3959395c489022305fab4971375b","assets/speech/page_10.m4a":"31a5840b4413798ab6f45a7e8b714fd494dc6bef3bd347f5d92c84445f5ee7f2","assets/speech/page_11.m4a":"04f932349aa55278a1be8b6df0ada92d4b5819b87832997e58bb36af15fb8a61","assets/speech/page_12.m4a":"bb7c0514b3a98c9bd45408653841c2cf38c2485a29058bde7dc9bbb61faadc79","assets/speech/v2/page_00.m4a":"320f7e9061c90a7d974bdc27ef3071583d91dd4145bcaec6f8cf52171bb15de0","assets/speech/v2/page_01.m4a":"083fc6369b4a8299a5505aa42aaba644c9541db5285fb62262004af0754acf10","assets/speech/v2/page_02.m4a":"c26ecb9d75b806ba0e7d1ffd81bb7b5ddde433bc223a1c9faca5e672655b8857","assets/speech/v2/page_03.m4a":"bdaebe9796ffde5c66b3419161ff18f5c284f1ed9f631b7de63bf74abd9328d5","assets/speech/v2/page_04.m4a":"9e29cd6269d3d5a71f931197a8afd861cc3b70e1a55bf7d304de5f33d7e8bb40","assets/speech/v2/page_05.m4a":"cb962e58b81d1f635b5dc70549dd1e123dce7a0ea3a784baf265e0872e874d5d","assets/speech/v2/page_06.m4a":"40b2f4de708dd861e66def0b9da2e5599b500726a3d6b44e06eb41597fdc6285","assets/speech/v2/page_07.m4a":"3b7099def71dabe851e9bb0ef1a13ed02625f4aaba98880634151962343eaf99","assets/speech/v2/page_08.m4a":"70650c64a61d775dd91af5b1606b64fd1f0b6005c9e92058d640e92676faccb8","assets/speech/v2/page_09.m4a":"8ed48e0ef7c9c7c6dec0bd664f46845bae7fffa41bb70223e3b1bcf6c2c4f09a","assets/speech/v2/page_10.m4a":"d08e8798b71b41c8f4098fd26f51df8ae9890bc37ea755a90d6268ca54aea7ee","assets/speech/v2/page_11.m4a":"8886036e9e346108c9f5ef9546b1ff9da723b43989dde3dc4c4bf5a1de653c8e","assets/speech/v2/page_12.m4a":"e55c9f4b4b6edfb26368817463a162f81f22b85de929a96c018a976b030e1e76"};
 const legacySpeech=new Map(Object.entries(LEGACY_SPEECH).map(([url,sha])=>[new URL(url,SCOPE).href,sha]));
@@ -50,12 +51,13 @@ async function olderOwnedCaches(){
   const scoped=key.startsWith(e.prefix)&&/^[a-f0-9]{16}$/.test(key.slice(e.prefix.length));
   const legacy=/^pakson-audiobook-[a-f0-9]{16}$/.test(key);
   // A legacy cache name is origin-wide; only exact scoped book.json proves ownership.
-  if((scoped||legacy)&&await(await caches.open(key)).match(BOOK))result.push(key);
+  if(scoped||legacy){const proof=await caches.match(BOOK,{cacheName:key});if(proof){await proof.arrayBuffer();result.push(key);}}
  }
  return result;
 }
 async function reusable(file,names){
- for(const name of names){const r=await(await caches.open(name)).match(new URL(file.url,SCOPE));if(await validResponse(r,file))return r;}
+ const existing=new Set(await caches.keys());
+ for(const name of names){if(!existing.has(name))continue;const r=await caches.match(new URL(file.url,SCOPE),{cacheName:name});if(await validResponse(r,file)){const bytes=await r.arrayBuffer();return new Response(bytes,{status:r.status,statusText:r.statusText,headers:r.headers});}}
  return null;
 }
 self.addEventListener('install',event=>{event.waitUntil((async()=>{
@@ -69,11 +71,11 @@ self.addEventListener('install',event=>{event.waitUntil((async()=>{
   for(const file of required)await stage.put(new URL(file.url,SCOPE),await reusable(file,existed?[e.cache,...older]:older)||await checkedResponse(file));
   if(!(await check(stage,required)).complete)throw Error('Staged cache is incomplete.');
   const target=await caches.open(e.cache);
-  for(const file of required)await target.put(new URL(file.url,SCOPE),(await stage.match(new URL(file.url,SCOPE))).clone());
+  for(const file of required){const url=new URL(file.url,SCOPE),response=await stage.match(url);await stage.delete(url);await target.put(url,response);}
   if(!(await check(target,required)).complete)throw Error('Committed cache is incomplete.');
   // All fallible full verification and commit metadata precede skipWaiting.
   await saveState({scope:SCOPE.href,version:ASSET_MANIFEST.version,workerBuild:WORKER_BUILD,upgrade,hadOldActive,
-    shellComplete:true,cachePolicy:20,uiEdition:21,homeRevision:22,complete:required.length===ASSET_MANIFEST.files.length,legacyCaches:older,reloads:{},createdAt:new Date().toISOString()});
+    shellComplete:true,cachePolicy:20,uiEdition:21,homeRevision:23,entryRevision:23,complete:required.length===ASSET_MANIFEST.files.length,legacyCaches:older,reloads:{},createdAt:new Date().toISOString()});
   await caches.delete(stageName);
   if(upgrade)await self.skipWaiting();
  }catch(error){
@@ -88,8 +90,8 @@ async function currentShellClient(client){
   const finish=value=>{if(settled)return;settled=true;clearTimeout(timer);channel.port1.close();resolve(value);};
   const timer=setTimeout(()=>finish(false),650);
   channel.port1.onmessage=event=>{
-   const url=new URL(client.url),home=url.pathname===SCOPE.pathname||url.pathname===new URL('index.html',SCOPE).pathname||url.pathname===new URL('library.html',SCOPE).pathname;
-   finish(event.data?.uiEdition===21&&event.data?.preserveEntry===true&&(!home||event.data?.homeRevision===22));
+   const url=new URL(client.url),home=url.pathname===SCOPE.pathname||url.pathname===new URL('index.html',SCOPE).pathname||url.pathname===new URL('library.html',SCOPE).pathname||url.pathname===new URL('home.html',SCOPE).pathname;
+   finish(event.data?.uiEdition===21&&event.data?.preserveEntry===true&&(!home||event.data?.homeRevision===23));
   };
   try{client.postMessage({type:'PAKSON_CLIENT_EDITION'},[channel.port2]);}catch{finish(false);}
  });
@@ -137,17 +139,33 @@ async function legacyResponse(request){
  const expected=legacySpeech.get(request.url);if(!expected)return null;
  const state=await readState();
  for(const name of state?.legacyCaches||[]){
-  const cached=await(await caches.open(name)).match(request);
-  if(cached&&await digest(await cached.clone().arrayBuffer())===expected)return cached;
+  const cached=await caches.match(request,{cacheName:name});
+  if(cached){const bytes=await cached.arrayBuffer();if(await digest(bytes)===expected)return new Response(bytes,{status:cached.status,statusText:cached.statusText,headers:cached.headers});}
  }
  // Legitimate v1 cache misses use immutable retained v1 URLs, never /v2/ audio.
  const response=await fetch(request);if(!response.ok||await digest(await response.clone().arrayBuffer())!==expected)throw Error('Legacy speech SHA differs.');
  return response;
 }
+const onlineEntries=new Set(['','index.html','library.html','home.html','english.html','chinese.html','english-books.html','chinese-books.html','catalogue.json'].map(name=>new URL(name,SCOPE).pathname));
+async function freshEntry(request,file){
+ const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),2500);
+ try{
+  const response=await fetch(request,{cache:'no-store',signal:controller.signal});
+  if(response.ok){
+   // Serve coherent, same-origin online HTML/catalogue even before a new worker
+   // can install. Store it only if it matches THIS manifest, never under old SHA.
+   if(file&&await validResponse(response,file)){const e=await environment;try{await(await caches.open(e.cache)).put(new URL(file.url,SCOPE),response.clone());}catch{}}
+   return response;
+  }
+ }catch{}finally{clearTimeout(timer);}
+ if(file)return await obtain(file,false);
+ throw Error('The library entry could not open.');
+}
 self.addEventListener('fetch',event=>{
  if(event.request.method!=='GET'||!inScope(event.request.url))return;
  event.respondWith((async()=>{
   const e=await environment,cache=await caches.open(e.cache),requestURL=new URL(event.request.url),key=runtimeURL(event.request.mode==='navigate'?requestURL.origin+requestURL.pathname:event.request.url),file=runtime.get(key);
+  if(onlineEntries.has(requestURL.pathname)&&(event.request.mode==='navigate'||requestURL.pathname===new URL('catalogue.json',SCOPE).pathname))return freshEntry(event.request,file||(readerEntry(event.request.url)?runtime.get(INDEX):null));
   if(event.request.mode==='navigate'&&readerEntry(event.request.url)){
    const shell=await cache.match(INDEX);if(shell)return shell;
   }
@@ -195,6 +213,18 @@ async function obtain(file,mustStore){
  if(!mustStore)rememberResponse(file,result.response);
  return result.response.clone();
 }
+async function compactAfterDownload(cacheName,keep){
+ if(self.registration.installing||self.registration.waiting)return {deleted:[]};
+ const active=await new Promise(resolve=>{
+  const worker=self.registration.active;if(!worker){resolve(null);return;}
+  const channel=new MessageChannel();let finished=false;
+  const finish=value=>{if(finished)return;finished=true;clearTimeout(timer);channel.port1.close();resolve(value);};
+  const timer=setTimeout(()=>finish(null),600);channel.port1.onmessage=event=>finish(event.data);
+  try{worker.postMessage({type:'UPGRADE_STATUS'},[channel.port2]);}catch{finish(null);}
+ });
+ if(active?.cache!==cacheName)return {deleted:[]};
+ return await PaksonCacheRetirement.retire({scope:SCOPE.href,protectedCaches:[cacheName],activeKnown:true,maxRetiredToKeep:keep,deferLegacyInspection:keep===0});
+}
 let bookJob=null,bookProgress={done:0,total:ASSET_MANIFEST.files.length};
 const progressListeners=new Set();
 function announceProgress(){for(const listener of progressListeners){try{listener({...bookProgress,type:'PROGRESS'});}catch{}}}
@@ -204,14 +234,28 @@ async function saveBook(listener){
   if(!bookJob){
    bookJob=(async()=>{
     let failure=null;bookProgress={done:0,total:ASSET_MANIFEST.files.length};announceProgress();
-    for(const file of ASSET_MANIFEST.files){
-     try{await obtain(file,true);}
-     catch(error){failure={name:error.name||'Error',message:error.message||String(error),url:file.url};break;}
-     ++bookProgress.done;announceProgress();
+    const e=await environment;
+    for(let attempt=0;attempt<2;attempt++){
+     failure=null;bookProgress.done=0;
+     for(const file of ASSET_MANIFEST.files){
+      try{await obtain(file,true);}
+      catch(error){failure={name:error.name||'Error',message:error.message||String(error),url:file.url};break;}
+      ++bookProgress.done;announceProgress();
+     }
+     if(attempt===0&&failure?.name==='QuotaExceededError'&&self.navigator.onLine){
+      // The new shell is already active. Retire only prior owned offline copies
+      // if they prevent saving this replacement, then resume verified parts.
+      const cleaned=await compactAfterDownload(e.cache,0);
+      if(cleaned.deleted.length)continue;
+     }
+     break;
     }
-    const e=await environment,result=await check(await caches.open(e.cache));
+    const result=await check(await caches.open(e.cache));
+    let cleaned={deleted:[]};
+    if(result.complete)cleaned=await compactAfterDownload(e.cache,1);
     const state=await readState();
     if(state){
+     state.legacyCaches=(state.legacyCaches||[]).filter(name=>!cleaned.deleted.includes(name));
      state.complete=result.complete;state.lastDownloadError=failure;state.downloadedAt=new Date().toISOString();
      try{await saveState(state);}catch(error){if(error.name!=='QuotaExceededError')throw error;}
     }

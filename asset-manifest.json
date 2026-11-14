@@ -1,11 +1,12 @@
 {
-  "version": "fd014306ce8ea9c6",
-  "total_bytes": 59111542,
+  "version": "858be7758e4f8ba0",
+  "total_bytes": 59133569,
   "speech_edition": "approved-v18-unchanged",
   "ui_edition": "whole-shelf-and-one-tap-reader-v21",
   "cache_policy": 20,
   "reader_edition": 21,
   "home_edition": 22,
+  "entry_edition": 23,
   "files": [
     {
       "url": "./assets/icons/apple-touch-icon.png",
@@ -98,9 +99,27 @@
       "core": true
     },
     {
+      "url": "./cache-retirement-v23.js",
+      "bytes": 4505,
+      "sha256": "d2ec84300abfe9340e0ab8c9251574830a1ff085ff74de803de5b0aa762b2076",
+      "core": true
+    },
+    {
+      "url": "./catalogue.json",
+      "bytes": 617,
+      "sha256": "57ae4c27448da6d94b4fd149179c43712db0167d0f9614d6b94b13bf8bbc3958",
+      "core": true
+    },
+    {
+      "url": "./chinese-books.html",
+      "bytes": 1721,
+      "sha256": "011671c65755e5977f46052c83158ab30cebb9b49ed288e3530c9d97f586c879",
+      "core": true
+    },
+    {
       "url": "./chinese.html",
-      "bytes": 1613,
-      "sha256": "3fc2462580db530c60c52411a4fa2e8417caff578b8fc210f16fd42f8159e1ef",
+      "bytes": 374,
+      "sha256": "5e77a20b58d755fd5b4a3c26de3bb194f75ce8a40bcdadcb3f78fcfd257468b4",
       "core": true
     },
     {
@@ -110,15 +129,33 @@
       "core": true
     },
     {
+      "url": "./english-books.html",
+      "bytes": 1722,
+      "sha256": "06eac7858eacd435e4146fc118f7fedc141a2c2a677285a8b840b3261083fb75",
+      "core": true
+    },
+    {
       "url": "./english.html",
-      "bytes": 1614,
-      "sha256": "f406f4d1dfabe851d33797e15373c550f8186b7cc60d49424ed76153f79ea884",
+      "bytes": 374,
+      "sha256": "eb229a2eeb01ae00448bc764bf08650ce31cd5c8847f1735e6866aa55e5a7c2c",
+      "core": true
+    },
+    {
+      "url": "./entry-v23.js",
+      "bytes": 2202,
+      "sha256": "1027c4a239f414d49b1e315b39c4ddc2881bf045824f99bd0080d060c1d88d40",
       "core": true
     },
     {
       "url": "./home-client-v22.js",
       "bytes": 523,
       "sha256": "f257d6e068d4f3b0e7c4233c489c39f51dcc0b782b2a8d96cfad6a9e5536934f",
+      "core": true
+    },
+    {
+      "url": "./home-client-v23.js",
+      "bytes": 540,
+      "sha256": "f196743d31eda7ea38fad0088229873058b1b0d72ff85f0acf279a6079181b8e",
       "core": true
     },
     {
@@ -134,9 +171,15 @@
       "core": true
     },
     {
+      "url": "./home.html",
+      "bytes": 2107,
+      "sha256": "fd6e848f751a15ef4e277a2f4fadf85fafa84b7aa175bbe04b208735edcf0d72",
+      "core": true
+    },
+    {
       "url": "./index.html",
-      "bytes": 1996,
-      "sha256": "662704885ddd3bcd1774666aad90b83ee409bb5ba4607444187f99b2590d7301",
+      "bytes": 347,
+      "sha256": "f9ced1c8a60a45881110905e3764d98bb3cb7b2cbf35fac44ee1b19504ae2d66",
       "core": true
     },
     {
@@ -152,6 +195,12 @@
       "core": true
     },
     {
+      "url": "./library-ui-v23.js",
+      "bytes": 4614,
+      "sha256": "7f1a04edd36cc4c0448677640e7b19852b19a77400cbd80d3e066efd4719a601",
+      "core": true
+    },
+    {
       "url": "./library-v21.json",
       "bytes": 617,
       "sha256": "b33a5874b54104c644c74c3c65e2dfaa301cdeb651b5303bde7781278621162e",
@@ -159,8 +208,8 @@
     },
     {
       "url": "./library.html",
-      "bytes": 1996,
-      "sha256": "662704885ddd3bcd1774666aad90b83ee409bb5ba4607444187f99b2590d7301",
+      "bytes": 347,
+      "sha256": "f9ced1c8a60a45881110905e3764d98bb3cb7b2cbf35fac44ee1b19504ae2d66",
       "core": true
     },
     {
@@ -170,9 +219,15 @@
       "core": true
     },
     {
+      "url": "./manifest-v23.webmanifest",
+      "bytes": 755,
+      "sha256": "36da56f5a05f3ef2977850a35ed85de1695f537d227c886b21fe7186fcea757d",
+      "core": true
+    },
+    {
       "url": "./manifest.webmanifest",
-      "bytes": 758,
-      "sha256": "b16b220e32f683c9fec47a229abca65e61b9ac84f09c32cc324a0f8b4d4829f5",
+      "bytes": 755,
+      "sha256": "36da56f5a05f3ef2977850a35ed85de1695f537d227c886b21fe7186fcea757d",
       "core": true
     },
     {
@@ -182,15 +237,27 @@
       "core": true
     },
     {
+      "url": "./offline-v23.js",
+      "bytes": 8141,
+      "sha256": "3597eb9c8b63314d8940b8144a9e05c1b89c5a450ef868f83827a7c8b7be5729",
+      "core": true
+    },
+    {
       "url": "./read-v21.html",
       "bytes": 7414,
       "sha256": "a4954fb9946d1d3653b5f7b9eb376f45ca0226531a6c162b121919db78970c0f",
       "core": true
     },
     {
+      "url": "./read-v23.html",
+      "bytes": 7415,
+      "sha256": "be673e64a811c6385cb03d09128b49e083e8d5a86e971f10142ed44d25dc22cf",
+      "core": true
+    },
+    {
       "url": "./read.html",
-      "bytes": 7414,
-      "sha256": "a4954fb9946d1d3653b5f7b9eb376f45ca0226531a6c162b121919db78970c0f",
+      "bytes": 347,
+      "sha256": "f9ced1c8a60a45881110905e3764d98bb3cb7b2cbf35fac44ee1b19504ae2d66",
       "core": true
     },
     {
@@ -603,8 +670,14 @@
     },
     {
       "url": "./refresh.html",
-      "bytes": 814,
-      "sha256": "f7204e00eab548fe551d24593824a355fe6ee09b2c10abf9d3ce7d0eb1d0274c",
+      "bytes": 374,
+      "sha256": "8931cc719f5d6f53249a6a6c109acf96515f9bb4e0a6e015ee325f77c638d534",
+      "core": true
+    },
+    {
+      "url": "./repair-v23.html",
+      "bytes": 975,
+      "sha256": "323980ff62f5c8258e6d7bb98cf968f78150bff4897a79e078e5fd0731c56dfc",
       "core": true
     },
     {
