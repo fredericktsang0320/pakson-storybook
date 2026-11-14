@@ -1,0 +1,70 @@
+{
+  "schema_version": 2,
+  "image": "assets/library-v21/shelf.png",
+  "width": 851,
+  "height": 1848,
+  "title": {
+    "x": 260,
+    "y": 168,
+    "width": 340,
+    "height": 108
+  },
+  "home": {
+    "x": 20,
+    "y": 26,
+    "width": 125,
+    "height": 125
+  },
+  "slots": [
+    {
+      "x": 118,
+      "y": 307,
+      "width": 276,
+      "height": 250
+    },
+    {
+      "x": 458,
+      "y": 307,
+      "width": 276,
+      "height": 250
+    },
+    {
+      "x": 118,
+      "y": 623,
+      "width": 276,
+      "height": 250
+    },
+    {
+      "x": 458,
+      "y": 623,
+      "width": 276,
+      "height": 250
+    },
+    {
+      "x": 118,
+      "y": 939,
+      "width": 276,
+      "height": 250
+    },
+    {
+      "x": 458,
+      "y": 939,
+      "width": 276,
+      "height": 250
+    },
+    {
+      "x": 118,
+      "y": 1242,
+      "width": 276,
+      "height": 250
+    },
+    {
+      "x": 458,
+      "y": 1242,
+      "width": 276,
+      "height": 250
+    }
+  ],
+  "capacity": 8,
+  "overflow_policy": "All real titles remain linked below the complete illustration if supplied over capacity. Extend the one continuous illustration and source slots before publishing a larger catalogue. Never repeat or slice shelf art."
+}

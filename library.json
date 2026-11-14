@@ -20,7 +20,8 @@
       "page_count": 19,
       "cover": "reader-v18/assets/pages/page_00.png",
       "cover_alt": "Thank you!：Pakson 和 Pikachu 的故事封面",
-      "href": "./read.html"
+      "href": "./read-v21.html",
+      "entry_audio": "./reader-v18/assets/audio/page_00.m4a"
     }
   ]
 }

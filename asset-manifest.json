@@ -1,9 +1,10 @@
 {
-  "version": "a2d044a5706e43bd",
-  "total_bytes": 62259620,
+  "version": "f34621df5eef5a8a",
+  "total_bytes": 59118102,
   "speech_edition": "approved-v18-unchanged",
-  "ui_edition": "illustrated-library-v19",
+  "ui_edition": "whole-shelf-and-one-tap-reader-v21",
   "cache_policy": 20,
+  "reader_edition": 21,
   "files": [
     {
       "url": "./assets/icons/apple-touch-icon.png",
@@ -48,18 +49,6 @@
       "core": false
     },
     {
-      "url": "./assets/library-v19/chinese-shelves.png",
-      "bytes": 3217677,
-      "sha256": "57d1e99824d8aaadb03aef5f5a707a86cdc271beb4af10222e69207da8b3f5b4",
-      "core": false
-    },
-    {
-      "url": "./assets/library-v19/english-shelves.png",
-      "bytes": 3120806,
-      "sha256": "35e3a3d0dc272baf269f51850cf5846265f6922bfab53289bb9cef70e9e97a36",
-      "core": false
-    },
-    {
       "url": "./assets/library-v19/home.png",
       "bytes": 3238245,
       "sha256": "b57a7ff01feb83e478d08ace213cc15c4024f66bf4db6fc86c597ba76e64b6e3",
@@ -96,6 +85,12 @@
       "core": true
     },
     {
+      "url": "./assets/library-v21/shelf.png",
+      "bytes": 3110236,
+      "sha256": "a9e404eb4463ab7ad21c2173e698d04f32bc9af2d93e8b5360237bd5c26847f8",
+      "core": false
+    },
+    {
       "url": "./book.json",
       "bytes": 120221,
       "sha256": "663794396e53871cad676c415e754270f97f7dbaee6df01fd0aca110f62ff20f",
@@ -103,20 +98,26 @@
     },
     {
       "url": "./chinese.html",
-      "bytes": 1684,
-      "sha256": "3539a17e72aef796a6fff804bcb58608739d0eef4962762606dd93a16edf170d",
+      "bytes": 1613,
+      "sha256": "3fc2462580db530c60c52411a4fa2e8417caff578b8fc210f16fd42f8159e1ef",
+      "core": true
+    },
+    {
+      "url": "./client-edition-v21.js",
+      "bytes": 507,
+      "sha256": "bb997a30ce208ec1f97458fe7d1fc18fc9e66834fe34503f5eb9c0aed2d5c1f4",
       "core": true
     },
     {
       "url": "./english.html",
-      "bytes": 1670,
-      "sha256": "042e647e2a2d693d6032a9f77c5a7e70baf9318815137cafcc2fd131817f253e",
+      "bytes": 1614,
+      "sha256": "f406f4d1dfabe851d33797e15373c550f8186b7cc60d49424ed76153f79ea884",
       "core": true
     },
     {
       "url": "./index.html",
-      "bytes": 1960,
-      "sha256": "8112109b27588ae5f3c5a7da8ab784156146b02c26bd5c03616a30de853ca4b4",
+      "bytes": 2011,
+      "sha256": "56cd32e6421dae9c2fe3d364059c2a829579a5cb66fa9cbf0a277d1240c7234f",
       "core": true
     },
     {
@@ -132,15 +133,33 @@
       "core": true
     },
     {
+      "url": "./library-ui-v21.css",
+      "bytes": 3118,
+      "sha256": "11071dd3376fcdc01af30f0b2ab33e3cd228caa312647a6f3d9f530450468fbe",
+      "core": true
+    },
+    {
+      "url": "./library-ui-v21.js",
+      "bytes": 4616,
+      "sha256": "dce866852428062862d12b3a04a44fb4a831592a36fbde4d19738bdb56ee3bfd",
+      "core": true
+    },
+    {
+      "url": "./library-v21.json",
+      "bytes": 617,
+      "sha256": "b33a5874b54104c644c74c3c65e2dfaa301cdeb651b5303bde7781278621162e",
+      "core": true
+    },
+    {
       "url": "./library.html",
-      "bytes": 1960,
-      "sha256": "8112109b27588ae5f3c5a7da8ab784156146b02c26bd5c03616a30de853ca4b4",
+      "bytes": 2011,
+      "sha256": "56cd32e6421dae9c2fe3d364059c2a829579a5cb66fa9cbf0a277d1240c7234f",
       "core": true
     },
     {
       "url": "./library.json",
-      "bytes": 551,
-      "sha256": "e37ea9babdf4f4ac7d5455c6cba2b2876899fa5f3a191efad210dba2e2095d9e",
+      "bytes": 617,
+      "sha256": "b33a5874b54104c644c74c3c65e2dfaa301cdeb651b5303bde7781278621162e",
       "core": true
     },
     {
@@ -150,15 +169,27 @@
       "core": true
     },
     {
-      "url": "./offline-v20.js",
-      "bytes": 7888,
-      "sha256": "d6c3c3a4ee0dc78f7444f811a8794f5301df2cd61fb7a2d22aa8962df5bb2248",
+      "url": "./offline-v21.js",
+      "bytes": 8030,
+      "sha256": "411d1e76d7c4086057f20d7c52219074439102e62d5facc252400faaedd45890",
+      "core": true
+    },
+    {
+      "url": "./read-v21.html",
+      "bytes": 7414,
+      "sha256": "a4954fb9946d1d3653b5f7b9eb376f45ca0226531a6c162b121919db78970c0f",
       "core": true
     },
     {
       "url": "./read.html",
-      "bytes": 7477,
-      "sha256": "b3e46edf991c3f19819cdada39e6fdc6aebd8cf76ab72b54d5febbc2506e2491",
+      "bytes": 7414,
+      "sha256": "a4954fb9946d1d3653b5f7b9eb376f45ca0226531a6c162b121919db78970c0f",
+      "core": true
+    },
+    {
+      "url": "./reader-entry-v21.js",
+      "bytes": 4745,
+      "sha256": "b2b328409dfaaaf43c3e4f97d5c2e15edd968923def455e21918c3a9efb322f5",
       "core": true
     },
     {
@@ -474,9 +505,21 @@
       "core": false
     },
     {
+      "url": "./reader-v18/js/app-v21.js",
+      "bytes": 56059,
+      "sha256": "14eca8feb49fac7f543713be23433f71eea5df6cb2d25d14687db67ad9445a87",
+      "core": true
+    },
+    {
       "url": "./reader-v18/js/app.js",
       "bytes": 53977,
       "sha256": "baa0099af53f049b0fc585f8b8b466072b0b73203703dc95257f07963460d6e7",
+      "core": true
+    },
+    {
+      "url": "./reader-v18/js/audio-v21.js",
+      "bytes": 8856,
+      "sha256": "3b828232df0d79422ecb8536c6ec954444d3ccf92c5d15e2f68e009694fa3d99",
       "core": true
     },
     {
@@ -558,9 +601,9 @@
       "core": true
     },
     {
-      "url": "./scene-layout.json",
-      "bytes": 543,
-      "sha256": "e8b5431ad5e51553b7190939d18a14f66c26f6eb1a7c5abbd3bee6575b942b1a",
+      "url": "./scene-layout-v21.json",
+      "bytes": 1220,
+      "sha256": "b22e200b0bd78b297f9bb1439cf5e716108bd98dc00ac04e5ddbaedc23a2bba2",
       "core": true
     }
   ]
