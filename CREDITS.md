@@ -13,3 +13,11 @@
 Home icon: Tabler Icons, MIT licence. See vendor/tabler-icons.LICENSE.txt.
 
 Illustrated library UI: original felt-and-embroidery forest artwork generated for this family project with the built-in image_gen tool. The supplied complete PAKSON / Good job! logo is retained for app icons. Story art and existing synthetic Qwen performances are unchanged in this UI edition.
+
+## Chapter 2: Yummy food!
+
+- Pakson and Doraemon: The Dim Sum Adventure is an original educational story and original page artwork for this family reading project.
+- Doraemon, Nobita and Shizuka are character references from [Doraemon](https://www.tv-asahi.co.jp/doraemon/character/). No official animation footage or voice-actor recordings are included.
+- All Chapter 2 English narration, dialogue, word demonstrations and spelling use original locally synthesised Qwen3-TTS performances. Character voices are original English interpretations, not official voice-actor recordings. The fixed Pakson and narrator voices are retained.
+- Chapter 2 has no background music or page-turn sound. Existing short answer-feedback and completion-reward sounds are retained.
+- Private photographs, voice references, model files, production scripts and internal QA records are excluded.

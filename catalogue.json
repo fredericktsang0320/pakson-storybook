@@ -22,6 +22,18 @@
       "cover_alt": "Thank you!：Pakson 和 Pikachu 的故事封面",
       "href": "./read-v23.html",
       "entry_audio": "./reader-v18/assets/audio/page_00.m4a"
+    },
+    {
+      "id": "pakson-k3-b5-u02-yummy-food",
+      "title": "Yummy food!",
+      "subtitle": "Pakson 和哆啦A夢的點心大冒險",
+      "subject": "english",
+      "level": "K3",
+      "page_count": 18,
+      "cover": "./chapter2/reader/assets/pages/page_00.png",
+      "cover_alt": "Pakson and Doraemon: The Dim Sum Adventure",
+      "href": "./chapter2/read.html",
+      "entry_audio": "./chapter2/reader/assets/audio/p00.m4a"
     }
   ]
 }

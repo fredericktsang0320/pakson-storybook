@@ -12,7 +12,7 @@
   try{
    const registration=await navigator.serviceWorker.getRegistration(scope);
    const reports=await Promise.all([message(registration?.active),message(navigator.serviceWorker.controller)]);
-   const protectedCaches=reports.map(r=>r?.cache).filter(Boolean);
+   const protectedCaches=reports.flatMap(r=>[r?.workerCache||r?.cache,r?.targetCache,...(r?.state?.complete===true?[]:r?.state?.legacyCaches||[])]).filter(Boolean);
    try{
     const manifest=await fetch(new URL('asset-manifest-v23.json',scope),{cache:'reload'}).then(r=>r.ok?r.json():null);
     if(manifest?.version&&crypto.subtle){const tag=[...new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(scope)))].map(x=>x.toString(16).padStart(2,'0')).join('');protectedCaches.push('pakson-storybook-scope-'+tag+'-'+manifest.version);}
