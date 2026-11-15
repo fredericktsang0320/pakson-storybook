@@ -11,6 +11,7 @@
   <svg class="icon-defs" aria-hidden="true"><defs>
     
     
+    <symbol id="i-shelf-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5M5.5 8.5V21h13V8.5M9 21v-7h6v7"></path></symbol>
     <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"></path></symbol>
     <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"></path></symbol>
     <symbol id="i-back" viewBox="0 0 24 24"><path d="m11 5-7 7 7 7M4 12h16"></path></symbol>
@@ -30,7 +31,7 @@
       <div class="flipbook" id="flipbook" role="img" aria-label="Whole-page storybook"></div>
       <div class="book-tap" id="pageStage" role="region" tabindex="-1" aria-label="Swipe to turn the page" aria-describedby="bookInstructions"></div>
       <p class="sr-only" id="bookInstructions">Every page reads automatically from the beginning. Swipe from right to left for the next page, or from left to right to go back. Turn away and return to hear a page again. Choose manual or automatic story page turning in the story menu. Word practice waits for your answers. You can always swipe to skip or go back, or use the arrow keys.</p>
-      <div class="book-controls" role="group" aria-label="Story controls"><button class="book-control menu-control" id="menuButton" aria-label="Open the story menu" aria-haspopup="dialog"><svg class="icon"><use href="#i-menu"></use></svg></button>
+      <div class="book-controls" role="group" aria-label="Story controls"><a class="book-control shelf-control" id="libraryLink" href="./english-books.html" aria-label="Return to the english bookshelf"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-shelf-home"></use></svg></a><button class="book-control menu-control" id="menuButton" aria-label="Open the story menu" aria-haspopup="dialog"><svg class="icon"><use href="#i-menu"></use></svg></button>
       
       </div><button class="next-page-hint" id="nextPageButton" aria-label="Turn and read the next page" hidden=""><span>Next page</span><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"></path></svg></button>
       <span class="sr-only" id="bookStatus" role="status" aria-live="polite">Opening the storybook.</span>
@@ -57,7 +58,7 @@
             <button id="transcriptButton"><svg class="icon"><use href="#i-text"></use></svg><span>Read along</span></button>
             
             <button id="settingsButton"><svg class="icon"><use href="#i-settings"></use></svg><span>Reading volume</span></button>
-          <a href="./library.html" id="libraryLink">Back to the library</a></nav>
+          </nav>
           <details class="small-detail credits"><summary>Story &amp; sound credits</summary><p id="creditsText">Original page art and character performances, with answer sounds and one short logo reward. Interactive page curl and automatic page narration run inside this book. StPageFlip: MIT licence.</p><p>Paper animation: <span>StPageFlip · MIT licence</span>.</p></details>
           
           <button class="text-button" id="reloadButton" hidden="">Reload the storybook</button>

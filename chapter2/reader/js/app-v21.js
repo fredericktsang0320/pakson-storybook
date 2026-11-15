@@ -556,7 +556,7 @@
   }
   function bindSurfaceGesture() {
     const surface=$('pageStage'), shell=$('bookShell');
-    const swipeTargets='#pageStage,#menuButton,.practice-option,.practice-next,#nextPageButton';
+    const swipeTargets='#pageStage,#menuButton,#libraryLink,.practice-option,.practice-next,#nextPageButton';
     let draggedControl=null;
     const streamID=(point,route)=>route==='touch'?point.identifier:point.pointerId;
     const sample = event => {
@@ -873,7 +873,14 @@
     if(state.audio.page===state.book.pages[0]&&['loading','playing'].includes(state.audio.state))return state.audio._intent?.result||true;
     state.started=true;return state.audio.playEntry(state.book.pages[0]);
   }
-  document.addEventListener('click',event=>{if(hosted&&event.target.closest('#libraryLink')){event.preventDefault();window.parent.PaksonShelfReader?.close();}});
+  document.addEventListener('click',event=>{
+    const link=event.target.closest('#libraryLink');if(!link)return;
+    // The input guard intentionally cancels native control activation.
+    // Route this true tap once; the drag guard stops consumed swipes earlier.
+    event.preventDefault();event.stopImmediatePropagation();
+    if(hosted)window.parent.PaksonShelfReader?.close();
+    else {closeToLibrary();location.assign(link.href);}
+  });
   window.paksonReader = {state,turnTo,workerMessage,ensurePage,ensureSpread:ensurePage,getPageFlip:() => state.flip,openFromCover,closeToLibrary};
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',startVisibleInit,{once:true});else startVisibleInit();
 })();

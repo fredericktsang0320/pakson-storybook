@@ -176,6 +176,30 @@
     resizePending = false;
     return {width,height};
   }
+  // One legacy dense song page has no left margin for fixed controls.
+  // Keep the original asset whole, contained beside a CSS-pixel safe lane.
+  const controlTextureCache=new Map();
+  function controlGutterFor(index){
+    const page=state.book?.pages[index];
+    return page?.control_safe_gutter_css_px ?? (state.book?.id==='pakson-k3-b5-u01-thank-you-web-v18'&&page?.page_type==='song'?48:0);
+  }
+  function controlTexture(page,index,rect){
+    const image=page.image,gutter=controlGutterFor(index);
+    if(!gutter||!image?.naturalWidth||!page.isLoad)return image;
+    const width=rect.pageWidth,cached=controlTextureCache.get(index);
+    if(cached?.image===image&&cached.width===width)return cached.canvas;
+    const canvas=document.createElement('canvas');canvas.width=image.naturalWidth;canvas.height=image.naturalHeight;
+    const context=canvas.getContext('2d'),scale=Math.max(.25,(width-gutter)/width),left=canvas.width*(1-scale),height=canvas.height*scale;
+    context.fillStyle='#fffaf0';context.fillRect(0,0,canvas.width,canvas.height);
+    context.imageSmoothingEnabled=true;context.imageSmoothingQuality='high';
+    context.drawImage(image,left,(canvas.height-height)/2,canvas.width*scale,height);
+    controlTextureCache.set(index,{image,width,canvas});return canvas;
+  }
+  function withControlTexture(page,index,rect,draw){
+    const original=page.image,texture=controlTexture(page,index,rect);
+    if(texture===original)return draw();
+    page.image=texture;try{return draw();}finally{page.image=original;}
+  }
   function installCanvasAdapters() {
     const ui = state.flip.getUI(), render = state.flip.getRender(), canvas = ui.getDistElement();
     if (!(canvas instanceof HTMLCanvasElement) || typeof ui.resizeCanvas !== 'function' || typeof render.drawBookShadow !== 'function') throw new Error('The whole-page paper renderer is unavailable.');
@@ -228,26 +252,26 @@
     };
     // Both directions use the same soft-page calculation. Backwards mirrors
     // only the geometry; these texture transforms keep every word readable.
-    for (const page of state.pages) {
+    for (const [pageIndex,page] of state.pages.entries()) {
       const nativeDraw = page.draw.bind(page), nativeSimple = page.simpleDraw.bind(page);
       page.simpleDraw = orientation => {
-        if (!isMirror() || !page.isLoad) {nativeSimple(orientation);return;}
+        if (!isMirror() || !page.isLoad) {withControlTexture(page,pageIndex,render.getRect(),()=>nativeSimple(orientation));return;}
         const rect = render.getRect();
         ctx.save();
         try {
           ctx.translate(rect.left+2*rect.pageWidth,rect.top);ctx.scale(-1,1);
-          ctx.drawImage(page.image,0,0,rect.pageWidth,rect.height);
+          ctx.drawImage(controlTexture(page,pageIndex,rect),0,0,rect.pageWidth,rect.height);
         } finally {ctx.restore();}
       };
       page.draw = density => {
-        if (!isMirror() || !page.isLoad) {nativeDraw(density);return;}
+        if (!isMirror() || !page.isLoad) {withControlTexture(page,pageIndex,render.getRect(),()=>nativeDraw(density));return;}
         const rect=render.getRect(), position=render.convertToGlobal(page.state.position);
         ctx.save();
         try {
           ctx.translate(position.x,position.y);ctx.beginPath();
           for (const point of page.state.area) if (point) {const global=render.convertToGlobal(point);ctx.lineTo(global.x-position.x,global.y-position.y);}
           ctx.rotate(page.state.angle);ctx.clip();ctx.translate(rect.pageWidth,0);ctx.scale(-1,1);
-          ctx.drawImage(page.image,0,0,rect.pageWidth,rect.height);
+          ctx.drawImage(controlTexture(page,pageIndex,rect),0,0,rect.pageWidth,rect.height);
         } finally {ctx.restore();}
       };
     }
@@ -545,7 +569,7 @@
   }
   function bindSurfaceGesture() {
     const surface=$('pageStage'), shell=$('bookShell');
-    const swipeTargets='#pageStage,#menuButton,.practice-option,.practice-next,#nextPageButton';
+    const swipeTargets='#pageStage,#menuButton,#libraryLink,.practice-option,.practice-next,#nextPageButton';
     let draggedControl=null;
     const streamID=(point,route)=>route==='touch'?point.identifier:point.pointerId;
     const sample = event => {
@@ -728,6 +752,7 @@
   }
   function showRestImage(index=state.index){
     const boot=$('bootCover'),image=state.images[index];
+    $('bookShell').classList.toggle('has-control-gutter',controlGutterFor(index)>0);
     if(!boot||!image||!state.decodedPages.has(index)||!image.complete||!image.naturalWidth||state.curl)return false;
     // This is the exact decoded Image already owned by the paper renderer.
     // A real DOM image at rest avoids stale native Books canvas snapshots.
@@ -826,7 +851,7 @@
       installCanvasAdapters();
       state.pages = state.book.pages.map((_,index) => state.flip.getPage(index));
       state.images = state.pages.map(page => page.image);
-      for (const page of state.pages) {page.setDensity('soft');page.setDrawingDensity('soft');}
+      for (const [pageIndex,page] of state.pages.entries()) {page.setDensity('soft');page.setDrawingDensity('soft');}
       installSymmetricPaperAdapters();
       await ensurePage(state.index); state.image=state.images[state.index];
       // Prepare the first two turns while the shelf/cover is on screen. Later
@@ -867,7 +892,14 @@
     if(state.audio.page===state.book.pages[0]&&['loading','playing'].includes(state.audio.state))return state.audio._intent?.result||true;
     state.started=true;return state.audio.playEntry(state.book.pages[0]);
   }
-  document.addEventListener('click',event=>{if(hosted&&event.target.closest('#libraryLink')){event.preventDefault();window.parent.PaksonShelfReader?.close();}});
+  document.addEventListener('click',event=>{
+    const link=event.target.closest('#libraryLink');if(!link)return;
+    // The input guard intentionally cancels native control activation.
+    // Route this true tap once; the drag guard stops consumed swipes earlier.
+    event.preventDefault();event.stopImmediatePropagation();
+    if(hosted)window.parent.PaksonShelfReader?.close();
+    else {closeToLibrary();location.assign(link.href);}
+  });
   window.paksonReader = {state,turnTo,workerMessage,ensurePage,ensureSpread:ensurePage,getPageFlip:() => state.flip,openFromCover,closeToLibrary};
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',startVisibleInit,{once:true});else startVisibleInit();
 })();
