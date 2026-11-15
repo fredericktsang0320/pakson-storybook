@@ -1,6 +1,6 @@
 {
-  "version": "8f1e03ce28f75729",
-  "total_bytes": 108145124,
+  "version": "cca48f826850cdc1",
+  "total_bytes": 108146552,
   "speech_edition": "chapter1-approved-v18-unchanged;chapter2-fixed-Qwen-v1",
   "ui_edition": "whole-shelf-and-one-tap-reader-v21",
   "cache_policy": 20,
@@ -486,8 +486,8 @@
     },
     {
       "url": "./chapter2/reader/web.css",
-      "bytes": 2053,
-      "sha256": "468f91a849e8b40b2a10de89d7397b1ed3134ad99f3ddbb272df7cbbdbac43de",
+      "bytes": 2767,
+      "sha256": "5e3f052a10e63a91503ec575545887460b27d0cfe8d43ec052e323b1af610234",
       "core": true
     },
     {
@@ -1056,8 +1056,8 @@
     },
     {
       "url": "./reader-v18/web.css",
-      "bytes": 2053,
-      "sha256": "468f91a849e8b40b2a10de89d7397b1ed3134ad99f3ddbb272df7cbbdbac43de",
+      "bytes": 2767,
+      "sha256": "5e3f052a10e63a91503ec575545887460b27d0cfe8d43ec052e323b1af610234",
       "core": true
     },
     {
@@ -1087,5 +1087,6 @@
   ],
   "book_art_revisions": {
     "pakson-k3-b5-u02-yummy-food": "cea57875e6ffceb5db64b20bc8d13a66cb8293d70ead54e242af9fefde6a79ee"
-  }
+  },
+  "reader_controls_revision": 25
 }
