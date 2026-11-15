@@ -1,9 +1,9 @@
 'use strict';
 // A unique import URL avoids an old registration's updateViaCache=imports entry.
-importScripts('./asset-manifest.js?reader-build=20261114-cachefix-v20-5978232b1b958735');
+importScripts('./asset-manifest.js?reader-build=20261114-cachefix-v20-8f1e03ce28f75729');
 importScripts('./cache-retirement-v23.js');
 const SCOPE=new URL(self.registration.scope), BOOK=new URL('book.json',SCOPE).href;
-const WORKER_BUILD='20261114-cachefix-v20-5978232b1b958735';
+const WORKER_BUILD='20261114-cachefix-v20-8f1e03ce28f75729';
 const INDEX=new URL('index.html',SCOPE).href;
 const LEGACY_SPEECH={"assets/speech/page_00.m4a":"0f58c4264f936e757f3200fbfad48267daf18837f22db35d20fdd1ef494060cb","assets/speech/page_01.m4a":"74fedc2ce1443dc71d61d275eaec8fcf0a8bc65ca3b72906e245fd0d859ae9d7","assets/speech/page_02.m4a":"97b22b30a5115fbdbb8ddcb5616cb6eb52d7dd00e8e6d40992bd185176e1ab9b","assets/speech/page_03.m4a":"f0c8b355871df93b220e144dac9f53f8d23c93f800c79115289ae4fa65b35940","assets/speech/page_04.m4a":"87f1fd2ea7b96fae7a5f0999ca9bf43190c31d777973cf4cb89ea2bb59700f21","assets/speech/page_05.m4a":"d4474dfd4510d44a9349fe067c1cec43d1ea884ae99e919f7659892c12bf1897","assets/speech/page_06.m4a":"c29e8d7f5aa1552c57ecedd670d0de64a614e4ffdd53b1650740c0bff41b96d9","assets/speech/page_07.m4a":"e01af98dd6332f6595434dfbe654a9382a02f0ae18533d4a3801dd08a8a6349d","assets/speech/page_08.m4a":"4e4ffc3f97553c4fee95c8e0132dc7af2290172a949dae900e02e2ca607aeff4","assets/speech/page_09.m4a":"74534692b394310c5f99025a16aab946955f3959395c489022305fab4971375b","assets/speech/page_10.m4a":"31a5840b4413798ab6f45a7e8b714fd494dc6bef3bd347f5d92c84445f5ee7f2","assets/speech/page_11.m4a":"04f932349aa55278a1be8b6df0ada92d4b5819b87832997e58bb36af15fb8a61","assets/speech/page_12.m4a":"bb7c0514b3a98c9bd45408653841c2cf38c2485a29058bde7dc9bbb61faadc79","assets/speech/v2/page_00.m4a":"320f7e9061c90a7d974bdc27ef3071583d91dd4145bcaec6f8cf52171bb15de0","assets/speech/v2/page_01.m4a":"083fc6369b4a8299a5505aa42aaba644c9541db5285fb62262004af0754acf10","assets/speech/v2/page_02.m4a":"c26ecb9d75b806ba0e7d1ffd81bb7b5ddde433bc223a1c9faca5e672655b8857","assets/speech/v2/page_03.m4a":"bdaebe9796ffde5c66b3419161ff18f5c284f1ed9f631b7de63bf74abd9328d5","assets/speech/v2/page_04.m4a":"9e29cd6269d3d5a71f931197a8afd861cc3b70e1a55bf7d304de5f33d7e8bb40","assets/speech/v2/page_05.m4a":"cb962e58b81d1f635b5dc70549dd1e123dce7a0ea3a784baf265e0872e874d5d","assets/speech/v2/page_06.m4a":"40b2f4de708dd861e66def0b9da2e5599b500726a3d6b44e06eb41597fdc6285","assets/speech/v2/page_07.m4a":"3b7099def71dabe851e9bb0ef1a13ed02625f4aaba98880634151962343eaf99","assets/speech/v2/page_08.m4a":"70650c64a61d775dd91af5b1606b64fd1f0b6005c9e92058d640e92676faccb8","assets/speech/v2/page_09.m4a":"8ed48e0ef7c9c7c6dec0bd664f46845bae7fffa41bb70223e3b1bcf6c2c4f09a","assets/speech/v2/page_10.m4a":"d08e8798b71b41c8f4098fd26f51df8ae9890bc37ea755a90d6268ca54aea7ee","assets/speech/v2/page_11.m4a":"8886036e9e346108c9f5ef9546b1ff9da723b43989dde3dc4c4bf5a1de653c8e","assets/speech/v2/page_12.m4a":"e55c9f4b4b6edfb26368817463a162f81f22b85de929a96c018a976b030e1e76"};
 const legacySpeech=new Map(Object.entries(LEGACY_SPEECH).map(([url,sha])=>[new URL(url,SCOPE).href,sha]));
@@ -22,7 +22,15 @@ for(const file of shellFiles){
   shellAliases.set(new URL(file+'?edition='+edition,SCOPE).href,new URL(target,SCOPE).href);
  }
 }
-function runtimeURL(url){return shellAliases.get(url)||url;}
+function runtimeURL(url){
+ const alias=shellAliases.get(url);if(alias)return alias;
+ const value=new URL(url),revision=ASSET_MANIFEST.book_art_revisions?.['pakson-k3-b5-u02-yummy-food'];
+ // Only this worker's exact accepted art revision aliases the cover request.
+ // It forces a fresh decoded thumbnail without bypassing full SHA verification.
+ if(revision&&value.pathname===new URL('reader-entry-v21.js',SCOPE).pathname&&value.searchParams.size===1&&value.searchParams.get('art_entry')===revision){value.search='';return value.href;}
+ if(revision&&value.pathname===new URL('chapter2/reader/assets/pages/page_00.png',SCOPE).pathname&&value.searchParams.size===1&&value.searchParams.get('art_revision')===revision){value.search='';return value.href;}
+ return url;
+}
 async function digest(buffer){return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',buffer)),x=>x.toString(16).padStart(2,'0')).join('');}
 const environment=(async()=>{
  const tag=await digest(new TextEncoder().encode(SCOPE.href));
@@ -291,13 +299,18 @@ self.addEventListener('message',event=>{
  const post=value=>{try{port.postMessage(value);}catch{}};
  event.waitUntil((async()=>{try{
   const e=await environment,cache=await caches.open(e.cache);
+  if(event.data.type==='ACTIVATE_VERIFIED_SHELL'){
+   const state=await readState();
+   if(state?.shellComplete!==true||!(await check(cache,ASSET_MANIFEST.files.filter(file=>file.core))).complete)throw Error('The waiting shell has not passed its core checks.');
+   await self.skipWaiting();post({version:ASSET_MANIFEST.version,verifiedCore:true});return;
+  }
   if(event.data.type==='CHECK_BOOK'){post({...await check(cache),cache:e.cache,scope:SCOPE.href,shellComplete:!!(await readState())?.shellComplete});return;}
   if(event.data.type==='UPGRADE_STATUS'){
    const state=await readState();
    // Old window entry scripts know only cache + online manifest target. Worker
    // callers must always receive the real active cache for activation proof.
    const prior=event.source?.type==='window'&&ASSET_MANIFEST.preserve_complete_prior_on_quota===true&&state?.complete!==true?await completePriorCacheName(state):null;
-   post({version:ASSET_MANIFEST.version,cache:prior||e.cache,workerCache:e.cache,targetCache:e.cache,cacheDescriptor:prior?'prior-complete-protection':'worker-target',scope:SCOPE.href,state});return;
+   post({version:ASSET_MANIFEST.version,cache:prior||e.cache,workerCache:e.cache,targetCache:e.cache,cacheDescriptor:prior?'prior-complete-protection':'worker-target',scope:SCOPE.href,bookArtRevisions:ASSET_MANIFEST.book_art_revisions||{},state});return;
   }
   if(event.data.type==='CACHE_BOOK'){post(await saveBook(post));return;}
  }catch(error){post({error:error.message||'The download is incomplete.',errorName:error.name||'Error'});}})());

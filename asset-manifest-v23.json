@@ -1,6 +1,6 @@
 {
-  "version": "5978232b1b958735",
-  "total_bytes": 107320092,
+  "version": "8f1e03ce28f75729",
+  "total_bytes": 108145124,
   "speech_edition": "chapter1-approved-v18-unchanged;chapter2-fixed-Qwen-v1",
   "ui_edition": "whole-shelf-and-one-tap-reader-v21",
   "cache_policy": 20,
@@ -114,8 +114,8 @@
     },
     {
       "url": "./catalogue.json",
-      "bytes": 1062,
-      "sha256": "fff6cb63ae20821367281545e1ca66cb2261e2df2bcce7ea7289517355e8efd4",
+      "bytes": 1152,
+      "sha256": "746ceeac205e15f5ec97d1948d712aebe58e7ee4934b5e38160481989f2aaad7",
       "core": true
     },
     {
@@ -330,8 +330,8 @@
     },
     {
       "url": "./chapter2/reader/assets/pages/G4.png",
-      "bytes": 1981232,
-      "sha256": "767caa6b19c92a78fdb6ad14507ff4e5496e5934424763a2306b7609fceb8cf8",
+      "bytes": 2352183,
+      "sha256": "df429dee14e681cee0159eea0347f595ab73ff4e0515f6fda944a92a246eb27c",
       "core": false
     },
     {
@@ -342,80 +342,80 @@
     },
     {
       "url": "./chapter2/reader/assets/pages/page_00.png",
-      "bytes": 2408959,
-      "sha256": "d00fea72e31f26b56e34af833a3245df178d6600c96d83df0df212a95b018b2c",
+      "bytes": 2282937,
+      "sha256": "1277b4e16a1d4f764d8166a3930b622db45a00b9efa9bf3cbeb6cf3c85338944",
       "core": true
     },
     {
       "url": "./chapter2/reader/assets/pages/page_01.png",
-      "bytes": 2415178,
-      "sha256": "295ff57765a40f3d8077e5af22ee22e8948cdf9ead36e2cf3b4b5d61b75deaa5",
+      "bytes": 2562232,
+      "sha256": "4cc5a765dc287ec2e4cc4514c49f109c5440581801fd2ee399f7fd09530b1295",
       "core": false
     },
     {
       "url": "./chapter2/reader/assets/pages/page_02.png",
-      "bytes": 2317029,
-      "sha256": "e71256e34a907fc62f23b5ac13649f78974d8e93701c908ac157b07f4641fdd7",
+      "bytes": 2452534,
+      "sha256": "c6c514dadf2caac64c688192d48bd993c01032e47dfec84bc38abfd0936a75e7",
       "core": false
     },
     {
       "url": "./chapter2/reader/assets/pages/page_03.png",
-      "bytes": 2439123,
-      "sha256": "356cb39f5648b0dd9880efcd4037b119dbd128f9884ebe19c4312da812754cb5",
+      "bytes": 2496410,
+      "sha256": "2c6b774e579867b7a8e7eecc1665af77eeb688278499306027a4fd9d30f7b182",
       "core": false
     },
     {
       "url": "./chapter2/reader/assets/pages/page_04.png",
-      "bytes": 2527222,
-      "sha256": "8e870f198f0edc441d6e0ef44f9b3217f900860c708d7b762357427952b10fec",
+      "bytes": 2517701,
+      "sha256": "734fe60a1acb3f675b36cc7bc0c7c879c80828a8b1f665fbfc246d3444c9fbe1",
       "core": false
     },
     {
       "url": "./chapter2/reader/assets/pages/page_05.png",
-      "bytes": 2414923,
-      "sha256": "b9b830cec7b3b73f520286c4966cdcc8bf666fec2dd2eb0cab3bd6e4c0f04099",
+      "bytes": 2486207,
+      "sha256": "1cdd7f0075f6d7fa3e6ab15867837d67df1f380ff980b0d89dd71faa5d4281c6",
       "core": false
     },
     {
       "url": "./chapter2/reader/assets/pages/page_06.png",
-      "bytes": 2407728,
-      "sha256": "eafdc9ec5ff4c96fa59c75370af0267cb78466bea0981283caa3899de509c877",
+      "bytes": 2591448,
+      "sha256": "46d312d2aef2459cb38a197acb4dd98047c27d1006b2907031d4403ba49a6971",
       "core": false
     },
     {
       "url": "./chapter2/reader/assets/pages/page_07.png",
-      "bytes": 2516315,
-      "sha256": "5788a91c31ce890e97aaedc2223e5621bb992fa8ec4d3e80811e7704e2f17d6c",
+      "bytes": 2497048,
+      "sha256": "c0f1ed7fa10e56fb3197fa0a3d4eb465a0a29131cacf739f32aceb3444d29c3c",
       "core": false
     },
     {
       "url": "./chapter2/reader/assets/pages/page_08.png",
-      "bytes": 2430372,
-      "sha256": "b42331aad1c97ccc5e0f1932acc13f6d42b1f4797b13fe432095d9326345cab8",
+      "bytes": 2528025,
+      "sha256": "8e7cc2149b019dc92ddf3baad5ec9189b72fd4a97fce9610d1846c4a4b022285",
       "core": false
     },
     {
       "url": "./chapter2/reader/assets/pages/page_09.png",
-      "bytes": 2422092,
-      "sha256": "755b1756f9a3a207b579a0331a32bfcd81fabe73a0204c072f94ecf3a33b644f",
+      "bytes": 2289797,
+      "sha256": "b271f4aa27c740927f51d55e6eae20e1041d8bb804ef64a0306d5343e809e8cf",
       "core": false
     },
     {
       "url": "./chapter2/reader/assets/pages/page_10.png",
-      "bytes": 2499332,
-      "sha256": "da704c1c229d456e052ba2476297bc572bb0816c57508dd14a1331f66753ffeb",
+      "bytes": 2492464,
+      "sha256": "4e154d757b5b50241b2041b9d051d31dfa01e49d787dccd41ac7523b5c022c75",
       "core": false
     },
     {
       "url": "./chapter2/reader/assets/pages/page_11.png",
-      "bytes": 2430125,
-      "sha256": "d869b1e0086e2afbed02cb6b65e3059e81053453866fda8d707f89aeb8f4a0ab",
+      "bytes": 2438779,
+      "sha256": "7ac1f8ad27c1b74cfbb80a58e26ade9986aad6abd459c5a4cf99f1e44dafeb59",
       "core": false
     },
     {
       "url": "./chapter2/reader/assets/pages/page_12.png",
-      "bytes": 2493225,
-      "sha256": "7b1554608239e791469d81bbd82ef5182b5be005599e7e21fdfc5b5d1c9abe5b",
+      "bytes": 2535354,
+      "sha256": "fc309bc4e96d6a80d85625849d23718f1988faeef4f47f7cefb998020d6684f1",
       "core": false
     },
     {
@@ -492,8 +492,8 @@
     },
     {
       "url": "./chinese-books.html",
-      "bytes": 1721,
-      "sha256": "011671c65755e5977f46052c83158ab30cebb9b49ed288e3530c9d97f586c879",
+      "bytes": 1796,
+      "sha256": "b66a0e11d14c3307b040198c94f90a36ff655bd598c719b89f02be73589bb525",
       "core": true
     },
     {
@@ -510,8 +510,8 @@
     },
     {
       "url": "./english-books.html",
-      "bytes": 1722,
-      "sha256": "06eac7858eacd435e4146fc118f7fedc141a2c2a677285a8b840b3261083fb75",
+      "bytes": 1797,
+      "sha256": "6a6f9e15229ccced89503756d5c96dd5930dc3559614b171e59cd726a18b4c64",
       "core": true
     },
     {
@@ -570,8 +570,8 @@
     },
     {
       "url": "./home.html",
-      "bytes": 2685,
-      "sha256": "2e6e21ff1728f1398f744996a23869cecef30bf93ef43fc6b9c73102f56defe8",
+      "bytes": 2599,
+      "sha256": "361feda6711e8fa39a29b5b4507d57773936c51bfbfdd1e447a0d5e74de9b2da",
       "core": true
     },
     {
@@ -600,8 +600,8 @@
     },
     {
       "url": "./library-v21.json",
-      "bytes": 1062,
-      "sha256": "fff6cb63ae20821367281545e1ca66cb2261e2df2bcce7ea7289517355e8efd4",
+      "bytes": 1152,
+      "sha256": "746ceeac205e15f5ec97d1948d712aebe58e7ee4934b5e38160481989f2aaad7",
       "core": true
     },
     {
@@ -612,8 +612,8 @@
     },
     {
       "url": "./library.json",
-      "bytes": 1062,
-      "sha256": "fff6cb63ae20821367281545e1ca66cb2261e2df2bcce7ea7289517355e8efd4",
+      "bytes": 1152,
+      "sha256": "746ceeac205e15f5ec97d1948d712aebe58e7ee4934b5e38160481989f2aaad7",
       "core": true
     },
     {
@@ -660,8 +660,8 @@
     },
     {
       "url": "./reader-entry-v21.js",
-      "bytes": 4745,
-      "sha256": "b2b328409dfaaaf43c3e4f97d5c2e15edd968923def455e21918c3a9efb322f5",
+      "bytes": 9179,
+      "sha256": "a255a2140843c805b118dc607d357d12e7ddbc14d712db3271cb69f65d92072e",
       "core": true
     },
     {
@@ -1084,5 +1084,8 @@
       "sha256": "b22e200b0bd78b297f9bb1439cf5e716108bd98dc00ac04e5ddbaedc23a2bba2",
       "core": true
     }
-  ]
+  ],
+  "book_art_revisions": {
+    "pakson-k3-b5-u02-yummy-food": "cea57875e6ffceb5db64b20bc8d13a66cb8293d70ead54e242af9fefde6a79ee"
+  }
 }

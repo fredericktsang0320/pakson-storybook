@@ -33,7 +33,8 @@
       "cover": "./chapter2/reader/assets/pages/page_00.png",
       "cover_alt": "Pakson and Doraemon: The Dim Sum Adventure",
       "href": "./chapter2/read.html",
-      "entry_audio": "./chapter2/reader/assets/audio/p00.m4a"
+      "entry_audio": "./chapter2/reader/assets/audio/p00.m4a",
+      "art_revision": "cea57875e6ffceb5db64b20bc8d13a66cb8293d70ead54e242af9fefde6a79ee"
     }
   ]
 }
