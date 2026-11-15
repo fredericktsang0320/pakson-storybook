@@ -1,6 +1,11 @@
 'use strict';
 (() => {
   const $ = id => document.getElementById(id);
+  // Keep keyboard focus visible; touch/mouse return focus has no extra ring.
+  const inputMode = value => {document.documentElement.dataset.readerInput=value;};
+  document.addEventListener('keydown',event=>{if(event.key==='Tab')inputMode('keyboard');},true);
+  for(const name of ['pointerdown','touchstart','mousedown'])document.addEventListener(name,()=>inputMode('pointer'),{capture:true,passive:true});
+
   const roleNames = {narrator:'Narrator',pakson:'Pakson',doraemon:'Doraemon',nobita:'Nobita',shizuka:'Shizuka'};
   const state = {book:null,index:0,turning:false,started:false,audio:null,autoTurn:false,worker:null,flip:null,ready:false,visualLeaf:0,pages:[],images:[],imagePromises:new Map(),imageFailures:new Set(),decodedPages:new Set(),navigation:null,gesture:null,lastError:null,canvas:null,image:null,renderInfo:null,lastReleaseMs:0,curl:null,fingerGeometry:null};
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -739,6 +744,7 @@
   }
   function showRestImage(index=state.index){
     const boot=$('bootCover'),image=state.images[index];
+    $('bookShell').dataset.readerPage=state.book?.pages[index]?.page_id||'';
     if(!boot||!image||!state.decodedPages.has(index)||!image.complete||!image.naturalWidth||state.curl)return false;
     // This is the exact decoded Image already owned by the paper renderer.
     // A real DOM image at rest avoids stale native Books canvas snapshots.

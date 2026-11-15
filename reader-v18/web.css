@@ -2,16 +2,16 @@
 html,body{position:fixed;inset:0;width:100%;height:100%;overflow:hidden}
 .reader{position:fixed;inset:0;width:100%;height:100%;height:100dvh;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
 .book-shell{box-shadow:0 4px 30px #182c431c}
-/* Shared reader menu tokens: visible32 / hit44 / icon18 CSS pixels. */
-.book-controls{--menu-hit:44px;--menu-face:32px;--menu-icon:18px;position:absolute;left:2px;top:50%;transform:translateY(-50%);z-index:220;pointer-events:none;display:grid;place-items:center;width:var(--menu-hit);height:var(--menu-hit);gap:0;padding:0;border:0;border-radius:0;background:transparent}
-.book-controls .book-control{position:relative;display:grid;place-items:center;pointer-events:auto;inset:auto;flex:none;width:var(--menu-hit);height:var(--menu-hit);margin:0;padding:0;border:0;border-radius:50%;background:transparent;opacity:1;box-shadow:none;isolation:isolate;color:var(--ink);text-decoration:none;-webkit-appearance:none;appearance:none}
-.book-controls .book-control::before{content:"";position:absolute;inset:calc((var(--menu-hit) - var(--menu-face))/2);box-sizing:border-box;border:1px solid #d7cfbf;border-radius:50%;background:#fffaf0f5;pointer-events:none}
+/* Shared quiet reader controls: visible26 / hit44 / icon14 CSS px. */
+.book-controls{--menu-hit:44px;--menu-face:26px;--menu-icon:14px;position:absolute;left:2px;top:50%;transform:translateY(-50%);z-index:220;pointer-events:none;display:flex;flex-direction:column;align-items:center;width:var(--menu-hit);height:calc(2 * var(--menu-hit));gap:0;padding:0;border:0;border-radius:0;background:transparent}
+.book-controls .book-control{position:relative;display:grid;place-items:center;pointer-events:auto;inset:auto;flex:none;width:var(--menu-hit);height:var(--menu-hit);margin:0;padding:0;border:0;border-radius:50%;background:transparent;opacity:1;box-shadow:none;isolation:isolate;color:#182c43cc;text-decoration:none;-webkit-appearance:none;appearance:none;-webkit-tap-highlight-color:transparent}
+.book-controls .book-control::before{content:"";position:absolute;inset:calc((var(--menu-hit) - var(--menu-face))/2);box-sizing:border-box;border:1px solid #a99e8673;border-radius:50%;background:#fffaf0b8;pointer-events:none}
 .book-controls .book-control .icon{position:static;inset:auto;display:block;width:var(--menu-icon);height:var(--menu-icon);margin:0;filter:none;transform:none;pointer-events:none;z-index:1}
 .book-controls .book-control:hover{background:transparent}
-.book-controls .book-control:hover::before{background:#fffaf0}
-.book-controls .book-control:focus-visible{outline:2px solid var(--focus);outline-offset:-3px}
-/* Keep Menu at the book centre; Home sits one44px hit +4px above it. */
-.book-controls .shelf-control{position:absolute;left:0;right:auto;top:auto;bottom:calc(100% + 4px)}
+.book-controls .book-control:focus{outline:none}
+/* Pointer return focus remains usable without a persistent blue ring. */
+html[data-reader-input="keyboard"] .book-controls .book-control:focus::before{outline:2px solid #786f5c;outline-offset:2px}
+@media (hover:hover) and (pointer:fine){.book-controls .book-control:hover::before{background:#fffaf0e6}}
 .next-page-hint{top:50%;bottom:auto;right:12px;translate:0 -50%}
 .start-gate{position:absolute;inset:0;z-index:500;display:grid;place-items:end center;padding-bottom:7%;background:linear-gradient(transparent 55%,#152b4317);cursor:pointer}
 .start-gate button{min-height:58px;min-width:200px;padding:13px 30px;border-radius:40px;border:2px solid #eab43c;background:#fff9e8;color:#182c43;font-weight:750;font-size:22px;box-shadow:0 4px 16px #182c4333}
@@ -22,3 +22,6 @@ html,body{position:fixed;inset:0;width:100%;height:100%;overflow:hidden}
 
 /* Preserve full legacy song art beside the fixed controls; no crop. */
 .book-shell.has-control-gutter .boot-cover img{width:calc(100% - 48px);margin-left:48px;height:100%;object-fit:contain}
+
+/* Keep the centred dock clear of this legacy long-word label, at its original font size. */
+.book-shell[data-reader-page="u01-review-group-02"] .vocabulary-column[data-word="policeman"]{translate:calc(var(--book-width,1448px)*.069060773) 0;max-width:calc(var(--book-width,1448px)*.386740331)}

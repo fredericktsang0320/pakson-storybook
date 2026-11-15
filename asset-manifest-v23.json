@@ -1,6 +1,6 @@
 {
-  "version": "da8d8adb45052429",
-  "total_bytes": 108150635,
+  "version": "977d622625278f11",
+  "total_bytes": 108152383,
   "speech_edition": "chapter1-approved-v18-unchanged;chapter2-fixed-Qwen-v1",
   "ui_edition": "whole-shelf-and-one-tap-reader-v21",
   "cache_policy": 20,
@@ -420,8 +420,8 @@
     },
     {
       "url": "./chapter2/reader/js/app-v21.js",
-      "bytes": 56623,
-      "sha256": "1a5c632bc7dbb59f8ae75fde227c8aad3b92344c65a589718a5dda1acc5c1803",
+      "bytes": 57108,
+      "sha256": "3f104c4ff138f50d6677520bbbe9b2dc72a35ad089e8289796f5c9b48f0c36ed",
       "core": true
     },
     {
@@ -486,8 +486,8 @@
     },
     {
       "url": "./chapter2/reader/web.css",
-      "bytes": 3171,
-      "sha256": "19586a1e00ad8611161440a26e6d20e39bf04cd9c5a26990f4cfebaec540cedf",
+      "bytes": 3560,
+      "sha256": "210d6fb016fbb5b4fca3e2d63f9c1db78f181f89563309b854db79e7e66ba128",
       "core": true
     },
     {
@@ -978,8 +978,8 @@
     },
     {
       "url": "./reader-v18/js/app-v21.js",
-      "bytes": 58175,
-      "sha256": "080a3b3b8b2c461e39f0b93f29695315bfcac7c2ab892cb9d124b4d3ecb7ab84",
+      "bytes": 58660,
+      "sha256": "d1a330809736130b6a13ccc0ef80fdbb8d0521c2968b836ef618181f7b83769c",
       "core": true
     },
     {
@@ -1056,8 +1056,8 @@
     },
     {
       "url": "./reader-v18/web.css",
-      "bytes": 3171,
-      "sha256": "19586a1e00ad8611161440a26e6d20e39bf04cd9c5a26990f4cfebaec540cedf",
+      "bytes": 3560,
+      "sha256": "210d6fb016fbb5b4fca3e2d63f9c1db78f181f89563309b854db79e7e66ba128",
       "core": true
     },
     {
@@ -1088,5 +1088,5 @@
   "book_art_revisions": {
     "pakson-k3-b5-u02-yummy-food": "cea57875e6ffceb5db64b20bc8d13a66cb8293d70ead54e242af9fefde6a79ee"
   },
-  "reader_controls_revision": 26
+  "reader_controls_revision": 27
 }
