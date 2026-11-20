@@ -48,11 +48,11 @@
   function hide(){
     if(!opened)return;opened=false;api()?.closeToLibrary();
     if(entry){entry.node.pause();entry.node.removeAttribute('src');entry.node.load();entry.node.remove();entry=null;}
-    frame?.classList.remove('is-open');frame?.setAttribute('aria-hidden','true');document.body.classList.remove('pakson-reader-open');document.body.style.overflow=previousOverflow;
+    // WebKit could still route the next touch to the hidden document. Remove
+    // the closed frame after stopping its media and before restoring shelf input.
+    const closedFrame=frame;frame=null;frameRevision='';closedFrame?.remove();
+    document.body.classList.remove('pakson-reader-open');document.body.style.overflow=previousOverflow;
     bookLink?.focus({preventScroll:true});announce('選一本書，由封面開始閱讀。');
-    // A worker may update while this frame is reading. Retire its decoded
-    // pictures only AFTER closing; never interrupt the authorised audio node.
-    if(frameRevision!==revisionFor(bookLink)){discardIdleFrame();warm();}
   }
   function close(){hide();if(location.hash.startsWith('#read='))history.back();}
   function acceptArtRevisions(values){

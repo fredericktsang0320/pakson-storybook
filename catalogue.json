@@ -35,6 +35,54 @@
       "href": "./chapter2/read.html",
       "entry_audio": "./chapter2/reader/assets/audio/p00.m4a",
       "art_revision": "cea57875e6ffceb5db64b20bc8d13a66cb8293d70ead54e242af9fefde6a79ee"
+    },
+    {
+      "id": "pakson-k3-b5-u03-doing-exercises",
+      "title": "Sports day",
+      "subtitle": "Pakson 的海濱運動會",
+      "subject": "english",
+      "level": "K3",
+      "page_count": 14,
+      "cover": "./chapter3/reader/assets/pages/page_00.jpg",
+      "cover_alt": "Pakson’s Seaside Sports Day",
+      "href": "./chapter3/read.html",
+      "entry_audio": "./chapter3/reader/assets/audio/p00.m4a"
+    },
+    {
+      "id": "pakson-k3-b5-u04-amazing-animals",
+      "title": "Morning zoo",
+      "subtitle": "Pakson 的晨光動物園",
+      "subject": "english",
+      "level": "K3",
+      "page_count": 14,
+      "cover": "./chapter4/reader/assets/pages/page_00.jpg",
+      "cover_alt": "Pakson at the Morning Zoo",
+      "href": "./chapter4/read.html",
+      "entry_audio": "./chapter4/reader/assets/audio/p00.m4a"
+    },
+    {
+      "id": "pakson-k3-b5-u05-going-into-town",
+      "title": "Lantern route",
+      "subtitle": "Pakson 的小鎮燈籠之旅",
+      "subject": "english",
+      "level": "K3",
+      "page_count": 15,
+      "cover": "./chapter5/reader/assets/pages/page_00.jpg",
+      "cover_alt": "Pakson’s Lantern Route",
+      "href": "./chapter5/read.html",
+      "entry_audio": "./chapter5/reader/assets/audio/p00.m4a"
+    },
+    {
+      "id": "pakson-k3-b5-fun-world-food",
+      "title": "Food fair",
+      "subtitle": "Pakson 的環球美食節",
+      "subject": "english",
+      "level": "K3",
+      "page_count": 18,
+      "cover": "./chapter6/reader/assets/pages/page_00.jpg",
+      "cover_alt": "Pakson’s Tasting Trail",
+      "href": "./chapter6/read.html",
+      "entry_audio": "./chapter6/reader/assets/audio/p00.m4a"
     }
   ]
 }
