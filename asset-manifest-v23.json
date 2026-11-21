@@ -1,6 +1,6 @@
 {
-  "version": "a59670e987fce9a1",
-  "total_bytes": 189242933,
+  "version": "a3c53f0784ffc53c",
+  "total_bytes": 189243253,
   "speech_edition": "chapter1-approved-v18-unchanged;chapter2-fixed-Qwen-v1;chapter3-fixed-Qwen-v1;chapter4-fixed-Qwen-v1;chapter5-fixed-Qwen-v1;chapter6-fixed-Qwen-v1",
   "ui_edition": "whole-shelf-and-one-tap-reader-v21",
   "cache_policy": 20,
@@ -1090,8 +1090,8 @@
     },
     {
       "url": "./chapter3/book.json",
-      "sha256": "5cf08c34a4ba879377e97dff964b4783159129afdcb18b4ddc420623851221d5",
-      "bytes": 159136,
+      "sha256": "58faaa6950cecf13b52e0ff7fea95a5e85e5b0a0d85cd470c1a3a756c7d7a8a7",
+      "bytes": 159158,
       "core": false
     },
     {
@@ -1348,8 +1348,8 @@
     },
     {
       "url": "./chapter3/reader/js/app-v21.js",
-      "sha256": "5e85f1ee8330f39eff47963a785b2d4545a4ac7407c895e1ca496b66449ebb73",
-      "bytes": 57082,
+      "sha256": "83376eac9659a47a4f87a25f40fc17efaf10371353e3e777712dfa55300caab2",
+      "bytes": 57090,
       "core": false
     },
     {
@@ -1360,8 +1360,8 @@
     },
     {
       "url": "./chapter3/reader/js/book-data.js",
-      "sha256": "05879617dd45b807d3c35c63055c0f7ea2b307c746ac12a288da2c8504d8ad89",
-      "bytes": 107488,
+      "sha256": "9f554e2536be394ac36bce489d3f965497cff7b3178f39bbe735115f0204d116",
+      "bytes": 107504,
       "core": false
     },
     {
@@ -1384,8 +1384,8 @@
     },
     {
       "url": "./chapter3/reader/js/practice.js",
-      "sha256": "ef3adebf5633d6eaea5514dcb1fbeb1a128b0a2d7b982ac88b0956d3f5b1b6f1",
-      "bytes": 12487,
+      "sha256": "918cd55885586a57c779438a96743aea0a0b17c848d5245926d76eec956f5493",
+      "bytes": 12521,
       "core": false
     },
     {
@@ -1420,8 +1420,8 @@
     },
     {
       "url": "./chapter4/book.json",
-      "sha256": "5097b437c2a4c421cb8b0a8c30e89eff5d540a6cf1b9e017a42e482a7d95e5e1",
-      "bytes": 133027,
+      "sha256": "f9eebc76baec46c844d64f8f237471e6f1e03fe2f8e0ad2878aa400665db9ba2",
+      "bytes": 133049,
       "core": false
     },
     {
@@ -1666,8 +1666,8 @@
     },
     {
       "url": "./chapter4/reader/js/app-v21.js",
-      "sha256": "e559026647654074684fffe4dfa2d5793e238930fe7ed0edda9d4ffb043423e3",
-      "bytes": 57068,
+      "sha256": "27e3252aaa403c759ee668844bdce66e5785314361e14898c77c470aeb306ff9",
+      "bytes": 57076,
       "core": false
     },
     {
@@ -1678,8 +1678,8 @@
     },
     {
       "url": "./chapter4/reader/js/book-data.js",
-      "sha256": "7e96a8335ce83fcddf9d7e21d9f35cb450bc597e3879e7249495eebc7a610233",
-      "bytes": 90055,
+      "sha256": "b7b854b02333f72be8c83747419331818296204161a3ee5c810ee35db59cd7b8",
+      "bytes": 90071,
       "core": false
     },
     {
@@ -1702,8 +1702,8 @@
     },
     {
       "url": "./chapter4/reader/js/practice.js",
-      "sha256": "ef3adebf5633d6eaea5514dcb1fbeb1a128b0a2d7b982ac88b0956d3f5b1b6f1",
-      "bytes": 12487,
+      "sha256": "918cd55885586a57c779438a96743aea0a0b17c848d5245926d76eec956f5493",
+      "bytes": 12521,
       "core": false
     },
     {
@@ -1738,8 +1738,8 @@
     },
     {
       "url": "./chapter5/book.json",
-      "sha256": "0ce47745219b34fd8ba926d32eb6d2e27f572f4c61c10480139ff4fc813e0ecb",
-      "bytes": 137624,
+      "sha256": "4956a283f8ffa73cc50aef7b91407af2f64fee4522320843d249efeb399e9b50",
+      "bytes": 137646,
       "core": false
     },
     {
@@ -2002,8 +2002,8 @@
     },
     {
       "url": "./chapter5/reader/js/app-v21.js",
-      "sha256": "a2a9a9f0725adf577ab8605ef0ec029aca810267e8142d26ee5b73d6e10a59b9",
-      "bytes": 57068,
+      "sha256": "48fb1aa2c6f8f9fd9e2c9befc885ba258e62bf7126d43f030416b1131494f696",
+      "bytes": 57076,
       "core": false
     },
     {
@@ -2014,8 +2014,8 @@
     },
     {
       "url": "./chapter5/reader/js/book-data.js",
-      "sha256": "bad37b01fac664a795ac62aabc54e660a8c6cf89e9f881ffa323b954e9a025e6",
-      "bytes": 93178,
+      "sha256": "a3df214beff178daa98c31e0bca00a77acf8fb2fe3c64a3b36f90bdc303b655a",
+      "bytes": 93194,
       "core": false
     },
     {
@@ -2038,8 +2038,8 @@
     },
     {
       "url": "./chapter5/reader/js/practice.js",
-      "sha256": "ef3adebf5633d6eaea5514dcb1fbeb1a128b0a2d7b982ac88b0956d3f5b1b6f1",
-      "bytes": 12487,
+      "sha256": "918cd55885586a57c779438a96743aea0a0b17c848d5245926d76eec956f5493",
+      "bytes": 12521,
       "core": false
     },
     {
@@ -2074,8 +2074,8 @@
     },
     {
       "url": "./chapter6/book.json",
-      "sha256": "8c62210e1daace5a0d35dfd8348487c21cc9464020485ff0eba8371ece239414",
-      "bytes": 178019,
+      "sha256": "f88faf493ef0b4157e91b222f5e9a152c907dc975fecbe1ae3c22a6ba9521995",
+      "bytes": 178041,
       "core": false
     },
     {
@@ -2398,8 +2398,8 @@
     },
     {
       "url": "./chapter6/reader/js/app-v21.js",
-      "sha256": "fea02ae75a83a29ce6bfe86b48207fa37cf797f11f16d1cf6e40dfa07ea4007f",
-      "bytes": 57068,
+      "sha256": "58867c747c6e362f4aa69c7e678affd8756adff361ff437937dc2ea5c074e437",
+      "bytes": 57076,
       "core": false
     },
     {
@@ -2410,8 +2410,8 @@
     },
     {
       "url": "./chapter6/reader/js/book-data.js",
-      "sha256": "6e287c3cb055f5db0d56c66113d7aee7c73ce4052714f71b78650b8fc2a5df74",
-      "bytes": 119845,
+      "sha256": "20787fb918414468cdce9f50aab6e9745348adf0051a16ea580f7be11692e61e",
+      "bytes": 119861,
       "core": false
     },
     {
@@ -2434,8 +2434,8 @@
     },
     {
       "url": "./chapter6/reader/js/practice.js",
-      "sha256": "ef3adebf5633d6eaea5514dcb1fbeb1a128b0a2d7b982ac88b0956d3f5b1b6f1",
-      "bytes": 12487,
+      "sha256": "918cd55885586a57c779438a96743aea0a0b17c848d5245926d76eec956f5493",
+      "bytes": 12521,
       "core": false
     },
     {

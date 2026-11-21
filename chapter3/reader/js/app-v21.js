@@ -170,7 +170,7 @@
   function renderTranscript() {
     if (!state.book) return;
     const page = state.book.pages[state.index]; $('transcriptTitle').textContent = page.title;
-    $('transcriptContent').innerHTML = page.segments.map(segment => `<div class="transcript-row" id="line-${escapeHTML(segment.id)}"><div class="transcript-role">${escapeHTML(roleNames[segment.speaker] || segment.speaker)}</div><p class="transcript-en" lang="en-GB">${highlighted(segment.text)}</p></div>`).join('');
+    $('transcriptContent').innerHTML = (page.segments ?? []).map(segment => `<div class="transcript-row" id="line-${escapeHTML(segment.id)}"><div class="transcript-role">${escapeHTML(roleNames[segment.speaker] || segment.speaker)}</div><p class="transcript-en" lang="en-GB">${highlighted(segment.text)}</p></div>`).join('');
     currentSegment = '';
   }
   function fitBook() {

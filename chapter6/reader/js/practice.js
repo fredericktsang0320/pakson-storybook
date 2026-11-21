@@ -70,11 +70,18 @@
  }
  function sync(next,show){const was=visible,s=activate(next);visible=!!show;if(s&&was&&!visible){s.leave();clearTransient();}render();}
  function mediaFor(next,restart=false){const s=activate(next);if(!s)return next;if(restart){clearTransient();s.restartCurrent();}render();return s.mediaPage();}
- function onNaturalEnd(media,proof){if(!session||!visible||!session.matches(media)||!hooks.isCurrentNaturalEnd?.(media,proof))return false;const result=session.ended(media);if(!result.accepted)return false;if(result.play)clearTransient();render();if(result.play)hooks.playNext?.(result.play);else{window.PaksonFeedback?.flush();pump();}return true;}
+ function onNaturalEnd(media,proof){if(!session||!visible||!session.matches(media)||!hooks.isCurrentNaturalEnd?.(media,proof))return false;const result=session.ended(media);if(!result.accepted)return false;if (result.play) {
+   clearTransient();
+   render();
+   hooks.playNext?.(result.play);
+  } else {
+   window.PaksonFeedback?.flush();
+   pump();
+  }return true;}
  function updatePosition(media,seconds){if(!session||!session.matches(media))return;session.position=seconds;if(session.phase!=='intro')return;const cue=session.cueAt(seconds),key=[cue.label,cue.word].join('|');if(key!==lastCue){const n=layer.querySelector('#practiceCueLabel');if(n)text(n,cue.label);activeWord(cue.word);lastCue=key;}const number=layer.querySelector('#practiceCountdown');if(number){number.hidden=cue.phase!=='your_turn';number.textContent=cue.countdown==null?'':String(cue.countdown);}const meter=layer.querySelector('.practice-turn-meter');if(meter){meter.hidden=cue.phase!=='your_turn';const e=media.timeline?.find(e=>seconds>=(e.at??e.start)&&seconds<e.end),duration=e?e.end-(e.at??e.start):1;meter.firstChild.style.transform=`scaleX(${cue.remaining==null?0:Math.max(0,Math.min(1,cue.remaining/duration))})`;}}
  function restartGroup(next){const s=activate(next);if(!s)return;clearTransient();s.reset();lastCue='';render();}
  function resetAll(){clearTransient();for(const s of sessions.values())s.reset();if(session)render();}
  function restoreMedia(media){const s=sessions.get(media?.practice_parent_id);return s?s.mediaPage():media;}
  function suspend(){stopClock();fxOwner=null;}
- window.PaksonPractice={configure:v=>{hooks=v;},sync,mediaFor,onNaturalEnd,updatePosition,restartGroup,resetAll,restoreMedia,pump,suspend,resume:pump,isPractice:p=>p?.page_type==='word_practice',canAdvancePage:()=>!!session?.complete()&&session.stepReady(),getSession:()=>session,getSessions:()=>sessions,audioState(){if(session)render();}};
+ window.PaksonPractice={configure:v=>{hooks=v;},sync,mediaFor,onNaturalEnd,updatePosition,restartGroup,resetAll,restoreMedia,pump,suspend,resume:pump,isPractice:p=>p?.page_type==='word_practice',canAdvancePage:()=>!!session?.complete()&&session.stepReady(),getSession:()=>session,getSessions:()=>sessions,audioState(){if(session?.phase==='intro')render();}};
 })();
