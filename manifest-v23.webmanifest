@@ -12,22 +12,16 @@
   "theme_color": "#f5f0e5",
   "icons": [
     {
-      "src": "assets/library-v19/icon-192.png",
+      "src": "assets/library-v19/pakson-l04-transparent-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "assets/library-v19/icon-512.png",
+      "src": "assets/library-v19/pakson-l04-transparent-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
-    },
-    {
-      "src": "assets/library-v19/maskable-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
     }
   ]
 }

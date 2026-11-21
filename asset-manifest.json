@@ -1,6 +1,6 @@
 {
-  "version": "a3c53f0784ffc53c",
-  "total_bytes": 189243253,
+  "version": "c55789620bdeeca3",
+  "total_bytes": 189849101,
   "speech_edition": "chapter1-approved-v18-unchanged;chapter2-fixed-Qwen-v1;chapter3-fixed-Qwen-v1;chapter4-fixed-Qwen-v1;chapter5-fixed-Qwen-v1;chapter6-fixed-Qwen-v1",
   "ui_edition": "whole-shelf-and-one-tap-reader-v21",
   "cache_policy": 20,
@@ -124,8 +124,8 @@
     },
     {
       "url": "./chapter2/read.html",
-      "bytes": 7631,
-      "sha256": "1ceef59f30f21d1d5a527449e6b4e6ebf85a483faf3b958e20e7b94d386795a8",
+      "bytes": 7683,
+      "sha256": "5ff7c2a04fda691dba1ff3c00c4bba3f8ef5b08a0002b42b1b362bb730ede73c",
       "core": true
     },
     {
@@ -496,8 +496,8 @@
     },
     {
       "url": "./chinese-books.html",
-      "bytes": 1796,
-      "sha256": "b66a0e11d14c3307b040198c94f90a36ff655bd598c719b89f02be73589bb525",
+      "bytes": 1832,
+      "sha256": "f03bc3bb99c313c267b7eee76f51b077d8fb4d320c61304bb6c18810e55b914f",
       "core": true
     },
     {
@@ -514,8 +514,8 @@
     },
     {
       "url": "./english-books.html",
-      "bytes": 1797,
-      "sha256": "6a6f9e15229ccced89503756d5c96dd5930dc3559614b171e59cd726a18b4c64",
+      "bytes": 1833,
+      "sha256": "b1a94b0676100dd0ef651a6d473c80e87ce957ea799f4f38b3ebe33c5f5a0c57",
       "core": true
     },
     {
@@ -574,8 +574,8 @@
     },
     {
       "url": "./home.html",
-      "bytes": 2599,
-      "sha256": "361feda6711e8fa39a29b5b4507d57773936c51bfbfdd1e447a0d5e74de9b2da",
+      "bytes": 2635,
+      "sha256": "e487a76a7a9fec2f760c97ebbe37aac91fcb23a4b942b2d01de0dac7e8c13252",
       "core": true
     },
     {
@@ -622,14 +622,14 @@
     },
     {
       "url": "./manifest-v23.webmanifest",
-      "bytes": 755,
-      "sha256": "36da56f5a05f3ef2977850a35ed85de1695f537d227c886b21fe7186fcea757d",
+      "bytes": 645,
+      "sha256": "918b6c6b484698ff59f0dbc042b5af76d6e9281678926848f55a0e77fe89fb4e",
       "core": true
     },
     {
       "url": "./manifest.webmanifest",
-      "bytes": 755,
-      "sha256": "36da56f5a05f3ef2977850a35ed85de1695f537d227c886b21fe7186fcea757d",
+      "bytes": 645,
+      "sha256": "918b6c6b484698ff59f0dbc042b5af76d6e9281678926848f55a0e77fe89fb4e",
       "core": true
     },
     {
@@ -646,14 +646,14 @@
     },
     {
       "url": "./read-v21.html",
-      "bytes": 7700,
-      "sha256": "a4dc40f653d51133cb31aa11e92f82bd8e762d0d6df13a372e254b148a4eb318",
+      "bytes": 7752,
+      "sha256": "7c5e906c2e472229e47b464dac4bcf028d63f913a8cb92e113aabe8bd4b939e0",
       "core": true
     },
     {
       "url": "./read-v23.html",
-      "bytes": 7704,
-      "sha256": "1e14c21435b9da4881c1f6940fcae2eda5aae5362bebfb6163a4c1081cc457d4",
+      "bytes": 7756,
+      "sha256": "66b0168c99bc2b6b722fd4496fc7735fcbd1c86fa4f3fb401d5404ad3692064e",
       "core": true
     },
     {
@@ -1096,8 +1096,8 @@
     },
     {
       "url": "./chapter3/read.html",
-      "sha256": "2311e214d09b589efedf8a608bc373ed32c0cb9167eb6b69db7b0a8753583f7b",
-      "bytes": 7591,
+      "sha256": "164397278771117128550660153a6d20b5217cecd2fe703f971aa9e083508f5b",
+      "bytes": 7643,
       "core": false
     },
     {
@@ -1426,8 +1426,8 @@
     },
     {
       "url": "./chapter4/read.html",
-      "sha256": "db77676dd19e5fec4fa23452c276d5b84d2f7709795afeddc003f3ef5d862d7e",
-      "bytes": 7579,
+      "sha256": "736c4146a79151064e5d179b8edc09b4a7f8c8bd508a268229f2f82b2e10e5b7",
+      "bytes": 7631,
       "core": false
     },
     {
@@ -1744,8 +1744,8 @@
     },
     {
       "url": "./chapter5/read.html",
-      "sha256": "d232716f369311da05db194b133954d60b2cbe6070621e26353e85731791ed76",
-      "bytes": 7576,
+      "sha256": "acc84808d3337d319da799e0cdbcb04ad0cde003a8ec31342063d764f953b14b",
+      "bytes": 7628,
       "core": false
     },
     {
@@ -2080,8 +2080,8 @@
     },
     {
       "url": "./chapter6/read.html",
-      "sha256": "3731aeda07cfba3834371d54e741707646231af0f1d5b05092ab266d1a20ab54",
-      "bytes": 7576,
+      "sha256": "eb4460a7015afca2aae3af51ba642c0e6b85611b40b94ded943b23db6e1995ec",
+      "bytes": 7628,
       "core": false
     },
     {
@@ -2467,10 +2467,35 @@
       "sha256": "210d6fb016fbb5b4fca3e2d63f9c1db78f181f89563309b854db79e7e66ba128",
       "bytes": 3560,
       "core": false
+    },
+    {
+      "url": "./assets/library-v19/pakson-l04-transparent-180.png",
+      "sha256": "832341ad8ee87475dc768f211f305525c9100488087ed7d9d078e51f1612791d",
+      "bytes": 62751,
+      "core": true
+    },
+    {
+      "url": "./assets/library-v19/pakson-l04-transparent-192.png",
+      "sha256": "3dea26516f8256ca7fdd865d806a63978558daf613062621dc53701e1300e8b1",
+      "bytes": 70251,
+      "core": true
+    },
+    {
+      "url": "./assets/library-v19/pakson-l04-transparent-512.png",
+      "sha256": "a80064d2fc4a55ca4e26e1d7bb43d2dab7ff6a914b556ccdd966a5dc982c0faf",
+      "bytes": 409843,
+      "core": true
+    },
+    {
+      "url": "./apple-touch-icon.png",
+      "sha256": "832341ad8ee87475dc768f211f305525c9100488087ed7d9d078e51f1612791d",
+      "bytes": 62751,
+      "core": true
     }
   ],
   "book_art_revisions": {
     "pakson-k3-b5-u02-yummy-food": "cea57875e6ffceb5db64b20bc8d13a66cb8293d70ead54e242af9fefde6a79ee"
   },
-  "reader_controls_revision": 27
+  "reader_controls_revision": 27,
+  "pwa_icon_revision": "L04-edge-transparent-20261121"
 }
