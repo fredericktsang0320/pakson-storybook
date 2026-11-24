@@ -1,6 +1,6 @@
 {
-  "version": "9064865880db259e",
-  "total_bytes": 199596076,
+  "version": "85fe4d3256812e04",
+  "total_bytes": 199596072,
   "speech_edition": "chapter1-approved-v18-unchanged;chapter2-fixed-Qwen-v1;chapter3-fixed-Qwen-v1;chapter4-fixed-Qwen-v1;chapter5-fixed-Qwen-v1;chapter6-fixed-Qwen-v1;chapter7-fixed-Qwen-v1",
   "ui_edition": "whole-shelf-and-one-tap-reader-v21",
   "cache_policy": 20,
@@ -119,8 +119,8 @@
     },
     {
       "url": "./catalogue.json",
-      "bytes": 3262,
-      "sha256": "548b9a17bc6f1c4017fa3b2bcf0a7a076688972f4c19a7291ca73a74423d6a19",
+      "bytes": 3258,
+      "sha256": "72d69dc042f68a9eadf89dafb09541cb297a75938e1f8e9af24dce628cebcc8c",
       "core": true
     },
     {
