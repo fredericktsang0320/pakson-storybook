@@ -1,0 +1,3065 @@
+{
+  "schema_version": 3,
+  "id": "pakson-k3-b5-fun-reading-clothes-v1",
+  "title": "Pakson’s Colourful Parade",
+  "chapter_number": 7,
+  "language": "en-GB",
+  "phonics": null,
+  "learning_words": [
+    "coat",
+    "dress",
+    "scarf",
+    "bag",
+    "green",
+    "orange",
+    "purple",
+    "pink"
+  ],
+  "formal_teaching_words": [
+    "coat",
+    "dress",
+    "scarf",
+    "bag",
+    "green",
+    "orange",
+    "purple",
+    "pink"
+  ],
+  "pages": [
+    {
+      "page_id": "p00",
+      "page_type": "cover",
+      "image": "reader/assets/pages/page_00.jpg",
+      "title": "The colourful parade",
+      "source_book_page": 0,
+      "source_story_page": 0,
+      "effects": [],
+      "bgm_cue": null,
+      "audio_id": "p00",
+      "audio": "reader/assets/audio/p00.m4a",
+      "duration": 17.792,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "p00-l01",
+          "block_id": "p00-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "It was parade morning at Clover's little sewing studio. Bright ribbons fluttered in the sunshine, and four special outfits were waiting to be chosen.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 9.182041666666667,
+          "duration": 9.102041666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "p00-l02",
+          "block_id": "p00-l02",
+          "role": "clover",
+          "speaker": "clover",
+          "text": "Morning, Pakson! Ready to pick four colourful things for today's parade?",
+          "start": 9.382041666666666,
+          "at": 9.382041666666666,
+          "end": 14.014916666666666,
+          "duration": 4.632875,
+          "voice_id": "pakson-storybook.clover.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "p00-l03",
+          "block_id": "p00-l03",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "Yes! Let's look around, Clover!",
+          "start": 14.214916666666667,
+          "at": 14.214916666666667,
+          "end": 17.645291666666665,
+          "duration": 3.430375,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "id": "p00-l01",
+          "speaker": "narrator",
+          "text": "It was parade morning at Clover's little sewing studio. Bright ribbons fluttered in the sunshine, and four special outfits were waiting to be chosen.",
+          "performance": "明快溫暖的開場"
+        },
+        {
+          "id": "p00-l02",
+          "speaker": "clover",
+          "text": "Morning, Pakson! Ready to pick four colourful things for today's parade?",
+          "performance": "親切活潑邀請"
+        },
+        {
+          "id": "p00-l03",
+          "speaker": "pakson",
+          "text": "Yes! Let's look around, Clover!",
+          "performance": "興奮雀躍"
+        }
+      ],
+      "book_page": 0
+    },
+    {
+      "page_id": "p01",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_01.jpg",
+      "title": "The green coat",
+      "source_book_page": 1,
+      "source_story_page": 1,
+      "effects": [],
+      "bgm_cue": null,
+      "audio_id": "p01",
+      "audio": "reader/assets/audio/p01.m4a",
+      "duration": 15.872,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "p01-l01",
+          "block_id": "p01-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "First, Pakson stopped by the wooden stand and spotted a smart double-breasted coat with shiny brass buttons.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 7.56,
+          "duration": 7.48,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "p01-l02",
+          "block_id": "p01-l02",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "That coat is beautiful. It is green.",
+          "start": 7.76,
+          "at": 7.76,
+          "end": 11.062291666666667,
+          "duration": 3.3022916666666666,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": [
+            "B5-FR-W01",
+            "B5-FR-W05",
+            "B5-FR-S01",
+            "B5-FR-S05"
+          ]
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "p01-l03",
+          "block_id": "p01-l03",
+          "role": "clover",
+          "speaker": "clover",
+          "text": "Lovely choice! A bright green coat is perfect for the parade.",
+          "start": 11.262291666666666,
+          "at": 11.262291666666666,
+          "end": 15.738833333333334,
+          "duration": 4.476541666666667,
+          "voice_id": "pakson-storybook.clover.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "id": "p01-l01",
+          "speaker": "narrator",
+          "text": "First, Pakson stopped by the wooden stand and spotted a smart double-breasted coat with shiny brass buttons.",
+          "performance": "好奇發現"
+        },
+        {
+          "id": "p01-l02",
+          "speaker": "pakson",
+          "text": "That coat is beautiful. It is green.",
+          "performance": "開心讚歎",
+          "source_ids": [
+            "B5-FR-W01",
+            "B5-FR-W05",
+            "B5-FR-S01",
+            "B5-FR-S05"
+          ]
+        },
+        {
+          "id": "p01-l03",
+          "speaker": "clover",
+          "text": "Lovely choice! A bright green coat is perfect for the parade.",
+          "performance": "讚賞鼓勵"
+        }
+      ],
+      "book_page": 1
+    },
+    {
+      "audio_id": "G1-intro",
+      "audio": "reader/assets/audio/g1-intro.m4a",
+      "duration": 33.87733333333333,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g1-intro",
+          "block_id": "c7-g1-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Pakson, what a smart choice by the stand! Let's read and spell the clothes word and its colour together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 7.1855,
+          "duration": 7.1855
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g1-model-01",
+          "block_id": "c7-g1-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Coat. C, O, A, T. Coat. Your turn.",
+          "spoken_text": "Coat. The letters are: C, O, A, and T. The word is coat. Your turn.",
+          "normalised_text": "Coat. The letters are: C, O, A, and T. The word is coat. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "coat",
+          "target_word": "coat",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 7.3455,
+          "at": 7.3455,
+          "end": 13.960041666666667,
+          "duration": 6.614541666666667,
+          "spelling_letters": [
+            "C",
+            "O",
+            "A",
+            "T"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "6eb2ad24472c426b2c3274",
+          "source_sample_start": 0,
+          "source_sample_end": 158749
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "coat",
+          "target_word": "coat",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 13.960041666666667,
+          "at": 13.960041666666667,
+          "end": 19.960041666666665,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g1-model-02",
+          "block_id": "c7-g1-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Green. G, R, E, E, N. Green. Your turn.",
+          "spoken_text": "Green. The letters are gee, ar, ee, ee, en. The word is green. Your turn.",
+          "normalised_text": "Green. The letters are gee, ar, ee, ee, en. The word is green. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "green",
+          "target_word": "green",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 20.120041666666665,
+          "at": 20.120041666666665,
+          "end": 27.760041666666666,
+          "duration": 7.64,
+          "spelling_letters": [
+            "G",
+            "R",
+            "E",
+            "E",
+            "N"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "ecd578e5a774e4f9c12a09",
+          "source_sample_start": 0,
+          "source_sample_end": 183360
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "green",
+          "target_word": "green",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 27.760041666666666,
+          "at": 27.760041666666666,
+          "end": 33.760041666666666,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g1-intro",
+          "block_id": "c7-g1-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Pakson, what a smart choice by the stand! Let's read and spell the clothes word and its colour together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 7.1855,
+          "duration": 7.1855
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g1-model-01",
+          "block_id": "c7-g1-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Coat. C, O, A, T. Coat. Your turn.",
+          "spoken_text": "Coat. The letters are: C, O, A, and T. The word is coat. Your turn.",
+          "normalised_text": "Coat. The letters are: C, O, A, and T. The word is coat. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "coat",
+          "target_word": "coat",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 7.3455,
+          "at": 7.3455,
+          "end": 13.960041666666667,
+          "duration": 6.614541666666667,
+          "spelling_letters": [
+            "C",
+            "O",
+            "A",
+            "T"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "6eb2ad24472c426b2c3274",
+          "source_sample_start": 0,
+          "source_sample_end": 158749
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g1-model-02",
+          "block_id": "c7-g1-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Green. G, R, E, E, N. Green. Your turn.",
+          "spoken_text": "Green. The letters are gee, ar, ee, ee, en. The word is green. Your turn.",
+          "normalised_text": "Green. The letters are gee, ar, ee, ee, en. The word is green. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "green",
+          "target_word": "green",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 20.120041666666665,
+          "at": 20.120041666666665,
+          "end": 27.760041666666666,
+          "duration": 7.64,
+          "spelling_letters": [
+            "G",
+            "R",
+            "E",
+            "E",
+            "N"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "ecd578e5a774e4f9c12a09",
+          "source_sample_start": 0,
+          "source_sample_end": 183360
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G1",
+      "title": "Coat and green",
+      "page_type": "word_practice",
+      "group_number": 1,
+      "source_story_pages": [
+        "p01"
+      ],
+      "image": "reader/assets/pages/G1.jpg",
+      "targets": [
+        {
+          "word": "coat",
+          "display_word": "coat",
+          "mandatory_spelling": false,
+          "red_bold": true
+        },
+        {
+          "word": "green",
+          "display_word": "green",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "coat",
+        "green"
+      ],
+      "intro": {
+        "audio_id": "G1-intro",
+        "audio": "reader/assets/audio/g1-intro.m4a",
+        "duration": 33.87733333333333,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g1-intro",
+            "block_id": "c7-g1-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Pakson, what a smart choice by the stand! Let's read and spell the clothes word and its colour together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 7.1855,
+            "duration": 7.1855
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g1-model-01",
+            "block_id": "c7-g1-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Coat. C, O, A, T. Coat. Your turn.",
+            "spoken_text": "Coat. The letters are: C, O, A, and T. The word is coat. Your turn.",
+            "normalised_text": "Coat. The letters are: C, O, A, and T. The word is coat. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "coat",
+            "target_word": "coat",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 7.3455,
+            "at": 7.3455,
+            "end": 13.960041666666667,
+            "duration": 6.614541666666667,
+            "spelling_letters": [
+              "C",
+              "O",
+              "A",
+              "T"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "6eb2ad24472c426b2c3274",
+            "source_sample_start": 0,
+            "source_sample_end": 158749
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "coat",
+            "target_word": "coat",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 13.960041666666667,
+            "at": 13.960041666666667,
+            "end": 19.960041666666665,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g1-model-02",
+            "block_id": "c7-g1-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Green. G, R, E, E, N. Green. Your turn.",
+            "spoken_text": "Green. The letters are gee, ar, ee, ee, en. The word is green. Your turn.",
+            "normalised_text": "Green. The letters are gee, ar, ee, ee, en. The word is green. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "green",
+            "target_word": "green",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 20.120041666666665,
+            "at": 20.120041666666665,
+            "end": 27.760041666666666,
+            "duration": 7.64,
+            "spelling_letters": [
+              "G",
+              "R",
+              "E",
+              "E",
+              "N"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "ecd578e5a774e4f9c12a09",
+            "source_sample_start": 0,
+            "source_sample_end": 183360
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "green",
+            "target_word": "green",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 27.760041666666666,
+            "at": 27.760041666666666,
+            "end": 33.760041666666666,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g1-intro",
+            "block_id": "c7-g1-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Pakson, what a smart choice by the stand! Let's read and spell the clothes word and its colour together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 7.1855,
+            "duration": 7.1855
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g1-model-01",
+            "block_id": "c7-g1-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Coat. C, O, A, T. Coat. Your turn.",
+            "spoken_text": "Coat. The letters are: C, O, A, and T. The word is coat. Your turn.",
+            "normalised_text": "Coat. The letters are: C, O, A, and T. The word is coat. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "coat",
+            "target_word": "coat",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 7.3455,
+            "at": 7.3455,
+            "end": 13.960041666666667,
+            "duration": 6.614541666666667,
+            "spelling_letters": [
+              "C",
+              "O",
+              "A",
+              "T"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "6eb2ad24472c426b2c3274",
+            "source_sample_start": 0,
+            "source_sample_end": 158749
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g1-model-02",
+            "block_id": "c7-g1-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Green. G, R, E, E, N. Green. Your turn.",
+            "spoken_text": "Green. The letters are gee, ar, ee, ee, en. The word is green. Your turn.",
+            "normalised_text": "Green. The letters are gee, ar, ee, ee, en. The word is green. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "green",
+            "target_word": "green",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 20.120041666666665,
+            "at": 20.120041666666665,
+            "end": 27.760041666666666,
+            "duration": 7.64,
+            "spelling_letters": [
+              "G",
+              "R",
+              "E",
+              "E",
+              "N"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "ecd578e5a774e4f9c12a09",
+            "source_sample_start": 0,
+            "source_sample_end": 183360
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c7-g1-q01",
+          "word": "coat",
+          "prompt": "Which word names the warm thing on the stand?",
+          "prompt_block": {
+            "id": "c7-g1-q01-prompt",
+            "speaker": "narrator",
+            "text": "Which word names the warm thing on the stand?"
+          },
+          "options": [
+            {
+              "id": "coat",
+              "label": "coat"
+            },
+            {
+              "id": "green",
+              "label": "green"
+            }
+          ],
+          "correct_option_id": "coat",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c7-g1-q01",
+            "audio": "reader/assets/audio/c7-g1-q01.m4a",
+            "duration": 3.2853333333333334,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c7-g1-q01-prompt",
+                "block_id": "c7-g1-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word names the warm thing on the stand?",
+                "word": "coat",
+                "target_word": "coat",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.1590000000000003,
+                "duration": 3.059
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c7-g1-q01-prompt",
+                "block_id": "c7-g1-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word names the warm thing on the stand?",
+                "word": "coat",
+                "target_word": "coat",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.1590000000000003,
+                "duration": 3.059
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c7-g1-q02",
+          "word": "green",
+          "prompt": "Which word tells us the colour of the coat?",
+          "prompt_block": {
+            "id": "c7-g1-q02-prompt",
+            "speaker": "narrator",
+            "text": "Which word tells us the colour of the coat?"
+          },
+          "options": [
+            {
+              "id": "coat",
+              "label": "coat"
+            },
+            {
+              "id": "green",
+              "label": "green"
+            }
+          ],
+          "correct_option_id": "green",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c7-g1-q02",
+            "audio": "reader/assets/audio/c7-g1-q02.m4a",
+            "duration": 3.2426666666666666,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c7-g1-q02-prompt",
+                "block_id": "c7-g1-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word tells us the colour of the coat?",
+                "word": "green",
+                "target_word": "green",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.111125,
+                "duration": 3.011125
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c7-g1-q02-prompt",
+                "block_id": "c7-g1-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word tells us the colour of the coat?",
+                "word": "green",
+                "target_word": "green",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.111125,
+                "duration": 3.011125
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 2
+    },
+    {
+      "page_id": "p02",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_02.jpg",
+      "title": "The orange dress",
+      "source_book_page": 2,
+      "source_story_page": 2,
+      "effects": [],
+      "bgm_cue": null,
+      "audio_id": "p02",
+      "audio": "reader/assets/audio/p02.m4a",
+      "duration": 15.744,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "p02-l01",
+          "block_id": "p02-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Next, sunlight streamed through the window onto a cheerful frilly dress on the wooden mannequin.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 6.592583333333334,
+          "duration": 6.512583333333334,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "p02-l02",
+          "block_id": "p02-l02",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "That dress is beautiful. It is orange.",
+          "start": 6.792583333333333,
+          "at": 6.792583333333333,
+          "end": 10.558916666666667,
+          "duration": 3.7663333333333333,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": [
+            "B5-FR-W02",
+            "B5-FR-W06",
+            "B5-FR-S02",
+            "B5-FR-S06"
+          ]
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "p02-l03",
+          "block_id": "p02-l03",
+          "role": "clover",
+          "speaker": "clover",
+          "text": "It glows like a tangerine! Let's pack this orange dress carefully.",
+          "start": 10.758916666666666,
+          "at": 10.758916666666666,
+          "end": 15.598666666666666,
+          "duration": 4.83975,
+          "voice_id": "pakson-storybook.clover.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "id": "p02-l01",
+          "speaker": "narrator",
+          "text": "Next, sunlight streamed through the window onto a cheerful frilly dress on the wooden mannequin.",
+          "performance": "輕快流暢"
+        },
+        {
+          "id": "p02-l02",
+          "speaker": "pakson",
+          "text": "That dress is beautiful. It is orange.",
+          "performance": "驚喜稱讚",
+          "source_ids": [
+            "B5-FR-W02",
+            "B5-FR-W06",
+            "B5-FR-S02",
+            "B5-FR-S06"
+          ]
+        },
+        {
+          "id": "p02-l03",
+          "speaker": "clover",
+          "text": "It glows like a tangerine! Let's pack this orange dress carefully.",
+          "performance": "溫柔笑意"
+        }
+      ],
+      "book_page": 3
+    },
+    {
+      "audio_id": "G2-intro",
+      "audio": "reader/assets/audio/g2-intro.m4a",
+      "duration": 39.63733333333333,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g2-intro",
+          "block_id": "c7-g2-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "That sunny window made everything glow! Pakson, say and spell these two words with me, then pick the right answer.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 8.878166666666667,
+          "duration": 8.878166666666667
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g2-model-01",
+          "block_id": "c7-g2-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Dress. D, R, E, S, S. Dress. Your turn.",
+          "spoken_text": "Dress. The letters are dee, ar, ee, ess, ess. The word is dress. Your turn.",
+          "normalised_text": "Dress. The letters are dee, ar, ee, ess, ess. The word is dress. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "dress",
+          "target_word": "dress",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 9.038166666666667,
+          "at": 9.038166666666667,
+          "end": 18.241333333333333,
+          "duration": 9.203166666666666,
+          "spelling_letters": [
+            "D",
+            "R",
+            "E",
+            "S",
+            "S"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "502ee487e200545eb087d1",
+          "source_sample_start": 0,
+          "source_sample_end": 220876
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "dress",
+          "target_word": "dress",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 18.241333333333333,
+          "at": 18.241333333333333,
+          "end": 24.241333333333333,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g2-model-02",
+          "block_id": "c7-g2-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Orange. O, R, A, N, G, E. Orange. Your turn.",
+          "spoken_text": "Orange. The letters are oh, ar, ay, en, gee, ee. The word is orange. Your turn.",
+          "normalised_text": "Orange. The letters are oh, ar, ay, en, gee, ee. The word is orange. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "orange",
+          "target_word": "orange",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 24.401333333333334,
+          "at": 24.401333333333334,
+          "end": 33.522875,
+          "duration": 9.121541666666667,
+          "spelling_letters": [
+            "O",
+            "R",
+            "A",
+            "N",
+            "G",
+            "E"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "540006886036e21eb11be0",
+          "source_sample_start": 0,
+          "source_sample_end": 218917
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "orange",
+          "target_word": "orange",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 33.522875,
+          "at": 33.522875,
+          "end": 39.522875,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g2-intro",
+          "block_id": "c7-g2-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "That sunny window made everything glow! Pakson, say and spell these two words with me, then pick the right answer.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 8.878166666666667,
+          "duration": 8.878166666666667
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g2-model-01",
+          "block_id": "c7-g2-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Dress. D, R, E, S, S. Dress. Your turn.",
+          "spoken_text": "Dress. The letters are dee, ar, ee, ess, ess. The word is dress. Your turn.",
+          "normalised_text": "Dress. The letters are dee, ar, ee, ess, ess. The word is dress. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "dress",
+          "target_word": "dress",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 9.038166666666667,
+          "at": 9.038166666666667,
+          "end": 18.241333333333333,
+          "duration": 9.203166666666666,
+          "spelling_letters": [
+            "D",
+            "R",
+            "E",
+            "S",
+            "S"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "502ee487e200545eb087d1",
+          "source_sample_start": 0,
+          "source_sample_end": 220876
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g2-model-02",
+          "block_id": "c7-g2-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Orange. O, R, A, N, G, E. Orange. Your turn.",
+          "spoken_text": "Orange. The letters are oh, ar, ay, en, gee, ee. The word is orange. Your turn.",
+          "normalised_text": "Orange. The letters are oh, ar, ay, en, gee, ee. The word is orange. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "orange",
+          "target_word": "orange",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 24.401333333333334,
+          "at": 24.401333333333334,
+          "end": 33.522875,
+          "duration": 9.121541666666667,
+          "spelling_letters": [
+            "O",
+            "R",
+            "A",
+            "N",
+            "G",
+            "E"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "540006886036e21eb11be0",
+          "source_sample_start": 0,
+          "source_sample_end": 218917
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G2",
+      "title": "Dress and orange",
+      "page_type": "word_practice",
+      "group_number": 2,
+      "source_story_pages": [
+        "p02"
+      ],
+      "image": "reader/assets/pages/G2.jpg",
+      "targets": [
+        {
+          "word": "dress",
+          "display_word": "dress",
+          "mandatory_spelling": false,
+          "red_bold": true
+        },
+        {
+          "word": "orange",
+          "display_word": "orange",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "dress",
+        "orange"
+      ],
+      "intro": {
+        "audio_id": "G2-intro",
+        "audio": "reader/assets/audio/g2-intro.m4a",
+        "duration": 39.63733333333333,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g2-intro",
+            "block_id": "c7-g2-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "That sunny window made everything glow! Pakson, say and spell these two words with me, then pick the right answer.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 8.878166666666667,
+            "duration": 8.878166666666667
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g2-model-01",
+            "block_id": "c7-g2-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Dress. D, R, E, S, S. Dress. Your turn.",
+            "spoken_text": "Dress. The letters are dee, ar, ee, ess, ess. The word is dress. Your turn.",
+            "normalised_text": "Dress. The letters are dee, ar, ee, ess, ess. The word is dress. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "dress",
+            "target_word": "dress",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 9.038166666666667,
+            "at": 9.038166666666667,
+            "end": 18.241333333333333,
+            "duration": 9.203166666666666,
+            "spelling_letters": [
+              "D",
+              "R",
+              "E",
+              "S",
+              "S"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "502ee487e200545eb087d1",
+            "source_sample_start": 0,
+            "source_sample_end": 220876
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "dress",
+            "target_word": "dress",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 18.241333333333333,
+            "at": 18.241333333333333,
+            "end": 24.241333333333333,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g2-model-02",
+            "block_id": "c7-g2-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Orange. O, R, A, N, G, E. Orange. Your turn.",
+            "spoken_text": "Orange. The letters are oh, ar, ay, en, gee, ee. The word is orange. Your turn.",
+            "normalised_text": "Orange. The letters are oh, ar, ay, en, gee, ee. The word is orange. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "orange",
+            "target_word": "orange",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 24.401333333333334,
+            "at": 24.401333333333334,
+            "end": 33.522875,
+            "duration": 9.121541666666667,
+            "spelling_letters": [
+              "O",
+              "R",
+              "A",
+              "N",
+              "G",
+              "E"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "540006886036e21eb11be0",
+            "source_sample_start": 0,
+            "source_sample_end": 218917
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "orange",
+            "target_word": "orange",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 33.522875,
+            "at": 33.522875,
+            "end": 39.522875,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g2-intro",
+            "block_id": "c7-g2-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "That sunny window made everything glow! Pakson, say and spell these two words with me, then pick the right answer.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 8.878166666666667,
+            "duration": 8.878166666666667
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g2-model-01",
+            "block_id": "c7-g2-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Dress. D, R, E, S, S. Dress. Your turn.",
+            "spoken_text": "Dress. The letters are dee, ar, ee, ess, ess. The word is dress. Your turn.",
+            "normalised_text": "Dress. The letters are dee, ar, ee, ess, ess. The word is dress. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "dress",
+            "target_word": "dress",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 9.038166666666667,
+            "at": 9.038166666666667,
+            "end": 18.241333333333333,
+            "duration": 9.203166666666666,
+            "spelling_letters": [
+              "D",
+              "R",
+              "E",
+              "S",
+              "S"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "502ee487e200545eb087d1",
+            "source_sample_start": 0,
+            "source_sample_end": 220876
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g2-model-02",
+            "block_id": "c7-g2-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Orange. O, R, A, N, G, E. Orange. Your turn.",
+            "spoken_text": "Orange. The letters are oh, ar, ay, en, gee, ee. The word is orange. Your turn.",
+            "normalised_text": "Orange. The letters are oh, ar, ay, en, gee, ee. The word is orange. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "orange",
+            "target_word": "orange",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 24.401333333333334,
+            "at": 24.401333333333334,
+            "end": 33.522875,
+            "duration": 9.121541666666667,
+            "spelling_letters": [
+              "O",
+              "R",
+              "A",
+              "N",
+              "G",
+              "E"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "540006886036e21eb11be0",
+            "source_sample_start": 0,
+            "source_sample_end": 218917
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c7-g2-q01",
+          "word": "dress",
+          "prompt": "Which word names the frilly outfit by the window?",
+          "prompt_block": {
+            "id": "c7-g2-q01-prompt",
+            "speaker": "narrator",
+            "text": "Which word names the frilly outfit by the window?"
+          },
+          "options": [
+            {
+              "id": "dress",
+              "label": "dress"
+            },
+            {
+              "id": "orange",
+              "label": "orange"
+            }
+          ],
+          "correct_option_id": "dress",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c7-g2-q01",
+            "audio": "reader/assets/audio/c7-g2-q01.m4a",
+            "duration": 3.541333333333333,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c7-g2-q01-prompt",
+                "block_id": "c7-g2-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word names the frilly outfit by the window?",
+                "word": "dress",
+                "target_word": "dress",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.4118333333333335,
+                "duration": 3.3118333333333334
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c7-g2-q01-prompt",
+                "block_id": "c7-g2-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word names the frilly outfit by the window?",
+                "word": "dress",
+                "target_word": "dress",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.4118333333333335,
+                "duration": 3.3118333333333334
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c7-g2-q02",
+          "word": "orange",
+          "prompt": "Which word tells us the bright colour of the dress?",
+          "prompt_block": {
+            "id": "c7-g2-q02-prompt",
+            "speaker": "narrator",
+            "text": "Which word tells us the bright colour of the dress?"
+          },
+          "options": [
+            {
+              "id": "dress",
+              "label": "dress"
+            },
+            {
+              "id": "orange",
+              "label": "orange"
+            }
+          ],
+          "correct_option_id": "orange",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c7-g2-q02",
+            "audio": "reader/assets/audio/c7-g2-q02.m4a",
+            "duration": 3.7973333333333334,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c7-g2-q02-prompt",
+                "block_id": "c7-g2-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word tells us the bright colour of the dress?",
+                "word": "orange",
+                "target_word": "orange",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.6464166666666666,
+                "duration": 3.5464166666666666
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c7-g2-q02-prompt",
+                "block_id": "c7-g2-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word tells us the bright colour of the dress?",
+                "word": "orange",
+                "target_word": "orange",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.6464166666666666,
+                "duration": 3.5464166666666666
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 4
+    },
+    {
+      "page_id": "p03",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_03.jpg",
+      "title": "The purple scarf",
+      "source_book_page": 3,
+      "source_story_page": 3,
+      "effects": [],
+      "bgm_cue": null,
+      "audio_id": "p03",
+      "audio": "reader/assets/audio/p03.m4a",
+      "duration": 16.72533333333333,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "p03-l01",
+          "block_id": "p03-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Then Pakson lifted the lid of a big woven basket and gently drew out a long, soft scarf with tassels.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 8.272583333333333,
+          "duration": 8.192583333333333,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "p03-l02",
+          "block_id": "p03-l02",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "That scarf is beautiful. It is purple.",
+          "start": 8.472583333333333,
+          "at": 8.472583333333333,
+          "end": 12.115458333333333,
+          "duration": 3.642875,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": [
+            "B5-FR-W03",
+            "B5-FR-W07",
+            "B5-FR-S03",
+            "B5-FR-S07"
+          ]
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "p03-l03",
+          "block_id": "p03-l03",
+          "role": "clover",
+          "speaker": "clover",
+          "text": "How cosy! That purple scarf will dance in the breeze.",
+          "start": 12.315458333333334,
+          "at": 12.315458333333334,
+          "end": 16.593833333333333,
+          "duration": 4.278375,
+          "voice_id": "pakson-storybook.clover.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "id": "p03-l01",
+          "speaker": "narrator",
+          "text": "Then Pakson lifted the lid of a big woven basket and gently drew out a long, soft scarf with tassels.",
+          "performance": "柔和帶出觸感"
+        },
+        {
+          "id": "p03-l02",
+          "speaker": "pakson",
+          "text": "That scarf is beautiful. It is purple.",
+          "performance": "輕聲讚美",
+          "source_ids": [
+            "B5-FR-W03",
+            "B5-FR-W07",
+            "B5-FR-S03",
+            "B5-FR-S07"
+          ]
+        },
+        {
+          "id": "p03-l03",
+          "speaker": "clover",
+          "text": "How cosy! That purple scarf will dance in the breeze.",
+          "performance": "愉快生動"
+        }
+      ],
+      "book_page": 5
+    },
+    {
+      "audio_id": "G3-intro",
+      "audio": "reader/assets/audio/g3-intro.m4a",
+      "duration": 34.77333333333333,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g3-intro",
+          "block_id": "c7-g3-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "What a cosy find in the basket! Pakson, let's practise both words out loud before we play.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 6.8410416666666665,
+          "duration": 6.8410416666666665
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g3-model-01",
+          "block_id": "c7-g3-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Scarf. S, C, A, R, F. Scarf. Your turn.",
+          "spoken_text": "Scarf. The letters are: S, C, A, R, and F. The word is scarf. Your turn.",
+          "normalised_text": "Scarf. The letters are: S, C, A, R, and F. The word is scarf. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "scarf",
+          "target_word": "scarf",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 7.001041666666667,
+          "at": 7.001041666666667,
+          "end": 14.081041666666666,
+          "duration": 7.08,
+          "spelling_letters": [
+            "S",
+            "C",
+            "A",
+            "R",
+            "F"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "b797d453724e53f723b9ed",
+          "source_sample_start": 0,
+          "source_sample_end": 169920
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "scarf",
+          "target_word": "scarf",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 14.081041666666666,
+          "at": 14.081041666666666,
+          "end": 20.081041666666668,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g3-model-02",
+          "block_id": "c7-g3-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Purple. P, U, R, P, L, E. Purple. Your turn.",
+          "spoken_text": "Purple. The letters are pee, you, ar, pee, el, ee. The word is purple. Your turn.",
+          "normalised_text": "Purple. The letters are pee, you, ar, pee, el, ee. The word is purple. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "purple",
+          "target_word": "purple",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 20.241041666666668,
+          "at": 20.241041666666668,
+          "end": 28.662875,
+          "duration": 8.421833333333334,
+          "spelling_letters": [
+            "P",
+            "U",
+            "R",
+            "P",
+            "L",
+            "E"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "dc7ff96a0fc1dab5b528e2",
+          "source_sample_start": 0,
+          "source_sample_end": 202124
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "purple",
+          "target_word": "purple",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 28.662875,
+          "at": 28.662875,
+          "end": 34.662875,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g3-intro",
+          "block_id": "c7-g3-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "What a cosy find in the basket! Pakson, let's practise both words out loud before we play.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 6.8410416666666665,
+          "duration": 6.8410416666666665
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g3-model-01",
+          "block_id": "c7-g3-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Scarf. S, C, A, R, F. Scarf. Your turn.",
+          "spoken_text": "Scarf. The letters are: S, C, A, R, and F. The word is scarf. Your turn.",
+          "normalised_text": "Scarf. The letters are: S, C, A, R, and F. The word is scarf. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "scarf",
+          "target_word": "scarf",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 7.001041666666667,
+          "at": 7.001041666666667,
+          "end": 14.081041666666666,
+          "duration": 7.08,
+          "spelling_letters": [
+            "S",
+            "C",
+            "A",
+            "R",
+            "F"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "b797d453724e53f723b9ed",
+          "source_sample_start": 0,
+          "source_sample_end": 169920
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g3-model-02",
+          "block_id": "c7-g3-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Purple. P, U, R, P, L, E. Purple. Your turn.",
+          "spoken_text": "Purple. The letters are pee, you, ar, pee, el, ee. The word is purple. Your turn.",
+          "normalised_text": "Purple. The letters are pee, you, ar, pee, el, ee. The word is purple. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "purple",
+          "target_word": "purple",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 20.241041666666668,
+          "at": 20.241041666666668,
+          "end": 28.662875,
+          "duration": 8.421833333333334,
+          "spelling_letters": [
+            "P",
+            "U",
+            "R",
+            "P",
+            "L",
+            "E"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "dc7ff96a0fc1dab5b528e2",
+          "source_sample_start": 0,
+          "source_sample_end": 202124
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G3",
+      "title": "Scarf and purple",
+      "page_type": "word_practice",
+      "group_number": 3,
+      "source_story_pages": [
+        "p03"
+      ],
+      "image": "reader/assets/pages/G3.jpg",
+      "targets": [
+        {
+          "word": "scarf",
+          "display_word": "scarf",
+          "mandatory_spelling": false,
+          "red_bold": true
+        },
+        {
+          "word": "purple",
+          "display_word": "purple",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "scarf",
+        "purple"
+      ],
+      "intro": {
+        "audio_id": "G3-intro",
+        "audio": "reader/assets/audio/g3-intro.m4a",
+        "duration": 34.77333333333333,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g3-intro",
+            "block_id": "c7-g3-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "What a cosy find in the basket! Pakson, let's practise both words out loud before we play.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 6.8410416666666665,
+            "duration": 6.8410416666666665
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g3-model-01",
+            "block_id": "c7-g3-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Scarf. S, C, A, R, F. Scarf. Your turn.",
+            "spoken_text": "Scarf. The letters are: S, C, A, R, and F. The word is scarf. Your turn.",
+            "normalised_text": "Scarf. The letters are: S, C, A, R, and F. The word is scarf. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "scarf",
+            "target_word": "scarf",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 7.001041666666667,
+            "at": 7.001041666666667,
+            "end": 14.081041666666666,
+            "duration": 7.08,
+            "spelling_letters": [
+              "S",
+              "C",
+              "A",
+              "R",
+              "F"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "b797d453724e53f723b9ed",
+            "source_sample_start": 0,
+            "source_sample_end": 169920
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "scarf",
+            "target_word": "scarf",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 14.081041666666666,
+            "at": 14.081041666666666,
+            "end": 20.081041666666668,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g3-model-02",
+            "block_id": "c7-g3-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Purple. P, U, R, P, L, E. Purple. Your turn.",
+            "spoken_text": "Purple. The letters are pee, you, ar, pee, el, ee. The word is purple. Your turn.",
+            "normalised_text": "Purple. The letters are pee, you, ar, pee, el, ee. The word is purple. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "purple",
+            "target_word": "purple",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 20.241041666666668,
+            "at": 20.241041666666668,
+            "end": 28.662875,
+            "duration": 8.421833333333334,
+            "spelling_letters": [
+              "P",
+              "U",
+              "R",
+              "P",
+              "L",
+              "E"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "dc7ff96a0fc1dab5b528e2",
+            "source_sample_start": 0,
+            "source_sample_end": 202124
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "purple",
+            "target_word": "purple",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 28.662875,
+            "at": 28.662875,
+            "end": 34.662875,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g3-intro",
+            "block_id": "c7-g3-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "What a cosy find in the basket! Pakson, let's practise both words out loud before we play.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 6.8410416666666665,
+            "duration": 6.8410416666666665
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g3-model-01",
+            "block_id": "c7-g3-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Scarf. S, C, A, R, F. Scarf. Your turn.",
+            "spoken_text": "Scarf. The letters are: S, C, A, R, and F. The word is scarf. Your turn.",
+            "normalised_text": "Scarf. The letters are: S, C, A, R, and F. The word is scarf. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "scarf",
+            "target_word": "scarf",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 7.001041666666667,
+            "at": 7.001041666666667,
+            "end": 14.081041666666666,
+            "duration": 7.08,
+            "spelling_letters": [
+              "S",
+              "C",
+              "A",
+              "R",
+              "F"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "b797d453724e53f723b9ed",
+            "source_sample_start": 0,
+            "source_sample_end": 169920
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g3-model-02",
+            "block_id": "c7-g3-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Purple. P, U, R, P, L, E. Purple. Your turn.",
+            "spoken_text": "Purple. The letters are pee, you, ar, pee, el, ee. The word is purple. Your turn.",
+            "normalised_text": "Purple. The letters are pee, you, ar, pee, el, ee. The word is purple. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "purple",
+            "target_word": "purple",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 20.241041666666668,
+            "at": 20.241041666666668,
+            "end": 28.662875,
+            "duration": 8.421833333333334,
+            "spelling_letters": [
+              "P",
+              "U",
+              "R",
+              "P",
+              "L",
+              "E"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "dc7ff96a0fc1dab5b528e2",
+            "source_sample_start": 0,
+            "source_sample_end": 202124
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c7-g3-q01",
+          "word": "scarf",
+          "prompt": "Which word names the soft thing with tassels?",
+          "prompt_block": {
+            "id": "c7-g3-q01-prompt",
+            "speaker": "narrator",
+            "text": "Which word names the soft thing with tassels?"
+          },
+          "options": [
+            {
+              "id": "scarf",
+              "label": "scarf"
+            },
+            {
+              "id": "purple",
+              "label": "purple"
+            }
+          ],
+          "correct_option_id": "scarf",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c7-g3-q01",
+            "audio": "reader/assets/audio/c7-g3-q01.m4a",
+            "duration": 3.584,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c7-g3-q01-prompt",
+                "block_id": "c7-g3-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word names the soft thing with tassels?",
+                "word": "scarf",
+                "target_word": "scarf",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.4265416666666666,
+                "duration": 3.3265416666666665
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c7-g3-q01-prompt",
+                "block_id": "c7-g3-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word names the soft thing with tassels?",
+                "word": "scarf",
+                "target_word": "scarf",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.4265416666666666,
+                "duration": 3.3265416666666665
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c7-g3-q02",
+          "word": "purple",
+          "prompt": "Which word tells us the colour of the scarf?",
+          "prompt_block": {
+            "id": "c7-g3-q02-prompt",
+            "speaker": "narrator",
+            "text": "Which word tells us the colour of the scarf?"
+          },
+          "options": [
+            {
+              "id": "scarf",
+              "label": "scarf"
+            },
+            {
+              "id": "purple",
+              "label": "purple"
+            }
+          ],
+          "correct_option_id": "purple",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c7-g3-q02",
+            "audio": "reader/assets/audio/c7-g3-q02.m4a",
+            "duration": 3.072,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c7-g3-q02-prompt",
+                "block_id": "c7-g3-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word tells us the colour of the scarf?",
+                "word": "purple",
+                "target_word": "purple",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.94,
+                "duration": 2.84
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c7-g3-q02-prompt",
+                "block_id": "c7-g3-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word tells us the colour of the scarf?",
+                "word": "purple",
+                "target_word": "purple",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.94,
+                "duration": 2.84
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 6
+    },
+    {
+      "page_id": "p04",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_04.jpg",
+      "title": "The pink bag",
+      "source_book_page": 4,
+      "source_story_page": 4,
+      "effects": [],
+      "bgm_cue": null,
+      "audio_id": "p04",
+      "audio": "reader/assets/audio/p04.m4a",
+      "duration": 15.274666666666667,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "p04-l01",
+          "block_id": "p04-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Last of all, Pakson noticed a neat little bag with a ribbon bow sitting right on the sewing counter.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 6.082541666666667,
+          "duration": 6.002541666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "p04-l02",
+          "block_id": "p04-l02",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "That bag is beautiful. It is pink.",
+          "start": 6.282541666666667,
+          "at": 6.282541666666667,
+          "end": 9.697916666666666,
+          "duration": 3.415375,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": [
+            "B5-FR-W04",
+            "B5-FR-W08",
+            "B5-FR-S04",
+            "B5-FR-S08"
+          ]
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "p04-l03",
+          "block_id": "p04-l03",
+          "role": "clover",
+          "speaker": "clover",
+          "text": "That pink bag completes our set! Everything looks so colourful for the parade!",
+          "start": 9.897916666666667,
+          "at": 9.897916666666667,
+          "end": 15.1425,
+          "duration": 5.244583333333333,
+          "voice_id": "pakson-storybook.clover.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "id": "p04-l01",
+          "speaker": "narrator",
+          "text": "Last of all, Pakson noticed a neat little bag with a ribbon bow sitting right on the sewing counter.",
+          "performance": "收束發現"
+        },
+        {
+          "id": "p04-l02",
+          "speaker": "pakson",
+          "text": "That bag is beautiful. It is pink.",
+          "performance": "明朗喜悅",
+          "source_ids": [
+            "B5-FR-W04",
+            "B5-FR-W08",
+            "B5-FR-S04",
+            "B5-FR-S08"
+          ]
+        },
+        {
+          "id": "p04-l03",
+          "speaker": "clover",
+          "text": "That pink bag completes our set! Everything looks so colourful for the parade!",
+          "performance": "開懷圓滿收結"
+        }
+      ],
+      "book_page": 7
+    },
+    {
+      "audio_id": "G4-intro",
+      "audio": "reader/assets/audio/g4-intro.m4a",
+      "duration": 34.51733333333333,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g4-intro",
+          "block_id": "c7-g4-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "That completed our parade set! Pakson, let's read and spell our last two words together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 7.3682083333333335,
+          "duration": 7.3682083333333335
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g4-model-01",
+          "block_id": "c7-g4-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Bag. B, A, G. Bag. Your turn.",
+          "spoken_text": "Bag. The letters are: B, A, and G. The word is bag. Your turn.",
+          "normalised_text": "Bag. The letters are: B, A, and G. The word is bag. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "bag",
+          "target_word": "bag",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 7.528208333333334,
+          "at": 7.528208333333334,
+          "end": 14.150083333333333,
+          "duration": 6.621875,
+          "spelling_letters": [
+            "B",
+            "A",
+            "G"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "61fe2ce451fedc0f5151ca",
+          "source_sample_start": 0,
+          "source_sample_end": 158925
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "bag",
+          "target_word": "bag",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 14.150083333333333,
+          "at": 14.150083333333333,
+          "end": 20.150083333333335,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g4-model-02",
+          "block_id": "c7-g4-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Pink. P, I, N, K. Pink. Your turn.",
+          "spoken_text": "Pink. The letters are pee, eye, en, kay. The word is pink. Your turn.",
+          "normalised_text": "Pink. The letters are pee, eye, en, kay. The word is pink. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "pink",
+          "target_word": "pink",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 20.310083333333335,
+          "at": 20.310083333333335,
+          "end": 28.378625,
+          "duration": 8.068541666666667,
+          "spelling_letters": [
+            "P",
+            "I",
+            "N",
+            "K"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "ba90128c69ac035d400c0f",
+          "source_sample_start": 0,
+          "source_sample_end": 193645
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "pink",
+          "target_word": "pink",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 28.378625,
+          "at": 28.378625,
+          "end": 34.378625,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g4-intro",
+          "block_id": "c7-g4-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "That completed our parade set! Pakson, let's read and spell our last two words together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 7.3682083333333335,
+          "duration": 7.3682083333333335
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g4-model-01",
+          "block_id": "c7-g4-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Bag. B, A, G. Bag. Your turn.",
+          "spoken_text": "Bag. The letters are: B, A, and G. The word is bag. Your turn.",
+          "normalised_text": "Bag. The letters are: B, A, and G. The word is bag. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "bag",
+          "target_word": "bag",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 7.528208333333334,
+          "at": 7.528208333333334,
+          "end": 14.150083333333333,
+          "duration": 6.621875,
+          "spelling_letters": [
+            "B",
+            "A",
+            "G"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "61fe2ce451fedc0f5151ca",
+          "source_sample_start": 0,
+          "source_sample_end": 158925
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c7-g4-model-02",
+          "block_id": "c7-g4-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Pink. P, I, N, K. Pink. Your turn.",
+          "spoken_text": "Pink. The letters are pee, eye, en, kay. The word is pink. Your turn.",
+          "normalised_text": "Pink. The letters are pee, eye, en, kay. The word is pink. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "pink",
+          "target_word": "pink",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 20.310083333333335,
+          "at": 20.310083333333335,
+          "end": 28.378625,
+          "duration": 8.068541666666667,
+          "spelling_letters": [
+            "P",
+            "I",
+            "N",
+            "K"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "ba90128c69ac035d400c0f",
+          "source_sample_start": 0,
+          "source_sample_end": 193645
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G4",
+      "title": "Bag and pink",
+      "page_type": "word_practice",
+      "group_number": 4,
+      "source_story_pages": [
+        "p04"
+      ],
+      "image": "reader/assets/pages/G4.jpg",
+      "targets": [
+        {
+          "word": "bag",
+          "display_word": "bag",
+          "mandatory_spelling": false,
+          "red_bold": true
+        },
+        {
+          "word": "pink",
+          "display_word": "pink",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "bag",
+        "pink"
+      ],
+      "intro": {
+        "audio_id": "G4-intro",
+        "audio": "reader/assets/audio/g4-intro.m4a",
+        "duration": 34.51733333333333,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g4-intro",
+            "block_id": "c7-g4-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "That completed our parade set! Pakson, let's read and spell our last two words together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 7.3682083333333335,
+            "duration": 7.3682083333333335
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g4-model-01",
+            "block_id": "c7-g4-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Bag. B, A, G. Bag. Your turn.",
+            "spoken_text": "Bag. The letters are: B, A, and G. The word is bag. Your turn.",
+            "normalised_text": "Bag. The letters are: B, A, and G. The word is bag. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "bag",
+            "target_word": "bag",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 7.528208333333334,
+            "at": 7.528208333333334,
+            "end": 14.150083333333333,
+            "duration": 6.621875,
+            "spelling_letters": [
+              "B",
+              "A",
+              "G"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "61fe2ce451fedc0f5151ca",
+            "source_sample_start": 0,
+            "source_sample_end": 158925
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "bag",
+            "target_word": "bag",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 14.150083333333333,
+            "at": 14.150083333333333,
+            "end": 20.150083333333335,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g4-model-02",
+            "block_id": "c7-g4-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Pink. P, I, N, K. Pink. Your turn.",
+            "spoken_text": "Pink. The letters are pee, eye, en, kay. The word is pink. Your turn.",
+            "normalised_text": "Pink. The letters are pee, eye, en, kay. The word is pink. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "pink",
+            "target_word": "pink",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 20.310083333333335,
+            "at": 20.310083333333335,
+            "end": 28.378625,
+            "duration": 8.068541666666667,
+            "spelling_letters": [
+              "P",
+              "I",
+              "N",
+              "K"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "ba90128c69ac035d400c0f",
+            "source_sample_start": 0,
+            "source_sample_end": 193645
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "pink",
+            "target_word": "pink",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 28.378625,
+            "at": 28.378625,
+            "end": 34.378625,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g4-intro",
+            "block_id": "c7-g4-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "That completed our parade set! Pakson, let's read and spell our last two words together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 7.3682083333333335,
+            "duration": 7.3682083333333335
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g4-model-01",
+            "block_id": "c7-g4-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Bag. B, A, G. Bag. Your turn.",
+            "spoken_text": "Bag. The letters are: B, A, and G. The word is bag. Your turn.",
+            "normalised_text": "Bag. The letters are: B, A, and G. The word is bag. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "bag",
+            "target_word": "bag",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 7.528208333333334,
+            "at": 7.528208333333334,
+            "end": 14.150083333333333,
+            "duration": 6.621875,
+            "spelling_letters": [
+              "B",
+              "A",
+              "G"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "61fe2ce451fedc0f5151ca",
+            "source_sample_start": 0,
+            "source_sample_end": 158925
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c7-g4-model-02",
+            "block_id": "c7-g4-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Pink. P, I, N, K. Pink. Your turn.",
+            "spoken_text": "Pink. The letters are pee, eye, en, kay. The word is pink. Your turn.",
+            "normalised_text": "Pink. The letters are pee, eye, en, kay. The word is pink. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "pink",
+            "target_word": "pink",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 20.310083333333335,
+            "at": 20.310083333333335,
+            "end": 28.378625,
+            "duration": 8.068541666666667,
+            "spelling_letters": [
+              "P",
+              "I",
+              "N",
+              "K"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "ba90128c69ac035d400c0f",
+            "source_sample_start": 0,
+            "source_sample_end": 193645
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c7-g4-q01",
+          "word": "bag",
+          "prompt": "Which word names the little thing with a bow?",
+          "prompt_block": {
+            "id": "c7-g4-q01-prompt",
+            "speaker": "narrator",
+            "text": "Which word names the little thing with a bow?"
+          },
+          "options": [
+            {
+              "id": "bag",
+              "label": "bag"
+            },
+            {
+              "id": "pink",
+              "label": "pink"
+            }
+          ],
+          "correct_option_id": "bag",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c7-g4-q01",
+            "audio": "reader/assets/audio/c7-g4-q01.m4a",
+            "duration": 3.541333333333333,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c7-g4-q01-prompt",
+                "block_id": "c7-g4-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word names the little thing with a bow?",
+                "word": "bag",
+                "target_word": "bag",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.42,
+                "duration": 3.32
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c7-g4-q01-prompt",
+                "block_id": "c7-g4-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word names the little thing with a bow?",
+                "word": "bag",
+                "target_word": "bag",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.42,
+                "duration": 3.32
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c7-g4-q02",
+          "word": "pink",
+          "prompt": "Which word tells us the colour of the bag?",
+          "prompt_block": {
+            "id": "c7-g4-q02-prompt",
+            "speaker": "narrator",
+            "text": "Which word tells us the colour of the bag?"
+          },
+          "options": [
+            {
+              "id": "bag",
+              "label": "bag"
+            },
+            {
+              "id": "pink",
+              "label": "pink"
+            }
+          ],
+          "correct_option_id": "pink",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c7-g4-q02",
+            "audio": "reader/assets/audio/c7-g4-q02.m4a",
+            "duration": 2.816,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c7-g4-q02-prompt",
+                "block_id": "c7-g4-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word tells us the colour of the bag?",
+                "word": "pink",
+                "target_word": "pink",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.689375,
+                "duration": 2.589375
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c7-g4-q02-prompt",
+                "block_id": "c7-g4-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word tells us the colour of the bag?",
+                "word": "pink",
+                "target_word": "pink",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.689375,
+                "duration": 2.589375
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 8
+    },
+    {
+      "page_id": "p05",
+      "page_type": "closing_logo",
+      "image": "reader/assets/pages/ending_logo_L04.svg",
+      "title": "Good job!",
+      "source_book_page": 5,
+      "source_story_page": 5,
+      "effects": [],
+      "bgm_cue": null,
+      "duration": 0,
+      "segments": [],
+      "book_page": 9
+    }
+  ],
+  "sfx": {
+    "page_turn": {
+      "enabled": false,
+      "gain": 0
+    }
+  },
+  "music": {},
+  "feedback": {
+    "correct": {
+      "file": "feedback/correct.m4a",
+      "duration": 1.2,
+      "sha256": "d1d56e926439288cce2269fefe492fb807cc27da0dd0d73966648fe068c25b97",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 1.2,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -20.14,
+        "true_peak_dbtp": -9.82,
+        "nominal_voice_minus_effect_LU": 0.010000000000001563
+      },
+      "loop": false,
+      "trigger": "selected_answer_only",
+      "play_on_logo": false,
+      "description": "Four-note rounded ascending major-key chime",
+      "audio": "reader/assets/audio/feedback/correct.m4a"
+    },
+    "incorrect": {
+      "file": "feedback/incorrect.m4a",
+      "duration": 0.82,
+      "sha256": "09bfb77bd9a09e110ed5b0407dd51ab6a6217331205e673bd4598f4fe20b2815",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 0.82,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -20.14,
+        "true_peak_dbtp": -10.32,
+        "nominal_voice_minus_effect_LU": 0.010000000000001563
+      },
+      "loop": false,
+      "trigger": "selected_answer_only",
+      "play_on_logo": false,
+      "description": "Three-note gentle descending retry chime; no buzzer",
+      "audio": "reader/assets/audio/feedback/incorrect.m4a"
+    },
+    "logo_reward": {
+      "file": "feedback/logo_reward.m4a",
+      "duration": 1.95,
+      "sha256": "a352b48cb392b7eec1a5cc105a74b05211e66a393770dc365868b823fe764502",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 1.95,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -31.96,
+        "true_peak_dbtp": -18.48,
+        "nominal_voice_minus_effect_LU": 11.830000000000002
+      },
+      "loop": false,
+      "trigger": "closing_logo_navigation_entry",
+      "once_per_navigation_entry": true,
+      "cancel_on_leave": true,
+      "background_soundtrack_on_logo": false,
+      "description": "Original major-key soft wooden/8-bit-like game-clear phrase; no Mario melody copied.",
+      "reuse_mode": "v13 approved original bytes retained",
+      "audio": "reader/assets/audio/feedback/logo_reward.m4a"
+    }
+  },
+  "practice_layout": {
+    "family": "Arial Rounded MT Bold",
+    "word_px": 110,
+    "question_px": 72,
+    "answer_px": 72,
+    "answer_min_height_px": 168,
+    "question_row_px": 173,
+    "row_gap_px": 8,
+    "answer_row_px": 179,
+    "native_viewport": [
+      1448,
+      1086
+    ],
+    "scaled_width_checks": [
+      390,
+      430
+    ],
+    "no_automatic_font_reduction": true,
+    "display_letter_spelling": false,
+    "practice_next_action": "Automatically continue questions after genuine current voice and effect completion plus 900 ms visible reward; show manual Next page only when the entire group is complete. Free swipe skip remains available."
+  },
+  "creditsText": "Original story, illustration and character sound for Pakson’s family reading project. The local synthetic British voices use fixed references. Paper animation: StPageFlip · MIT licence."
+}

@@ -83,6 +83,18 @@
       "cover_alt": "Pakson’s Tasting Trail",
       "href": "./chapter6/read.html",
       "entry_audio": "./chapter6/reader/assets/audio/p00.m4a"
+    },
+    {
+      "id": "pakson-k3-b5-fun-reading-clothes",
+      "title": "Colourful clothes",
+      "subtitle": "Pakson 的繽紛服裝巡遊",
+      "subject": "english",
+      "level": "K3",
+      "page_count": 10,
+      "cover": "./chapter7/reader/assets/pages/page_00.jpg",
+      "cover_alt": "Pakson’s Colourful Parade",
+      "href": "./chapter7/read.html",
+      "entry_audio": "./chapter7/reader/assets/audio/p00.m4a"
     }
   ]
 }

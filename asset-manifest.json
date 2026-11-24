@@ -1,7 +1,7 @@
 {
-  "version": "c55789620bdeeca3",
-  "total_bytes": 189849101,
-  "speech_edition": "chapter1-approved-v18-unchanged;chapter2-fixed-Qwen-v1;chapter3-fixed-Qwen-v1;chapter4-fixed-Qwen-v1;chapter5-fixed-Qwen-v1;chapter6-fixed-Qwen-v1",
+  "version": "9064865880db259e",
+  "total_bytes": 199596076,
+  "speech_edition": "chapter1-approved-v18-unchanged;chapter2-fixed-Qwen-v1;chapter3-fixed-Qwen-v1;chapter4-fixed-Qwen-v1;chapter5-fixed-Qwen-v1;chapter6-fixed-Qwen-v1;chapter7-fixed-Qwen-v1",
   "ui_edition": "whole-shelf-and-one-tap-reader-v21",
   "cache_policy": 20,
   "reader_edition": 21,
@@ -15,9 +15,10 @@
     "chapter3": 1,
     "chapter4": 1,
     "chapter5": 1,
-    "chapter6": 1
+    "chapter6": 1,
+    "chapter7": 1
   },
-  "library_books": 6,
+  "library_books": 7,
   "preserve_complete_prior_on_quota": true,
   "files": [
     {
@@ -118,8 +119,8 @@
     },
     {
       "url": "./catalogue.json",
-      "bytes": 2831,
-      "sha256": "415ec43df42d39da6fa174d87d304469f4c617b50cd7e5c6c2ec0804e6038a88",
+      "bytes": 3262,
+      "sha256": "548b9a17bc6f1c4017fa3b2bcf0a7a076688972f4c19a7291ca73a74423d6a19",
       "core": true
     },
     {
@@ -2491,6 +2492,270 @@
       "sha256": "832341ad8ee87475dc768f211f305525c9100488087ed7d9d078e51f1612791d",
       "bytes": 62751,
       "core": true
+    },
+    {
+      "url": "./chapter7/book.json",
+      "sha256": "2faf3fe6c0cac50aab294716fc90931b6f21b05ee14a6bbd62ab5c40fa0030e0",
+      "bytes": 101732,
+      "core": false
+    },
+    {
+      "url": "./chapter7/read.html",
+      "sha256": "09425e9ff4b0319dcade3dec69bf4b398cd6cd9d7a0e8de41a15f74264f67ae6",
+      "bytes": 7637,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/c7-g1-q01.m4a",
+      "sha256": "711a67fc1f4bdaf735becd864c4242b14b98aa20f7866e139d1fe7f07a3790f0",
+      "bytes": 36217,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/c7-g1-q02.m4a",
+      "sha256": "2ebcb9f6bb5dd363568287c603365cbfb8f3cc2a30368eb4a31483bfb503fb22",
+      "bytes": 36693,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/c7-g2-q01.m4a",
+      "sha256": "4199481e6889354992231dfebb48456bbc503214787d9d9c9443e3eca0fadb9a",
+      "bytes": 40086,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/c7-g2-q02.m4a",
+      "sha256": "92e7ac27a617e3ea1d24469f408a6ab05178e8d96b4f4f3cc27d2c71eed99c15",
+      "bytes": 46128,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/c7-g3-q01.m4a",
+      "sha256": "3edcdd65c39489740ea81ed3a6b3c09e1e6b1470ec5bd5e7348e5f11afbd2cbf",
+      "bytes": 42074,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/c7-g3-q02.m4a",
+      "sha256": "9a73e4291e59c2d9856cde59468d3d163b7ba472dcafffd453c7e7f21ae5ebca",
+      "bytes": 37594,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/c7-g4-q01.m4a",
+      "sha256": "3b6b986659684d87b439ebcedc5247d8fdf6432eabc30a82947a7711fbc5dd82",
+      "bytes": 37601,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/c7-g4-q02.m4a",
+      "sha256": "841e8e4533d6ecc1d243570a935c39c272ba5266987e4f0e49e084d01edb170c",
+      "bytes": 33446,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/feedback/correct.m4a",
+      "sha256": "d1d56e926439288cce2269fefe492fb807cc27da0dd0d73966648fe068c25b97",
+      "bytes": 11289,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/feedback/incorrect.m4a",
+      "sha256": "09bfb77bd9a09e110ed5b0407dd51ab6a6217331205e673bd4598f4fe20b2815",
+      "bytes": 7763,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/feedback/logo_reward.m4a",
+      "sha256": "a352b48cb392b7eec1a5cc105a74b05211e66a393770dc365868b823fe764502",
+      "bytes": 16220,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/g1-intro.m4a",
+      "sha256": "72b49ba2db03455bf004d3a26d7e73c9a86a6b811dfa9bf715316602358d8119",
+      "bytes": 257566,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/g2-intro.m4a",
+      "sha256": "00fbb39531cb61f057bfdda41df1b674cffb072416d1b8886af9d130f485bc75",
+      "bytes": 323226,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/g3-intro.m4a",
+      "sha256": "01b643da7f121b1d7a58c4b8196f3bac2149901042382d91be52d53114e5ad14",
+      "bytes": 274579,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/g4-intro.m4a",
+      "sha256": "7bb1530bf34c6465dfeb16c60d9be8caaa0544830e057587758330f7492d3f39",
+      "bytes": 265512,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/p00.m4a",
+      "sha256": "929cca17b715b3010a9a4d0bc6945ce414b7404b6feffc2d57b1eb5546136545",
+      "bytes": 216945,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/p01.m4a",
+      "sha256": "b14d8dafa82213f29663e45588eb12f5f7cf7abd0e5e446f370677814d879bde",
+      "bytes": 198702,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/p02.m4a",
+      "sha256": "131dba2176970c57c300bca9ae2a845eec5f78b7211a82a53d080b6b4fbae808",
+      "bytes": 189527,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/p03.m4a",
+      "sha256": "d32d422f439c1a4d26e1c6a61b7def5a1268a1b9af3bed1f42f4adfa4b96a3fb",
+      "bytes": 203048,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/audio/p04.m4a",
+      "sha256": "33704c8900e2b849541c55bf3b71283e3365787fbbd9942ee28fd67c8ebf521e",
+      "bytes": 189446,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/pages/G1.jpg",
+      "sha256": "c89f514ca72e7a9a640651a591d73eb5cd1c94e5eee5b9a6290efac982a19601",
+      "bytes": 385282,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/pages/G2.jpg",
+      "sha256": "7bbf03646272de81a68dc4a0594086e8189c34889e6629c1e87d329d1af93d5b",
+      "bytes": 341863,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/pages/G3.jpg",
+      "sha256": "f41f708990cd35602fe5c9f0c2dfe680f6ba7f4e600882539fdbb9e31ace1e1e",
+      "bytes": 406565,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/pages/G4.jpg",
+      "sha256": "e8527d66f35bd0cfb3e2d5bfe3856ff5f756c0c50074a7a36447c9cbf69caacb",
+      "bytes": 372641,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/pages/ending_logo_L04.svg",
+      "sha256": "4b5cff96582a65971016a7890b05445625a885a6ad472ab4fee80b40a0204fc5",
+      "bytes": 2407381,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/pages/page_00.jpg",
+      "sha256": "7d9df8094282fff91ae270f3a11f53d94014ec32378ce931383c3ce75969638a",
+      "bytes": 588165,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/pages/page_01.jpg",
+      "sha256": "234161b2e4f72dcfda2a274d39805015d03dc58bca0956def001b64b273cda6a",
+      "bytes": 569133,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/pages/page_02.jpg",
+      "sha256": "c1b44bcfa966ac42f275c74c051f52f9608695d3f51df5b07ef135422e6d2a9a",
+      "bytes": 692814,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/pages/page_03.jpg",
+      "sha256": "42b475925437f7dca6e0e77e68778d4dd943001bf5303dbc35b868fbe0d2e7ed",
+      "bytes": 615667,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/assets/pages/page_04.jpg",
+      "sha256": "0ae66daffd7f4d3a25f78bb6cfc1649f8dea39fc5da4f1bcd82c7f90b9a65c88",
+      "bytes": 560537,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/js/app-v21.js",
+      "sha256": "1b8028cda95f4c245ee2413df9204e505ef15550c10e59f08cc67bab21f1bd93",
+      "bytes": 57078,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/js/audio-v21.js",
+      "sha256": "3b828232df0d79422ecb8536c6ec954444d3ccf92c5d15e2f68e009694fa3d99",
+      "bytes": 8856,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/js/book-data.js",
+      "sha256": "c1bc7a390274acf1b403330a178b68c9307aec3750e7558d9b10251511e73baf",
+      "bytes": 68976,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/js/feedback.js",
+      "sha256": "8ea0b62faf6755b42624cb0f052a1a32599cc4622960f13387c886f9f45897d4",
+      "bytes": 6767,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/js/interaction-guard.js",
+      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
+      "bytes": 4092,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/js/practice-state.js",
+      "sha256": "798e8a03d16bb18f2267cbd8105fda8c29dc3549e8ad238c936bbe738428e7e6",
+      "bytes": 5164,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/js/practice.js",
+      "sha256": "918cd55885586a57c779438a96743aea0a0b17c848d5245926d76eec956f5493",
+      "bytes": 12521,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/practice.css",
+      "sha256": "259882b136e50bda5963ff4885962f66f9ed8e0d6610b1c0c17f504f8f59eb23",
+      "bytes": 7472,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/styles.css",
+      "sha256": "33f2fb5538d9b891523e69b91ac06c7deeac359ae495e0007a253857e373b1b6",
+      "bytes": 13875,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/vendor/page-flip.LICENSE.txt",
+      "sha256": "88d7b609a3be5efa2abe8648ddc35d5489579db5e06299545760df45c2c32d66",
+      "bytes": 1063,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/vendor/page-flip.browser.js",
+      "sha256": "8da2746c112f8c1fec8b2a16aa0fc2b4a0d7f6fbae4f8ab0b6eba413467757c5",
+      "bytes": 44041,
+      "core": false
+    },
+    {
+      "url": "./chapter7/reader/web.css",
+      "sha256": "210d6fb016fbb5b4fca3e2d63f9c1db78f181f89563309b854db79e7e66ba128",
+      "bytes": 3560,
+      "core": false
     }
   ],
   "book_art_revisions": {
