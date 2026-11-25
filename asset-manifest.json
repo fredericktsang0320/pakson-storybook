@@ -1,6 +1,6 @@
 {
-  "version": "c92175f62d316137",
-  "total_bytes": 325087996,
+  "version": "1f2717fb02dbd16f",
+  "total_bytes": 325095034,
   "speech_edition": "chapter1-approved-v18-unchanged;chapter2-fixed-Qwen-v1;chapter3-fixed-Qwen-v1;chapter4-fixed-Qwen-v1;chapter5-fixed-Qwen-v1;chapter6-fixed-Qwen-v1;chapter7-fixed-Qwen-v1;chapter8-fixed-Qwen-v1;chapter9-fixed-Qwen-v1;chapter10-fixed-Qwen-v1;chapter11-fixed-Qwen-v1;chapter12-fixed-Qwen-v1;chapter13-fixed-Qwen-v1;chapter14-fixed-Qwen-v1;chapter15-fixed-Qwen-v1;chapter16-fixed-Qwen-v1",
   "ui_edition": "whole-shelf-and-one-tap-reader-v21",
   "cache_policy": 20,
@@ -524,8 +524,8 @@
     },
     {
       "url": "./english-books.html",
-      "bytes": 1844,
-      "sha256": "c40be170a1c87cffd411869e6ea4f5827f167f10a93321cd4129332aa7bfdff0",
+      "bytes": 2198,
+      "sha256": "5226f242d8383669d8f8e5c03cd97da9e1e864afc8842ff5175cca74a5f7ca89",
       "core": true
     },
     {
@@ -5807,6 +5807,18 @@
       "bytes": 3560,
       "sha256": "210d6fb016fbb5b4fca3e2d63f9c1db78f181f89563309b854db79e7e66ba128",
       "core": false
+    },
+    {
+      "url": "./library-ui-en-pages-v27.js",
+      "core": true,
+      "bytes": 5425,
+      "sha256": "1e353bc014dd86ba2de7111a0913d92a0a9cc7f24f5dc39b271c6247144ed888"
+    },
+    {
+      "url": "./library-shelf-pages-v27.css",
+      "core": true,
+      "bytes": 1259,
+      "sha256": "86e8470dcc099950be1091df250259673c30628a16982942c25ee9a55452cdfa"
     }
   ],
   "book_art_revisions": {
