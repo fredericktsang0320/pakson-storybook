@@ -1,0 +1,3949 @@
+{
+  "schema_version": 3,
+  "id": "pakson-k3-b6-u03-hello-v1",
+  "title": "Pakson and the Missing Invitation",
+  "chapter_number": 11,
+  "language": "en-GB",
+  "phonics": "N",
+  "learning_words": [
+    "computer",
+    "mobile phone",
+    "newspaper",
+    "telephone",
+    "clock",
+    "mobile",
+    "night",
+    "nest",
+    "nails",
+    "nuts"
+  ],
+  "formal_teaching_words": [
+    "computer",
+    "mobile phone",
+    "newspaper",
+    "telephone",
+    "clock",
+    "mobile",
+    "night",
+    "nest",
+    "nails",
+    "nuts"
+  ],
+  "pages": [
+    {
+      "audio_id": "p00",
+      "audio": "reader/assets/audio/p00.m4a",
+      "duration": 9.429333333333334,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p00-l01",
+          "block_id": "c11-p00-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "The invitation to a garden party had vanished. Pakson joined the detective and Brown to follow three clues before the guests arrived.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 9.28025,
+          "duration": 9.20025,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p00-l01",
+          "block_id": "c11-p00-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "The invitation to a garden party had vanished. Pakson joined the detective and Brown to follow three clues before the guests arrived.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 9.28025,
+          "duration": 9.20025,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p00",
+      "page_type": "cover",
+      "image": "reader/assets/pages/page_00.jpg",
+      "title": "Pakson and the Missing Invitation",
+      "source_book_page": 0,
+      "source_story_page": 0,
+      "book_page": 0
+    },
+    {
+      "audio_id": "p01",
+      "audio": "reader/assets/audio/p01.m4a",
+      "duration": 10.368,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p01-l01",
+          "block_id": "c11-p01-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "The computer showed the list of guests. A telephone rang.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 4.34925,
+          "duration": 4.26925,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p01-l02",
+          "block_id": "c11-p01-l02",
+          "role": "macy",
+          "speaker": "macy",
+          "text": "Hello, Polly. How are you?",
+          "start": 4.54925,
+          "at": 4.54925,
+          "end": 6.631333333333333,
+          "duration": 2.0820833333333333,
+          "voice_id": "pakson-storybook.macy.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p01-l03",
+          "block_id": "c11-p01-l03",
+          "role": "polly",
+          "speaker": "polly",
+          "text": "Hello, Macy. I am fine, thank you.",
+          "start": 6.831333333333333,
+          "at": 6.831333333333333,
+          "end": 10.222208333333333,
+          "duration": 3.390875,
+          "voice_id": "pakson-storybook.polly.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p01-l01",
+          "block_id": "c11-p01-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "The computer showed the list of guests. A telephone rang.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 4.34925,
+          "duration": 4.26925,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p01-l02",
+          "block_id": "c11-p01-l02",
+          "role": "macy",
+          "speaker": "macy",
+          "text": "Hello, Polly. How are you?",
+          "start": 4.54925,
+          "at": 4.54925,
+          "end": 6.631333333333333,
+          "duration": 2.0820833333333333,
+          "voice_id": "pakson-storybook.macy.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p01-l03",
+          "block_id": "c11-p01-l03",
+          "role": "polly",
+          "speaker": "polly",
+          "text": "Hello, Macy. I am fine, thank you.",
+          "start": 6.831333333333333,
+          "at": 6.831333333333333,
+          "end": 10.222208333333333,
+          "duration": 3.390875,
+          "voice_id": "pakson-storybook.polly.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p01",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_01.jpg",
+      "title": "The first call",
+      "source_book_page": 1,
+      "source_story_page": 1,
+      "book_page": 1
+    },
+    {
+      "audio_id": "G1-intro",
+      "audio": "reader/assets/audio/g1-intro.m4a",
+      "duration": 34.346666666666664,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g1-intro",
+          "block_id": "c11-g1-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0098333333333334,
+          "duration": 2.0098333333333334
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g1-model-01",
+          "block_id": "c11-g1-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Computer. C, O, M, P, U, T, E, R. Computer. Your turn.",
+          "spoken_text": "Computer. The letters are: C, O, M, P, U, T, E, and R. The word is computer. Your turn.",
+          "normalised_text": "Computer. The letters are: C, O, M, P, U, T, E, and R. The word is computer. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "computer",
+          "target_word": "computer",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.1698333333333335,
+          "at": 2.1698333333333335,
+          "end": 11.489875,
+          "duration": 9.320041666666667,
+          "spelling_letters": [
+            "C",
+            "O",
+            "M",
+            "P",
+            "U",
+            "T",
+            "E",
+            "R"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "07db5ad5452653b3ea0e5b",
+          "source_sample_start": 0,
+          "source_sample_end": 223681
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "computer",
+          "target_word": "computer",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 11.489875,
+          "at": 11.489875,
+          "end": 17.489875,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g1-model-02",
+          "block_id": "c11-g1-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Telephone. T, E, L, E, P, H, O, N, E. Telephone. Your turn.",
+          "spoken_text": "Telephone. The letters are: T, E, L, E, P, H, O, N, and E. The word is telephone. Your turn.",
+          "normalised_text": "Telephone. The letters are: T, E, L, E, P, H, O, N, and E. The word is telephone. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "telephone",
+          "target_word": "telephone",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 17.649875,
+          "at": 17.649875,
+          "end": 28.244,
+          "duration": 10.594125,
+          "spelling_letters": [
+            "T",
+            "E",
+            "L",
+            "E",
+            "P",
+            "H",
+            "O",
+            "N",
+            "E"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "f47c363de7f48b37418894",
+          "source_sample_start": 0,
+          "source_sample_end": 254259
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "telephone",
+          "target_word": "telephone",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 28.244,
+          "at": 28.244,
+          "end": 34.244,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g1-intro",
+          "block_id": "c11-g1-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0098333333333334,
+          "duration": 2.0098333333333334
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g1-model-01",
+          "block_id": "c11-g1-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Computer. C, O, M, P, U, T, E, R. Computer. Your turn.",
+          "spoken_text": "Computer. The letters are: C, O, M, P, U, T, E, and R. The word is computer. Your turn.",
+          "normalised_text": "Computer. The letters are: C, O, M, P, U, T, E, and R. The word is computer. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "computer",
+          "target_word": "computer",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.1698333333333335,
+          "at": 2.1698333333333335,
+          "end": 11.489875,
+          "duration": 9.320041666666667,
+          "spelling_letters": [
+            "C",
+            "O",
+            "M",
+            "P",
+            "U",
+            "T",
+            "E",
+            "R"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "07db5ad5452653b3ea0e5b",
+          "source_sample_start": 0,
+          "source_sample_end": 223681
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g1-model-02",
+          "block_id": "c11-g1-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Telephone. T, E, L, E, P, H, O, N, E. Telephone. Your turn.",
+          "spoken_text": "Telephone. The letters are: T, E, L, E, P, H, O, N, and E. The word is telephone. Your turn.",
+          "normalised_text": "Telephone. The letters are: T, E, L, E, P, H, O, N, and E. The word is telephone. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "telephone",
+          "target_word": "telephone",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 17.649875,
+          "at": 17.649875,
+          "end": 28.244,
+          "duration": 10.594125,
+          "spelling_letters": [
+            "T",
+            "E",
+            "L",
+            "E",
+            "P",
+            "H",
+            "O",
+            "N",
+            "E"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "f47c363de7f48b37418894",
+          "source_sample_start": 0,
+          "source_sample_end": 254259
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G1",
+      "title": "Computer and telephone",
+      "page_type": "word_practice",
+      "group_number": 1,
+      "source_story_pages": [
+        "p01"
+      ],
+      "image": "reader/assets/pages/G1.jpg",
+      "targets": [
+        {
+          "word": "computer",
+          "display_word": "computer",
+          "mandatory_spelling": true,
+          "red_bold": true
+        },
+        {
+          "word": "telephone",
+          "display_word": "telephone",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "computer",
+        "telephone"
+      ],
+      "intro": {
+        "audio_id": "G1-intro",
+        "audio": "reader/assets/audio/g1-intro.m4a",
+        "duration": 34.346666666666664,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g1-intro",
+            "block_id": "c11-g1-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0098333333333334,
+            "duration": 2.0098333333333334
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g1-model-01",
+            "block_id": "c11-g1-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Computer. C, O, M, P, U, T, E, R. Computer. Your turn.",
+            "spoken_text": "Computer. The letters are: C, O, M, P, U, T, E, and R. The word is computer. Your turn.",
+            "normalised_text": "Computer. The letters are: C, O, M, P, U, T, E, and R. The word is computer. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "computer",
+            "target_word": "computer",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.1698333333333335,
+            "at": 2.1698333333333335,
+            "end": 11.489875,
+            "duration": 9.320041666666667,
+            "spelling_letters": [
+              "C",
+              "O",
+              "M",
+              "P",
+              "U",
+              "T",
+              "E",
+              "R"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "07db5ad5452653b3ea0e5b",
+            "source_sample_start": 0,
+            "source_sample_end": 223681
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "computer",
+            "target_word": "computer",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 11.489875,
+            "at": 11.489875,
+            "end": 17.489875,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g1-model-02",
+            "block_id": "c11-g1-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Telephone. T, E, L, E, P, H, O, N, E. Telephone. Your turn.",
+            "spoken_text": "Telephone. The letters are: T, E, L, E, P, H, O, N, and E. The word is telephone. Your turn.",
+            "normalised_text": "Telephone. The letters are: T, E, L, E, P, H, O, N, and E. The word is telephone. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "telephone",
+            "target_word": "telephone",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 17.649875,
+            "at": 17.649875,
+            "end": 28.244,
+            "duration": 10.594125,
+            "spelling_letters": [
+              "T",
+              "E",
+              "L",
+              "E",
+              "P",
+              "H",
+              "O",
+              "N",
+              "E"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "f47c363de7f48b37418894",
+            "source_sample_start": 0,
+            "source_sample_end": 254259
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "telephone",
+            "target_word": "telephone",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 28.244,
+            "at": 28.244,
+            "end": 34.244,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g1-intro",
+            "block_id": "c11-g1-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0098333333333334,
+            "duration": 2.0098333333333334
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g1-model-01",
+            "block_id": "c11-g1-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Computer. C, O, M, P, U, T, E, R. Computer. Your turn.",
+            "spoken_text": "Computer. The letters are: C, O, M, P, U, T, E, and R. The word is computer. Your turn.",
+            "normalised_text": "Computer. The letters are: C, O, M, P, U, T, E, and R. The word is computer. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "computer",
+            "target_word": "computer",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.1698333333333335,
+            "at": 2.1698333333333335,
+            "end": 11.489875,
+            "duration": 9.320041666666667,
+            "spelling_letters": [
+              "C",
+              "O",
+              "M",
+              "P",
+              "U",
+              "T",
+              "E",
+              "R"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "07db5ad5452653b3ea0e5b",
+            "source_sample_start": 0,
+            "source_sample_end": 223681
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g1-model-02",
+            "block_id": "c11-g1-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Telephone. T, E, L, E, P, H, O, N, E. Telephone. Your turn.",
+            "spoken_text": "Telephone. The letters are: T, E, L, E, P, H, O, N, and E. The word is telephone. Your turn.",
+            "normalised_text": "Telephone. The letters are: T, E, L, E, P, H, O, N, and E. The word is telephone. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "telephone",
+            "target_word": "telephone",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 17.649875,
+            "at": 17.649875,
+            "end": 28.244,
+            "duration": 10.594125,
+            "spelling_letters": [
+              "T",
+              "E",
+              "L",
+              "E",
+              "P",
+              "H",
+              "O",
+              "N",
+              "E"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "f47c363de7f48b37418894",
+            "source_sample_start": 0,
+            "source_sample_end": 254259
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c11-g1-q01",
+          "word": "computer",
+          "prompt": "What has a screen and keyboard?",
+          "prompt_block": {
+            "id": "c11-g1-q01-prompt",
+            "speaker": "narrator",
+            "text": "What has a screen and keyboard?"
+          },
+          "options": [
+            {
+              "id": "computer",
+              "label": "computer"
+            },
+            {
+              "id": "telephone",
+              "label": "telephone"
+            }
+          ],
+          "correct_option_id": "computer",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c11-g1-q01",
+            "audio": "reader/assets/audio/c11-g1-q01.m4a",
+            "duration": 2.2613333333333334,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g1-q01-prompt",
+                "block_id": "c11-g1-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What has a screen and keyboard?",
+                "word": "computer",
+                "target_word": "computer",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.133,
+                "duration": 2.033
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g1-q01-prompt",
+                "block_id": "c11-g1-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What has a screen and keyboard?",
+                "word": "computer",
+                "target_word": "computer",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.133,
+                "duration": 2.033
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c11-g1-q02",
+          "word": "telephone",
+          "prompt": "What has a receiver and a cord?",
+          "prompt_block": {
+            "id": "c11-g1-q02-prompt",
+            "speaker": "narrator",
+            "text": "What has a receiver and a cord?"
+          },
+          "options": [
+            {
+              "id": "computer",
+              "label": "computer"
+            },
+            {
+              "id": "telephone",
+              "label": "telephone"
+            }
+          ],
+          "correct_option_id": "telephone",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c11-g1-q02",
+            "audio": "reader/assets/audio/c11-g1-q02.m4a",
+            "duration": 2.9013333333333335,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g1-q02-prompt",
+                "block_id": "c11-g1-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What has a receiver and a cord?",
+                "word": "telephone",
+                "target_word": "telephone",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.7720833333333332,
+                "duration": 2.672083333333333
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g1-q02-prompt",
+                "block_id": "c11-g1-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What has a receiver and a cord?",
+                "word": "telephone",
+                "target_word": "telephone",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.7720833333333332,
+                "duration": 2.672083333333333
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 2
+    },
+    {
+      "audio_id": "p02",
+      "audio": "reader/assets/audio/p02.m4a",
+      "duration": 6.912,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p02-l01",
+          "block_id": "c11-p02-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Here is the newspaper.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 1.6954583333333333,
+          "duration": 1.6154583333333334,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p02-l02",
+          "block_id": "c11-p02-l02",
+          "role": "detective",
+          "speaker": "detective",
+          "text": "Look at the mobile phone.",
+          "start": 1.8954583333333332,
+          "at": 1.8954583333333332,
+          "end": 3.2787916666666668,
+          "duration": 1.3833333333333333,
+          "voice_id": "pakson-storybook.detective.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p02-l03",
+          "block_id": "c11-p02-l03",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Brown found a message with the time of the party.",
+          "start": 3.4787916666666665,
+          "at": 3.4787916666666665,
+          "end": 6.755041666666667,
+          "duration": 3.27625,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p02-l01",
+          "block_id": "c11-p02-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Here is the newspaper.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 1.6954583333333333,
+          "duration": 1.6154583333333334,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p02-l02",
+          "block_id": "c11-p02-l02",
+          "role": "detective",
+          "speaker": "detective",
+          "text": "Look at the mobile phone.",
+          "start": 1.8954583333333332,
+          "at": 1.8954583333333332,
+          "end": 3.2787916666666668,
+          "duration": 1.3833333333333333,
+          "voice_id": "pakson-storybook.detective.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p02-l03",
+          "block_id": "c11-p02-l03",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Brown found a message with the time of the party.",
+          "start": 3.4787916666666665,
+          "at": 3.4787916666666665,
+          "end": 6.755041666666667,
+          "duration": 3.27625,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p02",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_02.jpg",
+      "title": "A clue in the news",
+      "source_book_page": 2,
+      "source_story_page": 2,
+      "book_page": 3
+    },
+    {
+      "audio_id": "G2-intro",
+      "audio": "reader/assets/audio/g2-intro.m4a",
+      "duration": 36.309333333333335,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g2-intro",
+          "block_id": "c11-g2-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0098333333333334,
+          "duration": 2.0098333333333334
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g2-model-01",
+          "block_id": "c11-g2-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Newspaper. N, E, W, S, P, A, P, E, R. Newspaper. Your turn.",
+          "spoken_text": "Newspaper. The letters are: N, E, W, S, P, A, P, E, and R. The word is newspaper. Your turn.",
+          "normalised_text": "Newspaper. The letters are: N, E, W, S, P, A, P, E, and R. The word is newspaper. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "newspaper",
+          "target_word": "newspaper",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.1698333333333335,
+          "at": 2.1698333333333335,
+          "end": 12.385375,
+          "duration": 10.215541666666667,
+          "spelling_letters": [
+            "N",
+            "E",
+            "W",
+            "S",
+            "P",
+            "A",
+            "P",
+            "E",
+            "R"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "a68cadc7461f2a52d12986",
+          "source_sample_start": 0,
+          "source_sample_end": 245173
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "newspaper",
+          "target_word": "newspaper",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 12.385375,
+          "at": 12.385375,
+          "end": 18.385375,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g2-model-02",
+          "block_id": "c11-g2-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Mobile phone. M, O, B, I, L, E, P, H, O, N, E. Mobile phone. Your turn.",
+          "spoken_text": "Mobile phone. The letters are: M, O, B, I, L, E, P, H, O, N, and E. The word is mobile phone. Your turn.",
+          "normalised_text": "Mobile phone. The letters are: M, O, B, I, L, E, P, H, O, N, and E. The word is mobile phone. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "mobile phone",
+          "target_word": "mobile phone",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 18.545375,
+          "at": 18.545375,
+          "end": 30.176958333333335,
+          "duration": 11.631583333333333,
+          "spelling_letters": [
+            "M",
+            "O",
+            "B",
+            "I",
+            "L",
+            "E",
+            "P",
+            "H",
+            "O",
+            "N",
+            "E"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "5d3494d4d78704f8c16516",
+          "source_sample_start": 0,
+          "source_sample_end": 279158
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "mobile phone",
+          "target_word": "mobile phone",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 30.176958333333335,
+          "at": 30.176958333333335,
+          "end": 36.17695833333333,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g2-intro",
+          "block_id": "c11-g2-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0098333333333334,
+          "duration": 2.0098333333333334
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g2-model-01",
+          "block_id": "c11-g2-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Newspaper. N, E, W, S, P, A, P, E, R. Newspaper. Your turn.",
+          "spoken_text": "Newspaper. The letters are: N, E, W, S, P, A, P, E, and R. The word is newspaper. Your turn.",
+          "normalised_text": "Newspaper. The letters are: N, E, W, S, P, A, P, E, and R. The word is newspaper. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "newspaper",
+          "target_word": "newspaper",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.1698333333333335,
+          "at": 2.1698333333333335,
+          "end": 12.385375,
+          "duration": 10.215541666666667,
+          "spelling_letters": [
+            "N",
+            "E",
+            "W",
+            "S",
+            "P",
+            "A",
+            "P",
+            "E",
+            "R"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "a68cadc7461f2a52d12986",
+          "source_sample_start": 0,
+          "source_sample_end": 245173
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g2-model-02",
+          "block_id": "c11-g2-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Mobile phone. M, O, B, I, L, E, P, H, O, N, E. Mobile phone. Your turn.",
+          "spoken_text": "Mobile phone. The letters are: M, O, B, I, L, E, P, H, O, N, and E. The word is mobile phone. Your turn.",
+          "normalised_text": "Mobile phone. The letters are: M, O, B, I, L, E, P, H, O, N, and E. The word is mobile phone. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "mobile phone",
+          "target_word": "mobile phone",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 18.545375,
+          "at": 18.545375,
+          "end": 30.176958333333335,
+          "duration": 11.631583333333333,
+          "spelling_letters": [
+            "M",
+            "O",
+            "B",
+            "I",
+            "L",
+            "E",
+            "P",
+            "H",
+            "O",
+            "N",
+            "E"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "5d3494d4d78704f8c16516",
+          "source_sample_start": 0,
+          "source_sample_end": 279158
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G2",
+      "title": "Newspaper and mobile phone",
+      "page_type": "word_practice",
+      "group_number": 2,
+      "source_story_pages": [
+        "p02"
+      ],
+      "image": "reader/assets/pages/G2.jpg",
+      "targets": [
+        {
+          "word": "newspaper",
+          "display_word": "newspaper",
+          "mandatory_spelling": false,
+          "red_bold": true
+        },
+        {
+          "word": "mobile phone",
+          "display_word": "mobile phone",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "newspaper",
+        "mobile phone"
+      ],
+      "intro": {
+        "audio_id": "G2-intro",
+        "audio": "reader/assets/audio/g2-intro.m4a",
+        "duration": 36.309333333333335,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g2-intro",
+            "block_id": "c11-g2-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0098333333333334,
+            "duration": 2.0098333333333334
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g2-model-01",
+            "block_id": "c11-g2-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Newspaper. N, E, W, S, P, A, P, E, R. Newspaper. Your turn.",
+            "spoken_text": "Newspaper. The letters are: N, E, W, S, P, A, P, E, and R. The word is newspaper. Your turn.",
+            "normalised_text": "Newspaper. The letters are: N, E, W, S, P, A, P, E, and R. The word is newspaper. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "newspaper",
+            "target_word": "newspaper",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.1698333333333335,
+            "at": 2.1698333333333335,
+            "end": 12.385375,
+            "duration": 10.215541666666667,
+            "spelling_letters": [
+              "N",
+              "E",
+              "W",
+              "S",
+              "P",
+              "A",
+              "P",
+              "E",
+              "R"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "a68cadc7461f2a52d12986",
+            "source_sample_start": 0,
+            "source_sample_end": 245173
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "newspaper",
+            "target_word": "newspaper",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 12.385375,
+            "at": 12.385375,
+            "end": 18.385375,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g2-model-02",
+            "block_id": "c11-g2-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Mobile phone. M, O, B, I, L, E, P, H, O, N, E. Mobile phone. Your turn.",
+            "spoken_text": "Mobile phone. The letters are: M, O, B, I, L, E, P, H, O, N, and E. The word is mobile phone. Your turn.",
+            "normalised_text": "Mobile phone. The letters are: M, O, B, I, L, E, P, H, O, N, and E. The word is mobile phone. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "mobile phone",
+            "target_word": "mobile phone",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 18.545375,
+            "at": 18.545375,
+            "end": 30.176958333333335,
+            "duration": 11.631583333333333,
+            "spelling_letters": [
+              "M",
+              "O",
+              "B",
+              "I",
+              "L",
+              "E",
+              "P",
+              "H",
+              "O",
+              "N",
+              "E"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "5d3494d4d78704f8c16516",
+            "source_sample_start": 0,
+            "source_sample_end": 279158
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "mobile phone",
+            "target_word": "mobile phone",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 30.176958333333335,
+            "at": 30.176958333333335,
+            "end": 36.17695833333333,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g2-intro",
+            "block_id": "c11-g2-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0098333333333334,
+            "duration": 2.0098333333333334
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g2-model-01",
+            "block_id": "c11-g2-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Newspaper. N, E, W, S, P, A, P, E, R. Newspaper. Your turn.",
+            "spoken_text": "Newspaper. The letters are: N, E, W, S, P, A, P, E, and R. The word is newspaper. Your turn.",
+            "normalised_text": "Newspaper. The letters are: N, E, W, S, P, A, P, E, and R. The word is newspaper. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "newspaper",
+            "target_word": "newspaper",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.1698333333333335,
+            "at": 2.1698333333333335,
+            "end": 12.385375,
+            "duration": 10.215541666666667,
+            "spelling_letters": [
+              "N",
+              "E",
+              "W",
+              "S",
+              "P",
+              "A",
+              "P",
+              "E",
+              "R"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "a68cadc7461f2a52d12986",
+            "source_sample_start": 0,
+            "source_sample_end": 245173
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g2-model-02",
+            "block_id": "c11-g2-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Mobile phone. M, O, B, I, L, E, P, H, O, N, E. Mobile phone. Your turn.",
+            "spoken_text": "Mobile phone. The letters are: M, O, B, I, L, E, P, H, O, N, and E. The word is mobile phone. Your turn.",
+            "normalised_text": "Mobile phone. The letters are: M, O, B, I, L, E, P, H, O, N, and E. The word is mobile phone. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "mobile phone",
+            "target_word": "mobile phone",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 18.545375,
+            "at": 18.545375,
+            "end": 30.176958333333335,
+            "duration": 11.631583333333333,
+            "spelling_letters": [
+              "M",
+              "O",
+              "B",
+              "I",
+              "L",
+              "E",
+              "P",
+              "H",
+              "O",
+              "N",
+              "E"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "5d3494d4d78704f8c16516",
+            "source_sample_start": 0,
+            "source_sample_end": 279158
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c11-g2-q01",
+          "word": "newspaper",
+          "prompt": "What carries printed news?",
+          "prompt_block": {
+            "id": "c11-g2-q01-prompt",
+            "speaker": "narrator",
+            "text": "What carries printed news?"
+          },
+          "options": [
+            {
+              "id": "mobile-phone",
+              "label": "mobile phone"
+            },
+            {
+              "id": "newspaper",
+              "label": "newspaper"
+            }
+          ],
+          "correct_option_id": "newspaper",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c11-g2-q01",
+            "audio": "reader/assets/audio/c11-g2-q01.m4a",
+            "duration": 2.517333333333333,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g2-q01-prompt",
+                "block_id": "c11-g2-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What carries printed news?",
+                "word": "newspaper",
+                "target_word": "newspaper",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.3619583333333334,
+                "duration": 2.2619583333333333
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g2-q01-prompt",
+                "block_id": "c11-g2-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What carries printed news?",
+                "word": "newspaper",
+                "target_word": "newspaper",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.3619583333333334,
+                "duration": 2.2619583333333333
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c11-g2-q02",
+          "word": "mobile phone",
+          "prompt": "Which device can you carry to make a call?",
+          "prompt_block": {
+            "id": "c11-g2-q02-prompt",
+            "speaker": "narrator",
+            "text": "Which device can you carry to make a call?"
+          },
+          "options": [
+            {
+              "id": "mobile-phone",
+              "label": "mobile phone"
+            },
+            {
+              "id": "newspaper",
+              "label": "newspaper"
+            }
+          ],
+          "correct_option_id": "mobile-phone",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c11-g2-q02",
+            "audio": "reader/assets/audio/c11-g2-q02.m4a",
+            "duration": 3.2853333333333334,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g2-q02-prompt",
+                "block_id": "c11-g2-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which device can you carry to make a call?",
+                "word": "mobile phone",
+                "target_word": "mobile phone",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.161125,
+                "duration": 3.061125
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g2-q02-prompt",
+                "block_id": "c11-g2-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which device can you carry to make a call?",
+                "word": "mobile phone",
+                "target_word": "mobile phone",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.161125,
+                "duration": 3.061125
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 4
+    },
+    {
+      "audio_id": "p03",
+      "audio": "reader/assets/audio/p03.m4a",
+      "duration": 8.234666666666667,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p03-l01",
+          "block_id": "c11-p03-l01",
+          "role": "detective",
+          "speaker": "detective",
+          "text": "See you at eleven o’clock.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 2.112875,
+          "duration": 2.032875,
+          "voice_id": "pakson-storybook.detective.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p03-l02",
+          "block_id": "c11-p03-l02",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "Goodbye.",
+          "start": 2.312875,
+          "at": 2.312875,
+          "end": 3.4522916666666665,
+          "duration": 1.1394166666666667,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p03-l03",
+          "block_id": "c11-p03-l03",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "The clock told us when. Behind it was the missing invitation.",
+          "start": 3.6522916666666667,
+          "at": 3.6522916666666667,
+          "end": 8.112958333333333,
+          "duration": 4.460666666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p03-l01",
+          "block_id": "c11-p03-l01",
+          "role": "detective",
+          "speaker": "detective",
+          "text": "See you at eleven o’clock.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 2.112875,
+          "duration": 2.032875,
+          "voice_id": "pakson-storybook.detective.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p03-l02",
+          "block_id": "c11-p03-l02",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "Goodbye.",
+          "start": 2.312875,
+          "at": 2.312875,
+          "end": 3.4522916666666665,
+          "duration": 1.1394166666666667,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p03-l03",
+          "block_id": "c11-p03-l03",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "The clock told us when. Behind it was the missing invitation.",
+          "start": 3.6522916666666667,
+          "at": 3.6522916666666667,
+          "end": 8.112958333333333,
+          "duration": 4.460666666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p03",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_03.jpg",
+      "title": "Eleven at last",
+      "source_book_page": 3,
+      "source_story_page": 3,
+      "book_page": 5
+    },
+    {
+      "audio_id": "G3-intro",
+      "audio": "reader/assets/audio/g3-intro.m4a",
+      "duration": 32.72533333333333,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g3-intro",
+          "block_id": "c11-g3-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0098333333333334,
+          "duration": 2.0098333333333334
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g3-model-01",
+          "block_id": "c11-g3-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Clock. C, L, O, C, K. Clock. Your turn.",
+          "spoken_text": "Clock. The letters are: C, L, O, C, and K. The word is clock. Your turn.",
+          "normalised_text": "Clock. The letters are: C, L, O, C, and K. The word is clock. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "clock",
+          "target_word": "clock",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.1698333333333335,
+          "at": 2.1698333333333335,
+          "end": 11.431416666666667,
+          "duration": 9.261583333333334,
+          "spelling_letters": [
+            "C",
+            "L",
+            "O",
+            "C",
+            "K"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "72443f69da91648ed405a3",
+          "source_sample_start": 0,
+          "source_sample_end": 222278
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "clock",
+          "target_word": "clock",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 11.431416666666667,
+          "at": 11.431416666666667,
+          "end": 17.431416666666667,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g3-model-02",
+          "block_id": "c11-g3-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Mobile. M, O, B, I, L, E. Mobile. Your turn.",
+          "spoken_text": "Mobile. The letters are: M, O, B, I, L, and E. The word is mobile. Your turn.",
+          "normalised_text": "Mobile. The letters are: M, O, B, I, L, and E. The word is mobile. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "mobile",
+          "target_word": "mobile",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 17.591416666666667,
+          "at": 17.591416666666667,
+          "end": 26.593833333333333,
+          "duration": 9.002416666666667,
+          "spelling_letters": [
+            "M",
+            "O",
+            "B",
+            "I",
+            "L",
+            "E"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "8c37a5d3d830bc7ee32c7b",
+          "source_sample_start": 0,
+          "source_sample_end": 216058
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "mobile",
+          "target_word": "mobile",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 26.593833333333333,
+          "at": 26.593833333333333,
+          "end": 32.593833333333336,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g3-intro",
+          "block_id": "c11-g3-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0098333333333334,
+          "duration": 2.0098333333333334
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g3-model-01",
+          "block_id": "c11-g3-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Clock. C, L, O, C, K. Clock. Your turn.",
+          "spoken_text": "Clock. The letters are: C, L, O, C, and K. The word is clock. Your turn.",
+          "normalised_text": "Clock. The letters are: C, L, O, C, and K. The word is clock. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "clock",
+          "target_word": "clock",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.1698333333333335,
+          "at": 2.1698333333333335,
+          "end": 11.431416666666667,
+          "duration": 9.261583333333334,
+          "spelling_letters": [
+            "C",
+            "L",
+            "O",
+            "C",
+            "K"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "72443f69da91648ed405a3",
+          "source_sample_start": 0,
+          "source_sample_end": 222278
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g3-model-02",
+          "block_id": "c11-g3-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Mobile. M, O, B, I, L, E. Mobile. Your turn.",
+          "spoken_text": "Mobile. The letters are: M, O, B, I, L, and E. The word is mobile. Your turn.",
+          "normalised_text": "Mobile. The letters are: M, O, B, I, L, and E. The word is mobile. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "mobile",
+          "target_word": "mobile",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 17.591416666666667,
+          "at": 17.591416666666667,
+          "end": 26.593833333333333,
+          "duration": 9.002416666666667,
+          "spelling_letters": [
+            "M",
+            "O",
+            "B",
+            "I",
+            "L",
+            "E"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "8c37a5d3d830bc7ee32c7b",
+          "source_sample_start": 0,
+          "source_sample_end": 216058
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G3",
+      "title": "Clock and mobile",
+      "page_type": "word_practice",
+      "group_number": 3,
+      "source_story_pages": [
+        "p03"
+      ],
+      "image": "reader/assets/pages/G3.jpg",
+      "targets": [
+        {
+          "word": "clock",
+          "display_word": "clock",
+          "mandatory_spelling": true,
+          "red_bold": true
+        },
+        {
+          "word": "mobile",
+          "display_word": "mobile",
+          "mandatory_spelling": true,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "clock",
+        "mobile"
+      ],
+      "intro": {
+        "audio_id": "G3-intro",
+        "audio": "reader/assets/audio/g3-intro.m4a",
+        "duration": 32.72533333333333,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g3-intro",
+            "block_id": "c11-g3-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0098333333333334,
+            "duration": 2.0098333333333334
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g3-model-01",
+            "block_id": "c11-g3-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Clock. C, L, O, C, K. Clock. Your turn.",
+            "spoken_text": "Clock. The letters are: C, L, O, C, and K. The word is clock. Your turn.",
+            "normalised_text": "Clock. The letters are: C, L, O, C, and K. The word is clock. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "clock",
+            "target_word": "clock",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.1698333333333335,
+            "at": 2.1698333333333335,
+            "end": 11.431416666666667,
+            "duration": 9.261583333333334,
+            "spelling_letters": [
+              "C",
+              "L",
+              "O",
+              "C",
+              "K"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "72443f69da91648ed405a3",
+            "source_sample_start": 0,
+            "source_sample_end": 222278
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "clock",
+            "target_word": "clock",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 11.431416666666667,
+            "at": 11.431416666666667,
+            "end": 17.431416666666667,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g3-model-02",
+            "block_id": "c11-g3-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Mobile. M, O, B, I, L, E. Mobile. Your turn.",
+            "spoken_text": "Mobile. The letters are: M, O, B, I, L, and E. The word is mobile. Your turn.",
+            "normalised_text": "Mobile. The letters are: M, O, B, I, L, and E. The word is mobile. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "mobile",
+            "target_word": "mobile",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 17.591416666666667,
+            "at": 17.591416666666667,
+            "end": 26.593833333333333,
+            "duration": 9.002416666666667,
+            "spelling_letters": [
+              "M",
+              "O",
+              "B",
+              "I",
+              "L",
+              "E"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "8c37a5d3d830bc7ee32c7b",
+            "source_sample_start": 0,
+            "source_sample_end": 216058
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "mobile",
+            "target_word": "mobile",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 26.593833333333333,
+            "at": 26.593833333333333,
+            "end": 32.593833333333336,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g3-intro",
+            "block_id": "c11-g3-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0098333333333334,
+            "duration": 2.0098333333333334
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g3-model-01",
+            "block_id": "c11-g3-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Clock. C, L, O, C, K. Clock. Your turn.",
+            "spoken_text": "Clock. The letters are: C, L, O, C, and K. The word is clock. Your turn.",
+            "normalised_text": "Clock. The letters are: C, L, O, C, and K. The word is clock. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "clock",
+            "target_word": "clock",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.1698333333333335,
+            "at": 2.1698333333333335,
+            "end": 11.431416666666667,
+            "duration": 9.261583333333334,
+            "spelling_letters": [
+              "C",
+              "L",
+              "O",
+              "C",
+              "K"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "72443f69da91648ed405a3",
+            "source_sample_start": 0,
+            "source_sample_end": 222278
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g3-model-02",
+            "block_id": "c11-g3-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Mobile. M, O, B, I, L, E. Mobile. Your turn.",
+            "spoken_text": "Mobile. The letters are: M, O, B, I, L, and E. The word is mobile. Your turn.",
+            "normalised_text": "Mobile. The letters are: M, O, B, I, L, and E. The word is mobile. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "mobile",
+            "target_word": "mobile",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 17.591416666666667,
+            "at": 17.591416666666667,
+            "end": 26.593833333333333,
+            "duration": 9.002416666666667,
+            "spelling_letters": [
+              "M",
+              "O",
+              "B",
+              "I",
+              "L",
+              "E"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "8c37a5d3d830bc7ee32c7b",
+            "source_sample_start": 0,
+            "source_sample_end": 216058
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c11-g3-q01",
+          "word": "clock",
+          "prompt": "Which object tells the time?",
+          "prompt_block": {
+            "id": "c11-g3-q01-prompt",
+            "speaker": "narrator",
+            "text": "Which object tells the time?"
+          },
+          "options": [
+            {
+              "id": "clock",
+              "label": "clock"
+            },
+            {
+              "id": "mobile",
+              "label": "mobile"
+            }
+          ],
+          "correct_option_id": "clock",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c11-g3-q01",
+            "audio": "reader/assets/audio/c11-g3-q01.m4a",
+            "duration": 2.944,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g3-q01-prompt",
+                "block_id": "c11-g3-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which object tells the time?",
+                "word": "clock",
+                "target_word": "clock",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.8142916666666666,
+                "duration": 2.7142916666666665
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g3-q01-prompt",
+                "block_id": "c11-g3-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which object tells the time?",
+                "word": "clock",
+                "target_word": "clock",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.8142916666666666,
+                "duration": 2.7142916666666665
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c11-g3-q02",
+          "word": "mobile",
+          "prompt": "Which shorter word can name a mobile phone?",
+          "prompt_block": {
+            "id": "c11-g3-q02-prompt",
+            "speaker": "narrator",
+            "text": "Which shorter word can name a mobile phone?"
+          },
+          "options": [
+            {
+              "id": "clock",
+              "label": "clock"
+            },
+            {
+              "id": "mobile",
+              "label": "mobile"
+            }
+          ],
+          "correct_option_id": "mobile",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c11-g3-q02",
+            "audio": "reader/assets/audio/c11-g3-q02.m4a",
+            "duration": 3.584,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g3-q02-prompt",
+                "block_id": "c11-g3-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which shorter word can name a mobile phone?",
+                "word": "mobile",
+                "target_word": "mobile",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.4410833333333333,
+                "duration": 3.341083333333333
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g3-q02-prompt",
+                "block_id": "c11-g3-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which shorter word can name a mobile phone?",
+                "word": "mobile",
+                "target_word": "mobile",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.4410833333333333,
+                "duration": 3.341083333333333
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 6
+    },
+    {
+      "audio_id": "p04",
+      "audio": "reader/assets/audio/p04.m4a",
+      "duration": 5.248,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p04-l01",
+          "block_id": "c11-p04-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "N. Listen to the first sound in night and nest. night. nest.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 5.111166666666667,
+          "duration": 5.031166666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p04-l01",
+          "block_id": "c11-p04-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "N. Listen to the first sound in night and nest. night. nest.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 5.111166666666667,
+          "duration": 5.031166666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p04",
+      "page_type": "review",
+      "image": "reader/assets/pages/page_04.jpg",
+      "title": "N n sound",
+      "source_book_page": 4,
+      "source_story_page": 4,
+      "book_page": 7
+    },
+    {
+      "audio_id": "G4-intro",
+      "audio": "reader/assets/audio/g4-intro.m4a",
+      "duration": 29.866666666666667,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g4-intro",
+          "block_id": "c11-g4-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0098333333333334,
+          "duration": 2.0098333333333334
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g4-model-01",
+          "block_id": "c11-g4-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Night. N, I, G, H, T. Night. Your turn.",
+          "spoken_text": "Night. The letters are: N, I, G, H, and T. The word is night. Your turn.",
+          "normalised_text": "Night. The letters are: N, I, G, H, and T. The word is night. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "night",
+          "target_word": "night",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.1698333333333335,
+          "at": 2.1698333333333335,
+          "end": 8.471166666666667,
+          "duration": 6.301333333333333,
+          "spelling_letters": [
+            "N",
+            "I",
+            "G",
+            "H",
+            "T"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "289a0616c87c002ba780ab",
+          "source_sample_start": 0,
+          "source_sample_end": 151232
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "night",
+          "target_word": "night",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 8.471166666666667,
+          "at": 8.471166666666667,
+          "end": 14.471166666666667,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g4-model-02",
+          "block_id": "c11-g4-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Nest. N, E, S, T. Nest. Your turn.",
+          "spoken_text": "Nest. The letters are: N, E, S, and T. The word is nest. Your turn.",
+          "normalised_text": "Nest. The letters are: N, E, S, and T. The word is nest. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "nest",
+          "target_word": "nest",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 14.631166666666667,
+          "at": 14.631166666666667,
+          "end": 23.746666666666666,
+          "duration": 9.1155,
+          "spelling_letters": [
+            "N",
+            "E",
+            "S",
+            "T"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "e3a8bb79a74b44d5e9c15c",
+          "source_sample_start": 0,
+          "source_sample_end": 218772
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "nest",
+          "target_word": "nest",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 23.746666666666666,
+          "at": 23.746666666666666,
+          "end": 29.746666666666666,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g4-intro",
+          "block_id": "c11-g4-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0098333333333334,
+          "duration": 2.0098333333333334
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g4-model-01",
+          "block_id": "c11-g4-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Night. N, I, G, H, T. Night. Your turn.",
+          "spoken_text": "Night. The letters are: N, I, G, H, and T. The word is night. Your turn.",
+          "normalised_text": "Night. The letters are: N, I, G, H, and T. The word is night. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "night",
+          "target_word": "night",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.1698333333333335,
+          "at": 2.1698333333333335,
+          "end": 8.471166666666667,
+          "duration": 6.301333333333333,
+          "spelling_letters": [
+            "N",
+            "I",
+            "G",
+            "H",
+            "T"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "289a0616c87c002ba780ab",
+          "source_sample_start": 0,
+          "source_sample_end": 151232
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g4-model-02",
+          "block_id": "c11-g4-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Nest. N, E, S, T. Nest. Your turn.",
+          "spoken_text": "Nest. The letters are: N, E, S, and T. The word is nest. Your turn.",
+          "normalised_text": "Nest. The letters are: N, E, S, and T. The word is nest. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "nest",
+          "target_word": "nest",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 14.631166666666667,
+          "at": 14.631166666666667,
+          "end": 23.746666666666666,
+          "duration": 9.1155,
+          "spelling_letters": [
+            "N",
+            "E",
+            "S",
+            "T"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "e3a8bb79a74b44d5e9c15c",
+          "source_sample_start": 0,
+          "source_sample_end": 218772
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G4",
+      "title": "Night and nest",
+      "page_type": "word_practice",
+      "group_number": 4,
+      "source_story_pages": [
+        "p04"
+      ],
+      "image": "reader/assets/pages/G4.jpg",
+      "targets": [
+        {
+          "word": "night",
+          "display_word": "night",
+          "mandatory_spelling": false,
+          "red_bold": true
+        },
+        {
+          "word": "nest",
+          "display_word": "nest",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "night",
+        "nest"
+      ],
+      "intro": {
+        "audio_id": "G4-intro",
+        "audio": "reader/assets/audio/g4-intro.m4a",
+        "duration": 29.866666666666667,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g4-intro",
+            "block_id": "c11-g4-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0098333333333334,
+            "duration": 2.0098333333333334
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g4-model-01",
+            "block_id": "c11-g4-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Night. N, I, G, H, T. Night. Your turn.",
+            "spoken_text": "Night. The letters are: N, I, G, H, and T. The word is night. Your turn.",
+            "normalised_text": "Night. The letters are: N, I, G, H, and T. The word is night. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "night",
+            "target_word": "night",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.1698333333333335,
+            "at": 2.1698333333333335,
+            "end": 8.471166666666667,
+            "duration": 6.301333333333333,
+            "spelling_letters": [
+              "N",
+              "I",
+              "G",
+              "H",
+              "T"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "289a0616c87c002ba780ab",
+            "source_sample_start": 0,
+            "source_sample_end": 151232
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "night",
+            "target_word": "night",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 8.471166666666667,
+            "at": 8.471166666666667,
+            "end": 14.471166666666667,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g4-model-02",
+            "block_id": "c11-g4-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Nest. N, E, S, T. Nest. Your turn.",
+            "spoken_text": "Nest. The letters are: N, E, S, and T. The word is nest. Your turn.",
+            "normalised_text": "Nest. The letters are: N, E, S, and T. The word is nest. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "nest",
+            "target_word": "nest",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 14.631166666666667,
+            "at": 14.631166666666667,
+            "end": 23.746666666666666,
+            "duration": 9.1155,
+            "spelling_letters": [
+              "N",
+              "E",
+              "S",
+              "T"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "e3a8bb79a74b44d5e9c15c",
+            "source_sample_start": 0,
+            "source_sample_end": 218772
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "nest",
+            "target_word": "nest",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 23.746666666666666,
+            "at": 23.746666666666666,
+            "end": 29.746666666666666,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g4-intro",
+            "block_id": "c11-g4-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0098333333333334,
+            "duration": 2.0098333333333334
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g4-model-01",
+            "block_id": "c11-g4-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Night. N, I, G, H, T. Night. Your turn.",
+            "spoken_text": "Night. The letters are: N, I, G, H, and T. The word is night. Your turn.",
+            "normalised_text": "Night. The letters are: N, I, G, H, and T. The word is night. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "night",
+            "target_word": "night",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.1698333333333335,
+            "at": 2.1698333333333335,
+            "end": 8.471166666666667,
+            "duration": 6.301333333333333,
+            "spelling_letters": [
+              "N",
+              "I",
+              "G",
+              "H",
+              "T"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "289a0616c87c002ba780ab",
+            "source_sample_start": 0,
+            "source_sample_end": 151232
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g4-model-02",
+            "block_id": "c11-g4-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Nest. N, E, S, T. Nest. Your turn.",
+            "spoken_text": "Nest. The letters are: N, E, S, and T. The word is nest. Your turn.",
+            "normalised_text": "Nest. The letters are: N, E, S, and T. The word is nest. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "nest",
+            "target_word": "nest",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 14.631166666666667,
+            "at": 14.631166666666667,
+            "end": 23.746666666666666,
+            "duration": 9.1155,
+            "spelling_letters": [
+              "N",
+              "E",
+              "S",
+              "T"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "e3a8bb79a74b44d5e9c15c",
+            "source_sample_start": 0,
+            "source_sample_end": 218772
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c11-g4-q01",
+          "word": "night",
+          "prompt": "When can you see stars?",
+          "prompt_block": {
+            "id": "c11-g4-q01-prompt",
+            "speaker": "narrator",
+            "text": "When can you see stars?"
+          },
+          "options": [
+            {
+              "id": "nest",
+              "label": "nest"
+            },
+            {
+              "id": "night",
+              "label": "night"
+            }
+          ],
+          "correct_option_id": "night",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c11-g4-q01",
+            "audio": "reader/assets/audio/c11-g4-q01.m4a",
+            "duration": 2.048,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g4-q01-prompt",
+                "block_id": "c11-g4-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "When can you see stars?",
+                "word": "night",
+                "target_word": "night",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 1.9213333333333333,
+                "duration": 1.8213333333333332
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g4-q01-prompt",
+                "block_id": "c11-g4-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "When can you see stars?",
+                "word": "night",
+                "target_word": "night",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 1.9213333333333333,
+                "duration": 1.8213333333333332
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c11-g4-q02",
+          "word": "nest",
+          "prompt": "Where does a bird lay its eggs?",
+          "prompt_block": {
+            "id": "c11-g4-q02-prompt",
+            "speaker": "narrator",
+            "text": "Where does a bird lay its eggs?"
+          },
+          "options": [
+            {
+              "id": "nest",
+              "label": "nest"
+            },
+            {
+              "id": "night",
+              "label": "night"
+            }
+          ],
+          "correct_option_id": "nest",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c11-g4-q02",
+            "audio": "reader/assets/audio/c11-g4-q02.m4a",
+            "duration": 2.2186666666666666,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g4-q02-prompt",
+                "block_id": "c11-g4-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Where does a bird lay its eggs?",
+                "word": "nest",
+                "target_word": "nest",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.0965833333333332,
+                "duration": 1.9965833333333334
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g4-q02-prompt",
+                "block_id": "c11-g4-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Where does a bird lay its eggs?",
+                "word": "nest",
+                "target_word": "nest",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.0965833333333332,
+                "duration": 1.9965833333333334
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 8
+    },
+    {
+      "audio_id": "p05",
+      "audio": "reader/assets/audio/p05.m4a",
+      "duration": 5.290666666666667,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p05-l01",
+          "block_id": "c11-p05-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "N. Listen to the first sound in nails and nuts. nails. nuts.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 5.16,
+          "duration": 5.08,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p05-l01",
+          "block_id": "c11-p05-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "N. Listen to the first sound in nails and nuts. nails. nuts.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 5.16,
+          "duration": 5.08,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p05",
+      "page_type": "review",
+      "image": "reader/assets/pages/page_05.jpg",
+      "title": "N n sound",
+      "source_book_page": 5,
+      "source_story_page": 5,
+      "book_page": 9
+    },
+    {
+      "audio_id": "G5-intro",
+      "audio": "reader/assets/audio/g5-intro.m4a",
+      "duration": 31.530666666666665,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g5-intro",
+          "block_id": "c11-g5-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0098333333333334,
+          "duration": 2.0098333333333334
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g5-model-01",
+          "block_id": "c11-g5-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Nails. N, A, I, L, S. Nails. Your turn.",
+          "spoken_text": "Nails. The letters are: N, A, I, L, and S. The word is nails. Your turn.",
+          "normalised_text": "Nails. The letters are: N, A, I, L, and S. The word is nails. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "nails",
+          "target_word": "nails",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.1698333333333335,
+          "at": 2.1698333333333335,
+          "end": 12.086208333333333,
+          "duration": 9.916375,
+          "spelling_letters": [
+            "N",
+            "A",
+            "I",
+            "L",
+            "S"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "b9b0b39b919e52eab1748e",
+          "source_sample_start": 0,
+          "source_sample_end": 237993
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "nails",
+          "target_word": "nails",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 12.086208333333333,
+          "at": 12.086208333333333,
+          "end": 18.08620833333333,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g5-model-02",
+          "block_id": "c11-g5-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Nuts. N, U, T, S. Nuts. Your turn.",
+          "spoken_text": "Nuts. The letters are: N, U, T, and S. The word is nuts. Your turn.",
+          "normalised_text": "Nuts. The letters are: N, U, T, and S. The word is nuts. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "nuts",
+          "target_word": "nuts",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 18.246208333333332,
+          "at": 18.246208333333332,
+          "end": 25.424375,
+          "duration": 7.178166666666667,
+          "spelling_letters": [
+            "N",
+            "U",
+            "T",
+            "S"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "2f5990fdb011ed62c61def",
+          "source_sample_start": 0,
+          "source_sample_end": 172276
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "nuts",
+          "target_word": "nuts",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 25.424375,
+          "at": 25.424375,
+          "end": 31.424375,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g5-intro",
+          "block_id": "c11-g5-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0098333333333334,
+          "duration": 2.0098333333333334
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g5-model-01",
+          "block_id": "c11-g5-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Nails. N, A, I, L, S. Nails. Your turn.",
+          "spoken_text": "Nails. The letters are: N, A, I, L, and S. The word is nails. Your turn.",
+          "normalised_text": "Nails. The letters are: N, A, I, L, and S. The word is nails. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "nails",
+          "target_word": "nails",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.1698333333333335,
+          "at": 2.1698333333333335,
+          "end": 12.086208333333333,
+          "duration": 9.916375,
+          "spelling_letters": [
+            "N",
+            "A",
+            "I",
+            "L",
+            "S"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "b9b0b39b919e52eab1748e",
+          "source_sample_start": 0,
+          "source_sample_end": 237993
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-g5-model-02",
+          "block_id": "c11-g5-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Nuts. N, U, T, S. Nuts. Your turn.",
+          "spoken_text": "Nuts. The letters are: N, U, T, and S. The word is nuts. Your turn.",
+          "normalised_text": "Nuts. The letters are: N, U, T, and S. The word is nuts. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "nuts",
+          "target_word": "nuts",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 18.246208333333332,
+          "at": 18.246208333333332,
+          "end": 25.424375,
+          "duration": 7.178166666666667,
+          "spelling_letters": [
+            "N",
+            "U",
+            "T",
+            "S"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "2f5990fdb011ed62c61def",
+          "source_sample_start": 0,
+          "source_sample_end": 172276
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G5",
+      "title": "Nails and nuts",
+      "page_type": "word_practice",
+      "group_number": 5,
+      "source_story_pages": [
+        "p05"
+      ],
+      "image": "reader/assets/pages/G5.jpg",
+      "targets": [
+        {
+          "word": "nails",
+          "display_word": "nails",
+          "mandatory_spelling": false,
+          "red_bold": true
+        },
+        {
+          "word": "nuts",
+          "display_word": "nuts",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "nails",
+        "nuts"
+      ],
+      "intro": {
+        "audio_id": "G5-intro",
+        "audio": "reader/assets/audio/g5-intro.m4a",
+        "duration": 31.530666666666665,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g5-intro",
+            "block_id": "c11-g5-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0098333333333334,
+            "duration": 2.0098333333333334
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g5-model-01",
+            "block_id": "c11-g5-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Nails. N, A, I, L, S. Nails. Your turn.",
+            "spoken_text": "Nails. The letters are: N, A, I, L, and S. The word is nails. Your turn.",
+            "normalised_text": "Nails. The letters are: N, A, I, L, and S. The word is nails. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "nails",
+            "target_word": "nails",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.1698333333333335,
+            "at": 2.1698333333333335,
+            "end": 12.086208333333333,
+            "duration": 9.916375,
+            "spelling_letters": [
+              "N",
+              "A",
+              "I",
+              "L",
+              "S"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "b9b0b39b919e52eab1748e",
+            "source_sample_start": 0,
+            "source_sample_end": 237993
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "nails",
+            "target_word": "nails",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 12.086208333333333,
+            "at": 12.086208333333333,
+            "end": 18.08620833333333,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g5-model-02",
+            "block_id": "c11-g5-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Nuts. N, U, T, S. Nuts. Your turn.",
+            "spoken_text": "Nuts. The letters are: N, U, T, and S. The word is nuts. Your turn.",
+            "normalised_text": "Nuts. The letters are: N, U, T, and S. The word is nuts. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "nuts",
+            "target_word": "nuts",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 18.246208333333332,
+            "at": 18.246208333333332,
+            "end": 25.424375,
+            "duration": 7.178166666666667,
+            "spelling_letters": [
+              "N",
+              "U",
+              "T",
+              "S"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "2f5990fdb011ed62c61def",
+            "source_sample_start": 0,
+            "source_sample_end": 172276
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "nuts",
+            "target_word": "nuts",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 25.424375,
+            "at": 25.424375,
+            "end": 31.424375,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g5-intro",
+            "block_id": "c11-g5-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0098333333333334,
+            "duration": 2.0098333333333334
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g5-model-01",
+            "block_id": "c11-g5-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Nails. N, A, I, L, S. Nails. Your turn.",
+            "spoken_text": "Nails. The letters are: N, A, I, L, and S. The word is nails. Your turn.",
+            "normalised_text": "Nails. The letters are: N, A, I, L, and S. The word is nails. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "nails",
+            "target_word": "nails",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.1698333333333335,
+            "at": 2.1698333333333335,
+            "end": 12.086208333333333,
+            "duration": 9.916375,
+            "spelling_letters": [
+              "N",
+              "A",
+              "I",
+              "L",
+              "S"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "b9b0b39b919e52eab1748e",
+            "source_sample_start": 0,
+            "source_sample_end": 237993
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c11-g5-model-02",
+            "block_id": "c11-g5-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Nuts. N, U, T, S. Nuts. Your turn.",
+            "spoken_text": "Nuts. The letters are: N, U, T, and S. The word is nuts. Your turn.",
+            "normalised_text": "Nuts. The letters are: N, U, T, and S. The word is nuts. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "nuts",
+            "target_word": "nuts",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 18.246208333333332,
+            "at": 18.246208333333332,
+            "end": 25.424375,
+            "duration": 7.178166666666667,
+            "spelling_letters": [
+              "N",
+              "U",
+              "T",
+              "S"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "2f5990fdb011ed62c61def",
+            "source_sample_start": 0,
+            "source_sample_end": 172276
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c11-g5-q01",
+          "word": "nails",
+          "prompt": "What is at the tips of your fingers?",
+          "prompt_block": {
+            "id": "c11-g5-q01-prompt",
+            "speaker": "narrator",
+            "text": "What is at the tips of your fingers?"
+          },
+          "options": [
+            {
+              "id": "nails",
+              "label": "nails"
+            },
+            {
+              "id": "nuts",
+              "label": "nuts"
+            }
+          ],
+          "correct_option_id": "nails",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c11-g5-q01",
+            "audio": "reader/assets/audio/c11-g5-q01.m4a",
+            "duration": 3.072,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g5-q01-prompt",
+                "block_id": "c11-g5-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What is at the tips of your fingers?",
+                "word": "nails",
+                "target_word": "nails",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.911875,
+                "duration": 2.811875
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g5-q01-prompt",
+                "block_id": "c11-g5-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What is at the tips of your fingers?",
+                "word": "nails",
+                "target_word": "nails",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.911875,
+                "duration": 2.811875
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c11-g5-q02",
+          "word": "nuts",
+          "prompt": "What is in the bowl?",
+          "prompt_block": {
+            "id": "c11-g5-q02-prompt",
+            "speaker": "narrator",
+            "text": "What is in the bowl?"
+          },
+          "options": [
+            {
+              "id": "nails",
+              "label": "nails"
+            },
+            {
+              "id": "nuts",
+              "label": "nuts"
+            }
+          ],
+          "correct_option_id": "nuts",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c11-g5-q02",
+            "audio": "reader/assets/audio/c11-g5-q02.m4a",
+            "duration": 1.536,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g5-q02-prompt",
+                "block_id": "c11-g5-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What is in the bowl?",
+                "word": "nuts",
+                "target_word": "nuts",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 1.3834166666666667,
+                "duration": 1.2834166666666667
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c11-g5-q02-prompt",
+                "block_id": "c11-g5-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What is in the bowl?",
+                "word": "nuts",
+                "target_word": "nuts",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 1.3834166666666667,
+                "duration": 1.2834166666666667
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 10
+    },
+    {
+      "audio_id": "p06",
+      "audio": "reader/assets/audio/p06.m4a",
+      "duration": 12.672,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p06-l01",
+          "block_id": "c11-p06-l01",
+          "role": "detective",
+          "speaker": "detective",
+          "text": "Hello, Mimi. How are you?",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 2.481125,
+          "duration": 2.401125,
+          "voice_id": "pakson-storybook.detective.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p06-l02",
+          "block_id": "c11-p06-l02",
+          "role": "polly",
+          "speaker": "polly",
+          "text": "Hello, Bibi. I am fine, thank you.",
+          "start": 2.681125,
+          "at": 2.681125,
+          "end": 5.822166666666667,
+          "duration": 3.1410416666666667,
+          "voice_id": "pakson-storybook.polly.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p06-l03",
+          "block_id": "c11-p06-l03",
+          "role": "detective",
+          "speaker": "detective",
+          "text": "Let’s play at my home today.",
+          "start": 6.022166666666666,
+          "at": 6.022166666666666,
+          "end": 8.133958333333334,
+          "duration": 2.1117916666666665,
+          "voice_id": "pakson-storybook.detective.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p06-l04",
+          "block_id": "c11-p06-l04",
+          "role": "polly",
+          "speaker": "polly",
+          "text": "Hooray! See you at one o’clock.",
+          "start": 8.333958333333333,
+          "at": 8.333958333333333,
+          "end": 11.265875,
+          "duration": 2.9319166666666665,
+          "voice_id": "pakson-storybook.polly.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p06-l05",
+          "block_id": "c11-p06-l05",
+          "role": "detective",
+          "speaker": "detective",
+          "text": "Goodbye!",
+          "start": 11.465875,
+          "at": 11.465875,
+          "end": 12.545833333333333,
+          "duration": 1.0799583333333334,
+          "voice_id": "pakson-storybook.detective.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p06-l01",
+          "block_id": "c11-p06-l01",
+          "role": "detective",
+          "speaker": "detective",
+          "text": "Hello, Mimi. How are you?",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 2.481125,
+          "duration": 2.401125,
+          "voice_id": "pakson-storybook.detective.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p06-l02",
+          "block_id": "c11-p06-l02",
+          "role": "polly",
+          "speaker": "polly",
+          "text": "Hello, Bibi. I am fine, thank you.",
+          "start": 2.681125,
+          "at": 2.681125,
+          "end": 5.822166666666667,
+          "duration": 3.1410416666666667,
+          "voice_id": "pakson-storybook.polly.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p06-l03",
+          "block_id": "c11-p06-l03",
+          "role": "detective",
+          "speaker": "detective",
+          "text": "Let’s play at my home today.",
+          "start": 6.022166666666666,
+          "at": 6.022166666666666,
+          "end": 8.133958333333334,
+          "duration": 2.1117916666666665,
+          "voice_id": "pakson-storybook.detective.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p06-l04",
+          "block_id": "c11-p06-l04",
+          "role": "polly",
+          "speaker": "polly",
+          "text": "Hooray! See you at one o’clock.",
+          "start": 8.333958333333333,
+          "at": 8.333958333333333,
+          "end": 11.265875,
+          "duration": 2.9319166666666665,
+          "voice_id": "pakson-storybook.polly.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c11-p06-l05",
+          "block_id": "c11-p06-l05",
+          "role": "detective",
+          "speaker": "detective",
+          "text": "Goodbye!",
+          "start": 11.465875,
+          "at": 11.465875,
+          "end": 12.545833333333333,
+          "duration": 1.0799583333333334,
+          "voice_id": "pakson-storybook.detective.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p06",
+      "page_type": "song",
+      "image": "reader/assets/pages/page_06.jpg",
+      "title": "Hello ... Goodbye",
+      "source_book_page": 6,
+      "source_story_page": 6,
+      "book_page": 11
+    },
+    {
+      "duration": 0,
+      "segments": [],
+      "page_id": "p07",
+      "page_type": "closing_logo",
+      "image": "reader/assets/pages/ending_logo_L04.svg",
+      "title": "Good job!",
+      "source_book_page": 7,
+      "source_story_page": 7,
+      "effects": [],
+      "bgm_cue": null,
+      "book_page": 12
+    }
+  ],
+  "sfx": {
+    "page_turn": {
+      "enabled": false,
+      "gain": 0
+    }
+  },
+  "music": {},
+  "feedback": {
+    "correct": {
+      "file": "feedback/correct.m4a",
+      "duration": 1.2,
+      "sha256": "d1d56e926439288cce2269fefe492fb807cc27da0dd0d73966648fe068c25b97",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 1.2,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -20.14,
+        "true_peak_dbtp": -9.82,
+        "nominal_voice_minus_effect_LU": 0.010000000000001563
+      },
+      "loop": false,
+      "trigger": "selected_answer_only",
+      "play_on_logo": false,
+      "description": "Four-note rounded ascending major-key chime",
+      "audio": "reader/assets/audio/feedback/correct.m4a"
+    },
+    "incorrect": {
+      "file": "feedback/incorrect.m4a",
+      "duration": 0.82,
+      "sha256": "09bfb77bd9a09e110ed5b0407dd51ab6a6217331205e673bd4598f4fe20b2815",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 0.82,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -20.14,
+        "true_peak_dbtp": -10.32,
+        "nominal_voice_minus_effect_LU": 0.010000000000001563
+      },
+      "loop": false,
+      "trigger": "selected_answer_only",
+      "play_on_logo": false,
+      "description": "Three-note gentle descending retry chime; no buzzer",
+      "audio": "reader/assets/audio/feedback/incorrect.m4a"
+    },
+    "logo_reward": {
+      "file": "feedback/logo_reward.m4a",
+      "duration": 1.95,
+      "sha256": "a352b48cb392b7eec1a5cc105a74b05211e66a393770dc365868b823fe764502",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 1.95,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -31.96,
+        "true_peak_dbtp": -18.48,
+        "nominal_voice_minus_effect_LU": 11.830000000000002
+      },
+      "loop": false,
+      "trigger": "closing_logo_navigation_entry",
+      "once_per_navigation_entry": true,
+      "cancel_on_leave": true,
+      "background_soundtrack_on_logo": false,
+      "description": "Original major-key soft wooden/8-bit-like game-clear phrase; no Mario melody copied.",
+      "reuse_mode": "v13 approved original bytes retained",
+      "audio": "reader/assets/audio/feedback/logo_reward.m4a"
+    }
+  },
+  "practice_layout": {
+    "family": "Arial Rounded MT Bold",
+    "word_px": 110,
+    "question_px": 72,
+    "answer_px": 72,
+    "answer_min_height_px": 168,
+    "question_row_px": 173,
+    "row_gap_px": 8,
+    "answer_row_px": 179,
+    "native_viewport": [
+      1448,
+      1086
+    ],
+    "scaled_width_checks": [
+      390,
+      430
+    ],
+    "no_automatic_font_reduction": true,
+    "display_letter_spelling": false,
+    "practice_next_action": "Automatically continue questions after genuine current voice and effect completion plus 900 ms visible reward; show manual Next page only when the entire group is complete. Free swipe skip remains available."
+  },
+  "creditsText": "Original educational story and illustrations for Pakson’s family reading project. British English narration uses local synthetic voice references. Paper animation: StPageFlip · MIT licence."
+}

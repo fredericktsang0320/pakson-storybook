@@ -95,6 +95,66 @@
       "cover_alt": "Pakson’s Colourful Parade",
       "href": "./chapter7/read.html",
       "entry_audio": "./chapter7/reader/assets/audio/p00.m4a"
+    },
+    {
+      "id": "pakson-k3-b5-time",
+      "title": "Picnic clock",
+      "subtitle": "柏宸與 Peppa 的野餐時鐘",
+      "subject": "english",
+      "level": "K3",
+      "page_count": 14,
+      "cover": "./chapter8/reader/assets/pages/page_00.jpg",
+      "cover_alt": "Pakson and Peppa’s Picnic Clock",
+      "href": "./chapter8/read.html",
+      "entry_audio": "./chapter8/reader/assets/audio/p00.m4a"
+    },
+    {
+      "id": "pakson-k3-b6-u01-stationery",
+      "title": "Space shop",
+      "subtitle": "柏宸與迪迦、賽羅的太空文具店",
+      "subject": "english",
+      "level": "K3",
+      "page_count": 14,
+      "cover": "./chapter9/reader/assets/pages/page_00.jpg",
+      "cover_alt": "Pakson at the Ultraman Space Shop",
+      "href": "./chapter9/read.html",
+      "entry_audio": "./chapter9/reader/assets/audio/p00.m4a"
+    },
+    {
+      "id": "pakson-k3-b6-u02-rain",
+      "title": "Rainy rescue",
+      "subtitle": "柏宸與汪汪特工隊的雨天救援",
+      "subject": "english",
+      "level": "K3",
+      "page_count": 13,
+      "cover": "./chapter10/reader/assets/pages/page_00.jpg",
+      "cover_alt": "Pakson and the Rainy-Day Rescue",
+      "href": "./chapter10/read.html",
+      "entry_audio": "./chapter10/reader/assets/audio/p00.m4a"
+    },
+    {
+      "id": "pakson-k3-b6-u03-hello",
+      "title": "Missing invite",
+      "subtitle": "柏宸與屁屁偵探的邀請卡謎案",
+      "subject": "english",
+      "level": "K3",
+      "page_count": 13,
+      "cover": "./chapter11/reader/assets/pages/page_00.jpg",
+      "cover_alt": "Pakson and the Missing Invitation",
+      "href": "./chapter11/read.html",
+      "entry_audio": "./chapter11/reader/assets/audio/p00.m4a"
+    },
+    {
+      "id": "pakson-k3-b6-u04-farmer",
+      "title": "Moon garden",
+      "subtitle": "柏宸與美少女戰士的菜園",
+      "subject": "english",
+      "level": "K3",
+      "page_count": 16,
+      "cover": "./chapter12/reader/assets/pages/page_00.jpg",
+      "cover_alt": "Pakson and the Sailor Guardians’ Garden",
+      "href": "./chapter12/read.html",
+      "entry_audio": "./chapter12/reader/assets/audio/p00.m4a"
     }
   ]
 }

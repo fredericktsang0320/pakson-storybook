@@ -1,0 +1,4348 @@
+{
+  "schema_version": 3,
+  "id": "pakson-k3-b6-u04-farmer-v1",
+  "title": "Pakson and the Sailor Guardians’ Garden",
+  "chapter_number": 12,
+  "language": "en-GB",
+  "phonics": "V",
+  "learning_words": [
+    "cloudy",
+    "rainy",
+    "sunny",
+    "windy",
+    "rainbow",
+    "wind",
+    "vegetables",
+    "vase",
+    "violin",
+    "video",
+    "vest"
+  ],
+  "formal_teaching_words": [
+    "cloudy",
+    "rainy",
+    "sunny",
+    "windy",
+    "rainbow",
+    "wind",
+    "vegetables",
+    "vase",
+    "violin",
+    "video",
+    "vest"
+  ],
+  "pages": [
+    {
+      "audio_id": "p00",
+      "audio": "reader/assets/audio/p00.m4a",
+      "duration": 9.258666666666667,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p00-l01",
+          "block_id": "c12-p00-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Pakson wanted to pick vegetables for the school lunch. The Sailor Guardians showed him how to look after the little garden as the weather changed.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 9.12375,
+          "duration": 9.04375,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p00-l01",
+          "block_id": "c12-p00-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Pakson wanted to pick vegetables for the school lunch. The Sailor Guardians showed him how to look after the little garden as the weather changed.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 9.12375,
+          "duration": 9.04375,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p00",
+      "page_type": "cover",
+      "image": "reader/assets/pages/page_00.jpg",
+      "title": "Pakson and the Sailor Guardians’ Garden",
+      "source_book_page": 0,
+      "source_story_page": 0,
+      "book_page": 0
+    },
+    {
+      "audio_id": "p01",
+      "audio": "reader/assets/audio/p01.m4a",
+      "duration": 7.338666666666667,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p01-l01",
+          "block_id": "c12-p01-l01",
+          "role": "mercury",
+          "speaker": "mercury",
+          "text": "It is a cloudy day.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 1.6671666666666667,
+          "duration": 1.5871666666666666,
+          "voice_id": "pakson-storybook.mercury.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p01-l02",
+          "block_id": "c12-p01-l02",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "It is a rainy day.",
+          "start": 1.8671666666666666,
+          "at": 1.8671666666666666,
+          "end": 3.905625,
+          "duration": 2.0384583333333333,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p01-l03",
+          "block_id": "c12-p01-l03",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "They put the young plants under the greenhouse roof.",
+          "start": 4.105625,
+          "at": 4.105625,
+          "end": 7.185625,
+          "duration": 3.08,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p01-l01",
+          "block_id": "c12-p01-l01",
+          "role": "mercury",
+          "speaker": "mercury",
+          "text": "It is a cloudy day.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 1.6671666666666667,
+          "duration": 1.5871666666666666,
+          "voice_id": "pakson-storybook.mercury.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p01-l02",
+          "block_id": "c12-p01-l02",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "It is a rainy day.",
+          "start": 1.8671666666666666,
+          "at": 1.8671666666666666,
+          "end": 3.905625,
+          "duration": 2.0384583333333333,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p01-l03",
+          "block_id": "c12-p01-l03",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "They put the young plants under the greenhouse roof.",
+          "start": 4.105625,
+          "at": 4.105625,
+          "end": 7.185625,
+          "duration": 3.08,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p01",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_01.jpg",
+      "title": "Clouds above the beds",
+      "source_book_page": 1,
+      "source_story_page": 1,
+      "book_page": 1
+    },
+    {
+      "audio_id": "G1-intro",
+      "audio": "reader/assets/audio/g1-intro.m4a",
+      "duration": 31.744,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g1-intro",
+          "block_id": "c12-g1-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0604583333333335,
+          "duration": 2.0604583333333335
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g1-model-01",
+          "block_id": "c12-g1-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Cloudy. C, L, O, U, D, Y. Cloudy. Your turn.",
+          "spoken_text": "Cloudy. The letters are: C, L, O, U, D, and Y. The word is cloudy. Your turn.",
+          "normalised_text": "Cloudy. The letters are: C, L, O, U, D, and Y. The word is cloudy. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "cloudy",
+          "target_word": "cloudy",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.220458333333333,
+          "at": 2.220458333333333,
+          "end": 10.686041666666666,
+          "duration": 8.465583333333333,
+          "spelling_letters": [
+            "C",
+            "L",
+            "O",
+            "U",
+            "D",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "e5048e3eeb382d3440cca7",
+          "source_sample_start": 0,
+          "source_sample_end": 203174
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "cloudy",
+          "target_word": "cloudy",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 10.686041666666666,
+          "at": 10.686041666666666,
+          "end": 16.686041666666668,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g1-model-02",
+          "block_id": "c12-g1-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Rainy. R, A, I, N, Y. Rainy. Your turn.",
+          "spoken_text": "Rainy. The letters are: R, A, I, N, and Y. The word is rainy. Your turn.",
+          "normalised_text": "Rainy. The letters are: R, A, I, N, and Y. The word is rainy. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "rainy",
+          "target_word": "rainy",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 16.846041666666668,
+          "at": 16.846041666666668,
+          "end": 25.6315,
+          "duration": 8.785458333333333,
+          "spelling_letters": [
+            "R",
+            "A",
+            "I",
+            "N",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "5dcda19668baac546906cc",
+          "source_sample_start": 0,
+          "source_sample_end": 210851
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "rainy",
+          "target_word": "rainy",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 25.6315,
+          "at": 25.6315,
+          "end": 31.6315,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g1-intro",
+          "block_id": "c12-g1-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0604583333333335,
+          "duration": 2.0604583333333335
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g1-model-01",
+          "block_id": "c12-g1-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Cloudy. C, L, O, U, D, Y. Cloudy. Your turn.",
+          "spoken_text": "Cloudy. The letters are: C, L, O, U, D, and Y. The word is cloudy. Your turn.",
+          "normalised_text": "Cloudy. The letters are: C, L, O, U, D, and Y. The word is cloudy. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "cloudy",
+          "target_word": "cloudy",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.220458333333333,
+          "at": 2.220458333333333,
+          "end": 10.686041666666666,
+          "duration": 8.465583333333333,
+          "spelling_letters": [
+            "C",
+            "L",
+            "O",
+            "U",
+            "D",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "e5048e3eeb382d3440cca7",
+          "source_sample_start": 0,
+          "source_sample_end": 203174
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g1-model-02",
+          "block_id": "c12-g1-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Rainy. R, A, I, N, Y. Rainy. Your turn.",
+          "spoken_text": "Rainy. The letters are: R, A, I, N, and Y. The word is rainy. Your turn.",
+          "normalised_text": "Rainy. The letters are: R, A, I, N, and Y. The word is rainy. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "rainy",
+          "target_word": "rainy",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 16.846041666666668,
+          "at": 16.846041666666668,
+          "end": 25.6315,
+          "duration": 8.785458333333333,
+          "spelling_letters": [
+            "R",
+            "A",
+            "I",
+            "N",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "5dcda19668baac546906cc",
+          "source_sample_start": 0,
+          "source_sample_end": 210851
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G1",
+      "title": "Cloudy and rainy",
+      "page_type": "word_practice",
+      "group_number": 1,
+      "source_story_pages": [
+        "p01"
+      ],
+      "image": "reader/assets/pages/G1.jpg",
+      "targets": [
+        {
+          "word": "cloudy",
+          "display_word": "cloudy",
+          "mandatory_spelling": true,
+          "red_bold": true
+        },
+        {
+          "word": "rainy",
+          "display_word": "rainy",
+          "mandatory_spelling": true,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "cloudy",
+        "rainy"
+      ],
+      "intro": {
+        "audio_id": "G1-intro",
+        "audio": "reader/assets/audio/g1-intro.m4a",
+        "duration": 31.744,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g1-intro",
+            "block_id": "c12-g1-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0604583333333335,
+            "duration": 2.0604583333333335
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g1-model-01",
+            "block_id": "c12-g1-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Cloudy. C, L, O, U, D, Y. Cloudy. Your turn.",
+            "spoken_text": "Cloudy. The letters are: C, L, O, U, D, and Y. The word is cloudy. Your turn.",
+            "normalised_text": "Cloudy. The letters are: C, L, O, U, D, and Y. The word is cloudy. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "cloudy",
+            "target_word": "cloudy",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.220458333333333,
+            "at": 2.220458333333333,
+            "end": 10.686041666666666,
+            "duration": 8.465583333333333,
+            "spelling_letters": [
+              "C",
+              "L",
+              "O",
+              "U",
+              "D",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "e5048e3eeb382d3440cca7",
+            "source_sample_start": 0,
+            "source_sample_end": 203174
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "cloudy",
+            "target_word": "cloudy",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 10.686041666666666,
+            "at": 10.686041666666666,
+            "end": 16.686041666666668,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g1-model-02",
+            "block_id": "c12-g1-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Rainy. R, A, I, N, Y. Rainy. Your turn.",
+            "spoken_text": "Rainy. The letters are: R, A, I, N, and Y. The word is rainy. Your turn.",
+            "normalised_text": "Rainy. The letters are: R, A, I, N, and Y. The word is rainy. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "rainy",
+            "target_word": "rainy",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 16.846041666666668,
+            "at": 16.846041666666668,
+            "end": 25.6315,
+            "duration": 8.785458333333333,
+            "spelling_letters": [
+              "R",
+              "A",
+              "I",
+              "N",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "5dcda19668baac546906cc",
+            "source_sample_start": 0,
+            "source_sample_end": 210851
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "rainy",
+            "target_word": "rainy",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 25.6315,
+            "at": 25.6315,
+            "end": 31.6315,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g1-intro",
+            "block_id": "c12-g1-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0604583333333335,
+            "duration": 2.0604583333333335
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g1-model-01",
+            "block_id": "c12-g1-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Cloudy. C, L, O, U, D, Y. Cloudy. Your turn.",
+            "spoken_text": "Cloudy. The letters are: C, L, O, U, D, and Y. The word is cloudy. Your turn.",
+            "normalised_text": "Cloudy. The letters are: C, L, O, U, D, and Y. The word is cloudy. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "cloudy",
+            "target_word": "cloudy",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.220458333333333,
+            "at": 2.220458333333333,
+            "end": 10.686041666666666,
+            "duration": 8.465583333333333,
+            "spelling_letters": [
+              "C",
+              "L",
+              "O",
+              "U",
+              "D",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "e5048e3eeb382d3440cca7",
+            "source_sample_start": 0,
+            "source_sample_end": 203174
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g1-model-02",
+            "block_id": "c12-g1-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Rainy. R, A, I, N, Y. Rainy. Your turn.",
+            "spoken_text": "Rainy. The letters are: R, A, I, N, and Y. The word is rainy. Your turn.",
+            "normalised_text": "Rainy. The letters are: R, A, I, N, and Y. The word is rainy. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "rainy",
+            "target_word": "rainy",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 16.846041666666668,
+            "at": 16.846041666666668,
+            "end": 25.6315,
+            "duration": 8.785458333333333,
+            "spelling_letters": [
+              "R",
+              "A",
+              "I",
+              "N",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "5dcda19668baac546906cc",
+            "source_sample_start": 0,
+            "source_sample_end": 210851
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c12-g1-q01",
+          "word": "cloudy",
+          "prompt": "Which word means full of clouds?",
+          "prompt_block": {
+            "id": "c12-g1-q01-prompt",
+            "speaker": "narrator",
+            "text": "Which word means full of clouds?"
+          },
+          "options": [
+            {
+              "id": "cloudy",
+              "label": "cloudy"
+            },
+            {
+              "id": "rainy",
+              "label": "rainy"
+            }
+          ],
+          "correct_option_id": "cloudy",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c12-g1-q01",
+            "audio": "reader/assets/audio/c12-g1-q01.m4a",
+            "duration": 2.9013333333333335,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g1-q01-prompt",
+                "block_id": "c12-g1-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word means full of clouds?",
+                "word": "cloudy",
+                "target_word": "cloudy",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.7443750000000002,
+                "duration": 2.644375
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g1-q01-prompt",
+                "block_id": "c12-g1-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word means full of clouds?",
+                "word": "cloudy",
+                "target_word": "cloudy",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.7443750000000002,
+                "duration": 2.644375
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c12-g1-q02",
+          "word": "rainy",
+          "prompt": "Which word means that rain is falling?",
+          "prompt_block": {
+            "id": "c12-g1-q02-prompt",
+            "speaker": "narrator",
+            "text": "Which word means that rain is falling?"
+          },
+          "options": [
+            {
+              "id": "cloudy",
+              "label": "cloudy"
+            },
+            {
+              "id": "rainy",
+              "label": "rainy"
+            }
+          ],
+          "correct_option_id": "rainy",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c12-g1-q02",
+            "audio": "reader/assets/audio/c12-g1-q02.m4a",
+            "duration": 3.541333333333333,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g1-q02-prompt",
+                "block_id": "c12-g1-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word means that rain is falling?",
+                "word": "rainy",
+                "target_word": "rainy",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.3926250000000002,
+                "duration": 3.292625
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g1-q02-prompt",
+                "block_id": "c12-g1-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word means that rain is falling?",
+                "word": "rainy",
+                "target_word": "rainy",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.3926250000000002,
+                "duration": 3.292625
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 2
+    },
+    {
+      "audio_id": "p02",
+      "audio": "reader/assets/audio/p02.m4a",
+      "duration": 9.557333333333334,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p02-l01",
+          "block_id": "c12-p02-l01",
+          "role": "moon",
+          "speaker": "moon",
+          "text": "It is a sunny day. It is a windy day. Can you see the wind?",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 4.792458333333333,
+          "duration": 4.712458333333333,
+          "voice_id": "pakson-storybook.moon.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p02-l02",
+          "block_id": "c12-p02-l02",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "No, I can’t.",
+          "start": 4.992458333333333,
+          "at": 4.992458333333333,
+          "end": 6.855208333333334,
+          "duration": 1.86275,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p02-l03",
+          "block_id": "c12-p02-l03",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "But he could see it move the flags.",
+          "start": 7.055208333333334,
+          "at": 7.055208333333334,
+          "end": 9.399,
+          "duration": 2.3437916666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p02-l01",
+          "block_id": "c12-p02-l01",
+          "role": "moon",
+          "speaker": "moon",
+          "text": "It is a sunny day. It is a windy day. Can you see the wind?",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 4.792458333333333,
+          "duration": 4.712458333333333,
+          "voice_id": "pakson-storybook.moon.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p02-l02",
+          "block_id": "c12-p02-l02",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "No, I can’t.",
+          "start": 4.992458333333333,
+          "at": 4.992458333333333,
+          "end": 6.855208333333334,
+          "duration": 1.86275,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p02-l03",
+          "block_id": "c12-p02-l03",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "But he could see it move the flags.",
+          "start": 7.055208333333334,
+          "at": 7.055208333333334,
+          "end": 9.399,
+          "duration": 2.3437916666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p02",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_02.jpg",
+      "title": "The flags stir",
+      "source_book_page": 2,
+      "source_story_page": 2,
+      "book_page": 3
+    },
+    {
+      "audio_id": "G2-intro",
+      "audio": "reader/assets/audio/g2-intro.m4a",
+      "duration": 29.226666666666667,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g2-intro",
+          "block_id": "c12-g2-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0604583333333335,
+          "duration": 2.0604583333333335
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g2-model-01",
+          "block_id": "c12-g2-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Sunny. S, U, N, N, Y. Sunny. Your turn.",
+          "spoken_text": "Sunny. The letters are: S, U, N, N, and Y. The word is sunny. Your turn.",
+          "normalised_text": "Sunny. The letters are: S, U, N, N, and Y. The word is sunny. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "sunny",
+          "target_word": "sunny",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.220458333333333,
+          "at": 2.220458333333333,
+          "end": 8.740458333333333,
+          "duration": 6.52,
+          "spelling_letters": [
+            "S",
+            "U",
+            "N",
+            "N",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "a91131901c6db48064e40c",
+          "source_sample_start": 0,
+          "source_sample_end": 156480
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "sunny",
+          "target_word": "sunny",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 8.740458333333333,
+          "at": 8.740458333333333,
+          "end": 14.740458333333333,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g2-model-02",
+          "block_id": "c12-g2-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Windy. W, I, N, D, Y. Windy. Your turn.",
+          "spoken_text": "Windy. The letters are: W, I, N, D, and Y. The word is windy. Your turn.",
+          "normalised_text": "Windy. The letters are: W, I, N, D, and Y. The word is windy. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "windy",
+          "target_word": "windy",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 14.900458333333333,
+          "at": 14.900458333333333,
+          "end": 23.087083333333332,
+          "duration": 8.186625,
+          "spelling_letters": [
+            "W",
+            "I",
+            "N",
+            "D",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "a2aba446c72b7fccfa8bef",
+          "source_sample_start": 0,
+          "source_sample_end": 196479
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "windy",
+          "target_word": "windy",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 23.087083333333332,
+          "at": 23.087083333333332,
+          "end": 29.087083333333332,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g2-intro",
+          "block_id": "c12-g2-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0604583333333335,
+          "duration": 2.0604583333333335
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g2-model-01",
+          "block_id": "c12-g2-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Sunny. S, U, N, N, Y. Sunny. Your turn.",
+          "spoken_text": "Sunny. The letters are: S, U, N, N, and Y. The word is sunny. Your turn.",
+          "normalised_text": "Sunny. The letters are: S, U, N, N, and Y. The word is sunny. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "sunny",
+          "target_word": "sunny",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.220458333333333,
+          "at": 2.220458333333333,
+          "end": 8.740458333333333,
+          "duration": 6.52,
+          "spelling_letters": [
+            "S",
+            "U",
+            "N",
+            "N",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "a91131901c6db48064e40c",
+          "source_sample_start": 0,
+          "source_sample_end": 156480
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g2-model-02",
+          "block_id": "c12-g2-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Windy. W, I, N, D, Y. Windy. Your turn.",
+          "spoken_text": "Windy. The letters are: W, I, N, D, and Y. The word is windy. Your turn.",
+          "normalised_text": "Windy. The letters are: W, I, N, D, and Y. The word is windy. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "windy",
+          "target_word": "windy",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 14.900458333333333,
+          "at": 14.900458333333333,
+          "end": 23.087083333333332,
+          "duration": 8.186625,
+          "spelling_letters": [
+            "W",
+            "I",
+            "N",
+            "D",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "a2aba446c72b7fccfa8bef",
+          "source_sample_start": 0,
+          "source_sample_end": 196479
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G2",
+      "title": "Sunny and windy",
+      "page_type": "word_practice",
+      "group_number": 2,
+      "source_story_pages": [
+        "p02"
+      ],
+      "image": "reader/assets/pages/G2.jpg",
+      "targets": [
+        {
+          "word": "sunny",
+          "display_word": "sunny",
+          "mandatory_spelling": true,
+          "red_bold": true
+        },
+        {
+          "word": "windy",
+          "display_word": "windy",
+          "mandatory_spelling": true,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "sunny",
+        "windy"
+      ],
+      "intro": {
+        "audio_id": "G2-intro",
+        "audio": "reader/assets/audio/g2-intro.m4a",
+        "duration": 29.226666666666667,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g2-intro",
+            "block_id": "c12-g2-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0604583333333335,
+            "duration": 2.0604583333333335
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g2-model-01",
+            "block_id": "c12-g2-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Sunny. S, U, N, N, Y. Sunny. Your turn.",
+            "spoken_text": "Sunny. The letters are: S, U, N, N, and Y. The word is sunny. Your turn.",
+            "normalised_text": "Sunny. The letters are: S, U, N, N, and Y. The word is sunny. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "sunny",
+            "target_word": "sunny",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.220458333333333,
+            "at": 2.220458333333333,
+            "end": 8.740458333333333,
+            "duration": 6.52,
+            "spelling_letters": [
+              "S",
+              "U",
+              "N",
+              "N",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "a91131901c6db48064e40c",
+            "source_sample_start": 0,
+            "source_sample_end": 156480
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "sunny",
+            "target_word": "sunny",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 8.740458333333333,
+            "at": 8.740458333333333,
+            "end": 14.740458333333333,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g2-model-02",
+            "block_id": "c12-g2-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Windy. W, I, N, D, Y. Windy. Your turn.",
+            "spoken_text": "Windy. The letters are: W, I, N, D, and Y. The word is windy. Your turn.",
+            "normalised_text": "Windy. The letters are: W, I, N, D, and Y. The word is windy. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "windy",
+            "target_word": "windy",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 14.900458333333333,
+            "at": 14.900458333333333,
+            "end": 23.087083333333332,
+            "duration": 8.186625,
+            "spelling_letters": [
+              "W",
+              "I",
+              "N",
+              "D",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "a2aba446c72b7fccfa8bef",
+            "source_sample_start": 0,
+            "source_sample_end": 196479
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "windy",
+            "target_word": "windy",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 23.087083333333332,
+            "at": 23.087083333333332,
+            "end": 29.087083333333332,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g2-intro",
+            "block_id": "c12-g2-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0604583333333335,
+            "duration": 2.0604583333333335
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g2-model-01",
+            "block_id": "c12-g2-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Sunny. S, U, N, N, Y. Sunny. Your turn.",
+            "spoken_text": "Sunny. The letters are: S, U, N, N, and Y. The word is sunny. Your turn.",
+            "normalised_text": "Sunny. The letters are: S, U, N, N, and Y. The word is sunny. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "sunny",
+            "target_word": "sunny",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.220458333333333,
+            "at": 2.220458333333333,
+            "end": 8.740458333333333,
+            "duration": 6.52,
+            "spelling_letters": [
+              "S",
+              "U",
+              "N",
+              "N",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "a91131901c6db48064e40c",
+            "source_sample_start": 0,
+            "source_sample_end": 156480
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g2-model-02",
+            "block_id": "c12-g2-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Windy. W, I, N, D, Y. Windy. Your turn.",
+            "spoken_text": "Windy. The letters are: W, I, N, D, and Y. The word is windy. Your turn.",
+            "normalised_text": "Windy. The letters are: W, I, N, D, and Y. The word is windy. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "windy",
+            "target_word": "windy",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 14.900458333333333,
+            "at": 14.900458333333333,
+            "end": 23.087083333333332,
+            "duration": 8.186625,
+            "spelling_letters": [
+              "W",
+              "I",
+              "N",
+              "D",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "a2aba446c72b7fccfa8bef",
+            "source_sample_start": 0,
+            "source_sample_end": 196479
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c12-g2-q01",
+          "word": "sunny",
+          "prompt": "Which word means the sun is shining?",
+          "prompt_block": {
+            "id": "c12-g2-q01-prompt",
+            "speaker": "narrator",
+            "text": "Which word means the sun is shining?"
+          },
+          "options": [
+            {
+              "id": "windy",
+              "label": "windy"
+            },
+            {
+              "id": "sunny",
+              "label": "sunny"
+            }
+          ],
+          "correct_option_id": "sunny",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c12-g2-q01",
+            "audio": "reader/assets/audio/c12-g2-q01.m4a",
+            "duration": 3.541333333333333,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g2-q01-prompt",
+                "block_id": "c12-g2-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word means the sun is shining?",
+                "word": "sunny",
+                "target_word": "sunny",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.4125833333333335,
+                "duration": 3.3125833333333334
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g2-q01-prompt",
+                "block_id": "c12-g2-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word means the sun is shining?",
+                "word": "sunny",
+                "target_word": "sunny",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.4125833333333335,
+                "duration": 3.3125833333333334
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c12-g2-q02",
+          "word": "windy",
+          "prompt": "Which word tells us the flags are blowing?",
+          "prompt_block": {
+            "id": "c12-g2-q02-prompt",
+            "speaker": "narrator",
+            "text": "Which word tells us the flags are blowing?"
+          },
+          "options": [
+            {
+              "id": "windy",
+              "label": "windy"
+            },
+            {
+              "id": "sunny",
+              "label": "sunny"
+            }
+          ],
+          "correct_option_id": "windy",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c12-g2-q02",
+            "audio": "reader/assets/audio/c12-g2-q02.m4a",
+            "duration": 3.328,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g2-q02-prompt",
+                "block_id": "c12-g2-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word tells us the flags are blowing?",
+                "word": "windy",
+                "target_word": "windy",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.18,
+                "duration": 3.08
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g2-q02-prompt",
+                "block_id": "c12-g2-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word tells us the flags are blowing?",
+                "word": "windy",
+                "target_word": "windy",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.18,
+                "duration": 3.08
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 4
+    },
+    {
+      "audio_id": "p03",
+      "audio": "reader/assets/audio/p03.m4a",
+      "duration": 6.016,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p03-l01",
+          "block_id": "c12-p03-l01",
+          "role": "jupiter",
+          "speaker": "jupiter",
+          "text": "Can you see the rainbow?",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 1.6341666666666668,
+          "duration": 1.5541666666666667,
+          "voice_id": "pakson-storybook.jupiter.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p03-l02",
+          "block_id": "c12-p03-l02",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "Yes, I can.",
+          "start": 1.8341666666666667,
+          "at": 1.8341666666666667,
+          "end": 3.540875,
+          "duration": 1.7067083333333333,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p03-l03",
+          "block_id": "c12-p03-l03",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "The wind moved the ribbons.",
+          "start": 3.740875,
+          "at": 3.740875,
+          "end": 5.893583333333333,
+          "duration": 2.1527083333333334,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p03-l01",
+          "block_id": "c12-p03-l01",
+          "role": "jupiter",
+          "speaker": "jupiter",
+          "text": "Can you see the rainbow?",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 1.6341666666666668,
+          "duration": 1.5541666666666667,
+          "voice_id": "pakson-storybook.jupiter.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p03-l02",
+          "block_id": "c12-p03-l02",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "Yes, I can.",
+          "start": 1.8341666666666667,
+          "at": 1.8341666666666667,
+          "end": 3.540875,
+          "duration": 1.7067083333333333,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p03-l03",
+          "block_id": "c12-p03-l03",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "The wind moved the ribbons.",
+          "start": 3.740875,
+          "at": 3.740875,
+          "end": 5.893583333333333,
+          "duration": 2.1527083333333334,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p03",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_03.jpg",
+      "title": "The rainbow",
+      "source_book_page": 3,
+      "source_story_page": 3,
+      "book_page": 5
+    },
+    {
+      "audio_id": "G3-intro",
+      "audio": "reader/assets/audio/g3-intro.m4a",
+      "duration": 31.914666666666665,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g3-intro",
+          "block_id": "c12-g3-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0604583333333335,
+          "duration": 2.0604583333333335
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g3-model-01",
+          "block_id": "c12-g3-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Rainbow. R, A, I, N, B, O, W. Rainbow. Your turn.",
+          "spoken_text": "Rainbow. The letters are: R, A, I, N, B, O, and W. The word is rainbow. Your turn.",
+          "normalised_text": "Rainbow. The letters are: R, A, I, N, B, O, and W. The word is rainbow. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "rainbow",
+          "target_word": "rainbow",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.220458333333333,
+          "at": 2.220458333333333,
+          "end": 11.242583333333334,
+          "duration": 9.022125,
+          "spelling_letters": [
+            "R",
+            "A",
+            "I",
+            "N",
+            "B",
+            "O",
+            "W"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "cad6a9329ae861d5e11701",
+          "source_sample_start": 0,
+          "source_sample_end": 216531
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "rainbow",
+          "target_word": "rainbow",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 11.242583333333334,
+          "at": 11.242583333333334,
+          "end": 17.242583333333332,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g3-model-02",
+          "block_id": "c12-g3-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Wind. W, I, N, D. Wind. Your turn.",
+          "spoken_text": "Wind. The letters are: W, I, N, and D. The word is wind. Your turn.",
+          "normalised_text": "Wind. The letters are: W, I, N, and D. The word is wind. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "wind",
+          "target_word": "wind",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 17.402583333333332,
+          "at": 17.402583333333332,
+          "end": 25.791791666666665,
+          "duration": 8.389208333333332,
+          "spelling_letters": [
+            "W",
+            "I",
+            "N",
+            "D"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "4d50848a61fa8fef37d833",
+          "source_sample_start": 0,
+          "source_sample_end": 201341
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "wind",
+          "target_word": "wind",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 25.791791666666665,
+          "at": 25.791791666666665,
+          "end": 31.791791666666665,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g3-intro",
+          "block_id": "c12-g3-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0604583333333335,
+          "duration": 2.0604583333333335
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g3-model-01",
+          "block_id": "c12-g3-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Rainbow. R, A, I, N, B, O, W. Rainbow. Your turn.",
+          "spoken_text": "Rainbow. The letters are: R, A, I, N, B, O, and W. The word is rainbow. Your turn.",
+          "normalised_text": "Rainbow. The letters are: R, A, I, N, B, O, and W. The word is rainbow. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "rainbow",
+          "target_word": "rainbow",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.220458333333333,
+          "at": 2.220458333333333,
+          "end": 11.242583333333334,
+          "duration": 9.022125,
+          "spelling_letters": [
+            "R",
+            "A",
+            "I",
+            "N",
+            "B",
+            "O",
+            "W"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "cad6a9329ae861d5e11701",
+          "source_sample_start": 0,
+          "source_sample_end": 216531
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g3-model-02",
+          "block_id": "c12-g3-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Wind. W, I, N, D. Wind. Your turn.",
+          "spoken_text": "Wind. The letters are: W, I, N, and D. The word is wind. Your turn.",
+          "normalised_text": "Wind. The letters are: W, I, N, and D. The word is wind. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "wind",
+          "target_word": "wind",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 17.402583333333332,
+          "at": 17.402583333333332,
+          "end": 25.791791666666665,
+          "duration": 8.389208333333332,
+          "spelling_letters": [
+            "W",
+            "I",
+            "N",
+            "D"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "4d50848a61fa8fef37d833",
+          "source_sample_start": 0,
+          "source_sample_end": 201341
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G3",
+      "title": "Rainbow and wind",
+      "page_type": "word_practice",
+      "group_number": 3,
+      "source_story_pages": [
+        "p03"
+      ],
+      "image": "reader/assets/pages/G3.jpg",
+      "targets": [
+        {
+          "word": "rainbow",
+          "display_word": "rainbow",
+          "mandatory_spelling": false,
+          "red_bold": true
+        },
+        {
+          "word": "wind",
+          "display_word": "wind",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "rainbow",
+        "wind"
+      ],
+      "intro": {
+        "audio_id": "G3-intro",
+        "audio": "reader/assets/audio/g3-intro.m4a",
+        "duration": 31.914666666666665,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g3-intro",
+            "block_id": "c12-g3-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0604583333333335,
+            "duration": 2.0604583333333335
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g3-model-01",
+            "block_id": "c12-g3-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Rainbow. R, A, I, N, B, O, W. Rainbow. Your turn.",
+            "spoken_text": "Rainbow. The letters are: R, A, I, N, B, O, and W. The word is rainbow. Your turn.",
+            "normalised_text": "Rainbow. The letters are: R, A, I, N, B, O, and W. The word is rainbow. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "rainbow",
+            "target_word": "rainbow",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.220458333333333,
+            "at": 2.220458333333333,
+            "end": 11.242583333333334,
+            "duration": 9.022125,
+            "spelling_letters": [
+              "R",
+              "A",
+              "I",
+              "N",
+              "B",
+              "O",
+              "W"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "cad6a9329ae861d5e11701",
+            "source_sample_start": 0,
+            "source_sample_end": 216531
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "rainbow",
+            "target_word": "rainbow",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 11.242583333333334,
+            "at": 11.242583333333334,
+            "end": 17.242583333333332,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g3-model-02",
+            "block_id": "c12-g3-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Wind. W, I, N, D. Wind. Your turn.",
+            "spoken_text": "Wind. The letters are: W, I, N, and D. The word is wind. Your turn.",
+            "normalised_text": "Wind. The letters are: W, I, N, and D. The word is wind. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "wind",
+            "target_word": "wind",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 17.402583333333332,
+            "at": 17.402583333333332,
+            "end": 25.791791666666665,
+            "duration": 8.389208333333332,
+            "spelling_letters": [
+              "W",
+              "I",
+              "N",
+              "D"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "4d50848a61fa8fef37d833",
+            "source_sample_start": 0,
+            "source_sample_end": 201341
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "wind",
+            "target_word": "wind",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 25.791791666666665,
+            "at": 25.791791666666665,
+            "end": 31.791791666666665,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g3-intro",
+            "block_id": "c12-g3-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0604583333333335,
+            "duration": 2.0604583333333335
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g3-model-01",
+            "block_id": "c12-g3-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Rainbow. R, A, I, N, B, O, W. Rainbow. Your turn.",
+            "spoken_text": "Rainbow. The letters are: R, A, I, N, B, O, and W. The word is rainbow. Your turn.",
+            "normalised_text": "Rainbow. The letters are: R, A, I, N, B, O, and W. The word is rainbow. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "rainbow",
+            "target_word": "rainbow",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.220458333333333,
+            "at": 2.220458333333333,
+            "end": 11.242583333333334,
+            "duration": 9.022125,
+            "spelling_letters": [
+              "R",
+              "A",
+              "I",
+              "N",
+              "B",
+              "O",
+              "W"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "cad6a9329ae861d5e11701",
+            "source_sample_start": 0,
+            "source_sample_end": 216531
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g3-model-02",
+            "block_id": "c12-g3-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Wind. W, I, N, D. Wind. Your turn.",
+            "spoken_text": "Wind. The letters are: W, I, N, and D. The word is wind. Your turn.",
+            "normalised_text": "Wind. The letters are: W, I, N, and D. The word is wind. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "wind",
+            "target_word": "wind",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 17.402583333333332,
+            "at": 17.402583333333332,
+            "end": 25.791791666666665,
+            "duration": 8.389208333333332,
+            "spelling_letters": [
+              "W",
+              "I",
+              "N",
+              "D"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "4d50848a61fa8fef37d833",
+            "source_sample_start": 0,
+            "source_sample_end": 201341
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c12-g3-q01",
+          "word": "rainbow",
+          "prompt": "What has colours across the sky?",
+          "prompt_block": {
+            "id": "c12-g3-q01-prompt",
+            "speaker": "narrator",
+            "text": "What has colours across the sky?"
+          },
+          "options": [
+            {
+              "id": "rainbow",
+              "label": "rainbow"
+            },
+            {
+              "id": "wind",
+              "label": "wind"
+            }
+          ],
+          "correct_option_id": "rainbow",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c12-g3-q01",
+            "audio": "reader/assets/audio/c12-g3-q01.m4a",
+            "duration": 2.9013333333333335,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g3-q01-prompt",
+                "block_id": "c12-g3-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What has colours across the sky?",
+                "word": "rainbow",
+                "target_word": "rainbow",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.768291666666667,
+                "duration": 2.6682916666666667
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g3-q01-prompt",
+                "block_id": "c12-g3-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What has colours across the sky?",
+                "word": "rainbow",
+                "target_word": "rainbow",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.768291666666667,
+                "duration": 2.6682916666666667
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c12-g3-q02",
+          "word": "wind",
+          "prompt": "What moves the ribbons?",
+          "prompt_block": {
+            "id": "c12-g3-q02-prompt",
+            "speaker": "narrator",
+            "text": "What moves the ribbons?"
+          },
+          "options": [
+            {
+              "id": "rainbow",
+              "label": "rainbow"
+            },
+            {
+              "id": "wind",
+              "label": "wind"
+            }
+          ],
+          "correct_option_id": "wind",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c12-g3-q02",
+            "audio": "reader/assets/audio/c12-g3-q02.m4a",
+            "duration": 2.432,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g3-q02-prompt",
+                "block_id": "c12-g3-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What moves the ribbons?",
+                "word": "wind",
+                "target_word": "wind",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.3082083333333334,
+                "duration": 2.2082083333333333
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g3-q02-prompt",
+                "block_id": "c12-g3-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What moves the ribbons?",
+                "word": "wind",
+                "target_word": "wind",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.3082083333333334,
+                "duration": 2.2082083333333333
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 6
+    },
+    {
+      "audio_id": "p04",
+      "audio": "reader/assets/audio/p04.m4a",
+      "duration": 4.565333333333333,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p04-l01",
+          "block_id": "c12-p04-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "We picked vegetables.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 1.7055833333333332,
+          "duration": 1.6255833333333334,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p04-l02",
+          "block_id": "c12-p04-l02",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "There’s enough for everyone at lunch!",
+          "start": 1.9055833333333334,
+          "at": 1.9055833333333334,
+          "end": 4.403875,
+          "duration": 2.498291666666667,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p04-l01",
+          "block_id": "c12-p04-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "We picked vegetables.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 1.7055833333333332,
+          "duration": 1.6255833333333334,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p04-l02",
+          "block_id": "c12-p04-l02",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "There’s enough for everyone at lunch!",
+          "start": 1.9055833333333334,
+          "at": 1.9055833333333334,
+          "end": 4.403875,
+          "duration": 2.498291666666667,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p04",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_04.jpg",
+      "title": "A basket to share",
+      "source_book_page": 4,
+      "source_story_page": 4,
+      "book_page": 7
+    },
+    {
+      "audio_id": "G4-intro",
+      "audio": "reader/assets/audio/g4-intro.m4a",
+      "duration": 20.053333333333335,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g4-intro",
+          "block_id": "c12-g4-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0604583333333335,
+          "duration": 2.0604583333333335
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g4-model-01",
+          "block_id": "c12-g4-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Vegetables. V, E, G, E, T, A, B, L, E, S. Vegetables. Your turn.",
+          "spoken_text": "Vegetables. The letters are: V, E, G, E, T, A, B, L, E, and S. The word is vegetables. Your turn.",
+          "normalised_text": "Vegetables. The letters are: V, E, G, E, T, A, B, L, E, and S. The word is vegetables. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "vegetables",
+          "target_word": "vegetables",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.220458333333333,
+          "at": 2.220458333333333,
+          "end": 13.949583333333333,
+          "duration": 11.729125,
+          "spelling_letters": [
+            "V",
+            "E",
+            "G",
+            "E",
+            "T",
+            "A",
+            "B",
+            "L",
+            "E",
+            "S"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "c1a09b511ffc832112072b",
+          "source_sample_start": 0,
+          "source_sample_end": 281499
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "vegetables",
+          "target_word": "vegetables",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 13.949583333333333,
+          "at": 13.949583333333333,
+          "end": 19.949583333333333,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g4-intro",
+          "block_id": "c12-g4-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0604583333333335,
+          "duration": 2.0604583333333335
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g4-model-01",
+          "block_id": "c12-g4-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Vegetables. V, E, G, E, T, A, B, L, E, S. Vegetables. Your turn.",
+          "spoken_text": "Vegetables. The letters are: V, E, G, E, T, A, B, L, E, and S. The word is vegetables. Your turn.",
+          "normalised_text": "Vegetables. The letters are: V, E, G, E, T, A, B, L, E, and S. The word is vegetables. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "vegetables",
+          "target_word": "vegetables",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.220458333333333,
+          "at": 2.220458333333333,
+          "end": 13.949583333333333,
+          "duration": 11.729125,
+          "spelling_letters": [
+            "V",
+            "E",
+            "G",
+            "E",
+            "T",
+            "A",
+            "B",
+            "L",
+            "E",
+            "S"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "c1a09b511ffc832112072b",
+          "source_sample_start": 0,
+          "source_sample_end": 281499
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G4",
+      "title": "Vegetables",
+      "page_type": "word_practice",
+      "group_number": 4,
+      "source_story_pages": [
+        "p04"
+      ],
+      "image": "reader/assets/pages/G4.jpg",
+      "targets": [
+        {
+          "word": "vegetables",
+          "display_word": "vegetables",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "vegetables"
+      ],
+      "intro": {
+        "audio_id": "G4-intro",
+        "audio": "reader/assets/audio/g4-intro.m4a",
+        "duration": 20.053333333333335,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g4-intro",
+            "block_id": "c12-g4-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0604583333333335,
+            "duration": 2.0604583333333335
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g4-model-01",
+            "block_id": "c12-g4-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Vegetables. V, E, G, E, T, A, B, L, E, S. Vegetables. Your turn.",
+            "spoken_text": "Vegetables. The letters are: V, E, G, E, T, A, B, L, E, and S. The word is vegetables. Your turn.",
+            "normalised_text": "Vegetables. The letters are: V, E, G, E, T, A, B, L, E, and S. The word is vegetables. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "vegetables",
+            "target_word": "vegetables",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.220458333333333,
+            "at": 2.220458333333333,
+            "end": 13.949583333333333,
+            "duration": 11.729125,
+            "spelling_letters": [
+              "V",
+              "E",
+              "G",
+              "E",
+              "T",
+              "A",
+              "B",
+              "L",
+              "E",
+              "S"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "c1a09b511ffc832112072b",
+            "source_sample_start": 0,
+            "source_sample_end": 281499
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "vegetables",
+            "target_word": "vegetables",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 13.949583333333333,
+            "at": 13.949583333333333,
+            "end": 19.949583333333333,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g4-intro",
+            "block_id": "c12-g4-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0604583333333335,
+            "duration": 2.0604583333333335
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g4-model-01",
+            "block_id": "c12-g4-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Vegetables. V, E, G, E, T, A, B, L, E, S. Vegetables. Your turn.",
+            "spoken_text": "Vegetables. The letters are: V, E, G, E, T, A, B, L, E, and S. The word is vegetables. Your turn.",
+            "normalised_text": "Vegetables. The letters are: V, E, G, E, T, A, B, L, E, and S. The word is vegetables. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "vegetables",
+            "target_word": "vegetables",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.220458333333333,
+            "at": 2.220458333333333,
+            "end": 13.949583333333333,
+            "duration": 11.729125,
+            "spelling_letters": [
+              "V",
+              "E",
+              "G",
+              "E",
+              "T",
+              "A",
+              "B",
+              "L",
+              "E",
+              "S"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "c1a09b511ffc832112072b",
+            "source_sample_start": 0,
+            "source_sample_end": 281499
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c12-g4-q01",
+          "word": "vegetables",
+          "prompt": "What did we pick?",
+          "prompt_block": {
+            "id": "c12-g4-q01-prompt",
+            "speaker": "narrator",
+            "text": "What did we pick?"
+          },
+          "options": [
+            {
+              "id": "wind",
+              "label": "wind"
+            },
+            {
+              "id": "vegetables",
+              "label": "vegetables"
+            }
+          ],
+          "correct_option_id": "vegetables",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c12-g4-q01",
+            "audio": "reader/assets/audio/c12-g4-q01.m4a",
+            "duration": 1.4506666666666668,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g4-q01-prompt",
+                "block_id": "c12-g4-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What did we pick?",
+                "word": "vegetables",
+                "target_word": "vegetables",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 1.3047083333333334,
+                "duration": 1.2047083333333333
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g4-q01-prompt",
+                "block_id": "c12-g4-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What did we pick?",
+                "word": "vegetables",
+                "target_word": "vegetables",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 1.3047083333333334,
+                "duration": 1.2047083333333333
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          724
+        ],
+        "widths": [
+          780
+        ],
+        "word_tops": [
+          574
+        ],
+        "plate_tops": [
+          565
+        ],
+        "plate_bottoms": [
+          700
+        ],
+        "word_letter_spacing": [
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 8
+    },
+    {
+      "audio_id": "p05",
+      "audio": "reader/assets/audio/p05.m4a",
+      "duration": 6.912,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p05-l01",
+          "block_id": "c12-p05-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "V. Listen to the first sound in vase and violin. vase. violin.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 6.761125,
+          "duration": 6.681125,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p05-l01",
+          "block_id": "c12-p05-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "V. Listen to the first sound in vase and violin. vase. violin.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 6.761125,
+          "duration": 6.681125,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p05",
+      "page_type": "review",
+      "image": "reader/assets/pages/page_05.jpg",
+      "title": "V v sound",
+      "source_book_page": 5,
+      "source_story_page": 5,
+      "book_page": 9
+    },
+    {
+      "audio_id": "G5-intro",
+      "audio": "reader/assets/audio/g5-intro.m4a",
+      "duration": 33.92,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g5-intro",
+          "block_id": "c12-g5-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0604583333333335,
+          "duration": 2.0604583333333335
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g5-model-01",
+          "block_id": "c12-g5-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Vase. V, A, S, E. Vase. Your turn.",
+          "spoken_text": "Vase. A vase for flowers. The letters are: V, A, S, and E. The word is vase. Your turn.",
+          "normalised_text": "Vase. A vase for flowers. The letters are: V, A, S, and E. The word is vase. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "vase",
+          "target_word": "vase",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.220458333333333,
+          "at": 2.220458333333333,
+          "end": 12.726083333333333,
+          "duration": 10.505625,
+          "spelling_letters": [
+            "V",
+            "A",
+            "S",
+            "E"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "c7394307f37323f849df96",
+          "source_sample_start": 0,
+          "source_sample_end": 252135
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "vase",
+          "target_word": "vase",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 12.726083333333333,
+          "at": 12.726083333333333,
+          "end": 18.72608333333333,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g5-model-02",
+          "block_id": "c12-g5-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Violin. V, I, O, L, I, N. Violin. Your turn.",
+          "spoken_text": "Violin. The letters are: V, I, O, L, I, and N. The word is violin. Your turn.",
+          "normalised_text": "Violin. The letters are: V, I, O, L, I, and N. The word is violin. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "violin",
+          "target_word": "violin",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 18.886083333333332,
+          "at": 18.886083333333332,
+          "end": 27.806083333333333,
+          "duration": 8.92,
+          "spelling_letters": [
+            "V",
+            "I",
+            "O",
+            "L",
+            "I",
+            "N"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "2640dd28ecc736a0815930",
+          "source_sample_start": 0,
+          "source_sample_end": 214080
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "violin",
+          "target_word": "violin",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 27.806083333333333,
+          "at": 27.806083333333333,
+          "end": 33.80608333333333,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g5-intro",
+          "block_id": "c12-g5-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0604583333333335,
+          "duration": 2.0604583333333335
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g5-model-01",
+          "block_id": "c12-g5-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Vase. V, A, S, E. Vase. Your turn.",
+          "spoken_text": "Vase. A vase for flowers. The letters are: V, A, S, and E. The word is vase. Your turn.",
+          "normalised_text": "Vase. A vase for flowers. The letters are: V, A, S, and E. The word is vase. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "vase",
+          "target_word": "vase",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.220458333333333,
+          "at": 2.220458333333333,
+          "end": 12.726083333333333,
+          "duration": 10.505625,
+          "spelling_letters": [
+            "V",
+            "A",
+            "S",
+            "E"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "c7394307f37323f849df96",
+          "source_sample_start": 0,
+          "source_sample_end": 252135
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g5-model-02",
+          "block_id": "c12-g5-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Violin. V, I, O, L, I, N. Violin. Your turn.",
+          "spoken_text": "Violin. The letters are: V, I, O, L, I, and N. The word is violin. Your turn.",
+          "normalised_text": "Violin. The letters are: V, I, O, L, I, and N. The word is violin. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "violin",
+          "target_word": "violin",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 18.886083333333332,
+          "at": 18.886083333333332,
+          "end": 27.806083333333333,
+          "duration": 8.92,
+          "spelling_letters": [
+            "V",
+            "I",
+            "O",
+            "L",
+            "I",
+            "N"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "2640dd28ecc736a0815930",
+          "source_sample_start": 0,
+          "source_sample_end": 214080
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G5",
+      "title": "Vase and violin",
+      "page_type": "word_practice",
+      "group_number": 5,
+      "source_story_pages": [
+        "p05"
+      ],
+      "image": "reader/assets/pages/G5.jpg",
+      "targets": [
+        {
+          "word": "vase",
+          "display_word": "vase",
+          "mandatory_spelling": false,
+          "red_bold": true
+        },
+        {
+          "word": "violin",
+          "display_word": "violin",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "vase",
+        "violin"
+      ],
+      "intro": {
+        "audio_id": "G5-intro",
+        "audio": "reader/assets/audio/g5-intro.m4a",
+        "duration": 33.92,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g5-intro",
+            "block_id": "c12-g5-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0604583333333335,
+            "duration": 2.0604583333333335
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g5-model-01",
+            "block_id": "c12-g5-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Vase. V, A, S, E. Vase. Your turn.",
+            "spoken_text": "Vase. A vase for flowers. The letters are: V, A, S, and E. The word is vase. Your turn.",
+            "normalised_text": "Vase. A vase for flowers. The letters are: V, A, S, and E. The word is vase. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "vase",
+            "target_word": "vase",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.220458333333333,
+            "at": 2.220458333333333,
+            "end": 12.726083333333333,
+            "duration": 10.505625,
+            "spelling_letters": [
+              "V",
+              "A",
+              "S",
+              "E"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "c7394307f37323f849df96",
+            "source_sample_start": 0,
+            "source_sample_end": 252135
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "vase",
+            "target_word": "vase",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 12.726083333333333,
+            "at": 12.726083333333333,
+            "end": 18.72608333333333,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g5-model-02",
+            "block_id": "c12-g5-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Violin. V, I, O, L, I, N. Violin. Your turn.",
+            "spoken_text": "Violin. The letters are: V, I, O, L, I, and N. The word is violin. Your turn.",
+            "normalised_text": "Violin. The letters are: V, I, O, L, I, and N. The word is violin. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "violin",
+            "target_word": "violin",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 18.886083333333332,
+            "at": 18.886083333333332,
+            "end": 27.806083333333333,
+            "duration": 8.92,
+            "spelling_letters": [
+              "V",
+              "I",
+              "O",
+              "L",
+              "I",
+              "N"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "2640dd28ecc736a0815930",
+            "source_sample_start": 0,
+            "source_sample_end": 214080
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "violin",
+            "target_word": "violin",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 27.806083333333333,
+            "at": 27.806083333333333,
+            "end": 33.80608333333333,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g5-intro",
+            "block_id": "c12-g5-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0604583333333335,
+            "duration": 2.0604583333333335
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g5-model-01",
+            "block_id": "c12-g5-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Vase. V, A, S, E. Vase. Your turn.",
+            "spoken_text": "Vase. A vase for flowers. The letters are: V, A, S, and E. The word is vase. Your turn.",
+            "normalised_text": "Vase. A vase for flowers. The letters are: V, A, S, and E. The word is vase. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "vase",
+            "target_word": "vase",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.220458333333333,
+            "at": 2.220458333333333,
+            "end": 12.726083333333333,
+            "duration": 10.505625,
+            "spelling_letters": [
+              "V",
+              "A",
+              "S",
+              "E"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "c7394307f37323f849df96",
+            "source_sample_start": 0,
+            "source_sample_end": 252135
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g5-model-02",
+            "block_id": "c12-g5-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Violin. V, I, O, L, I, N. Violin. Your turn.",
+            "spoken_text": "Violin. The letters are: V, I, O, L, I, and N. The word is violin. Your turn.",
+            "normalised_text": "Violin. The letters are: V, I, O, L, I, and N. The word is violin. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "violin",
+            "target_word": "violin",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 18.886083333333332,
+            "at": 18.886083333333332,
+            "end": 27.806083333333333,
+            "duration": 8.92,
+            "spelling_letters": [
+              "V",
+              "I",
+              "O",
+              "L",
+              "I",
+              "N"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "2640dd28ecc736a0815930",
+            "source_sample_start": 0,
+            "source_sample_end": 214080
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c12-g5-q01",
+          "word": "vase",
+          "prompt": "What holds the flower?",
+          "prompt_block": {
+            "id": "c12-g5-q01-prompt",
+            "speaker": "narrator",
+            "text": "What holds the flower?"
+          },
+          "options": [
+            {
+              "id": "vase",
+              "label": "vase"
+            },
+            {
+              "id": "violin",
+              "label": "violin"
+            }
+          ],
+          "correct_option_id": "vase",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c12-g5-q01",
+            "audio": "reader/assets/audio/c12-g5-q01.m4a",
+            "duration": 2.048,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g5-q01-prompt",
+                "block_id": "c12-g5-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What holds the flower?",
+                "word": "vase",
+                "target_word": "vase",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 1.8900833333333333,
+                "duration": 1.7900833333333332
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g5-q01-prompt",
+                "block_id": "c12-g5-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What holds the flower?",
+                "word": "vase",
+                "target_word": "vase",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 1.8900833333333333,
+                "duration": 1.7900833333333332
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c12-g5-q02",
+          "word": "violin",
+          "prompt": "What instrument has strings and a bow?",
+          "prompt_block": {
+            "id": "c12-g5-q02-prompt",
+            "speaker": "narrator",
+            "text": "What instrument has strings and a bow?"
+          },
+          "options": [
+            {
+              "id": "vase",
+              "label": "vase"
+            },
+            {
+              "id": "violin",
+              "label": "violin"
+            }
+          ],
+          "correct_option_id": "violin",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c12-g5-q02",
+            "audio": "reader/assets/audio/c12-g5-q02.m4a",
+            "duration": 3.3706666666666667,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g5-q02-prompt",
+                "block_id": "c12-g5-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What instrument has strings and a bow?",
+                "word": "violin",
+                "target_word": "violin",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.2115833333333335,
+                "duration": 3.1115833333333334
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g5-q02-prompt",
+                "block_id": "c12-g5-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What instrument has strings and a bow?",
+                "word": "violin",
+                "target_word": "violin",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 3.2115833333333335,
+                "duration": 3.1115833333333334
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 10
+    },
+    {
+      "audio_id": "p06",
+      "audio": "reader/assets/audio/p06.m4a",
+      "duration": 4.437333333333333,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p06-l01",
+          "block_id": "c12-p06-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "V. Listen to the first sound in video and vest. video. vest.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 4.312791666666667,
+          "duration": 4.2327916666666665,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p06-l01",
+          "block_id": "c12-p06-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "V. Listen to the first sound in video and vest. video. vest.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 4.312791666666667,
+          "duration": 4.2327916666666665,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p06",
+      "page_type": "review",
+      "image": "reader/assets/pages/page_06.jpg",
+      "title": "V v sound",
+      "source_book_page": 6,
+      "source_story_page": 6,
+      "book_page": 11
+    },
+    {
+      "audio_id": "G6-intro",
+      "audio": "reader/assets/audio/g6-intro.m4a",
+      "duration": 29.781333333333333,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g6-intro",
+          "block_id": "c12-g6-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0604583333333335,
+          "duration": 2.0604583333333335
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g6-model-01",
+          "block_id": "c12-g6-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Video. V, I, D, E, O. Video. Your turn.",
+          "spoken_text": "Video. The letters are: V, I, D, E, and O. The word is video. Your turn.",
+          "normalised_text": "Video. The letters are: V, I, D, E, and O. The word is video. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "video",
+          "target_word": "video",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.220458333333333,
+          "at": 2.220458333333333,
+          "end": 9.482166666666666,
+          "duration": 7.261708333333333,
+          "spelling_letters": [
+            "V",
+            "I",
+            "D",
+            "E",
+            "O"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "d67c3baa606e685414bb8c",
+          "source_sample_start": 0,
+          "source_sample_end": 174281
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "video",
+          "target_word": "video",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 9.482166666666666,
+          "at": 9.482166666666666,
+          "end": 15.482166666666666,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g6-model-02",
+          "block_id": "c12-g6-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Vest. V, E, S, T. Vest. Your turn.",
+          "spoken_text": "Vest. The letters are: V, E, S, and T. The word is vest. Your turn.",
+          "normalised_text": "Vest. The letters are: V, E, S, and T. The word is vest. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "vest",
+          "target_word": "vest",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 15.642166666666666,
+          "at": 15.642166666666666,
+          "end": 23.644375,
+          "duration": 8.002208333333334,
+          "spelling_letters": [
+            "V",
+            "E",
+            "S",
+            "T"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "b3b055a866004910e577cb",
+          "source_sample_start": 0,
+          "source_sample_end": 192053
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "vest",
+          "target_word": "vest",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 23.644375,
+          "at": 23.644375,
+          "end": 29.644375,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g6-intro",
+          "block_id": "c12-g6-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.0604583333333335,
+          "duration": 2.0604583333333335
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g6-model-01",
+          "block_id": "c12-g6-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Video. V, I, D, E, O. Video. Your turn.",
+          "spoken_text": "Video. The letters are: V, I, D, E, and O. The word is video. Your turn.",
+          "normalised_text": "Video. The letters are: V, I, D, E, and O. The word is video. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "video",
+          "target_word": "video",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.220458333333333,
+          "at": 2.220458333333333,
+          "end": 9.482166666666666,
+          "duration": 7.261708333333333,
+          "spelling_letters": [
+            "V",
+            "I",
+            "D",
+            "E",
+            "O"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "d67c3baa606e685414bb8c",
+          "source_sample_start": 0,
+          "source_sample_end": 174281
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-g6-model-02",
+          "block_id": "c12-g6-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Vest. V, E, S, T. Vest. Your turn.",
+          "spoken_text": "Vest. The letters are: V, E, S, and T. The word is vest. Your turn.",
+          "normalised_text": "Vest. The letters are: V, E, S, and T. The word is vest. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "vest",
+          "target_word": "vest",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 15.642166666666666,
+          "at": 15.642166666666666,
+          "end": 23.644375,
+          "duration": 8.002208333333334,
+          "spelling_letters": [
+            "V",
+            "E",
+            "S",
+            "T"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "b3b055a866004910e577cb",
+          "source_sample_start": 0,
+          "source_sample_end": 192053
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G6",
+      "title": "Video and vest",
+      "page_type": "word_practice",
+      "group_number": 6,
+      "source_story_pages": [
+        "p06"
+      ],
+      "image": "reader/assets/pages/G6.jpg",
+      "targets": [
+        {
+          "word": "video",
+          "display_word": "video",
+          "mandatory_spelling": false,
+          "red_bold": true
+        },
+        {
+          "word": "vest",
+          "display_word": "vest",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "video",
+        "vest"
+      ],
+      "intro": {
+        "audio_id": "G6-intro",
+        "audio": "reader/assets/audio/g6-intro.m4a",
+        "duration": 29.781333333333333,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g6-intro",
+            "block_id": "c12-g6-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0604583333333335,
+            "duration": 2.0604583333333335
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g6-model-01",
+            "block_id": "c12-g6-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Video. V, I, D, E, O. Video. Your turn.",
+            "spoken_text": "Video. The letters are: V, I, D, E, and O. The word is video. Your turn.",
+            "normalised_text": "Video. The letters are: V, I, D, E, and O. The word is video. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "video",
+            "target_word": "video",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.220458333333333,
+            "at": 2.220458333333333,
+            "end": 9.482166666666666,
+            "duration": 7.261708333333333,
+            "spelling_letters": [
+              "V",
+              "I",
+              "D",
+              "E",
+              "O"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "d67c3baa606e685414bb8c",
+            "source_sample_start": 0,
+            "source_sample_end": 174281
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "video",
+            "target_word": "video",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 9.482166666666666,
+            "at": 9.482166666666666,
+            "end": 15.482166666666666,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g6-model-02",
+            "block_id": "c12-g6-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Vest. V, E, S, T. Vest. Your turn.",
+            "spoken_text": "Vest. The letters are: V, E, S, and T. The word is vest. Your turn.",
+            "normalised_text": "Vest. The letters are: V, E, S, and T. The word is vest. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "vest",
+            "target_word": "vest",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 15.642166666666666,
+            "at": 15.642166666666666,
+            "end": 23.644375,
+            "duration": 8.002208333333334,
+            "spelling_letters": [
+              "V",
+              "E",
+              "S",
+              "T"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "b3b055a866004910e577cb",
+            "source_sample_start": 0,
+            "source_sample_end": 192053
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "vest",
+            "target_word": "vest",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 23.644375,
+            "at": 23.644375,
+            "end": 29.644375,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g6-intro",
+            "block_id": "c12-g6-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.0604583333333335,
+            "duration": 2.0604583333333335
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g6-model-01",
+            "block_id": "c12-g6-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Video. V, I, D, E, O. Video. Your turn.",
+            "spoken_text": "Video. The letters are: V, I, D, E, and O. The word is video. Your turn.",
+            "normalised_text": "Video. The letters are: V, I, D, E, and O. The word is video. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "video",
+            "target_word": "video",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.220458333333333,
+            "at": 2.220458333333333,
+            "end": 9.482166666666666,
+            "duration": 7.261708333333333,
+            "spelling_letters": [
+              "V",
+              "I",
+              "D",
+              "E",
+              "O"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "d67c3baa606e685414bb8c",
+            "source_sample_start": 0,
+            "source_sample_end": 174281
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c12-g6-model-02",
+            "block_id": "c12-g6-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Vest. V, E, S, T. Vest. Your turn.",
+            "spoken_text": "Vest. The letters are: V, E, S, and T. The word is vest. Your turn.",
+            "normalised_text": "Vest. The letters are: V, E, S, and T. The word is vest. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "vest",
+            "target_word": "vest",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 15.642166666666666,
+            "at": 15.642166666666666,
+            "end": 23.644375,
+            "duration": 8.002208333333334,
+            "spelling_letters": [
+              "V",
+              "E",
+              "S",
+              "T"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "b3b055a866004910e577cb",
+            "source_sample_start": 0,
+            "source_sample_end": 192053
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c12-g6-q01",
+          "word": "video",
+          "prompt": "What can we watch on a screen?",
+          "prompt_block": {
+            "id": "c12-g6-q01-prompt",
+            "speaker": "narrator",
+            "text": "What can we watch on a screen?"
+          },
+          "options": [
+            {
+              "id": "vest",
+              "label": "vest"
+            },
+            {
+              "id": "video",
+              "label": "video"
+            }
+          ],
+          "correct_option_id": "video",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c12-g6-q01",
+            "audio": "reader/assets/audio/c12-g6-q01.m4a",
+            "duration": 2.517333333333333,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g6-q01-prompt",
+                "block_id": "c12-g6-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What can we watch on a screen?",
+                "word": "video",
+                "target_word": "video",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.3820833333333336,
+                "duration": 2.2820833333333335
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g6-q01-prompt",
+                "block_id": "c12-g6-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What can we watch on a screen?",
+                "word": "video",
+                "target_word": "video",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.3820833333333336,
+                "duration": 2.2820833333333335
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c12-g6-q02",
+          "word": "vest",
+          "prompt": "Which top has no sleeves?",
+          "prompt_block": {
+            "id": "c12-g6-q02-prompt",
+            "speaker": "narrator",
+            "text": "Which top has no sleeves?"
+          },
+          "options": [
+            {
+              "id": "vest",
+              "label": "vest"
+            },
+            {
+              "id": "video",
+              "label": "video"
+            }
+          ],
+          "correct_option_id": "vest",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c12-g6-q02",
+            "audio": "reader/assets/audio/c12-g6-q02.m4a",
+            "duration": 2.6026666666666665,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g6-q02-prompt",
+                "block_id": "c12-g6-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which top has no sleeves?",
+                "word": "vest",
+                "target_word": "vest",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.480375,
+                "duration": 2.380375
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c12-g6-q02-prompt",
+                "block_id": "c12-g6-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which top has no sleeves?",
+                "word": "vest",
+                "target_word": "vest",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.480375,
+                "duration": 2.380375
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 12
+    },
+    {
+      "audio_id": "p07",
+      "audio": "reader/assets/audio/p07.m4a",
+      "duration": 17.493333333333332,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p07-l01",
+          "block_id": "c12-p07-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "It is a sunny day. Look! It is a sunny day. Can you see the rainbow? Yes, I can. Yes, I can.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 8.823666666666666,
+          "duration": 8.743666666666666,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p07-l02",
+          "block_id": "c12-p07-l02",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "It is a cloudy day. Look! It is a cloudy day. Can you see the cloud? Yes, I can. Yes, I can.",
+          "start": 9.023666666666667,
+          "at": 9.023666666666667,
+          "end": 17.359708333333334,
+          "duration": 8.336041666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p07-l01",
+          "block_id": "c12-p07-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "It is a sunny day. Look! It is a sunny day. Can you see the rainbow? Yes, I can. Yes, I can.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 8.823666666666666,
+          "duration": 8.743666666666666,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p07-l02",
+          "block_id": "c12-p07-l02",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "It is a cloudy day. Look! It is a cloudy day. Can you see the cloud? Yes, I can. Yes, I can.",
+          "start": 9.023666666666667,
+          "at": 9.023666666666667,
+          "end": 17.359708333333334,
+          "duration": 8.336041666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p07",
+      "page_type": "song",
+      "image": "reader/assets/pages/page_07.jpg",
+      "title": "A Good Day",
+      "source_book_page": 7,
+      "source_story_page": 7,
+      "book_page": 13
+    },
+    {
+      "audio_id": "p08",
+      "audio": "reader/assets/audio/p08.m4a",
+      "duration": 19.669333333333334,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p08-l01",
+          "block_id": "c12-p08-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "It is a rainy day. Look! It is a rainy day. Can you see the rain? Yes, I can. Yes, I can.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 9.453875,
+          "duration": 9.373875,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p08-l02",
+          "block_id": "c12-p08-l02",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "It is a windy day. Look! It is a windy day. Can you see the wind? No, I can’t. No, I can’t",
+          "start": 9.653875,
+          "at": 9.653875,
+          "end": 19.515041666666665,
+          "duration": 9.861166666666668,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p08-l01",
+          "block_id": "c12-p08-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "It is a rainy day. Look! It is a rainy day. Can you see the rain? Yes, I can. Yes, I can.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 9.453875,
+          "duration": 9.373875,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c12-p08-l02",
+          "block_id": "c12-p08-l02",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "It is a windy day. Look! It is a windy day. Can you see the wind? No, I can’t. No, I can’t",
+          "start": 9.653875,
+          "at": 9.653875,
+          "end": 19.515041666666665,
+          "duration": 9.861166666666668,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p08",
+      "page_type": "song",
+      "image": "reader/assets/pages/page_08.jpg",
+      "title": "A Good Day",
+      "source_book_page": 8,
+      "source_story_page": 8,
+      "book_page": 14
+    },
+    {
+      "duration": 0,
+      "segments": [],
+      "page_id": "p09",
+      "page_type": "closing_logo",
+      "image": "reader/assets/pages/ending_logo_L04.svg",
+      "title": "Good job!",
+      "source_book_page": 9,
+      "source_story_page": 9,
+      "effects": [],
+      "bgm_cue": null,
+      "book_page": 15
+    }
+  ],
+  "sfx": {
+    "page_turn": {
+      "enabled": false,
+      "gain": 0
+    }
+  },
+  "music": {},
+  "feedback": {
+    "correct": {
+      "file": "feedback/correct.m4a",
+      "duration": 1.2,
+      "sha256": "d1d56e926439288cce2269fefe492fb807cc27da0dd0d73966648fe068c25b97",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 1.2,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -20.14,
+        "true_peak_dbtp": -9.82,
+        "nominal_voice_minus_effect_LU": 0.010000000000001563
+      },
+      "loop": false,
+      "trigger": "selected_answer_only",
+      "play_on_logo": false,
+      "description": "Four-note rounded ascending major-key chime",
+      "audio": "reader/assets/audio/feedback/correct.m4a"
+    },
+    "incorrect": {
+      "file": "feedback/incorrect.m4a",
+      "duration": 0.82,
+      "sha256": "09bfb77bd9a09e110ed5b0407dd51ab6a6217331205e673bd4598f4fe20b2815",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 0.82,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -20.14,
+        "true_peak_dbtp": -10.32,
+        "nominal_voice_minus_effect_LU": 0.010000000000001563
+      },
+      "loop": false,
+      "trigger": "selected_answer_only",
+      "play_on_logo": false,
+      "description": "Three-note gentle descending retry chime; no buzzer",
+      "audio": "reader/assets/audio/feedback/incorrect.m4a"
+    },
+    "logo_reward": {
+      "file": "feedback/logo_reward.m4a",
+      "duration": 1.95,
+      "sha256": "a352b48cb392b7eec1a5cc105a74b05211e66a393770dc365868b823fe764502",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 1.95,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -31.96,
+        "true_peak_dbtp": -18.48,
+        "nominal_voice_minus_effect_LU": 11.830000000000002
+      },
+      "loop": false,
+      "trigger": "closing_logo_navigation_entry",
+      "once_per_navigation_entry": true,
+      "cancel_on_leave": true,
+      "background_soundtrack_on_logo": false,
+      "description": "Original major-key soft wooden/8-bit-like game-clear phrase; no Mario melody copied.",
+      "reuse_mode": "v13 approved original bytes retained",
+      "audio": "reader/assets/audio/feedback/logo_reward.m4a"
+    }
+  },
+  "practice_layout": {
+    "family": "Arial Rounded MT Bold",
+    "word_px": 110,
+    "question_px": 72,
+    "answer_px": 72,
+    "answer_min_height_px": 168,
+    "question_row_px": 173,
+    "row_gap_px": 8,
+    "answer_row_px": 179,
+    "native_viewport": [
+      1448,
+      1086
+    ],
+    "scaled_width_checks": [
+      390,
+      430
+    ],
+    "no_automatic_font_reduction": true,
+    "display_letter_spelling": false,
+    "practice_next_action": "Automatically continue questions after genuine current voice and effect completion plus 900 ms visible reward; show manual Next page only when the entire group is complete. Free swipe skip remains available."
+  },
+  "creditsText": "Original educational story and illustrations for Pakson’s family reading project. British English narration uses local synthetic voice references. Paper animation: StPageFlip · MIT licence."
+}

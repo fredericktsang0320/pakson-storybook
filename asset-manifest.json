@@ -1,7 +1,7 @@
 {
-  "version": "781a11625c9d4ab1",
-  "total_bytes": 200887332,
-  "speech_edition": "chapter1-approved-v18-unchanged;chapter2-fixed-Qwen-v1;chapter3-fixed-Qwen-v1;chapter4-fixed-Qwen-v1;chapter5-fixed-Qwen-v1;chapter6-fixed-Qwen-v1;chapter7-fixed-Qwen-v1",
+  "version": "5ade0c26a3b8b9ce",
+  "total_bytes": 268802616,
+  "speech_edition": "chapter1-approved-v18-unchanged;chapter2-fixed-Qwen-v1;chapter3-fixed-Qwen-v1;chapter4-fixed-Qwen-v1;chapter5-fixed-Qwen-v1;chapter6-fixed-Qwen-v1;chapter7-fixed-Qwen-v1;chapter8-fixed-Qwen-v1;chapter9-fixed-Qwen-v1;chapter10-fixed-Qwen-v1;chapter11-fixed-Qwen-v1;chapter12-fixed-Qwen-v1",
   "ui_edition": "whole-shelf-and-one-tap-reader-v21",
   "cache_policy": 20,
   "reader_edition": 21,
@@ -16,9 +16,14 @@
     "chapter4": 1,
     "chapter5": 1,
     "chapter6": 1,
-    "chapter7": 2
+    "chapter7": 2,
+    "chapter8": 1,
+    "chapter9": 1,
+    "chapter10": 1,
+    "chapter11": 1,
+    "chapter12": 1
   },
-  "library_books": 7,
+  "library_books": 12,
   "preserve_complete_prior_on_quota": true,
   "files": [
     {
@@ -119,8 +124,8 @@
     },
     {
       "url": "./catalogue.json",
-      "bytes": 3258,
-      "sha256": "72d69dc042f68a9eadf89dafb09541cb297a75938e1f8e9af24dce628cebcc8c",
+      "bytes": 5426,
+      "sha256": "3c73077508b00cfd054a1e53edb4e22a21072a91d14c7901f8c06d25906a7ea4",
       "core": true
     },
     {
@@ -515,8 +520,8 @@
     },
     {
       "url": "./english-books.html",
-      "bytes": 1833,
-      "sha256": "b1a94b0676100dd0ef651a6d473c80e87ce957ea799f4f38b3ebe33c5f5a0c57",
+      "bytes": 1844,
+      "sha256": "c40be170a1c87cffd411869e6ea4f5827f167f10a93321cd4129332aa7bfdff0",
       "core": true
     },
     {
@@ -2756,6 +2761,1662 @@
       "sha256": "210d6fb016fbb5b4fca3e2d63f9c1db78f181f89563309b854db79e7e66ba128",
       "bytes": 3560,
       "core": false
+    },
+    {
+      "url": "./chapter8/book.json",
+      "bytes": 139999,
+      "sha256": "e14002ef8a1ba87530fa73df1d7e3bf56df0901cd8e5844161001aedaadf9a16",
+      "core": false
+    },
+    {
+      "url": "./chapter8/read.html",
+      "bytes": 7655,
+      "sha256": "4bb6e7a9c300f781cb09e6631997419fb43894aa6a51315a2d31ebcef2e91454",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/c8-g1-q01.m4a",
+      "bytes": 29954,
+      "sha256": "09e286ade3cc435d0c09bf26a280de86c6ad8fac3177c25a6380d99593b34bf1",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/c8-g1-q02.m4a",
+      "bytes": 28401,
+      "sha256": "89e4d1b57069793ebcfc7286655be9115cf819826d5cfe329779714d47f45f05",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/c8-g2-q01.m4a",
+      "bytes": 29954,
+      "sha256": "09e286ade3cc435d0c09bf26a280de86c6ad8fac3177c25a6380d99593b34bf1",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/c8-g2-q02.m4a",
+      "bytes": 28401,
+      "sha256": "89e4d1b57069793ebcfc7286655be9115cf819826d5cfe329779714d47f45f05",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/c8-g3-q01.m4a",
+      "bytes": 29954,
+      "sha256": "09e286ade3cc435d0c09bf26a280de86c6ad8fac3177c25a6380d99593b34bf1",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/c8-g3-q02.m4a",
+      "bytes": 28401,
+      "sha256": "89e4d1b57069793ebcfc7286655be9115cf819826d5cfe329779714d47f45f05",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/c8-g4-q01.m4a",
+      "bytes": 29954,
+      "sha256": "09e286ade3cc435d0c09bf26a280de86c6ad8fac3177c25a6380d99593b34bf1",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/c8-g4-q02.m4a",
+      "bytes": 28401,
+      "sha256": "89e4d1b57069793ebcfc7286655be9115cf819826d5cfe329779714d47f45f05",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/c8-g5-q01.m4a",
+      "bytes": 29954,
+      "sha256": "09e286ade3cc435d0c09bf26a280de86c6ad8fac3177c25a6380d99593b34bf1",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/c8-g5-q02.m4a",
+      "bytes": 28401,
+      "sha256": "89e4d1b57069793ebcfc7286655be9115cf819826d5cfe329779714d47f45f05",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/c8-g6-q01.m4a",
+      "bytes": 29954,
+      "sha256": "09e286ade3cc435d0c09bf26a280de86c6ad8fac3177c25a6380d99593b34bf1",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/c8-g6-q02.m4a",
+      "bytes": 28401,
+      "sha256": "89e4d1b57069793ebcfc7286655be9115cf819826d5cfe329779714d47f45f05",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/feedback/correct.m4a",
+      "bytes": 11289,
+      "sha256": "d1d56e926439288cce2269fefe492fb807cc27da0dd0d73966648fe068c25b97",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/feedback/incorrect.m4a",
+      "bytes": 7763,
+      "sha256": "09bfb77bd9a09e110ed5b0407dd51ab6a6217331205e673bd4598f4fe20b2815",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/feedback/logo_reward.m4a",
+      "bytes": 16220,
+      "sha256": "a352b48cb392b7eec1a5cc105a74b05211e66a393770dc365868b823fe764502",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/g1-intro.m4a",
+      "bytes": 182578,
+      "sha256": "0dc0ad2d32134ccf5cb8044da2885bbbc71a5d9296b229703517989d1a58647b",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/g2-intro.m4a",
+      "bytes": 199233,
+      "sha256": "9157826cb2059d796742941ff23a4092c5a2c8a28a229ce20ac2a5a9b822a66c",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/g3-intro.m4a",
+      "bytes": 201721,
+      "sha256": "2ebc1e08fc036e4aca95d804616d56ac8ee47327cf3ce65c1f5615b2fd2ec01f",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/g4-intro.m4a",
+      "bytes": 210806,
+      "sha256": "73bc58d5753634718ae9456b9412f79a765d1a540a7f0e172cd1be3784ad2987",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/g5-intro.m4a",
+      "bytes": 201542,
+      "sha256": "f1749cd278d8c6560f71aa8a0119d4830794a9afd68098181c48ad996ae78a91",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/g6-intro.m4a",
+      "bytes": 238409,
+      "sha256": "8e77d74230c79228cebfaeaf573734064cff5bc913ea8ffb63941c155c003a23",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/p00.m4a",
+      "bytes": 122519,
+      "sha256": "ad6f31dec89c25b8596838520b8c83593b454319e76bd71ec8809935356a98b3",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/p01.m4a",
+      "bytes": 20467,
+      "sha256": "b8199a6342368abb8f0f81448d8986f78a2ccc2f43b754e098ff7ddd477fd4b8",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/p02.m4a",
+      "bytes": 30885,
+      "sha256": "c1d2564b60304670be35e1c8e0aecd660760e1c9c94cd236457875a68140db93",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/p03.m4a",
+      "bytes": 33256,
+      "sha256": "de44698405b84480f4607411d2638ac667dcbdd0efb1a21bcdd2d70f30ef2a7a",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/p04.m4a",
+      "bytes": 30244,
+      "sha256": "8cb719e0e5f447f668240c3d132a6ecdfdfb14b96822d90f351561fbce357cf8",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/p05.m4a",
+      "bytes": 32582,
+      "sha256": "b2fca2f6be216c6045b31013deb44ccfd0ccc5525495b0308786324812f270ed",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/audio/p06.m4a",
+      "bytes": 112121,
+      "sha256": "c0baa12c7a48d34682ee2f254fd297d3099da962807776da9557d9d6b8572493",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/pages/G1.jpg",
+      "bytes": 313826,
+      "sha256": "2b07e7f83a308a7fe791accccda02bf46d158a89e38e2d218f07c0e521929adf",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/pages/G2.jpg",
+      "bytes": 346407,
+      "sha256": "c406d51c5fc305939d92404af961cd5e86bc782e8306543c1f97c93ee2f4490a",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/pages/G3.jpg",
+      "bytes": 334410,
+      "sha256": "f11b6988d4920caadf49c67d3295fee560fc79f8b63a1dbd4d497ed24d89dcd9",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/pages/G4.jpg",
+      "bytes": 317636,
+      "sha256": "54091fe17dec722a8cd109d20abcf00739cfd6f89c22d5257c41f91020dac1f3",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/pages/G5.jpg",
+      "bytes": 227586,
+      "sha256": "b3c5bcd2bd4db368ee9ada25f0000f189fb001767e001635f6f5ca6a81449959",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/pages/G6.jpg",
+      "bytes": 225906,
+      "sha256": "7ef3e348bfe7a088e9cd9803f168c4af3cf972b83407f7e280c2d0fae4e7d57d",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/pages/ending_logo_L04.svg",
+      "bytes": 2407381,
+      "sha256": "4b5cff96582a65971016a7890b05445625a885a6ad472ab4fee80b40a0204fc5",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/pages/page_00.jpg",
+      "bytes": 730798,
+      "sha256": "4ccb1a5697d63a65db12cbb0404b502d71b20e72beab08d7472c37f81b4ad401",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/pages/page_01.jpg",
+      "bytes": 646253,
+      "sha256": "a5118cb9fb481438db99fa2dc2112434474f91df72bdfd364cb885f86bd322c8",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/pages/page_02.jpg",
+      "bytes": 758475,
+      "sha256": "7c1d95885c73f1aafdd8d90ceb810ba22e964d1a88ba0c2f72908016b028e4a2",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/pages/page_03.jpg",
+      "bytes": 760803,
+      "sha256": "f82cb7e5d1630a358b2ebd17dfdd139656a7cc59455c0bce1820c91b43acbfca",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/pages/page_04.jpg",
+      "bytes": 696246,
+      "sha256": "3cfd0c322aa09c059541357bcf4a2a51450d640621d7e1f6626624e3accee3d9",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/pages/page_05.jpg",
+      "bytes": 736443,
+      "sha256": "ce163cdf0044373bbbc3c665cd5a86570336e070ee0d45daf4db8c3f81a5c446",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/assets/pages/page_06.jpg",
+      "bytes": 765965,
+      "sha256": "4688cae276e953a00323b5cc2838dcfc34993d7689b21a02155a48f94ee6e970",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/js/app-v21.js",
+      "bytes": 57087,
+      "sha256": "dd9fd92c49326b47461aaf6ca01dedaa082517d7b11a3b09ef0baca1da8edad6",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/js/audio-v21.js",
+      "bytes": 8856,
+      "sha256": "3b828232df0d79422ecb8536c6ec954444d3ccf92c5d15e2f68e009694fa3d99",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/js/book-data.js",
+      "bytes": 93852,
+      "sha256": "89d782172db8ca4458f17b6447ba5e48a844620629f80fea4b08030df69bb55a",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/js/feedback.js",
+      "bytes": 6767,
+      "sha256": "8ea0b62faf6755b42624cb0f052a1a32599cc4622960f13387c886f9f45897d4",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/js/interaction-guard.js",
+      "bytes": 4092,
+      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/js/practice-state.js",
+      "bytes": 5164,
+      "sha256": "798e8a03d16bb18f2267cbd8105fda8c29dc3549e8ad238c936bbe738428e7e6",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/js/practice.js",
+      "bytes": 12521,
+      "sha256": "918cd55885586a57c779438a96743aea0a0b17c848d5245926d76eec956f5493",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/practice.css",
+      "bytes": 7472,
+      "sha256": "259882b136e50bda5963ff4885962f66f9ed8e0d6610b1c0c17f504f8f59eb23",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/styles.css",
+      "bytes": 13875,
+      "sha256": "33f2fb5538d9b891523e69b91ac06c7deeac359ae495e0007a253857e373b1b6",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/vendor/page-flip.LICENSE.txt",
+      "bytes": 1063,
+      "sha256": "88d7b609a3be5efa2abe8648ddc35d5489579db5e06299545760df45c2c32d66",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/vendor/page-flip.browser.js",
+      "bytes": 44041,
+      "sha256": "8da2746c112f8c1fec8b2a16aa0fc2b4a0d7f6fbae4f8ab0b6eba413467757c5",
+      "core": false
+    },
+    {
+      "url": "./chapter8/reader/web.css",
+      "bytes": 3560,
+      "sha256": "210d6fb016fbb5b4fca3e2d63f9c1db78f181f89563309b854db79e7e66ba128",
+      "core": false
+    },
+    {
+      "url": "./chapter9/book.json",
+      "bytes": 126610,
+      "sha256": "c398a12a8cac93ed5bbee0c66e62801df5e31799edc6da842cac309fbde78845",
+      "core": false
+    },
+    {
+      "url": "./chapter9/read.html",
+      "bytes": 7655,
+      "sha256": "9f1c0e3f676bc9e03ad0f4f2756b5ccf6d9a21bf5c5b3080125926cbc3a59d9b",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/c9-g1-q01.m4a",
+      "bytes": 29461,
+      "sha256": "cc4b3560d83c030956c5e768313ef66dc32753776c1d9ccba72b353dc3aab29b",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/c9-g1-q02.m4a",
+      "bytes": 29396,
+      "sha256": "02aa333d4e3dbce4ed47efefe5112a5a4c8ddb7c2f34c87609e66094de3b1fb3",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/c9-g2-q01.m4a",
+      "bytes": 24166,
+      "sha256": "3b7ad046d2f2fb71b728221774896cf2e9eaa3f55d7e04e7a654ae0be0a4c468",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/c9-g2-q02.m4a",
+      "bytes": 32434,
+      "sha256": "faf3772c95847cffc512373a852ee5ad027b892bd88e6859c8c925114add95a3",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/c9-g3-q01.m4a",
+      "bytes": 24125,
+      "sha256": "ee65a6763de69d43a1551515a19e3939e62f9194d22011862b07623bd6c83b26",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/c9-g3-q02.m4a",
+      "bytes": 19507,
+      "sha256": "5491ff6c5d2f80e30595e765e1e0b03c340b426e73b33520133fe2b3889f50c8",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/c9-g4-q01.m4a",
+      "bytes": 23395,
+      "sha256": "cdd2897bdd81e2ea7d06954b35ee202b3b7c328d0465de65fc08a296c6bd5186",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/c9-g4-q02.m4a",
+      "bytes": 16156,
+      "sha256": "685134ef7112ee20245e34688495b5e1182adcfb3d80a5b0eeee1e8c970976b7",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/c9-g5-q01.m4a",
+      "bytes": 26361,
+      "sha256": "9e158ba8abc1472dd60e43d00c0c341db5e89ce78ab7af0c8c7a663faa8c97b6",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/c9-g5-q02.m4a",
+      "bytes": 17960,
+      "sha256": "b0c9bf8a64ae9781ac5beba20f2b0dfb664be90763e982ad7bc8e6cffbbb64b0",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/feedback/correct.m4a",
+      "bytes": 11289,
+      "sha256": "d1d56e926439288cce2269fefe492fb807cc27da0dd0d73966648fe068c25b97",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/feedback/incorrect.m4a",
+      "bytes": 7763,
+      "sha256": "09bfb77bd9a09e110ed5b0407dd51ab6a6217331205e673bd4598f4fe20b2815",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/feedback/logo_reward.m4a",
+      "bytes": 16220,
+      "sha256": "a352b48cb392b7eec1a5cc105a74b05211e66a393770dc365868b823fe764502",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/g1-intro.m4a",
+      "bytes": 231072,
+      "sha256": "400ea16c7af6e35f0a51e4c69eba52a9691da92fc25e5bbdd18a86a0fd15ea84",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/g2-intro.m4a",
+      "bytes": 227743,
+      "sha256": "950ee2bf46d2227eeb398fec6275e7801de1356136f2efbff5a4d66af4c99a45",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/g3-intro.m4a",
+      "bytes": 240640,
+      "sha256": "05bb4bc69732d8a4f397e3e5a969d905db698517cddd7add65343da0cd8d0c5b",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/g4-intro.m4a",
+      "bytes": 194956,
+      "sha256": "ce14f390e548e5079d056db31d051a5fea5122d9d3e6fb8aa893817759e84f9f",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/g5-intro.m4a",
+      "bytes": 214636,
+      "sha256": "452ec46e78796034bef1299bbaeef2872defce433a9dd2b4325a1eaebaa77fa7",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/p00.m4a",
+      "bytes": 110437,
+      "sha256": "5c8fcb72450fba641e02525c61d17e0f6c898f436deee76aabc0bc7190be3c0a",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/p01.m4a",
+      "bytes": 113951,
+      "sha256": "b53c05e85bd05c2f71b212103f3df6f1a3d75595d8aa58c625d2508a107e4c05",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/p02.m4a",
+      "bytes": 85708,
+      "sha256": "54a452c7b6f77efa7fc26d5b6d6f5a2728240a71a9eceb06d6d0919a750ff97d",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/p03.m4a",
+      "bytes": 122480,
+      "sha256": "0b3a90620fe6dc0f683ecded368c4fc4e91e390f2b3b354fff569d239c8ebdef",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/p04.m4a",
+      "bytes": 112909,
+      "sha256": "38e8c96254e3bb9c278ae8a012d93231e64f14b17c63b43f43ceefe6d5bba042",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/p05.m4a",
+      "bytes": 63615,
+      "sha256": "086e5a2261e1bab7be3f6da16a04b8bbd16138c0cf206864e9bbeed8005e8fec",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/p06.m4a",
+      "bytes": 252082,
+      "sha256": "7858271c73a9021b589c2e67c0af90a7104554fb446b7e349e8139b42bdcb133",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/audio/p07.m4a",
+      "bytes": 294102,
+      "sha256": "26b12d1dece4f282b57b6e17979f41132236292072b4fa7e9a32a0076c5934be",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/pages/G1.jpg",
+      "bytes": 239770,
+      "sha256": "038d1812e9df0dfec171c42321a0224058938d507da777d859006e7a765c3064",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/pages/G2.jpg",
+      "bytes": 286906,
+      "sha256": "7b4e008f7b83743ee04fcb0aab2775baa03bf87675d8a5ca6edfb65c878a793f",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/pages/G3.jpg",
+      "bytes": 233917,
+      "sha256": "c1ac1051a66016f2e9569604acd83b894aa1a7bd8a135a5e29af031f7f7561f0",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/pages/G4.jpg",
+      "bytes": 275970,
+      "sha256": "5b3dcc9c7b02bdd266494ebf5a88f2e670fb3aa54d724daea61573e07305bcba",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/pages/G5.jpg",
+      "bytes": 286215,
+      "sha256": "1feaa2489f684d94ac6e401d465c64c7465d4fc8cdc04ff8de30f05da08d3e5f",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/pages/ending_logo_L04.svg",
+      "bytes": 2407381,
+      "sha256": "4b5cff96582a65971016a7890b05445625a885a6ad472ab4fee80b40a0204fc5",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/pages/page_00.jpg",
+      "bytes": 808824,
+      "sha256": "efeeede9ed41cf606c18358a502bcc256a8520a1fd7d0a7571df9ae548a53403",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/pages/page_01.jpg",
+      "bytes": 626141,
+      "sha256": "29ebcbb5424a8796481a939af677e768beced498c9b10c5ce7e54b62fc8a5b21",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/pages/page_02.jpg",
+      "bytes": 696581,
+      "sha256": "2ec8826bd3d5f1e235f1d7b5f0ddc70ec2a92376a05d740b464172e3c03191f4",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/pages/page_03.jpg",
+      "bytes": 704080,
+      "sha256": "bfddec5791a1a6d2f9920c29c663f7cefe10e0a8791c5acbe97eb62ce1ef67b9",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/pages/page_04.jpg",
+      "bytes": 654948,
+      "sha256": "baafb44e8479dbea915c914bdd03ba1f772f257898acb3f3e35ea76c36344538",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/pages/page_05.jpg",
+      "bytes": 726535,
+      "sha256": "f610a89381918dfee7b25424495848a77edc1aa7dfeb6b256472ba7ec0ca892b",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/pages/page_06.jpg",
+      "bytes": 668952,
+      "sha256": "269bc3a66bc8f263b833d6169d306993b8861c2991942d6667c71b07041eeda2",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/assets/pages/page_07.jpg",
+      "bytes": 635750,
+      "sha256": "d439485696daf08ceaf734ffbcaef5f5ba00e7359b4af31e7401270e8c424661",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/js/app-v21.js",
+      "bytes": 57101,
+      "sha256": "033de04443d37f3e999643f6aeb27e73edad2fcf9d44aa787b832dc96b13b9ee",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/js/audio-v21.js",
+      "bytes": 8856,
+      "sha256": "3b828232df0d79422ecb8536c6ec954444d3ccf92c5d15e2f68e009694fa3d99",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/js/book-data.js",
+      "bytes": 84853,
+      "sha256": "e71775eb04d2c2769424114c9a982d31e66e4b66482762a418ae2e08cc4e7600",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/js/feedback.js",
+      "bytes": 6767,
+      "sha256": "8ea0b62faf6755b42624cb0f052a1a32599cc4622960f13387c886f9f45897d4",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/js/interaction-guard.js",
+      "bytes": 4092,
+      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/js/practice-state.js",
+      "bytes": 5164,
+      "sha256": "798e8a03d16bb18f2267cbd8105fda8c29dc3549e8ad238c936bbe738428e7e6",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/js/practice.js",
+      "bytes": 12521,
+      "sha256": "918cd55885586a57c779438a96743aea0a0b17c848d5245926d76eec956f5493",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/practice.css",
+      "bytes": 7472,
+      "sha256": "259882b136e50bda5963ff4885962f66f9ed8e0d6610b1c0c17f504f8f59eb23",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/styles.css",
+      "bytes": 13875,
+      "sha256": "33f2fb5538d9b891523e69b91ac06c7deeac359ae495e0007a253857e373b1b6",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/vendor/page-flip.LICENSE.txt",
+      "bytes": 1063,
+      "sha256": "88d7b609a3be5efa2abe8648ddc35d5489579db5e06299545760df45c2c32d66",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/vendor/page-flip.browser.js",
+      "bytes": 44041,
+      "sha256": "8da2746c112f8c1fec8b2a16aa0fc2b4a0d7f6fbae4f8ab0b6eba413467757c5",
+      "core": false
+    },
+    {
+      "url": "./chapter9/reader/web.css",
+      "bytes": 3560,
+      "sha256": "210d6fb016fbb5b4fca3e2d63f9c1db78f181f89563309b854db79e7e66ba128",
+      "core": false
+    },
+    {
+      "url": "./chapter10/book.json",
+      "bytes": 121987,
+      "sha256": "a466763470d68f0f0ac2941760e358437b8b5d9bd0f12cb90eb2dedf6a7f91b5",
+      "core": false
+    },
+    {
+      "url": "./chapter10/read.html",
+      "bytes": 7649,
+      "sha256": "47f3dfb3ae5b77b4afc437b3ef4d8c67356feebf402becc48443127b23e2f799",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/c10-g1-q01.m4a",
+      "bytes": 26827,
+      "sha256": "e994cf15af74bda1ecf3d6a0989c430bb718bdf0e7c33fe57e51f47628ac8c5f",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/c10-g1-q02.m4a",
+      "bytes": 24266,
+      "sha256": "ff60e65a1949ca9bab8ca7a0f454156ddba38898d32eaefd5ce55acac8664606",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/c10-g2-q01.m4a",
+      "bytes": 22315,
+      "sha256": "a328cc829c00886921355a58469e763fe72c874bce41c462d161eaf9d6f1f624",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/c10-g2-q02.m4a",
+      "bytes": 25295,
+      "sha256": "4db00ddd4fe2b14a6266a746c9a9df6d4d59c2db387d52605110ec0611ac9ad8",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/c10-g3-q01.m4a",
+      "bytes": 28347,
+      "sha256": "be9d1899414bd7f9a0fb7ea118c940c8e57873a9688ce58f6ca36ab95ce0509e",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/c10-g3-q02.m4a",
+      "bytes": 29078,
+      "sha256": "efefe390db3cac0b3e9a46c85b290380eb1698f7be2f4e1fbc0e595231225198",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/c10-g4-q01.m4a",
+      "bytes": 25573,
+      "sha256": "34331b731ca634efa0eb6bfd1835d4b6299436f5725908c14a055b6d39a311af",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/c10-g4-q02.m4a",
+      "bytes": 30814,
+      "sha256": "c6ef463468719d2b9fb83878a66ffd0d6e7f823f1c6ed660c647261617496044",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/c10-g5-q01.m4a",
+      "bytes": 33511,
+      "sha256": "564eb339ed4a756fa299cf884edc4e59b2478df5315148b94585380dc4575fc2",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/c10-g5-q02.m4a",
+      "bytes": 31755,
+      "sha256": "628b26069f0e1f29aafcf1ce1a11f3731ec2ad2fc5ecd6e03df6a45ddbfb9e26",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/feedback/correct.m4a",
+      "bytes": 11289,
+      "sha256": "d1d56e926439288cce2269fefe492fb807cc27da0dd0d73966648fe068c25b97",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/feedback/incorrect.m4a",
+      "bytes": 7763,
+      "sha256": "09bfb77bd9a09e110ed5b0407dd51ab6a6217331205e673bd4598f4fe20b2815",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/feedback/logo_reward.m4a",
+      "bytes": 16220,
+      "sha256": "a352b48cb392b7eec1a5cc105a74b05211e66a393770dc365868b823fe764502",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/g1-intro.m4a",
+      "bytes": 203313,
+      "sha256": "a14ea1438f5fc9d4d539cf7fdc3d54e1679d0402a94acfd0109bf9d47bb8c92e",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/g2-intro.m4a",
+      "bytes": 245690,
+      "sha256": "132d66c18b9e6bc3b38f2d3a6065ed013ce369c95beac77c032cdef72a4d830b",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/g3-intro.m4a",
+      "bytes": 189997,
+      "sha256": "ad88843dc481642a7303a82de54b29b58245efde79835d26f886f9d06bf8b269",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/g4-intro.m4a",
+      "bytes": 246131,
+      "sha256": "8290ab57a40085e78a1603769807e272d527da35fcdd786bc17be3b0100fa8f3",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/g5-intro.m4a",
+      "bytes": 223203,
+      "sha256": "a9431f9313bbe0785a9612798ae5d5a516531f90bf392f8a67f42e3ef48e16c2",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/p00.m4a",
+      "bytes": 105805,
+      "sha256": "6e5824f46a7bafb24dd6f3bfc3370b7fa463892bd83dc9eef0ccc6d385740a04",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/p01.m4a",
+      "bytes": 70138,
+      "sha256": "e642c48aa6ae8f295cbe582cc470aeeddff779301971b0585d1ae7205be74d58",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/p02.m4a",
+      "bytes": 97434,
+      "sha256": "35a05329b92fbabd09ee384a97c6c6858f0aa502fa6bfd7e20a9567ebeab724b",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/p03.m4a",
+      "bytes": 76028,
+      "sha256": "a2362abf0f32bc31589c6918284399f82ba75000e23867636432ba7a8f5e3f8d",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/p04.m4a",
+      "bytes": 81281,
+      "sha256": "9d9c799bcc29ecb954f3815504bf32503fa4dbe5e2399096b5ab528056b189a9",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/p05.m4a",
+      "bytes": 74113,
+      "sha256": "4bb42bc9a78ebd1974fc580fd5c738230e944464d30deea38b627c318b6bda40",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/audio/p06.m4a",
+      "bytes": 107976,
+      "sha256": "141eab9567153151fe4c80e794c364eaa1e9edd5a74a62f7c5a77cb1550b1b0f",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/pages/G1.jpg",
+      "bytes": 294749,
+      "sha256": "8c9f2bdc2765c4f30742eb83367c807b8f8b229b76c56d840ed9db9dbd9f7e4e",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/pages/G2.jpg",
+      "bytes": 300467,
+      "sha256": "2125e959916f0eddd573e709e140c8ab07bf2bdc652d3d9a31403fef42459f78",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/pages/G3.jpg",
+      "bytes": 420535,
+      "sha256": "7a6b50f28877015023286d53cb3f180045560cff74f865f0a19f6bfd3bec719d",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/pages/G4.jpg",
+      "bytes": 303792,
+      "sha256": "18f1db406cb4054977d8444f4ae6e96f46135e8d1196cad80232f740e315065a",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/pages/G5.jpg",
+      "bytes": 358733,
+      "sha256": "acbfae31fa5f067e3225542d356542db38c759bfe7a07d6574c1bf69aa3aa4af",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/pages/ending_logo_L04.svg",
+      "bytes": 2407381,
+      "sha256": "4b5cff96582a65971016a7890b05445625a885a6ad472ab4fee80b40a0204fc5",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/pages/page_00.jpg",
+      "bytes": 768306,
+      "sha256": "80cc7de7575a27b6455f295612805629865dfa9f1bd86797694b667e397471bb",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/pages/page_01.jpg",
+      "bytes": 776462,
+      "sha256": "b17a797469e02d0e27efc9366847bc2e67a0e3d4f9a09d085a1ebf326e8b375f",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/pages/page_02.jpg",
+      "bytes": 753205,
+      "sha256": "668f883b7386c5e02971f4a2e5eb8a44ccf5aa5aea93f659756f6724e6584737",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/pages/page_03.jpg",
+      "bytes": 739112,
+      "sha256": "4971dd7c05eb42c6862d9642581ae28f6a4cbe74798fd26ef5f835120080d410",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/pages/page_04.jpg",
+      "bytes": 702094,
+      "sha256": "788e1fde852bf3c1f9c4ab32c52ed68779fee4b7dc8096f4854d3d09c1eed8d8",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/pages/page_05.jpg",
+      "bytes": 569420,
+      "sha256": "9fa6b9b52547331c3ede79c720dfa6ba42b8ecd38740c17d54c9013077d560f7",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/assets/pages/page_06.jpg",
+      "bytes": 813479,
+      "sha256": "8100bc3d8bdc70c021d1c1c469ee8e321346f976158b12d2074fbfec8c80cd9d",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/js/app-v21.js",
+      "bytes": 57103,
+      "sha256": "36c360dec5418f45e5896c7026102dddb0b81a307463eef22a1571f23e90f7c5",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/js/audio-v21.js",
+      "bytes": 8856,
+      "sha256": "3b828232df0d79422ecb8536c6ec954444d3ccf92c5d15e2f68e009694fa3d99",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/js/book-data.js",
+      "bytes": 81560,
+      "sha256": "766d3482a497d388295f0ee8b14e50d1ac76e99365cd403977bcbbd6940e33fb",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/js/feedback.js",
+      "bytes": 6767,
+      "sha256": "8ea0b62faf6755b42624cb0f052a1a32599cc4622960f13387c886f9f45897d4",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/js/interaction-guard.js",
+      "bytes": 4092,
+      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/js/practice-state.js",
+      "bytes": 5164,
+      "sha256": "798e8a03d16bb18f2267cbd8105fda8c29dc3549e8ad238c936bbe738428e7e6",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/js/practice.js",
+      "bytes": 12521,
+      "sha256": "918cd55885586a57c779438a96743aea0a0b17c848d5245926d76eec956f5493",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/practice.css",
+      "bytes": 7582,
+      "sha256": "40034be862eb512268126315bff2d2e9bea3844f644e6c3a681c0f5c5f803f17",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/styles.css",
+      "bytes": 13875,
+      "sha256": "33f2fb5538d9b891523e69b91ac06c7deeac359ae495e0007a253857e373b1b6",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/vendor/page-flip.LICENSE.txt",
+      "bytes": 1063,
+      "sha256": "88d7b609a3be5efa2abe8648ddc35d5489579db5e06299545760df45c2c32d66",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/vendor/page-flip.browser.js",
+      "bytes": 44041,
+      "sha256": "8da2746c112f8c1fec8b2a16aa0fc2b4a0d7f6fbae4f8ab0b6eba413467757c5",
+      "core": false
+    },
+    {
+      "url": "./chapter10/reader/web.css",
+      "bytes": 3560,
+      "sha256": "210d6fb016fbb5b4fca3e2d63f9c1db78f181f89563309b854db79e7e66ba128",
+      "core": false
+    },
+    {
+      "url": "./chapter11/book.json",
+      "bytes": 129491,
+      "sha256": "81066dda7b464ba3922e22811787ba61aaff9230375e14b16e1365af098c4014",
+      "core": false
+    },
+    {
+      "url": "./chapter11/read.html",
+      "bytes": 7655,
+      "sha256": "1c048165e5a679d444bb8dd392b77ae1cfc077404a942ed2a88cbe27811d6498",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/c11-g1-q01.m4a",
+      "bytes": 24125,
+      "sha256": "80c8fe6f04b81d094b356db48e4b660cca35c8901238713a2a1bf9280f855237",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/c11-g1-q02.m4a",
+      "bytes": 31184,
+      "sha256": "2b748fcf0714e508b2afa098d308ac6c30fa0fd43247a1e56979ed3197d83a4c",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/c11-g2-q01.m4a",
+      "bytes": 27421,
+      "sha256": "ecebc56c76724e89d5d6ce12b9dbcddd5cf74b9c424c0b7c8b34a435d30c31ea",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/c11-g2-q02.m4a",
+      "bytes": 36778,
+      "sha256": "dfc73111ac6664aac9f8df73d2fb028a4fc1b968af9690edb5331956b9ae57c5",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/c11-g3-q01.m4a",
+      "bytes": 33122,
+      "sha256": "2bbb9c7d8a912c6c7d16c2ce48b68a118807be0a58d77a337aee6e7e705c1676",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/c11-g3-q02.m4a",
+      "bytes": 38640,
+      "sha256": "75b9a4c68d8537520309643e599ca294683e16abf01a05eefcfa9f1af9ebb201",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/c11-g4-q01.m4a",
+      "bytes": 22642,
+      "sha256": "47e0ca6b0654f3ca6b96eeae954be44df261a744d737dfe2df9c88ff17905aac",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/c11-g4-q02.m4a",
+      "bytes": 25093,
+      "sha256": "03d4128e07a7a8bfdf6b1b5e4de2032d64be29a8ebc0f907eba239edb509756b",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/c11-g5-q01.m4a",
+      "bytes": 34940,
+      "sha256": "bb1fd8100408927221f00efb9495b834fa7aa2a1f9a528cffd29e5d688d1f741",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/c11-g5-q02.m4a",
+      "bytes": 14389,
+      "sha256": "7ce7706261d83e0ef6f82b3845e927140d76e50d02718429fb9f94847f7c3e1d",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/feedback/correct.m4a",
+      "bytes": 11289,
+      "sha256": "d1d56e926439288cce2269fefe492fb807cc27da0dd0d73966648fe068c25b97",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/feedback/incorrect.m4a",
+      "bytes": 7763,
+      "sha256": "09bfb77bd9a09e110ed5b0407dd51ab6a6217331205e673bd4598f4fe20b2815",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/feedback/logo_reward.m4a",
+      "bytes": 16220,
+      "sha256": "a352b48cb392b7eec1a5cc105a74b05211e66a393770dc365868b823fe764502",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/g1-intro.m4a",
+      "bytes": 261073,
+      "sha256": "b399dbc6d2885e9f1b17d59ddc3625901e222657f78c7695686118208ac7789a",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/g2-intro.m4a",
+      "bytes": 282448,
+      "sha256": "1a79e197b801014f2b09471ab960d7eebc092ab2d8b3f7a9f2308a8aa060239c",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/g3-intro.m4a",
+      "bytes": 235209,
+      "sha256": "1fe8ae5427c0fc99120dc2385f2cefdea433b1158c57b7ee74ed85487f033944",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/g4-intro.m4a",
+      "bytes": 207921,
+      "sha256": "86d95f844dbb17cde835dba2772bde7fe24351534428aaf74ce458f1835f6cda",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/g5-intro.m4a",
+      "bytes": 230818,
+      "sha256": "4f883eafadaa82c34c873f924e199216c5c3f4013e44839ab0c18eebf370101b",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/p00.m4a",
+      "bytes": 113161,
+      "sha256": "07bb5191be6723733e6d91cb553ca6d6936603dd0f1f61105cb115cc985fde85",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/p01.m4a",
+      "bytes": 118540,
+      "sha256": "3e9a2aba4ab72fe5015d1ab3643d58f906c60010263d953eb63be0046dde2f4f",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/p02.m4a",
+      "bytes": 76119,
+      "sha256": "d73be0a25076e2e5a041f4ca8f19e5dab8963ff832e0420b12830af6d66217c1",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/p03.m4a",
+      "bytes": 92067,
+      "sha256": "9771a573973c438f9da466e5fd665d9c5317c9bdbcb5e3c6994c3617b3702300",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/p04.m4a",
+      "bytes": 61364,
+      "sha256": "9b9648b3b34ca844a3623d2a93e19da0df481d062ee3a3da778b0be97791c7a4",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/p05.m4a",
+      "bytes": 62023,
+      "sha256": "690f1ca0d7d93b187c5e857aed1a1da8f6184802e5a9d868e97d3b61899d2633",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/audio/p06.m4a",
+      "bytes": 141378,
+      "sha256": "41b6c7b1abd786764e53017a8fb9c7fe13c591689783ea95ca2655787bc45e5a",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/pages/G1.jpg",
+      "bytes": 265901,
+      "sha256": "a27c6d0134dcb206c88b2dc77ad32c4182310a7c82b9ce6e63a336bc24890e93",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/pages/G2.jpg",
+      "bytes": 336029,
+      "sha256": "326c045a5df092abbad0e10c977ef2c1b63562066a3e447b92e7749415b918f4",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/pages/G3.jpg",
+      "bytes": 304408,
+      "sha256": "14e02b32ff3d409dc446b31bf277ab344d972bac3e473430d659dc2d16d3b533",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/pages/G4.jpg",
+      "bytes": 381303,
+      "sha256": "270e5c30a0c504232b9d27b1315b8c1dbfb426363d7672ea1343cd0b4856b95e",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/pages/G5.jpg",
+      "bytes": 269396,
+      "sha256": "41f70b859f97eaf4dcde1c7543b9920dddbd1912aa855bf9e8a0152f9e7ad213",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/pages/ending_logo_L04.svg",
+      "bytes": 2407381,
+      "sha256": "4b5cff96582a65971016a7890b05445625a885a6ad472ab4fee80b40a0204fc5",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/pages/page_00.jpg",
+      "bytes": 799128,
+      "sha256": "849274eeececc598acda5b366ea824a12e1e32c8f741cfd699a5e75c48630908",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/pages/page_01.jpg",
+      "bytes": 694128,
+      "sha256": "7a514cdb01713509bd5627423e172d210ea185d815b33879f2b05adb1799c266",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/pages/page_02.jpg",
+      "bytes": 659274,
+      "sha256": "fba1e84dc34d6597a38bf6d8e35529a9fe85f371167e5a2fe2837aed5b6e37f3",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/pages/page_03.jpg",
+      "bytes": 612211,
+      "sha256": "c4e9da67d174d89c955d62aa47f94a21994bd04b166fda5dde2b1cd6e55c05f7",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/pages/page_04.jpg",
+      "bytes": 721455,
+      "sha256": "e1c66080c6b181ee2033574cb4efe1fe6fbdab7ea7951b4f10ff54526bd75d00",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/pages/page_05.jpg",
+      "bytes": 682039,
+      "sha256": "21018353288e1540f28164e2532cd147562cfae9c02e5f8e62e7a4d15bde4e81",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/assets/pages/page_06.jpg",
+      "bytes": 1033946,
+      "sha256": "2905213931fbf6e9a48e027fb1af4654f40001bbe539aaa82d4d9090cf6ddca1",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/js/app-v21.js",
+      "bytes": 57134,
+      "sha256": "050c2bfc435b87a5e7f5195ecf7412c6add3ba9a2101ccec0f39ebdeeb1831cf",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/js/audio-v21.js",
+      "bytes": 8856,
+      "sha256": "3b828232df0d79422ecb8536c6ec954444d3ccf92c5d15e2f68e009694fa3d99",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/js/book-data.js",
+      "bytes": 87064,
+      "sha256": "ba06ef1dd6f517ae753e238d134ce8b0b8fe9c53f2f4eeff5f2d6f43c94a2aa7",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/js/feedback.js",
+      "bytes": 6767,
+      "sha256": "8ea0b62faf6755b42624cb0f052a1a32599cc4622960f13387c886f9f45897d4",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/js/interaction-guard.js",
+      "bytes": 4092,
+      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/js/practice-state.js",
+      "bytes": 5164,
+      "sha256": "798e8a03d16bb18f2267cbd8105fda8c29dc3549e8ad238c936bbe738428e7e6",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/js/practice.js",
+      "bytes": 12521,
+      "sha256": "918cd55885586a57c779438a96743aea0a0b17c848d5245926d76eec956f5493",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/practice.css",
+      "bytes": 7750,
+      "sha256": "83501a32cfa7f75557c62e363fbf97f9dc760b4a9b50de78886e7ff4451897ec",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/styles.css",
+      "bytes": 13875,
+      "sha256": "33f2fb5538d9b891523e69b91ac06c7deeac359ae495e0007a253857e373b1b6",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/vendor/page-flip.LICENSE.txt",
+      "bytes": 1063,
+      "sha256": "88d7b609a3be5efa2abe8648ddc35d5489579db5e06299545760df45c2c32d66",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/vendor/page-flip.browser.js",
+      "bytes": 44041,
+      "sha256": "8da2746c112f8c1fec8b2a16aa0fc2b4a0d7f6fbae4f8ab0b6eba413467757c5",
+      "core": false
+    },
+    {
+      "url": "./chapter11/reader/web.css",
+      "bytes": 3560,
+      "sha256": "210d6fb016fbb5b4fca3e2d63f9c1db78f181f89563309b854db79e7e66ba128",
+      "core": false
+    },
+    {
+      "url": "./chapter12/book.json",
+      "bytes": 142386,
+      "sha256": "e63ee0a15d9e4bb91ca717d3ff12810fd4d39e67764b5ac7017579d7f360fa27",
+      "core": false
+    },
+    {
+      "url": "./chapter12/read.html",
+      "bytes": 7679,
+      "sha256": "c98453e4eb828b3df47699205eb08bd9800edd6254ecc6fe837ae6bc283adfe8",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/c12-g1-q01.m4a",
+      "bytes": 30913,
+      "sha256": "8f456f96a71c072fa1e9f340b2430e7112858e9107b86f1e4ed81e16bffff3cc",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/c12-g1-q02.m4a",
+      "bytes": 36597,
+      "sha256": "45fb1a1311d171fab3fb4ab17c5d96d54df7ecde05b953a9c571d02d67e6649e",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/c12-g2-q01.m4a",
+      "bytes": 38622,
+      "sha256": "167b9db564acb3301e9987f68c276d48cf06c0548c655c69b4ea3702e7d86536",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/c12-g2-q02.m4a",
+      "bytes": 38482,
+      "sha256": "bc3ab0589cb796ea0e068e5ea7b0476c97b65a7b02b208e524378a925f9d31a0",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/c12-g3-q01.m4a",
+      "bytes": 34879,
+      "sha256": "92e178a244d96ae705d7177bb208b5bcae01cdc6bd0e092faf1671c4d1958586",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/c12-g3-q02.m4a",
+      "bytes": 23945,
+      "sha256": "09edcc36c8df5331b95600b432ff3f86c432d33db9cc325ca0da76f81191f9be",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/c12-g4-q01.m4a",
+      "bytes": 13972,
+      "sha256": "570a0e13d95908e1e02945b8a2ca01b45a8f49f000f6fcbed166d2f2229098d7",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/c12-g5-q01.m4a",
+      "bytes": 20403,
+      "sha256": "6caac544ab7b4f3a22fcab3b74ff80012c9cca4240d74b4b03c34804cb06cbb1",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/c12-g5-q02.m4a",
+      "bytes": 37081,
+      "sha256": "61a74a7656c1a8893e33e0a4afc7179ec4fd4b5431c89f13238e24405a444488",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/c12-g6-q01.m4a",
+      "bytes": 26058,
+      "sha256": "434d1ee304e86d36a1064cb112aae521bd81a38ecae2f7f9fb11987e582499e5",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/c12-g6-q02.m4a",
+      "bytes": 30519,
+      "sha256": "4cfe0f8267ba40408e41798e8c6bee6834959595138ea82a25112b9197053b64",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/feedback/correct.m4a",
+      "bytes": 11289,
+      "sha256": "d1d56e926439288cce2269fefe492fb807cc27da0dd0d73966648fe068c25b97",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/feedback/incorrect.m4a",
+      "bytes": 7763,
+      "sha256": "09bfb77bd9a09e110ed5b0407dd51ab6a6217331205e673bd4598f4fe20b2815",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/feedback/logo_reward.m4a",
+      "bytes": 16220,
+      "sha256": "a352b48cb392b7eec1a5cc105a74b05211e66a393770dc365868b823fe764502",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/g1-intro.m4a",
+      "bytes": 224417,
+      "sha256": "c2bea6c4a75e3f9b93813541c73b37281aa122fb1d7b99634d9b60211e8a856e",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/g2-intro.m4a",
+      "bytes": 200901,
+      "sha256": "91142214039e7594c23aa67c3c4dd3b3df18e776a4cbf03076d7094fddc886c0",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/g3-intro.m4a",
+      "bytes": 230954,
+      "sha256": "e8d5ba23cdf398e017a85f0d294c4c7094aee57654cce7db058860b321c0b597",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/g4-intro.m4a",
+      "bytes": 167437,
+      "sha256": "8802caf3c16c417380edbaba560e5a45ef567d4ab8e4cfc38c6d62d52def8bca",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/g5-intro.m4a",
+      "bytes": 256165,
+      "sha256": "2cc3ef8076cd1907aeededfb461bee7b96f7d625564e03dcc40d0e2e713fac43",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/g6-intro.m4a",
+      "bytes": 210919,
+      "sha256": "34020fc5bf62d07a22b7e56664924b7807139d603aa07f247bd1eed200b389fc",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/p00.m4a",
+      "bytes": 116388,
+      "sha256": "6012bcfd44b480816e5e30946f88f45d0fe75ae2417cc1ffd86652a4cd8b441e",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/p01.m4a",
+      "bytes": 83062,
+      "sha256": "7b8875919ab55f43db8a6b2d15b27dfeffc8d0d75c66edcbbdf2a4eca5f6cb55",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/p02.m4a",
+      "bytes": 110354,
+      "sha256": "1f1505b7e895153f20c11b8ab74c428128d91000f9e6bc341a0df182c80630d6",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/p03.m4a",
+      "bytes": 62954,
+      "sha256": "0b959ee5bed4bf2ff98a53c83d37168b9a11ca9053f812a4e24a1d2123156ad5",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/p04.m4a",
+      "bytes": 54324,
+      "sha256": "eef1e963443555814bf415d5694c9e99f46c15cc24c958a7c7d0c33d7f460df5",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/p05.m4a",
+      "bytes": 79309,
+      "sha256": "f7730a38669d508b1babeac384600b9bf6e78c2875eb3114787ec584c8e1e949",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/p06.m4a",
+      "bytes": 52530,
+      "sha256": "7a7394d47adf981aced7e7995091783a853bd06ce72f52ae16d4f286ee837f6e",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/p07.m4a",
+      "bytes": 205074,
+      "sha256": "53f41005a6a6c85ad68a1bdd91870bc489e5370d9b31746f34810a2be60cd38d",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/audio/p08.m4a",
+      "bytes": 224816,
+      "sha256": "d7102e8e56bd18ef194b1094e09f2b0147a03bc28544abe6563261c21c9d86ed",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/pages/G1.jpg",
+      "bytes": 466999,
+      "sha256": "ef4d03f0f826031f19ebebef014e3c99b2e28f4093664edf2f8381d45fbc60d8",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/pages/G2.jpg",
+      "bytes": 733200,
+      "sha256": "f95c8e288fe40a0368e6c74e166702932a51b9049ae27e4a1d89833ca719cdf3",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/pages/G3.jpg",
+      "bytes": 535010,
+      "sha256": "53d4a4220d00fe666d961b3eab85fe22551bf3eefdced3b3097cc4f2ad6c5191",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/pages/G4.jpg",
+      "bytes": 634660,
+      "sha256": "fa923578dd0f643a77165643d97b37dd4f37998beef2b269fd40758ee65f6012",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/pages/G5.jpg",
+      "bytes": 328943,
+      "sha256": "55d8468638d981c173c73a8642c28a20b5d237ddfebacd3fa1c559c754fc5020",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/pages/G6.jpg",
+      "bytes": 380020,
+      "sha256": "82700b6b19d2c3e559bc29ddf0f766a6c30361cd498dff7b593438ab7c1e85ce",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/pages/ending_logo_L04.svg",
+      "bytes": 2407381,
+      "sha256": "4b5cff96582a65971016a7890b05445625a885a6ad472ab4fee80b40a0204fc5",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/pages/page_00.jpg",
+      "bytes": 1142104,
+      "sha256": "c42c5436a4faa04cdb9795408665c46b2ea071be87dcacef38c4eabd1740a724",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/pages/page_01.jpg",
+      "bytes": 1048257,
+      "sha256": "0c20ab77d63552c874f54b6e2d07c3cb914b2e3a1a172d0e792f048e2d2119fe",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/pages/page_02.jpg",
+      "bytes": 1060950,
+      "sha256": "7967717db38c6534c40cba3fa70c2ebc7e319fc4c59197fc5033f3338407676c",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/pages/page_03.jpg",
+      "bytes": 1017093,
+      "sha256": "d6740e8e8d6d6ad6797efdeaf7384d940c7f18632e12afc50e31a1507b9b957b",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/pages/page_04.jpg",
+      "bytes": 1067797,
+      "sha256": "e54f783bc068a08794bc8fbfd5cade2b35447446950bf1d643e48faa001203d1",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/pages/page_05.jpg",
+      "bytes": 957424,
+      "sha256": "8988fc81c222484029d700e97f9f49e7762ac08705f31e4cc8bf2298ff2cfbac",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/pages/page_06.jpg",
+      "bytes": 980114,
+      "sha256": "6087cac9e4a21ca7693907770463e48c5204ae943579a474172b71b657db320e",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/pages/page_07.jpg",
+      "bytes": 1055756,
+      "sha256": "a5a19fa19f4f186228ae7da593bef8468ce628235c8b2bec54ed1f77f1c98265",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/assets/pages/page_08.jpg",
+      "bytes": 942640,
+      "sha256": "d03bfbd92963366549ac729856a265dabbea7cd592cb554626f730540c89d3b0",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/js/app-v21.js",
+      "bytes": 57150,
+      "sha256": "7668cf3761eb6e6ddd8023bf86e1ef54e748232372c154c01ff387f3b0cde3b2",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/js/audio-v21.js",
+      "bytes": 8856,
+      "sha256": "3b828232df0d79422ecb8536c6ec954444d3ccf92c5d15e2f68e009694fa3d99",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/js/book-data.js",
+      "bytes": 95865,
+      "sha256": "2fd8702edb4d05e2879e3a33a2950fe55db061c15643b0471e8d97c0e91c2d53",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/js/feedback.js",
+      "bytes": 6767,
+      "sha256": "8ea0b62faf6755b42624cb0f052a1a32599cc4622960f13387c886f9f45897d4",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/js/interaction-guard.js",
+      "bytes": 4092,
+      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/js/practice-state.js",
+      "bytes": 5164,
+      "sha256": "798e8a03d16bb18f2267cbd8105fda8c29dc3549e8ad238c936bbe738428e7e6",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/js/practice.js",
+      "bytes": 12521,
+      "sha256": "918cd55885586a57c779438a96743aea0a0b17c848d5245926d76eec956f5493",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/practice.css",
+      "bytes": 7581,
+      "sha256": "b48e4124f1e80e6faa57a42e96da47682385beac77a30da62579892f94a4e3fb",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/styles.css",
+      "bytes": 13875,
+      "sha256": "33f2fb5538d9b891523e69b91ac06c7deeac359ae495e0007a253857e373b1b6",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/vendor/page-flip.LICENSE.txt",
+      "bytes": 1063,
+      "sha256": "88d7b609a3be5efa2abe8648ddc35d5489579db5e06299545760df45c2c32d66",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/vendor/page-flip.browser.js",
+      "bytes": 44041,
+      "sha256": "8da2746c112f8c1fec8b2a16aa0fc2b4a0d7f6fbae4f8ab0b6eba413467757c5",
+      "core": false
+    },
+    {
+      "url": "./chapter12/reader/web.css",
+      "bytes": 3560,
+      "sha256": "210d6fb016fbb5b4fca3e2d63f9c1db78f181f89563309b854db79e7e66ba128",
+      "core": false
+    },
+    {
+      "url": "./assets/library-v25/english-shelf.png",
+      "core": true,
+      "sha256": "6668def2779f678736e2b7c253c1bda326c112e03bd2b766da27e67e35b29aed",
+      "bytes": 2858567
+    },
+    {
+      "url": "./scene-layout-en-v25.json",
+      "core": true,
+      "sha256": "a82a6d390b13a45fb6e3b031b5d9b92d50507e15424c75da663b013b24a1e038",
+      "bytes": 1482
+    },
+    {
+      "url": "./library-ui-en-v25.js",
+      "core": true,
+      "sha256": "04ceb38c4d4d0044d0a459106bed3fe68185e82bcd86311bf7be1e9fab861600",
+      "bytes": 4617
     }
   ],
   "book_art_revisions": {

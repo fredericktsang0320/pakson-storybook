@@ -1,0 +1,3759 @@
+{
+  "schema_version": 3,
+  "id": "pakson-k3-b6-u02-rain-v1",
+  "title": "Pakson and the Rainy-Day Rescue",
+  "chapter_number": 10,
+  "language": "en-GB",
+  "phonics": "U",
+  "learning_words": [
+    "dry",
+    "wet",
+    "raincoat",
+    "sky",
+    "rain",
+    "umbrella",
+    "unhappy",
+    "uncle",
+    "ugly",
+    "underground"
+  ],
+  "formal_teaching_words": [
+    "dry",
+    "wet",
+    "raincoat",
+    "sky",
+    "rain",
+    "umbrella",
+    "unhappy",
+    "uncle",
+    "ugly",
+    "underground"
+  ],
+  "pages": [
+    {
+      "audio_id": "p00",
+      "audio": "reader/assets/audio/p00.m4a",
+      "duration": 8.832,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p00-l01",
+          "block_id": "c10-p00-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Pakson brought a parcel of books to the lookout. A shower was coming. The pups had a plan to get the parcel home dry.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 8.68,
+          "duration": 8.6,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p00-l01",
+          "block_id": "c10-p00-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Pakson brought a parcel of books to the lookout. A shower was coming. The pups had a plan to get the parcel home dry.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 8.68,
+          "duration": 8.6,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p00",
+      "page_type": "cover",
+      "image": "reader/assets/pages/page_00.jpg",
+      "title": "Pakson and the Rainy-Day Rescue",
+      "source_book_page": 0,
+      "source_story_page": 0,
+      "book_page": 0
+    },
+    {
+      "audio_id": "p01",
+      "audio": "reader/assets/audio/p01.m4a",
+      "duration": 5.888,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p01-l01",
+          "block_id": "c10-p01-l01",
+          "role": "chase",
+          "speaker": "chase",
+          "text": "Watch out!",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 1.1258333333333332,
+          "duration": 1.0458333333333334,
+          "voice_id": "pakson-storybook.chase.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p01-l02",
+          "block_id": "c10-p01-l02",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Rain fell from the sky. Pakson stepped back from the puddle.",
+          "start": 1.3258333333333334,
+          "at": 1.3258333333333334,
+          "end": 5.727916666666666,
+          "duration": 4.402083333333334,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p01-l01",
+          "block_id": "c10-p01-l01",
+          "role": "chase",
+          "speaker": "chase",
+          "text": "Watch out!",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 1.1258333333333332,
+          "duration": 1.0458333333333334,
+          "voice_id": "pakson-storybook.chase.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p01-l02",
+          "block_id": "c10-p01-l02",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Rain fell from the sky. Pakson stepped back from the puddle.",
+          "start": 1.3258333333333334,
+          "at": 1.3258333333333334,
+          "end": 5.727916666666666,
+          "duration": 4.402083333333334,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p01",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_01.jpg",
+      "title": "First drops",
+      "source_book_page": 1,
+      "source_story_page": 1,
+      "book_page": 1
+    },
+    {
+      "audio_id": "G1-intro",
+      "audio": "reader/assets/audio/g1-intro.m4a",
+      "duration": 29.824,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g1-intro",
+          "block_id": "c10-g1-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.2805,
+          "duration": 2.2805
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g1-model-01",
+          "block_id": "c10-g1-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Sky. S, K, Y. Sky. Your turn.",
+          "spoken_text": "Sky. The letters are: S, K, and Y. The word is sky. Your turn.",
+          "normalised_text": "Sky. The letters are: S, K, and Y. The word is sky. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "sky",
+          "target_word": "sky",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.4405,
+          "at": 2.4405,
+          "end": 10.231916666666667,
+          "duration": 7.791416666666667,
+          "spelling_letters": [
+            "S",
+            "K",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "1cae05e3644161052f5d24",
+          "source_sample_start": 0,
+          "source_sample_end": 186994
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "sky",
+          "target_word": "sky",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 10.231916666666667,
+          "at": 10.231916666666667,
+          "end": 16.231916666666667,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g1-model-02",
+          "block_id": "c10-g1-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Rain. R, A, I, N. Rain. Your turn.",
+          "spoken_text": "Rain. The letters are: R, A, I, and N. The word is rain. Your turn.",
+          "normalised_text": "Rain. The letters are: R, A, I, and N. The word is rain. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "rain",
+          "target_word": "rain",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 16.391916666666667,
+          "at": 16.391916666666667,
+          "end": 23.711916666666667,
+          "duration": 7.32,
+          "spelling_letters": [
+            "R",
+            "A",
+            "I",
+            "N"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "54cbe59585b52eb0995fb2",
+          "source_sample_start": 0,
+          "source_sample_end": 175680
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "rain",
+          "target_word": "rain",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 23.711916666666667,
+          "at": 23.711916666666667,
+          "end": 29.711916666666667,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g1-intro",
+          "block_id": "c10-g1-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.2805,
+          "duration": 2.2805
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g1-model-01",
+          "block_id": "c10-g1-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Sky. S, K, Y. Sky. Your turn.",
+          "spoken_text": "Sky. The letters are: S, K, and Y. The word is sky. Your turn.",
+          "normalised_text": "Sky. The letters are: S, K, and Y. The word is sky. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "sky",
+          "target_word": "sky",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.4405,
+          "at": 2.4405,
+          "end": 10.231916666666667,
+          "duration": 7.791416666666667,
+          "spelling_letters": [
+            "S",
+            "K",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "1cae05e3644161052f5d24",
+          "source_sample_start": 0,
+          "source_sample_end": 186994
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g1-model-02",
+          "block_id": "c10-g1-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Rain. R, A, I, N. Rain. Your turn.",
+          "spoken_text": "Rain. The letters are: R, A, I, and N. The word is rain. Your turn.",
+          "normalised_text": "Rain. The letters are: R, A, I, and N. The word is rain. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "rain",
+          "target_word": "rain",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 16.391916666666667,
+          "at": 16.391916666666667,
+          "end": 23.711916666666667,
+          "duration": 7.32,
+          "spelling_letters": [
+            "R",
+            "A",
+            "I",
+            "N"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "54cbe59585b52eb0995fb2",
+          "source_sample_start": 0,
+          "source_sample_end": 175680
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G1",
+      "title": "Sky and rain",
+      "page_type": "word_practice",
+      "group_number": 1,
+      "source_story_pages": [
+        "p01"
+      ],
+      "image": "reader/assets/pages/G1.jpg",
+      "targets": [
+        {
+          "word": "sky",
+          "display_word": "sky",
+          "mandatory_spelling": true,
+          "red_bold": true
+        },
+        {
+          "word": "rain",
+          "display_word": "rain",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "sky",
+        "rain"
+      ],
+      "intro": {
+        "audio_id": "G1-intro",
+        "audio": "reader/assets/audio/g1-intro.m4a",
+        "duration": 29.824,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g1-intro",
+            "block_id": "c10-g1-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.2805,
+            "duration": 2.2805
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g1-model-01",
+            "block_id": "c10-g1-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Sky. S, K, Y. Sky. Your turn.",
+            "spoken_text": "Sky. The letters are: S, K, and Y. The word is sky. Your turn.",
+            "normalised_text": "Sky. The letters are: S, K, and Y. The word is sky. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "sky",
+            "target_word": "sky",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.4405,
+            "at": 2.4405,
+            "end": 10.231916666666667,
+            "duration": 7.791416666666667,
+            "spelling_letters": [
+              "S",
+              "K",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "1cae05e3644161052f5d24",
+            "source_sample_start": 0,
+            "source_sample_end": 186994
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "sky",
+            "target_word": "sky",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 10.231916666666667,
+            "at": 10.231916666666667,
+            "end": 16.231916666666667,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g1-model-02",
+            "block_id": "c10-g1-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Rain. R, A, I, N. Rain. Your turn.",
+            "spoken_text": "Rain. The letters are: R, A, I, and N. The word is rain. Your turn.",
+            "normalised_text": "Rain. The letters are: R, A, I, and N. The word is rain. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "rain",
+            "target_word": "rain",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 16.391916666666667,
+            "at": 16.391916666666667,
+            "end": 23.711916666666667,
+            "duration": 7.32,
+            "spelling_letters": [
+              "R",
+              "A",
+              "I",
+              "N"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "54cbe59585b52eb0995fb2",
+            "source_sample_start": 0,
+            "source_sample_end": 175680
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "rain",
+            "target_word": "rain",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 23.711916666666667,
+            "at": 23.711916666666667,
+            "end": 29.711916666666667,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g1-intro",
+            "block_id": "c10-g1-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.2805,
+            "duration": 2.2805
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g1-model-01",
+            "block_id": "c10-g1-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Sky. S, K, Y. Sky. Your turn.",
+            "spoken_text": "Sky. The letters are: S, K, and Y. The word is sky. Your turn.",
+            "normalised_text": "Sky. The letters are: S, K, and Y. The word is sky. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "sky",
+            "target_word": "sky",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.4405,
+            "at": 2.4405,
+            "end": 10.231916666666667,
+            "duration": 7.791416666666667,
+            "spelling_letters": [
+              "S",
+              "K",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "1cae05e3644161052f5d24",
+            "source_sample_start": 0,
+            "source_sample_end": 186994
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g1-model-02",
+            "block_id": "c10-g1-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Rain. R, A, I, N. Rain. Your turn.",
+            "spoken_text": "Rain. The letters are: R, A, I, and N. The word is rain. Your turn.",
+            "normalised_text": "Rain. The letters are: R, A, I, and N. The word is rain. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "rain",
+            "target_word": "rain",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 16.391916666666667,
+            "at": 16.391916666666667,
+            "end": 23.711916666666667,
+            "duration": 7.32,
+            "spelling_letters": [
+              "R",
+              "A",
+              "I",
+              "N"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "54cbe59585b52eb0995fb2",
+            "source_sample_start": 0,
+            "source_sample_end": 175680
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c10-g1-q01",
+          "word": "sky",
+          "prompt": "What is above the rooftops?",
+          "prompt_block": {
+            "id": "c10-g1-q01-prompt",
+            "speaker": "narrator",
+            "text": "What is above the rooftops?"
+          },
+          "options": [
+            {
+              "id": "sky",
+              "label": "sky"
+            },
+            {
+              "id": "rain",
+              "label": "rain"
+            }
+          ],
+          "correct_option_id": "sky",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c10-g1-q01",
+            "audio": "reader/assets/audio/c10-g1-q01.m4a",
+            "duration": 2.3466666666666667,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g1-q01-prompt",
+                "block_id": "c10-g1-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What is above the rooftops?",
+                "word": "sky",
+                "target_word": "sky",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.1864166666666667,
+                "duration": 2.0864166666666666
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g1-q01-prompt",
+                "block_id": "c10-g1-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What is above the rooftops?",
+                "word": "sky",
+                "target_word": "sky",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.1864166666666667,
+                "duration": 2.0864166666666666
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c10-g1-q02",
+          "word": "rain",
+          "prompt": "What falls from the clouds?",
+          "prompt_block": {
+            "id": "c10-g1-q02-prompt",
+            "speaker": "narrator",
+            "text": "What falls from the clouds?"
+          },
+          "options": [
+            {
+              "id": "sky",
+              "label": "sky"
+            },
+            {
+              "id": "rain",
+              "label": "rain"
+            }
+          ],
+          "correct_option_id": "rain",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c10-g1-q02",
+            "audio": "reader/assets/audio/c10-g1-q02.m4a",
+            "duration": 2.1333333333333333,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g1-q02-prompt",
+                "block_id": "c10-g1-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What falls from the clouds?",
+                "word": "rain",
+                "target_word": "rain",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 1.98,
+                "duration": 1.88
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g1-q02-prompt",
+                "block_id": "c10-g1-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What falls from the clouds?",
+                "word": "rain",
+                "target_word": "rain",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 1.98,
+                "duration": 1.88
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 2
+    },
+    {
+      "audio_id": "p02",
+      "audio": "reader/assets/audio/p02.m4a",
+      "duration": 8.32,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p02-l01",
+          "block_id": "c10-p02-l01",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "Can I borrow your umbrella?",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 2.3175,
+          "duration": 2.2375,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p02-l02",
+          "block_id": "c10-p02-l02",
+          "role": "skye",
+          "speaker": "skye",
+          "text": "Here you are.",
+          "start": 2.5175,
+          "at": 2.5175,
+          "end": 3.7866666666666666,
+          "duration": 1.2691666666666668,
+          "voice_id": "pakson-storybook.skye.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p02-l03",
+          "block_id": "c10-p02-l03",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "Can I borrow your raincoat?",
+          "start": 3.986666666666667,
+          "at": 3.986666666666667,
+          "end": 6.312291666666667,
+          "duration": 2.325625,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p02-l04",
+          "block_id": "c10-p02-l04",
+          "role": "chase",
+          "speaker": "chase",
+          "text": "Of course. It’s on the bench.",
+          "start": 6.512291666666667,
+          "at": 6.512291666666667,
+          "end": 8.193125,
+          "duration": 1.6808333333333334,
+          "voice_id": "pakson-storybook.chase.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p02-l01",
+          "block_id": "c10-p02-l01",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "Can I borrow your umbrella?",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 2.3175,
+          "duration": 2.2375,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p02-l02",
+          "block_id": "c10-p02-l02",
+          "role": "skye",
+          "speaker": "skye",
+          "text": "Here you are.",
+          "start": 2.5175,
+          "at": 2.5175,
+          "end": 3.7866666666666666,
+          "duration": 1.2691666666666668,
+          "voice_id": "pakson-storybook.skye.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p02-l03",
+          "block_id": "c10-p02-l03",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "Can I borrow your raincoat?",
+          "start": 3.986666666666667,
+          "at": 3.986666666666667,
+          "end": 6.312291666666667,
+          "duration": 2.325625,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p02-l04",
+          "block_id": "c10-p02-l04",
+          "role": "chase",
+          "speaker": "chase",
+          "text": "Of course. It’s on the bench.",
+          "start": 6.512291666666667,
+          "at": 6.512291666666667,
+          "end": 8.193125,
+          "duration": 1.6808333333333334,
+          "voice_id": "pakson-storybook.chase.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p02",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_02.jpg",
+      "title": "The borrowed umbrella",
+      "source_book_page": 2,
+      "source_story_page": 2,
+      "book_page": 3
+    },
+    {
+      "audio_id": "G2-intro",
+      "audio": "reader/assets/audio/g2-intro.m4a",
+      "duration": 33.28,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g2-intro",
+          "block_id": "c10-g2-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.2805,
+          "duration": 2.2805
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g2-model-01",
+          "block_id": "c10-g2-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Umbrella. U, M, B, R, E, L, L, A. Umbrella. Your turn.",
+          "spoken_text": "Umbrella. The letters are: U, M, B, R, E, L, L, and A. The word is umbrella. Your turn.",
+          "normalised_text": "Umbrella. The letters are: U, M, B, R, E, L, L, and A. The word is umbrella. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "umbrella",
+          "target_word": "umbrella",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.4405,
+          "at": 2.4405,
+          "end": 11.8405,
+          "duration": 9.4,
+          "spelling_letters": [
+            "U",
+            "M",
+            "B",
+            "R",
+            "E",
+            "L",
+            "L",
+            "A"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "c38cd26ffca9d10a648c23",
+          "source_sample_start": 0,
+          "source_sample_end": 225600
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "umbrella",
+          "target_word": "umbrella",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 11.8405,
+          "at": 11.8405,
+          "end": 17.8405,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g2-model-02",
+          "block_id": "c10-g2-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Raincoat. R, A, I, N, C, O, A, T. Raincoat. Your turn.",
+          "spoken_text": "Raincoat. The letters are: R. A. I. N. Then C. O. A. T. The word is raincoat. Your turn.",
+          "normalised_text": "Raincoat. The letters are: R. A. I. N. Then C. O. A. T. The word is raincoat. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "raincoat",
+          "target_word": "raincoat",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 18.0005,
+          "at": 18.0005,
+          "end": 27.1515,
+          "duration": 9.151,
+          "spelling_letters": [
+            "R",
+            "A",
+            "I",
+            "N",
+            "C",
+            "O",
+            "A",
+            "T"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "99bababf77a6f73231efc7",
+          "source_sample_start": 0,
+          "source_sample_end": 219624
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "raincoat",
+          "target_word": "raincoat",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 27.1515,
+          "at": 27.1515,
+          "end": 33.1515,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g2-intro",
+          "block_id": "c10-g2-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.2805,
+          "duration": 2.2805
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g2-model-01",
+          "block_id": "c10-g2-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Umbrella. U, M, B, R, E, L, L, A. Umbrella. Your turn.",
+          "spoken_text": "Umbrella. The letters are: U, M, B, R, E, L, L, and A. The word is umbrella. Your turn.",
+          "normalised_text": "Umbrella. The letters are: U, M, B, R, E, L, L, and A. The word is umbrella. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "umbrella",
+          "target_word": "umbrella",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.4405,
+          "at": 2.4405,
+          "end": 11.8405,
+          "duration": 9.4,
+          "spelling_letters": [
+            "U",
+            "M",
+            "B",
+            "R",
+            "E",
+            "L",
+            "L",
+            "A"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "c38cd26ffca9d10a648c23",
+          "source_sample_start": 0,
+          "source_sample_end": 225600
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g2-model-02",
+          "block_id": "c10-g2-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Raincoat. R, A, I, N, C, O, A, T. Raincoat. Your turn.",
+          "spoken_text": "Raincoat. The letters are: R. A. I. N. Then C. O. A. T. The word is raincoat. Your turn.",
+          "normalised_text": "Raincoat. The letters are: R. A. I. N. Then C. O. A. T. The word is raincoat. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "raincoat",
+          "target_word": "raincoat",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 18.0005,
+          "at": 18.0005,
+          "end": 27.1515,
+          "duration": 9.151,
+          "spelling_letters": [
+            "R",
+            "A",
+            "I",
+            "N",
+            "C",
+            "O",
+            "A",
+            "T"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "99bababf77a6f73231efc7",
+          "source_sample_start": 0,
+          "source_sample_end": 219624
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G2",
+      "title": "Umbrella and raincoat",
+      "page_type": "word_practice",
+      "group_number": 2,
+      "source_story_pages": [
+        "p02"
+      ],
+      "image": "reader/assets/pages/G2.jpg",
+      "targets": [
+        {
+          "word": "umbrella",
+          "display_word": "umbrella",
+          "mandatory_spelling": false,
+          "red_bold": true
+        },
+        {
+          "word": "raincoat",
+          "display_word": "raincoat",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "umbrella",
+        "raincoat"
+      ],
+      "intro": {
+        "audio_id": "G2-intro",
+        "audio": "reader/assets/audio/g2-intro.m4a",
+        "duration": 33.28,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g2-intro",
+            "block_id": "c10-g2-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.2805,
+            "duration": 2.2805
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g2-model-01",
+            "block_id": "c10-g2-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Umbrella. U, M, B, R, E, L, L, A. Umbrella. Your turn.",
+            "spoken_text": "Umbrella. The letters are: U, M, B, R, E, L, L, and A. The word is umbrella. Your turn.",
+            "normalised_text": "Umbrella. The letters are: U, M, B, R, E, L, L, and A. The word is umbrella. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "umbrella",
+            "target_word": "umbrella",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.4405,
+            "at": 2.4405,
+            "end": 11.8405,
+            "duration": 9.4,
+            "spelling_letters": [
+              "U",
+              "M",
+              "B",
+              "R",
+              "E",
+              "L",
+              "L",
+              "A"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "c38cd26ffca9d10a648c23",
+            "source_sample_start": 0,
+            "source_sample_end": 225600
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "umbrella",
+            "target_word": "umbrella",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 11.8405,
+            "at": 11.8405,
+            "end": 17.8405,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g2-model-02",
+            "block_id": "c10-g2-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Raincoat. R, A, I, N, C, O, A, T. Raincoat. Your turn.",
+            "spoken_text": "Raincoat. The letters are: R. A. I. N. Then C. O. A. T. The word is raincoat. Your turn.",
+            "normalised_text": "Raincoat. The letters are: R. A. I. N. Then C. O. A. T. The word is raincoat. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "raincoat",
+            "target_word": "raincoat",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 18.0005,
+            "at": 18.0005,
+            "end": 27.1515,
+            "duration": 9.151,
+            "spelling_letters": [
+              "R",
+              "A",
+              "I",
+              "N",
+              "C",
+              "O",
+              "A",
+              "T"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "99bababf77a6f73231efc7",
+            "source_sample_start": 0,
+            "source_sample_end": 219624
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "raincoat",
+            "target_word": "raincoat",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 27.1515,
+            "at": 27.1515,
+            "end": 33.1515,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g2-intro",
+            "block_id": "c10-g2-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.2805,
+            "duration": 2.2805
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g2-model-01",
+            "block_id": "c10-g2-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Umbrella. U, M, B, R, E, L, L, A. Umbrella. Your turn.",
+            "spoken_text": "Umbrella. The letters are: U, M, B, R, E, L, L, and A. The word is umbrella. Your turn.",
+            "normalised_text": "Umbrella. The letters are: U, M, B, R, E, L, L, and A. The word is umbrella. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "umbrella",
+            "target_word": "umbrella",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.4405,
+            "at": 2.4405,
+            "end": 11.8405,
+            "duration": 9.4,
+            "spelling_letters": [
+              "U",
+              "M",
+              "B",
+              "R",
+              "E",
+              "L",
+              "L",
+              "A"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "c38cd26ffca9d10a648c23",
+            "source_sample_start": 0,
+            "source_sample_end": 225600
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g2-model-02",
+            "block_id": "c10-g2-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Raincoat. R, A, I, N, C, O, A, T. Raincoat. Your turn.",
+            "spoken_text": "Raincoat. The letters are: R. A. I. N. Then C. O. A. T. The word is raincoat. Your turn.",
+            "normalised_text": "Raincoat. The letters are: R. A. I. N. Then C. O. A. T. The word is raincoat. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "raincoat",
+            "target_word": "raincoat",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 18.0005,
+            "at": 18.0005,
+            "end": 27.1515,
+            "duration": 9.151,
+            "spelling_letters": [
+              "R",
+              "A",
+              "I",
+              "N",
+              "C",
+              "O",
+              "A",
+              "T"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "99bababf77a6f73231efc7",
+            "source_sample_start": 0,
+            "source_sample_end": 219624
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c10-g2-q01",
+          "word": "umbrella",
+          "prompt": "What can you hold over your head?",
+          "prompt_block": {
+            "id": "c10-g2-q01-prompt",
+            "speaker": "narrator",
+            "text": "What can you hold over your head?"
+          },
+          "options": [
+            {
+              "id": "raincoat",
+              "label": "raincoat"
+            },
+            {
+              "id": "umbrella",
+              "label": "umbrella"
+            }
+          ],
+          "correct_option_id": "umbrella",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c10-g2-q01",
+            "audio": "reader/assets/audio/c10-g2-q01.m4a",
+            "duration": 2.2186666666666666,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g2-q01-prompt",
+                "block_id": "c10-g2-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What can you hold over your head?",
+                "word": "umbrella",
+                "target_word": "umbrella",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.0735,
+                "duration": 1.9735
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g2-q01-prompt",
+                "block_id": "c10-g2-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What can you hold over your head?",
+                "word": "umbrella",
+                "target_word": "umbrella",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.0735,
+                "duration": 1.9735
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c10-g2-q02",
+          "word": "raincoat",
+          "prompt": "What can you wear in the rain?",
+          "prompt_block": {
+            "id": "c10-g2-q02-prompt",
+            "speaker": "narrator",
+            "text": "What can you wear in the rain?"
+          },
+          "options": [
+            {
+              "id": "raincoat",
+              "label": "raincoat"
+            },
+            {
+              "id": "umbrella",
+              "label": "umbrella"
+            }
+          ],
+          "correct_option_id": "raincoat",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c10-g2-q02",
+            "audio": "reader/assets/audio/c10-g2-q02.m4a",
+            "duration": 2.6026666666666665,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g2-q02-prompt",
+                "block_id": "c10-g2-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What can you wear in the rain?",
+                "word": "raincoat",
+                "target_word": "raincoat",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.4663333333333335,
+                "duration": 2.3663333333333334
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g2-q02-prompt",
+                "block_id": "c10-g2-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What can you wear in the rain?",
+                "word": "raincoat",
+                "target_word": "raincoat",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.4663333333333335,
+                "duration": 2.3663333333333334
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 4
+    },
+    {
+      "audio_id": "p03",
+      "audio": "reader/assets/audio/p03.m4a",
+      "duration": 6.656,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p03-l01",
+          "block_id": "c10-p03-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "The mat is wet. The books are dry.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 3.8681666666666668,
+          "duration": 3.7881666666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p03-l02",
+          "block_id": "c10-p03-l02",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "We kept every book dry!",
+          "start": 4.0681666666666665,
+          "at": 4.0681666666666665,
+          "end": 6.507,
+          "duration": 2.438833333333333,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p03-l01",
+          "block_id": "c10-p03-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "The mat is wet. The books are dry.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 3.8681666666666668,
+          "duration": 3.7881666666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p03-l02",
+          "block_id": "c10-p03-l02",
+          "role": "pakson",
+          "speaker": "pakson",
+          "text": "We kept every book dry!",
+          "start": 4.0681666666666665,
+          "at": 4.0681666666666665,
+          "end": 6.507,
+          "duration": 2.438833333333333,
+          "voice_id": "pakson-storybook.pakson.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p03",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_03.jpg",
+      "title": "The books are safe",
+      "source_book_page": 3,
+      "source_story_page": 3,
+      "book_page": 5
+    },
+    {
+      "audio_id": "G3-intro",
+      "audio": "reader/assets/audio/g3-intro.m4a",
+      "duration": 28.8,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g3-intro",
+          "block_id": "c10-g3-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.2805,
+          "duration": 2.2805
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g3-model-01",
+          "block_id": "c10-g3-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Wet. W, E, T. Wet. Your turn.",
+          "spoken_text": "Wet. The letters are: W, E, and T. The word is wet. Your turn.",
+          "normalised_text": "Wet. The letters are: W, E, and T. The word is wet. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "wet",
+          "target_word": "wet",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.4405,
+          "at": 2.4405,
+          "end": 10.204083333333333,
+          "duration": 7.763583333333333,
+          "spelling_letters": [
+            "W",
+            "E",
+            "T"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "b08c086650ab3bca77a300",
+          "source_sample_start": 0,
+          "source_sample_end": 186326
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "wet",
+          "target_word": "wet",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 10.204083333333333,
+          "at": 10.204083333333333,
+          "end": 16.204083333333333,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g3-model-02",
+          "block_id": "c10-g3-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Dry. D, R, Y. Dry. Your turn.",
+          "spoken_text": "Dry. The letters are: D, R, and Y. The word is dry. Your turn.",
+          "normalised_text": "Dry. The letters are: D, R, and Y. The word is dry. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "dry",
+          "target_word": "dry",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 16.364083333333333,
+          "at": 16.364083333333333,
+          "end": 22.698708333333332,
+          "duration": 6.334625,
+          "spelling_letters": [
+            "D",
+            "R",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "3a01fee006f8aecdd12c56",
+          "source_sample_start": 0,
+          "source_sample_end": 152031
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "dry",
+          "target_word": "dry",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 22.698708333333332,
+          "at": 22.698708333333332,
+          "end": 28.698708333333332,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g3-intro",
+          "block_id": "c10-g3-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.2805,
+          "duration": 2.2805
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g3-model-01",
+          "block_id": "c10-g3-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Wet. W, E, T. Wet. Your turn.",
+          "spoken_text": "Wet. The letters are: W, E, and T. The word is wet. Your turn.",
+          "normalised_text": "Wet. The letters are: W, E, and T. The word is wet. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "wet",
+          "target_word": "wet",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.4405,
+          "at": 2.4405,
+          "end": 10.204083333333333,
+          "duration": 7.763583333333333,
+          "spelling_letters": [
+            "W",
+            "E",
+            "T"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "b08c086650ab3bca77a300",
+          "source_sample_start": 0,
+          "source_sample_end": 186326
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g3-model-02",
+          "block_id": "c10-g3-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Dry. D, R, Y. Dry. Your turn.",
+          "spoken_text": "Dry. The letters are: D, R, and Y. The word is dry. Your turn.",
+          "normalised_text": "Dry. The letters are: D, R, and Y. The word is dry. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "dry",
+          "target_word": "dry",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 16.364083333333333,
+          "at": 16.364083333333333,
+          "end": 22.698708333333332,
+          "duration": 6.334625,
+          "spelling_letters": [
+            "D",
+            "R",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "3a01fee006f8aecdd12c56",
+          "source_sample_start": 0,
+          "source_sample_end": 152031
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G3",
+      "title": "Wet and dry",
+      "page_type": "word_practice",
+      "group_number": 3,
+      "source_story_pages": [
+        "p03"
+      ],
+      "image": "reader/assets/pages/G3.jpg",
+      "targets": [
+        {
+          "word": "wet",
+          "display_word": "wet",
+          "mandatory_spelling": true,
+          "red_bold": true
+        },
+        {
+          "word": "dry",
+          "display_word": "dry",
+          "mandatory_spelling": true,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "wet",
+        "dry"
+      ],
+      "intro": {
+        "audio_id": "G3-intro",
+        "audio": "reader/assets/audio/g3-intro.m4a",
+        "duration": 28.8,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g3-intro",
+            "block_id": "c10-g3-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.2805,
+            "duration": 2.2805
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g3-model-01",
+            "block_id": "c10-g3-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Wet. W, E, T. Wet. Your turn.",
+            "spoken_text": "Wet. The letters are: W, E, and T. The word is wet. Your turn.",
+            "normalised_text": "Wet. The letters are: W, E, and T. The word is wet. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "wet",
+            "target_word": "wet",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.4405,
+            "at": 2.4405,
+            "end": 10.204083333333333,
+            "duration": 7.763583333333333,
+            "spelling_letters": [
+              "W",
+              "E",
+              "T"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "b08c086650ab3bca77a300",
+            "source_sample_start": 0,
+            "source_sample_end": 186326
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "wet",
+            "target_word": "wet",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 10.204083333333333,
+            "at": 10.204083333333333,
+            "end": 16.204083333333333,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g3-model-02",
+            "block_id": "c10-g3-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Dry. D, R, Y. Dry. Your turn.",
+            "spoken_text": "Dry. The letters are: D, R, and Y. The word is dry. Your turn.",
+            "normalised_text": "Dry. The letters are: D, R, and Y. The word is dry. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "dry",
+            "target_word": "dry",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 16.364083333333333,
+            "at": 16.364083333333333,
+            "end": 22.698708333333332,
+            "duration": 6.334625,
+            "spelling_letters": [
+              "D",
+              "R",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "3a01fee006f8aecdd12c56",
+            "source_sample_start": 0,
+            "source_sample_end": 152031
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "dry",
+            "target_word": "dry",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 22.698708333333332,
+            "at": 22.698708333333332,
+            "end": 28.698708333333332,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g3-intro",
+            "block_id": "c10-g3-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.2805,
+            "duration": 2.2805
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g3-model-01",
+            "block_id": "c10-g3-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Wet. W, E, T. Wet. Your turn.",
+            "spoken_text": "Wet. The letters are: W, E, and T. The word is wet. Your turn.",
+            "normalised_text": "Wet. The letters are: W, E, and T. The word is wet. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "wet",
+            "target_word": "wet",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.4405,
+            "at": 2.4405,
+            "end": 10.204083333333333,
+            "duration": 7.763583333333333,
+            "spelling_letters": [
+              "W",
+              "E",
+              "T"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "b08c086650ab3bca77a300",
+            "source_sample_start": 0,
+            "source_sample_end": 186326
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g3-model-02",
+            "block_id": "c10-g3-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Dry. D, R, Y. Dry. Your turn.",
+            "spoken_text": "Dry. The letters are: D, R, and Y. The word is dry. Your turn.",
+            "normalised_text": "Dry. The letters are: D, R, and Y. The word is dry. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "dry",
+            "target_word": "dry",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 16.364083333333333,
+            "at": 16.364083333333333,
+            "end": 22.698708333333332,
+            "duration": 6.334625,
+            "spelling_letters": [
+              "D",
+              "R",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "3a01fee006f8aecdd12c56",
+            "source_sample_start": 0,
+            "source_sample_end": 152031
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c10-g3-q01",
+          "word": "wet",
+          "prompt": "Which word means covered in water?",
+          "prompt_block": {
+            "id": "c10-g3-q01-prompt",
+            "speaker": "narrator",
+            "text": "Which word means covered in water?"
+          },
+          "options": [
+            {
+              "id": "wet",
+              "label": "wet"
+            },
+            {
+              "id": "dry",
+              "label": "dry"
+            }
+          ],
+          "correct_option_id": "wet",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c10-g3-q01",
+            "audio": "reader/assets/audio/c10-g3-q01.m4a",
+            "duration": 2.688,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g3-q01-prompt",
+                "block_id": "c10-g3-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word means covered in water?",
+                "word": "wet",
+                "target_word": "wet",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.559625,
+                "duration": 2.459625
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g3-q01-prompt",
+                "block_id": "c10-g3-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word means covered in water?",
+                "word": "wet",
+                "target_word": "wet",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.559625,
+                "duration": 2.459625
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c10-g3-q02",
+          "word": "dry",
+          "prompt": "Which word means with no water?",
+          "prompt_block": {
+            "id": "c10-g3-q02-prompt",
+            "speaker": "narrator",
+            "text": "Which word means with no water?"
+          },
+          "options": [
+            {
+              "id": "wet",
+              "label": "wet"
+            },
+            {
+              "id": "dry",
+              "label": "dry"
+            }
+          ],
+          "correct_option_id": "dry",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c10-g3-q02",
+            "audio": "reader/assets/audio/c10-g3-q02.m4a",
+            "duration": 2.816,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g3-q02-prompt",
+                "block_id": "c10-g3-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word means with no water?",
+                "word": "dry",
+                "target_word": "dry",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.65875,
+                "duration": 2.55875
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g3-q02-prompt",
+                "block_id": "c10-g3-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word means with no water?",
+                "word": "dry",
+                "target_word": "dry",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.65875,
+                "duration": 2.55875
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 6
+    },
+    {
+      "audio_id": "p04",
+      "audio": "reader/assets/audio/p04.m4a",
+      "duration": 7.168,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p04-l01",
+          "block_id": "c10-p04-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "U. Listen to the first sound in unhappy and uncle. unhappy. uncle.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 7.037833333333333,
+          "duration": 6.957833333333333,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p04-l01",
+          "block_id": "c10-p04-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "U. Listen to the first sound in unhappy and uncle. unhappy. uncle.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 7.037833333333333,
+          "duration": 6.957833333333333,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p04",
+      "page_type": "review",
+      "image": "reader/assets/pages/page_04.jpg",
+      "title": "U u sound",
+      "source_book_page": 4,
+      "source_story_page": 4,
+      "book_page": 7
+    },
+    {
+      "audio_id": "G4-intro",
+      "audio": "reader/assets/audio/g4-intro.m4a",
+      "duration": 33.49333333333333,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g4-intro",
+          "block_id": "c10-g4-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.2805,
+          "duration": 2.2805
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g4-model-01",
+          "block_id": "c10-g4-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Unhappy. U, N, H, A, P, P, Y. Unhappy. Your turn.",
+          "spoken_text": "Unhappy. The letters are: U, N, H, A, P, P, and Y. The word is unhappy. Your turn.",
+          "normalised_text": "Unhappy. The letters are: U, N, H, A, P, P, and Y. The word is unhappy. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "unhappy",
+          "target_word": "unhappy",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.4405,
+          "at": 2.4405,
+          "end": 12.831958333333333,
+          "duration": 10.391458333333333,
+          "spelling_letters": [
+            "U",
+            "N",
+            "H",
+            "A",
+            "P",
+            "P",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "e7b76e04bd4f4f8055dd80",
+          "source_sample_start": 0,
+          "source_sample_end": 249395
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "unhappy",
+          "target_word": "unhappy",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 12.831958333333333,
+          "at": 12.831958333333333,
+          "end": 18.831958333333333,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g4-model-02",
+          "block_id": "c10-g4-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Uncle. U, N, C, L, E. Uncle. Your turn.",
+          "spoken_text": "Uncle. The letters are: U, N, C, L, and E. The word is uncle. Your turn.",
+          "normalised_text": "Uncle. The letters are: U, N, C, L, and E. The word is uncle. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "uncle",
+          "target_word": "uncle",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 18.991958333333333,
+          "at": 18.991958333333333,
+          "end": 27.384458333333335,
+          "duration": 8.3925,
+          "spelling_letters": [
+            "U",
+            "N",
+            "C",
+            "L",
+            "E"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "338c8d33fe1fae99271719",
+          "source_sample_start": 0,
+          "source_sample_end": 201420
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "uncle",
+          "target_word": "uncle",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 27.384458333333335,
+          "at": 27.384458333333335,
+          "end": 33.384458333333335,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g4-intro",
+          "block_id": "c10-g4-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.2805,
+          "duration": 2.2805
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g4-model-01",
+          "block_id": "c10-g4-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Unhappy. U, N, H, A, P, P, Y. Unhappy. Your turn.",
+          "spoken_text": "Unhappy. The letters are: U, N, H, A, P, P, and Y. The word is unhappy. Your turn.",
+          "normalised_text": "Unhappy. The letters are: U, N, H, A, P, P, and Y. The word is unhappy. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "unhappy",
+          "target_word": "unhappy",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.4405,
+          "at": 2.4405,
+          "end": 12.831958333333333,
+          "duration": 10.391458333333333,
+          "spelling_letters": [
+            "U",
+            "N",
+            "H",
+            "A",
+            "P",
+            "P",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "e7b76e04bd4f4f8055dd80",
+          "source_sample_start": 0,
+          "source_sample_end": 249395
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g4-model-02",
+          "block_id": "c10-g4-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Uncle. U, N, C, L, E. Uncle. Your turn.",
+          "spoken_text": "Uncle. The letters are: U, N, C, L, and E. The word is uncle. Your turn.",
+          "normalised_text": "Uncle. The letters are: U, N, C, L, and E. The word is uncle. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "uncle",
+          "target_word": "uncle",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 18.991958333333333,
+          "at": 18.991958333333333,
+          "end": 27.384458333333335,
+          "duration": 8.3925,
+          "spelling_letters": [
+            "U",
+            "N",
+            "C",
+            "L",
+            "E"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "338c8d33fe1fae99271719",
+          "source_sample_start": 0,
+          "source_sample_end": 201420
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G4",
+      "title": "Unhappy and uncle",
+      "page_type": "word_practice",
+      "group_number": 4,
+      "source_story_pages": [
+        "p04"
+      ],
+      "image": "reader/assets/pages/G4.jpg",
+      "targets": [
+        {
+          "word": "unhappy",
+          "display_word": "unhappy",
+          "mandatory_spelling": false,
+          "red_bold": true
+        },
+        {
+          "word": "uncle",
+          "display_word": "uncle",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "unhappy",
+        "uncle"
+      ],
+      "intro": {
+        "audio_id": "G4-intro",
+        "audio": "reader/assets/audio/g4-intro.m4a",
+        "duration": 33.49333333333333,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g4-intro",
+            "block_id": "c10-g4-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.2805,
+            "duration": 2.2805
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g4-model-01",
+            "block_id": "c10-g4-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Unhappy. U, N, H, A, P, P, Y. Unhappy. Your turn.",
+            "spoken_text": "Unhappy. The letters are: U, N, H, A, P, P, and Y. The word is unhappy. Your turn.",
+            "normalised_text": "Unhappy. The letters are: U, N, H, A, P, P, and Y. The word is unhappy. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "unhappy",
+            "target_word": "unhappy",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.4405,
+            "at": 2.4405,
+            "end": 12.831958333333333,
+            "duration": 10.391458333333333,
+            "spelling_letters": [
+              "U",
+              "N",
+              "H",
+              "A",
+              "P",
+              "P",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "e7b76e04bd4f4f8055dd80",
+            "source_sample_start": 0,
+            "source_sample_end": 249395
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "unhappy",
+            "target_word": "unhappy",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 12.831958333333333,
+            "at": 12.831958333333333,
+            "end": 18.831958333333333,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g4-model-02",
+            "block_id": "c10-g4-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Uncle. U, N, C, L, E. Uncle. Your turn.",
+            "spoken_text": "Uncle. The letters are: U, N, C, L, and E. The word is uncle. Your turn.",
+            "normalised_text": "Uncle. The letters are: U, N, C, L, and E. The word is uncle. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "uncle",
+            "target_word": "uncle",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 18.991958333333333,
+            "at": 18.991958333333333,
+            "end": 27.384458333333335,
+            "duration": 8.3925,
+            "spelling_letters": [
+              "U",
+              "N",
+              "C",
+              "L",
+              "E"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "338c8d33fe1fae99271719",
+            "source_sample_start": 0,
+            "source_sample_end": 201420
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "uncle",
+            "target_word": "uncle",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 27.384458333333335,
+            "at": 27.384458333333335,
+            "end": 33.384458333333335,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g4-intro",
+            "block_id": "c10-g4-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.2805,
+            "duration": 2.2805
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g4-model-01",
+            "block_id": "c10-g4-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Unhappy. U, N, H, A, P, P, Y. Unhappy. Your turn.",
+            "spoken_text": "Unhappy. The letters are: U, N, H, A, P, P, and Y. The word is unhappy. Your turn.",
+            "normalised_text": "Unhappy. The letters are: U, N, H, A, P, P, and Y. The word is unhappy. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "unhappy",
+            "target_word": "unhappy",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.4405,
+            "at": 2.4405,
+            "end": 12.831958333333333,
+            "duration": 10.391458333333333,
+            "spelling_letters": [
+              "U",
+              "N",
+              "H",
+              "A",
+              "P",
+              "P",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "e7b76e04bd4f4f8055dd80",
+            "source_sample_start": 0,
+            "source_sample_end": 249395
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g4-model-02",
+            "block_id": "c10-g4-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Uncle. U, N, C, L, E. Uncle. Your turn.",
+            "spoken_text": "Uncle. The letters are: U, N, C, L, and E. The word is uncle. Your turn.",
+            "normalised_text": "Uncle. The letters are: U, N, C, L, and E. The word is uncle. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "uncle",
+            "target_word": "uncle",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 18.991958333333333,
+            "at": 18.991958333333333,
+            "end": 27.384458333333335,
+            "duration": 8.3925,
+            "spelling_letters": [
+              "U",
+              "N",
+              "C",
+              "L",
+              "E"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "338c8d33fe1fae99271719",
+            "source_sample_start": 0,
+            "source_sample_end": 201420
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c10-g4-q01",
+          "word": "unhappy",
+          "prompt": "How do you feel when you are sad?",
+          "prompt_block": {
+            "id": "c10-g4-q01-prompt",
+            "speaker": "narrator",
+            "text": "How do you feel when you are sad?"
+          },
+          "options": [
+            {
+              "id": "uncle",
+              "label": "uncle"
+            },
+            {
+              "id": "unhappy",
+              "label": "unhappy"
+            }
+          ],
+          "correct_option_id": "unhappy",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c10-g4-q01",
+            "audio": "reader/assets/audio/c10-g4-q01.m4a",
+            "duration": 2.304,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g4-q01-prompt",
+                "block_id": "c10-g4-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "How do you feel when you are sad?",
+                "word": "unhappy",
+                "target_word": "unhappy",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.171291666666667,
+                "duration": 2.0712916666666668
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g4-q01-prompt",
+                "block_id": "c10-g4-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "How do you feel when you are sad?",
+                "word": "unhappy",
+                "target_word": "unhappy",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.171291666666667,
+                "duration": 2.0712916666666668
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c10-g4-q02",
+          "word": "uncle",
+          "prompt": "What do you call your mum’s brother?",
+          "prompt_block": {
+            "id": "c10-g4-q02-prompt",
+            "speaker": "narrator",
+            "text": "What do you call your mum’s brother?"
+          },
+          "options": [
+            {
+              "id": "uncle",
+              "label": "uncle"
+            },
+            {
+              "id": "unhappy",
+              "label": "unhappy"
+            }
+          ],
+          "correct_option_id": "uncle",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c10-g4-q02",
+            "audio": "reader/assets/audio/c10-g4-q02.m4a",
+            "duration": 2.816,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g4-q02-prompt",
+                "block_id": "c10-g4-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What do you call your mum’s brother?",
+                "word": "uncle",
+                "target_word": "uncle",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.6577083333333333,
+                "duration": 2.5577083333333333
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g4-q02-prompt",
+                "block_id": "c10-g4-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What do you call your mum’s brother?",
+                "word": "uncle",
+                "target_word": "uncle",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.6577083333333333,
+                "duration": 2.5577083333333333
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 8
+    },
+    {
+      "audio_id": "p05",
+      "audio": "reader/assets/audio/p05.m4a",
+      "duration": 6.4,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p05-l01",
+          "block_id": "c10-p05-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "U. Listen to the first sound in ugly and underground. ugly. underground.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 6.273791666666667,
+          "duration": 6.193791666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p05-l01",
+          "block_id": "c10-p05-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "U. Listen to the first sound in ugly and underground. ugly. underground.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 6.273791666666667,
+          "duration": 6.193791666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p05",
+      "page_type": "review",
+      "image": "reader/assets/pages/page_05.jpg",
+      "title": "U u sound",
+      "source_book_page": 5,
+      "source_story_page": 5,
+      "book_page": 9
+    },
+    {
+      "audio_id": "G5-intro",
+      "audio": "reader/assets/audio/g5-intro.m4a",
+      "duration": 31.018666666666668,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g5-intro",
+          "block_id": "c10-g5-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.2805,
+          "duration": 2.2805
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g5-model-01",
+          "block_id": "c10-g5-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Ugly. U, G, L, Y. Ugly. Your turn.",
+          "spoken_text": "Ugly. The letters are: U, G, L, and Y. The word is ugly. Your turn.",
+          "normalised_text": "Ugly. The letters are: U, G, L, and Y. The word is ugly. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "ugly",
+          "target_word": "ugly",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.4405,
+          "at": 2.4405,
+          "end": 8.8005,
+          "duration": 6.36,
+          "spelling_letters": [
+            "U",
+            "G",
+            "L",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "216e02def5653e2832a0a5",
+          "source_sample_start": 0,
+          "source_sample_end": 152640
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "ugly",
+          "target_word": "ugly",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 8.8005,
+          "at": 8.8005,
+          "end": 14.8005,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g5-model-02",
+          "block_id": "c10-g5-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Underground. U, N, D, E, R, G, R, O, U, N, D. Underground. Your turn.",
+          "spoken_text": "Underground. The letters are: U, N, D, E, R, G, R, O, U, N, and D. The word is underground. Your turn.",
+          "normalised_text": "Underground. The letters are: U, N, D, E, R, G, R, O, U, N, and D. The word is underground. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "underground",
+          "target_word": "underground",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 14.9605,
+          "at": 14.9605,
+          "end": 24.894583333333333,
+          "duration": 9.934083333333334,
+          "spelling_letters": [
+            "U",
+            "N",
+            "D",
+            "E",
+            "R",
+            "G",
+            "R",
+            "O",
+            "U",
+            "N",
+            "D"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "b30d0bf6a4b6aba02c96ff",
+          "source_sample_start": 0,
+          "source_sample_end": 238418
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "underground",
+          "target_word": "underground",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 24.894583333333333,
+          "at": 24.894583333333333,
+          "end": 30.894583333333333,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g5-intro",
+          "block_id": "c10-g5-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.2805,
+          "duration": 2.2805
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g5-model-01",
+          "block_id": "c10-g5-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Ugly. U, G, L, Y. Ugly. Your turn.",
+          "spoken_text": "Ugly. The letters are: U, G, L, and Y. The word is ugly. Your turn.",
+          "normalised_text": "Ugly. The letters are: U, G, L, and Y. The word is ugly. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "ugly",
+          "target_word": "ugly",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.4405,
+          "at": 2.4405,
+          "end": 8.8005,
+          "duration": 6.36,
+          "spelling_letters": [
+            "U",
+            "G",
+            "L",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "216e02def5653e2832a0a5",
+          "source_sample_start": 0,
+          "source_sample_end": 152640
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-g5-model-02",
+          "block_id": "c10-g5-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Underground. U, N, D, E, R, G, R, O, U, N, D. Underground. Your turn.",
+          "spoken_text": "Underground. The letters are: U, N, D, E, R, G, R, O, U, N, and D. The word is underground. Your turn.",
+          "normalised_text": "Underground. The letters are: U, N, D, E, R, G, R, O, U, N, and D. The word is underground. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "underground",
+          "target_word": "underground",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 14.9605,
+          "at": 14.9605,
+          "end": 24.894583333333333,
+          "duration": 9.934083333333334,
+          "spelling_letters": [
+            "U",
+            "N",
+            "D",
+            "E",
+            "R",
+            "G",
+            "R",
+            "O",
+            "U",
+            "N",
+            "D"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "b30d0bf6a4b6aba02c96ff",
+          "source_sample_start": 0,
+          "source_sample_end": 238418
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G5",
+      "title": "Ugly and underground",
+      "page_type": "word_practice",
+      "group_number": 5,
+      "source_story_pages": [
+        "p05"
+      ],
+      "image": "reader/assets/pages/G5.jpg",
+      "targets": [
+        {
+          "word": "ugly",
+          "display_word": "ugly",
+          "mandatory_spelling": false,
+          "red_bold": true
+        },
+        {
+          "word": "underground",
+          "display_word": "underground",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "ugly",
+        "underground"
+      ],
+      "intro": {
+        "audio_id": "G5-intro",
+        "audio": "reader/assets/audio/g5-intro.m4a",
+        "duration": 31.018666666666668,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g5-intro",
+            "block_id": "c10-g5-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.2805,
+            "duration": 2.2805
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g5-model-01",
+            "block_id": "c10-g5-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Ugly. U, G, L, Y. Ugly. Your turn.",
+            "spoken_text": "Ugly. The letters are: U, G, L, and Y. The word is ugly. Your turn.",
+            "normalised_text": "Ugly. The letters are: U, G, L, and Y. The word is ugly. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "ugly",
+            "target_word": "ugly",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.4405,
+            "at": 2.4405,
+            "end": 8.8005,
+            "duration": 6.36,
+            "spelling_letters": [
+              "U",
+              "G",
+              "L",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "216e02def5653e2832a0a5",
+            "source_sample_start": 0,
+            "source_sample_end": 152640
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "ugly",
+            "target_word": "ugly",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 8.8005,
+            "at": 8.8005,
+            "end": 14.8005,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g5-model-02",
+            "block_id": "c10-g5-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Underground. U, N, D, E, R, G, R, O, U, N, D. Underground. Your turn.",
+            "spoken_text": "Underground. The letters are: U, N, D, E, R, G, R, O, U, N, and D. The word is underground. Your turn.",
+            "normalised_text": "Underground. The letters are: U, N, D, E, R, G, R, O, U, N, and D. The word is underground. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "underground",
+            "target_word": "underground",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 14.9605,
+            "at": 14.9605,
+            "end": 24.894583333333333,
+            "duration": 9.934083333333334,
+            "spelling_letters": [
+              "U",
+              "N",
+              "D",
+              "E",
+              "R",
+              "G",
+              "R",
+              "O",
+              "U",
+              "N",
+              "D"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "b30d0bf6a4b6aba02c96ff",
+            "source_sample_start": 0,
+            "source_sample_end": 238418
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "underground",
+            "target_word": "underground",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 24.894583333333333,
+            "at": 24.894583333333333,
+            "end": 30.894583333333333,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g5-intro",
+            "block_id": "c10-g5-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.2805,
+            "duration": 2.2805
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g5-model-01",
+            "block_id": "c10-g5-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Ugly. U, G, L, Y. Ugly. Your turn.",
+            "spoken_text": "Ugly. The letters are: U, G, L, and Y. The word is ugly. Your turn.",
+            "normalised_text": "Ugly. The letters are: U, G, L, and Y. The word is ugly. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "ugly",
+            "target_word": "ugly",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.4405,
+            "at": 2.4405,
+            "end": 8.8005,
+            "duration": 6.36,
+            "spelling_letters": [
+              "U",
+              "G",
+              "L",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "216e02def5653e2832a0a5",
+            "source_sample_start": 0,
+            "source_sample_end": 152640
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c10-g5-model-02",
+            "block_id": "c10-g5-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Underground. U, N, D, E, R, G, R, O, U, N, D. Underground. Your turn.",
+            "spoken_text": "Underground. The letters are: U, N, D, E, R, G, R, O, U, N, and D. The word is underground. Your turn.",
+            "normalised_text": "Underground. The letters are: U, N, D, E, R, G, R, O, U, N, and D. The word is underground. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "underground",
+            "target_word": "underground",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 14.9605,
+            "at": 14.9605,
+            "end": 24.894583333333333,
+            "duration": 9.934083333333334,
+            "spelling_letters": [
+              "U",
+              "N",
+              "D",
+              "E",
+              "R",
+              "G",
+              "R",
+              "O",
+              "U",
+              "N",
+              "D"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "b30d0bf6a4b6aba02c96ff",
+            "source_sample_start": 0,
+            "source_sample_end": 238418
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c10-g5-q01",
+          "word": "ugly",
+          "prompt": "Which word describes the messy mug?",
+          "prompt_block": {
+            "id": "c10-g5-q01-prompt",
+            "speaker": "narrator",
+            "text": "Which word describes the messy mug?"
+          },
+          "options": [
+            {
+              "id": "ugly",
+              "label": "ugly"
+            },
+            {
+              "id": "underground",
+              "label": "underground"
+            }
+          ],
+          "correct_option_id": "ugly",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c10-g5-q01",
+            "audio": "reader/assets/audio/c10-g5-q01.m4a",
+            "duration": 3.029333333333333,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g5-q01-prompt",
+                "block_id": "c10-g5-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word describes the messy mug?",
+                "word": "ugly",
+                "target_word": "ugly",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.8910416666666667,
+                "duration": 2.7910416666666666
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g5-q01-prompt",
+                "block_id": "c10-g5-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Which word describes the messy mug?",
+                "word": "ugly",
+                "target_word": "ugly",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.8910416666666667,
+                "duration": 2.7910416666666666
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c10-g5-q02",
+          "word": "underground",
+          "prompt": "Where is the train, below the street?",
+          "prompt_block": {
+            "id": "c10-g5-q02-prompt",
+            "speaker": "narrator",
+            "text": "Where is the train, below the street?"
+          },
+          "options": [
+            {
+              "id": "ugly",
+              "label": "ugly"
+            },
+            {
+              "id": "underground",
+              "label": "underground"
+            }
+          ],
+          "correct_option_id": "underground",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c10-g5-q02",
+            "audio": "reader/assets/audio/c10-g5-q02.m4a",
+            "duration": 2.8586666666666667,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g5-q02-prompt",
+                "block_id": "c10-g5-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Where is the train, below the street?",
+                "word": "underground",
+                "target_word": "underground",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.7317916666666666,
+                "duration": 2.6317916666666665
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c10-g5-q02-prompt",
+                "block_id": "c10-g5-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Where is the train, below the street?",
+                "word": "underground",
+                "target_word": "underground",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.7317916666666666,
+                "duration": 2.6317916666666665
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 10
+    },
+    {
+      "audio_id": "p06",
+      "audio": "reader/assets/audio/p06.m4a",
+      "duration": 9.557333333333334,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p06-l01",
+          "block_id": "c10-p06-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Pitter-patter, it is raining. Can I borrow your umbrella? Pitter-patter, it is raining. Here you are, my dear friend.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 9.400041666666667,
+          "duration": 9.320041666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c10-p06-l01",
+          "block_id": "c10-p06-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Pitter-patter, it is raining. Can I borrow your umbrella? Pitter-patter, it is raining. Here you are, my dear friend.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 9.400041666666667,
+          "duration": 9.320041666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p06",
+      "page_type": "song",
+      "image": "reader/assets/pages/page_06.jpg",
+      "title": "The Umbrella",
+      "source_book_page": 6,
+      "source_story_page": 6,
+      "book_page": 11
+    },
+    {
+      "duration": 0,
+      "segments": [],
+      "page_id": "p07",
+      "page_type": "closing_logo",
+      "image": "reader/assets/pages/ending_logo_L04.svg",
+      "title": "Good job!",
+      "source_book_page": 7,
+      "source_story_page": 7,
+      "effects": [],
+      "bgm_cue": null,
+      "book_page": 12
+    }
+  ],
+  "sfx": {
+    "page_turn": {
+      "enabled": false,
+      "gain": 0
+    }
+  },
+  "music": {},
+  "feedback": {
+    "correct": {
+      "file": "feedback/correct.m4a",
+      "duration": 1.2,
+      "sha256": "d1d56e926439288cce2269fefe492fb807cc27da0dd0d73966648fe068c25b97",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 1.2,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -20.14,
+        "true_peak_dbtp": -9.82,
+        "nominal_voice_minus_effect_LU": 0.010000000000001563
+      },
+      "loop": false,
+      "trigger": "selected_answer_only",
+      "play_on_logo": false,
+      "description": "Four-note rounded ascending major-key chime",
+      "audio": "reader/assets/audio/feedback/correct.m4a"
+    },
+    "incorrect": {
+      "file": "feedback/incorrect.m4a",
+      "duration": 0.82,
+      "sha256": "09bfb77bd9a09e110ed5b0407dd51ab6a6217331205e673bd4598f4fe20b2815",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 0.82,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -20.14,
+        "true_peak_dbtp": -10.32,
+        "nominal_voice_minus_effect_LU": 0.010000000000001563
+      },
+      "loop": false,
+      "trigger": "selected_answer_only",
+      "play_on_logo": false,
+      "description": "Three-note gentle descending retry chime; no buzzer",
+      "audio": "reader/assets/audio/feedback/incorrect.m4a"
+    },
+    "logo_reward": {
+      "file": "feedback/logo_reward.m4a",
+      "duration": 1.95,
+      "sha256": "a352b48cb392b7eec1a5cc105a74b05211e66a393770dc365868b823fe764502",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 1.95,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -31.96,
+        "true_peak_dbtp": -18.48,
+        "nominal_voice_minus_effect_LU": 11.830000000000002
+      },
+      "loop": false,
+      "trigger": "closing_logo_navigation_entry",
+      "once_per_navigation_entry": true,
+      "cancel_on_leave": true,
+      "background_soundtrack_on_logo": false,
+      "description": "Original major-key soft wooden/8-bit-like game-clear phrase; no Mario melody copied.",
+      "reuse_mode": "v13 approved original bytes retained",
+      "audio": "reader/assets/audio/feedback/logo_reward.m4a"
+    }
+  },
+  "practice_layout": {
+    "family": "Arial Rounded MT Bold",
+    "word_px": 110,
+    "question_px": 72,
+    "answer_px": 72,
+    "answer_min_height_px": 168,
+    "question_row_px": 173,
+    "row_gap_px": 8,
+    "answer_row_px": 179,
+    "native_viewport": [
+      1448,
+      1086
+    ],
+    "scaled_width_checks": [
+      390,
+      430
+    ],
+    "no_automatic_font_reduction": true,
+    "display_letter_spelling": false,
+    "practice_next_action": "Automatically continue questions after genuine current voice and effect completion plus 900 ms visible reward; show manual Next page only when the entire group is complete. Free swipe skip remains available."
+  },
+  "creditsText": "Original educational story and illustrations for Pakson’s family reading project. British English narration uses local synthetic voice references. Paper animation: StPageFlip · MIT licence."
+}
