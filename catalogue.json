@@ -155,6 +155,54 @@
       "cover_alt": "Pakson and the Sailor Guardians’ Garden",
       "href": "./chapter12/read.html",
       "entry_audio": "./chapter12/reader/assets/audio/p00.m4a"
+    },
+    {
+      "id": "pakson-k3-b6-u05-new-school",
+      "title": "New school",
+      "subtitle": "柏宸與黃仁勳的發明學校",
+      "subject": "english",
+      "level": "K3",
+      "page_count": 15,
+      "cover": "./chapter13/reader/assets/pages/page_00.jpg",
+      "cover_alt": "Pakson at the School of Inventions",
+      "href": "./chapter13/read.html",
+      "entry_audio": "./chapter13/reader/assets/audio/p00.m4a"
+    },
+    {
+      "id": "pakson-k3-b6-fun-map",
+      "title": "Space map",
+      "subtitle": "柏宸與馬斯克的太空地圖",
+      "subject": "english",
+      "level": "K3",
+      "page_count": 18,
+      "cover": "./chapter14/reader/assets/pages/page_00.jpg",
+      "cover_alt": "Pakson’s Space Map",
+      "href": "./chapter14/read.html",
+      "entry_audio": "./chapter14/reader/assets/audio/p00.m4a"
+    },
+    {
+      "id": "pakson-k3-b6-in-the-library",
+      "title": "Naruto reads",
+      "subtitle": "柏宸與鳴人的圖書館",
+      "subject": "english",
+      "level": "K3",
+      "page_count": 10,
+      "cover": "./chapter15/reader/assets/pages/page_00.jpg",
+      "cover_alt": "Pakson and Naruto at the Library",
+      "href": "./chapter15/read.html",
+      "entry_audio": "./chapter15/reader/assets/audio/p00.m4a"
+    },
+    {
+      "id": "pakson-k3-b6-board-game",
+      "title": "Luffy moves",
+      "subtitle": "柏宸與路飛的動作棋",
+      "subject": "english",
+      "level": "K3",
+      "page_count": 16,
+      "cover": "./chapter16/reader/assets/pages/page_00.jpg",
+      "cover_alt": "Pakson and Luffy’s Big Move",
+      "href": "./chapter16/read.html",
+      "entry_audio": "./chapter16/reader/assets/audio/p00.m4a"
     }
   ]
 }

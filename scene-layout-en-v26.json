@@ -1,0 +1,118 @@
+{
+  "schema_version": 2,
+  "image": "assets/library-v26/english-shelf.png",
+  "width": 724,
+  "height": 2172,
+  "title": {
+    "x": 246,
+    "y": 62,
+    "width": 232,
+    "height": 67
+  },
+  "home": {
+    "x": 48,
+    "y": 48,
+    "width": 84,
+    "height": 84
+  },
+  "slots": [
+    {
+      "x": 104,
+      "y": 130,
+      "width": 236,
+      "height": 203
+    },
+    {
+      "x": 384,
+      "y": 130,
+      "width": 236,
+      "height": 203
+    },
+    {
+      "x": 104,
+      "y": 364,
+      "width": 236,
+      "height": 203
+    },
+    {
+      "x": 384,
+      "y": 364,
+      "width": 236,
+      "height": 203
+    },
+    {
+      "x": 104,
+      "y": 599,
+      "width": 236,
+      "height": 203
+    },
+    {
+      "x": 384,
+      "y": 599,
+      "width": 236,
+      "height": 203
+    },
+    {
+      "x": 104,
+      "y": 835,
+      "width": 236,
+      "height": 203
+    },
+    {
+      "x": 384,
+      "y": 835,
+      "width": 236,
+      "height": 203
+    },
+    {
+      "x": 104,
+      "y": 1070,
+      "width": 236,
+      "height": 203
+    },
+    {
+      "x": 384,
+      "y": 1070,
+      "width": 236,
+      "height": 203
+    },
+    {
+      "x": 104,
+      "y": 1304,
+      "width": 236,
+      "height": 203
+    },
+    {
+      "x": 384,
+      "y": 1304,
+      "width": 236,
+      "height": 203
+    },
+    {
+      "x": 104,
+      "y": 1539,
+      "width": 236,
+      "height": 203
+    },
+    {
+      "x": 384,
+      "y": 1539,
+      "width": 236,
+      "height": 203
+    },
+    {
+      "x": 104,
+      "y": 1772,
+      "width": 236,
+      "height": 203
+    },
+    {
+      "x": 384,
+      "y": 1772,
+      "width": 236,
+      "height": 203
+    }
+  ],
+  "capacity": 16,
+  "overflow_policy": "Keep actual books linked if capacity is exceeded; extend the full single illustration before publishing an oversized catalogue."
+}

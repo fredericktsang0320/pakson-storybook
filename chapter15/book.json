@@ -1,0 +1,2760 @@
+{
+  "schema_version": 3,
+  "id": "pakson-k3-b6-in-the-library-v1",
+  "title": "Pakson and Naruto at the Library",
+  "chapter_number": 15,
+  "language": "en-GB",
+  "phonics": null,
+  "learning_words": [
+    "library card",
+    "storybook",
+    "drink",
+    "read",
+    "library",
+    "eat",
+    "run"
+  ],
+  "formal_teaching_words": [
+    "library card",
+    "storybook",
+    "drink",
+    "read",
+    "library",
+    "eat",
+    "run"
+  ],
+  "pages": [
+    {
+      "audio_id": "p00",
+      "audio": "reader/assets/audio/p00.m4a",
+      "duration": 8.448,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p00-l01",
+          "block_id": "c15-p00-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "The library had a trolley full of books to put away. Naruto offered to help. Pakson knew just where to start.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 8.299625,
+          "duration": 8.219625,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p00-l01",
+          "block_id": "c15-p00-l01",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "The library had a trolley full of books to put away. Naruto offered to help. Pakson knew just where to start.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 8.299625,
+          "duration": 8.219625,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p00",
+      "page_type": "cover",
+      "image": "reader/assets/pages/page_00.jpg",
+      "title": "Pakson and Naruto at the Library",
+      "source_book_page": 0,
+      "source_story_page": 0,
+      "book_page": 0
+    },
+    {
+      "audio_id": "p01",
+      "audio": "reader/assets/audio/p01.m4a",
+      "duration": 5.376,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p01-l01",
+          "block_id": "c15-p01-l01",
+          "role": "naruto",
+          "speaker": "naruto",
+          "text": "Line up, please.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 1.212125,
+          "duration": 1.132125,
+          "voice_id": "pakson-storybook.naruto.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p01-l02",
+          "block_id": "c15-p01-l02",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Show your library card. Choose a storybook.",
+          "start": 1.412125,
+          "at": 1.412125,
+          "end": 5.214625,
+          "duration": 3.8025,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p01-l01",
+          "block_id": "c15-p01-l01",
+          "role": "naruto",
+          "speaker": "naruto",
+          "text": "Line up, please.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 1.212125,
+          "duration": 1.132125,
+          "voice_id": "pakson-storybook.naruto.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p01-l02",
+          "block_id": "c15-p01-l02",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Show your library card. Choose a storybook.",
+          "start": 1.412125,
+          "at": 1.412125,
+          "end": 5.214625,
+          "duration": 3.8025,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p01",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_01.jpg",
+      "title": "A card for a story",
+      "source_book_page": 1,
+      "source_story_page": 1,
+      "book_page": 1
+    },
+    {
+      "audio_id": "G1-intro",
+      "audio": "reader/assets/audio/g1-intro.m4a",
+      "duration": 36.053333333333335,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g1-intro",
+          "block_id": "c15-g1-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.4084166666666667,
+          "duration": 2.4084166666666667
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g1-model-01",
+          "block_id": "c15-g1-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Library card. L, I, B, R, A, R, Y, C, A, R, D. Library card. Your turn.",
+          "spoken_text": "Library card. The letters are: L, I, B, R, A, R, Y, C, A, R, and D. The word is library card. Your turn.",
+          "normalised_text": "Library card. The letters are: L, I, B, R, A, R, Y, C, A, R, and D. The word is library card. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "library card",
+          "target_word": "library card",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.568416666666667,
+          "at": 2.568416666666667,
+          "end": 12.448416666666667,
+          "duration": 9.88,
+          "spelling_letters": [
+            "L",
+            "I",
+            "B",
+            "R",
+            "A",
+            "R",
+            "Y",
+            "C",
+            "A",
+            "R",
+            "D"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "eded7e082c5adacba2cc82",
+          "source_sample_start": 0,
+          "source_sample_end": 237120
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "library card",
+          "target_word": "library card",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 12.448416666666667,
+          "at": 12.448416666666667,
+          "end": 18.448416666666667,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g1-model-02",
+          "block_id": "c15-g1-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Storybook. S, T, O, R, Y, B, O, O, K. Storybook. Your turn.",
+          "spoken_text": "Storybook. The letters are: S, T, O, R, Y, B, O, O, and K. The word is storybook. Your turn.",
+          "normalised_text": "Storybook. The letters are: S, T, O, R, Y, B, O, O, and K. The word is storybook. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "storybook",
+          "target_word": "storybook",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 18.608416666666667,
+          "at": 18.608416666666667,
+          "end": 29.922541666666667,
+          "duration": 11.314125,
+          "spelling_letters": [
+            "S",
+            "T",
+            "O",
+            "R",
+            "Y",
+            "B",
+            "O",
+            "O",
+            "K"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "8995b4461a0c91f1635b95",
+          "source_sample_start": 0,
+          "source_sample_end": 271539
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "storybook",
+          "target_word": "storybook",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 29.922541666666667,
+          "at": 29.922541666666667,
+          "end": 35.92254166666667,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g1-intro",
+          "block_id": "c15-g1-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.4084166666666667,
+          "duration": 2.4084166666666667
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g1-model-01",
+          "block_id": "c15-g1-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Library card. L, I, B, R, A, R, Y, C, A, R, D. Library card. Your turn.",
+          "spoken_text": "Library card. The letters are: L, I, B, R, A, R, Y, C, A, R, and D. The word is library card. Your turn.",
+          "normalised_text": "Library card. The letters are: L, I, B, R, A, R, Y, C, A, R, and D. The word is library card. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "library card",
+          "target_word": "library card",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.568416666666667,
+          "at": 2.568416666666667,
+          "end": 12.448416666666667,
+          "duration": 9.88,
+          "spelling_letters": [
+            "L",
+            "I",
+            "B",
+            "R",
+            "A",
+            "R",
+            "Y",
+            "C",
+            "A",
+            "R",
+            "D"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "eded7e082c5adacba2cc82",
+          "source_sample_start": 0,
+          "source_sample_end": 237120
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g1-model-02",
+          "block_id": "c15-g1-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Storybook. S, T, O, R, Y, B, O, O, K. Storybook. Your turn.",
+          "spoken_text": "Storybook. The letters are: S, T, O, R, Y, B, O, O, and K. The word is storybook. Your turn.",
+          "normalised_text": "Storybook. The letters are: S, T, O, R, Y, B, O, O, and K. The word is storybook. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "storybook",
+          "target_word": "storybook",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 18.608416666666667,
+          "at": 18.608416666666667,
+          "end": 29.922541666666667,
+          "duration": 11.314125,
+          "spelling_letters": [
+            "S",
+            "T",
+            "O",
+            "R",
+            "Y",
+            "B",
+            "O",
+            "O",
+            "K"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "8995b4461a0c91f1635b95",
+          "source_sample_start": 0,
+          "source_sample_end": 271539
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G1",
+      "title": "Library card and storybook",
+      "page_type": "word_practice",
+      "group_number": 1,
+      "source_story_pages": [
+        "p01"
+      ],
+      "image": "reader/assets/pages/G1.jpg",
+      "targets": [
+        {
+          "word": "library card",
+          "display_word": "library card",
+          "mandatory_spelling": false,
+          "red_bold": true
+        },
+        {
+          "word": "storybook",
+          "display_word": "storybook",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "library card",
+        "storybook"
+      ],
+      "intro": {
+        "audio_id": "G1-intro",
+        "audio": "reader/assets/audio/g1-intro.m4a",
+        "duration": 36.053333333333335,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g1-intro",
+            "block_id": "c15-g1-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.4084166666666667,
+            "duration": 2.4084166666666667
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g1-model-01",
+            "block_id": "c15-g1-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Library card. L, I, B, R, A, R, Y, C, A, R, D. Library card. Your turn.",
+            "spoken_text": "Library card. The letters are: L, I, B, R, A, R, Y, C, A, R, and D. The word is library card. Your turn.",
+            "normalised_text": "Library card. The letters are: L, I, B, R, A, R, Y, C, A, R, and D. The word is library card. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "library card",
+            "target_word": "library card",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.568416666666667,
+            "at": 2.568416666666667,
+            "end": 12.448416666666667,
+            "duration": 9.88,
+            "spelling_letters": [
+              "L",
+              "I",
+              "B",
+              "R",
+              "A",
+              "R",
+              "Y",
+              "C",
+              "A",
+              "R",
+              "D"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "eded7e082c5adacba2cc82",
+            "source_sample_start": 0,
+            "source_sample_end": 237120
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "library card",
+            "target_word": "library card",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 12.448416666666667,
+            "at": 12.448416666666667,
+            "end": 18.448416666666667,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g1-model-02",
+            "block_id": "c15-g1-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Storybook. S, T, O, R, Y, B, O, O, K. Storybook. Your turn.",
+            "spoken_text": "Storybook. The letters are: S, T, O, R, Y, B, O, O, and K. The word is storybook. Your turn.",
+            "normalised_text": "Storybook. The letters are: S, T, O, R, Y, B, O, O, and K. The word is storybook. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "storybook",
+            "target_word": "storybook",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 18.608416666666667,
+            "at": 18.608416666666667,
+            "end": 29.922541666666667,
+            "duration": 11.314125,
+            "spelling_letters": [
+              "S",
+              "T",
+              "O",
+              "R",
+              "Y",
+              "B",
+              "O",
+              "O",
+              "K"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "8995b4461a0c91f1635b95",
+            "source_sample_start": 0,
+            "source_sample_end": 271539
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "storybook",
+            "target_word": "storybook",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 29.922541666666667,
+            "at": 29.922541666666667,
+            "end": 35.92254166666667,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g1-intro",
+            "block_id": "c15-g1-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.4084166666666667,
+            "duration": 2.4084166666666667
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g1-model-01",
+            "block_id": "c15-g1-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Library card. L, I, B, R, A, R, Y, C, A, R, D. Library card. Your turn.",
+            "spoken_text": "Library card. The letters are: L, I, B, R, A, R, Y, C, A, R, and D. The word is library card. Your turn.",
+            "normalised_text": "Library card. The letters are: L, I, B, R, A, R, Y, C, A, R, and D. The word is library card. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "library card",
+            "target_word": "library card",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.568416666666667,
+            "at": 2.568416666666667,
+            "end": 12.448416666666667,
+            "duration": 9.88,
+            "spelling_letters": [
+              "L",
+              "I",
+              "B",
+              "R",
+              "A",
+              "R",
+              "Y",
+              "C",
+              "A",
+              "R",
+              "D"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "eded7e082c5adacba2cc82",
+            "source_sample_start": 0,
+            "source_sample_end": 237120
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g1-model-02",
+            "block_id": "c15-g1-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Storybook. S, T, O, R, Y, B, O, O, K. Storybook. Your turn.",
+            "spoken_text": "Storybook. The letters are: S, T, O, R, Y, B, O, O, and K. The word is storybook. Your turn.",
+            "normalised_text": "Storybook. The letters are: S, T, O, R, Y, B, O, O, and K. The word is storybook. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "storybook",
+            "target_word": "storybook",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 18.608416666666667,
+            "at": 18.608416666666667,
+            "end": 29.922541666666667,
+            "duration": 11.314125,
+            "spelling_letters": [
+              "S",
+              "T",
+              "O",
+              "R",
+              "Y",
+              "B",
+              "O",
+              "O",
+              "K"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "8995b4461a0c91f1635b95",
+            "source_sample_start": 0,
+            "source_sample_end": 271539
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c15-g1-q01",
+          "word": "library card",
+          "prompt": "What do you show to borrow a book?",
+          "prompt_block": {
+            "id": "c15-g1-q01-prompt",
+            "speaker": "narrator",
+            "text": "What do you show to borrow a book?"
+          },
+          "options": [
+            {
+              "id": "library-card",
+              "label": "library card"
+            },
+            {
+              "id": "storybook",
+              "label": "storybook"
+            }
+          ],
+          "correct_option_id": "library-card",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c15-g1-q01",
+            "audio": "reader/assets/audio/c15-g1-q01.m4a",
+            "duration": 2.3893333333333335,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c15-g1-q01-prompt",
+                "block_id": "c15-g1-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What do you show to borrow a book?",
+                "word": "library card",
+                "target_word": "library card",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.2620833333333334,
+                "duration": 2.1620833333333334
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c15-g1-q01-prompt",
+                "block_id": "c15-g1-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What do you show to borrow a book?",
+                "word": "library card",
+                "target_word": "library card",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.2620833333333334,
+                "duration": 2.1620833333333334
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c15-g1-q02",
+          "word": "storybook",
+          "prompt": "What has a story inside?",
+          "prompt_block": {
+            "id": "c15-g1-q02-prompt",
+            "speaker": "narrator",
+            "text": "What has a story inside?"
+          },
+          "options": [
+            {
+              "id": "library-card",
+              "label": "library card"
+            },
+            {
+              "id": "storybook",
+              "label": "storybook"
+            }
+          ],
+          "correct_option_id": "storybook",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c15-g1-q02",
+            "audio": "reader/assets/audio/c15-g1-q02.m4a",
+            "duration": 2.986666666666667,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c15-g1-q02-prompt",
+                "block_id": "c15-g1-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What has a story inside?",
+                "word": "storybook",
+                "target_word": "storybook",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.857875,
+                "duration": 2.757875
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c15-g1-q02-prompt",
+                "block_id": "c15-g1-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What has a story inside?",
+                "word": "storybook",
+                "target_word": "storybook",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.857875,
+                "duration": 2.757875
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 2
+    },
+    {
+      "audio_id": "p02",
+      "audio": "reader/assets/audio/p02.m4a",
+      "duration": 3.84,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p02-l01",
+          "block_id": "c15-p02-l01",
+          "role": "naruto",
+          "speaker": "naruto",
+          "text": "Quiet, please.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 1.3099166666666666,
+          "duration": 1.2299166666666668,
+          "voice_id": "pakson-storybook.naruto.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p02-l02",
+          "block_id": "c15-p02-l02",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "We can read in the library.",
+          "start": 1.5099166666666666,
+          "at": 1.5099166666666666,
+          "end": 3.7000416666666665,
+          "duration": 2.190125,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p02-l01",
+          "block_id": "c15-p02-l01",
+          "role": "naruto",
+          "speaker": "naruto",
+          "text": "Quiet, please.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 1.3099166666666666,
+          "duration": 1.2299166666666668,
+          "voice_id": "pakson-storybook.naruto.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p02-l02",
+          "block_id": "c15-p02-l02",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "We can read in the library.",
+          "start": 1.5099166666666666,
+          "at": 1.5099166666666666,
+          "end": 3.7000416666666665,
+          "duration": 2.190125,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p02",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_02.jpg",
+      "title": "A quiet corner",
+      "source_book_page": 2,
+      "source_story_page": 2,
+      "book_page": 3
+    },
+    {
+      "audio_id": "G2-intro",
+      "audio": "reader/assets/audio/g2-intro.m4a",
+      "duration": 31.445333333333334,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g2-intro",
+          "block_id": "c15-g2-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.4084166666666667,
+          "duration": 2.4084166666666667
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g2-model-01",
+          "block_id": "c15-g2-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Read. R, E, A, D. Read. Your turn.",
+          "spoken_text": "Read a story. The letters are: R, E, A, and D. The word is read. Your turn.",
+          "normalised_text": "Read a story. The letters are: R, E, A, and D. The word is read. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "read",
+          "target_word": "read",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.568416666666667,
+          "at": 2.568416666666667,
+          "end": 10.368416666666667,
+          "duration": 7.8,
+          "spelling_letters": [
+            "R",
+            "E",
+            "A",
+            "D"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "0fa2e0fe318afa55215a08",
+          "source_sample_start": 0,
+          "source_sample_end": 187200
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "read",
+          "target_word": "read",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 10.368416666666667,
+          "at": 10.368416666666667,
+          "end": 16.36841666666667,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g2-model-02",
+          "block_id": "c15-g2-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Library. L, I, B, R, A, R, Y. Library. Your turn.",
+          "spoken_text": "Library. The letters are: L, I, B, R, A, R, and Y. The word is library. Your turn.",
+          "normalised_text": "Library. The letters are: L, I, B, R, A, R, and Y. The word is library. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "library",
+          "target_word": "library",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 16.528416666666665,
+          "at": 16.528416666666665,
+          "end": 25.317375,
+          "duration": 8.788958333333333,
+          "spelling_letters": [
+            "L",
+            "I",
+            "B",
+            "R",
+            "A",
+            "R",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "c545ff88bdf9ca08362ba1",
+          "source_sample_start": 0,
+          "source_sample_end": 210935
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "library",
+          "target_word": "library",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 25.317375,
+          "at": 25.317375,
+          "end": 31.317375,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g2-intro",
+          "block_id": "c15-g2-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.4084166666666667,
+          "duration": 2.4084166666666667
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g2-model-01",
+          "block_id": "c15-g2-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Read. R, E, A, D. Read. Your turn.",
+          "spoken_text": "Read a story. The letters are: R, E, A, and D. The word is read. Your turn.",
+          "normalised_text": "Read a story. The letters are: R, E, A, and D. The word is read. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "read",
+          "target_word": "read",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.568416666666667,
+          "at": 2.568416666666667,
+          "end": 10.368416666666667,
+          "duration": 7.8,
+          "spelling_letters": [
+            "R",
+            "E",
+            "A",
+            "D"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "0fa2e0fe318afa55215a08",
+          "source_sample_start": 0,
+          "source_sample_end": 187200
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g2-model-02",
+          "block_id": "c15-g2-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Library. L, I, B, R, A, R, Y. Library. Your turn.",
+          "spoken_text": "Library. The letters are: L, I, B, R, A, R, and Y. The word is library. Your turn.",
+          "normalised_text": "Library. The letters are: L, I, B, R, A, R, and Y. The word is library. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "library",
+          "target_word": "library",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 16.528416666666665,
+          "at": 16.528416666666665,
+          "end": 25.317375,
+          "duration": 8.788958333333333,
+          "spelling_letters": [
+            "L",
+            "I",
+            "B",
+            "R",
+            "A",
+            "R",
+            "Y"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "c545ff88bdf9ca08362ba1",
+          "source_sample_start": 0,
+          "source_sample_end": 210935
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G2",
+      "title": "Read and library",
+      "page_type": "word_practice",
+      "group_number": 2,
+      "source_story_pages": [
+        "p02"
+      ],
+      "image": "reader/assets/pages/G2.jpg",
+      "targets": [
+        {
+          "word": "read",
+          "display_word": "read",
+          "mandatory_spelling": false,
+          "red_bold": true
+        },
+        {
+          "word": "library",
+          "display_word": "library",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "read",
+        "library"
+      ],
+      "intro": {
+        "audio_id": "G2-intro",
+        "audio": "reader/assets/audio/g2-intro.m4a",
+        "duration": 31.445333333333334,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g2-intro",
+            "block_id": "c15-g2-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.4084166666666667,
+            "duration": 2.4084166666666667
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g2-model-01",
+            "block_id": "c15-g2-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Read. R, E, A, D. Read. Your turn.",
+            "spoken_text": "Read a story. The letters are: R, E, A, and D. The word is read. Your turn.",
+            "normalised_text": "Read a story. The letters are: R, E, A, and D. The word is read. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "read",
+            "target_word": "read",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.568416666666667,
+            "at": 2.568416666666667,
+            "end": 10.368416666666667,
+            "duration": 7.8,
+            "spelling_letters": [
+              "R",
+              "E",
+              "A",
+              "D"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "0fa2e0fe318afa55215a08",
+            "source_sample_start": 0,
+            "source_sample_end": 187200
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "read",
+            "target_word": "read",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 10.368416666666667,
+            "at": 10.368416666666667,
+            "end": 16.36841666666667,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g2-model-02",
+            "block_id": "c15-g2-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Library. L, I, B, R, A, R, Y. Library. Your turn.",
+            "spoken_text": "Library. The letters are: L, I, B, R, A, R, and Y. The word is library. Your turn.",
+            "normalised_text": "Library. The letters are: L, I, B, R, A, R, and Y. The word is library. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "library",
+            "target_word": "library",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 16.528416666666665,
+            "at": 16.528416666666665,
+            "end": 25.317375,
+            "duration": 8.788958333333333,
+            "spelling_letters": [
+              "L",
+              "I",
+              "B",
+              "R",
+              "A",
+              "R",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "c545ff88bdf9ca08362ba1",
+            "source_sample_start": 0,
+            "source_sample_end": 210935
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "library",
+            "target_word": "library",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 25.317375,
+            "at": 25.317375,
+            "end": 31.317375,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g2-intro",
+            "block_id": "c15-g2-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.4084166666666667,
+            "duration": 2.4084166666666667
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g2-model-01",
+            "block_id": "c15-g2-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Read. R, E, A, D. Read. Your turn.",
+            "spoken_text": "Read a story. The letters are: R, E, A, and D. The word is read. Your turn.",
+            "normalised_text": "Read a story. The letters are: R, E, A, and D. The word is read. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "read",
+            "target_word": "read",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.568416666666667,
+            "at": 2.568416666666667,
+            "end": 10.368416666666667,
+            "duration": 7.8,
+            "spelling_letters": [
+              "R",
+              "E",
+              "A",
+              "D"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "0fa2e0fe318afa55215a08",
+            "source_sample_start": 0,
+            "source_sample_end": 187200
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g2-model-02",
+            "block_id": "c15-g2-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Library. L, I, B, R, A, R, Y. Library. Your turn.",
+            "spoken_text": "Library. The letters are: L, I, B, R, A, R, and Y. The word is library. Your turn.",
+            "normalised_text": "Library. The letters are: L, I, B, R, A, R, and Y. The word is library. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "library",
+            "target_word": "library",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 16.528416666666665,
+            "at": 16.528416666666665,
+            "end": 25.317375,
+            "duration": 8.788958333333333,
+            "spelling_letters": [
+              "L",
+              "I",
+              "B",
+              "R",
+              "A",
+              "R",
+              "Y"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "c545ff88bdf9ca08362ba1",
+            "source_sample_start": 0,
+            "source_sample_end": 210935
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c15-g2-q01",
+          "word": "read",
+          "prompt": "What can you do with an open book?",
+          "prompt_block": {
+            "id": "c15-g2-q01-prompt",
+            "speaker": "narrator",
+            "text": "What can you do with an open book?"
+          },
+          "options": [
+            {
+              "id": "library",
+              "label": "library"
+            },
+            {
+              "id": "read",
+              "label": "read"
+            }
+          ],
+          "correct_option_id": "read",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c15-g2-q01",
+            "audio": "reader/assets/audio/c15-g2-q01.m4a",
+            "duration": 2.432,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c15-g2-q01-prompt",
+                "block_id": "c15-g2-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What can you do with an open book?",
+                "word": "read",
+                "target_word": "read",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.2837916666666667,
+                "duration": 2.1837916666666666
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c15-g2-q01-prompt",
+                "block_id": "c15-g2-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What can you do with an open book?",
+                "word": "read",
+                "target_word": "read",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.2837916666666667,
+                "duration": 2.1837916666666666
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c15-g2-q02",
+          "word": "library",
+          "prompt": "Where can you borrow a book?",
+          "prompt_block": {
+            "id": "c15-g2-q02-prompt",
+            "speaker": "narrator",
+            "text": "Where can you borrow a book?"
+          },
+          "options": [
+            {
+              "id": "library",
+              "label": "library"
+            },
+            {
+              "id": "read",
+              "label": "read"
+            }
+          ],
+          "correct_option_id": "library",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c15-g2-q02",
+            "audio": "reader/assets/audio/c15-g2-q02.m4a",
+            "duration": 2.2613333333333334,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c15-g2-q02-prompt",
+                "block_id": "c15-g2-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Where can you borrow a book?",
+                "word": "library",
+                "target_word": "library",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.102291666666667,
+                "duration": 2.002291666666667
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c15-g2-q02-prompt",
+                "block_id": "c15-g2-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "Where can you borrow a book?",
+                "word": "library",
+                "target_word": "library",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.102291666666667,
+                "duration": 2.002291666666667
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 4
+    },
+    {
+      "audio_id": "p03",
+      "audio": "reader/assets/audio/p03.m4a",
+      "duration": 5.888,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p03-l01",
+          "block_id": "c15-p03-l01",
+          "role": "naruto",
+          "speaker": "naruto",
+          "text": "No eating, please. No drinking, please.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 2.801,
+          "duration": 2.721,
+          "voice_id": "pakson-storybook.naruto.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p03-l02",
+          "block_id": "c15-p03-l02",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "We can eat and drink outside.",
+          "start": 3.001,
+          "at": 3.001,
+          "end": 5.728458333333333,
+          "duration": 2.7274583333333333,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p03-l01",
+          "block_id": "c15-p03-l01",
+          "role": "naruto",
+          "speaker": "naruto",
+          "text": "No eating, please. No drinking, please.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 2.801,
+          "duration": 2.721,
+          "voice_id": "pakson-storybook.naruto.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p03-l02",
+          "block_id": "c15-p03-l02",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "We can eat and drink outside.",
+          "start": 3.001,
+          "at": 3.001,
+          "end": 5.728458333333333,
+          "duration": 2.7274583333333333,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p03",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_03.jpg",
+      "title": "Snacks outside",
+      "source_book_page": 3,
+      "source_story_page": 3,
+      "book_page": 5
+    },
+    {
+      "audio_id": "G3-intro",
+      "audio": "reader/assets/audio/g3-intro.m4a",
+      "duration": 28.458666666666666,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g3-intro",
+          "block_id": "c15-g3-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.4084166666666667,
+          "duration": 2.4084166666666667
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g3-model-01",
+          "block_id": "c15-g3-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Eat. E, A, T. Eat. Your turn.",
+          "spoken_text": "Eat. The letters are: E, A, and T. The word is eat. Your turn.",
+          "normalised_text": "Eat. The letters are: E, A, and T. The word is eat. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "eat",
+          "target_word": "eat",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.568416666666667,
+          "at": 2.568416666666667,
+          "end": 9.481541666666667,
+          "duration": 6.913125,
+          "spelling_letters": [
+            "E",
+            "A",
+            "T"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "60a841e24bc2515f04ca70",
+          "source_sample_start": 0,
+          "source_sample_end": 165915
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "eat",
+          "target_word": "eat",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 9.481541666666667,
+          "at": 9.481541666666667,
+          "end": 15.481541666666667,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g3-model-02",
+          "block_id": "c15-g3-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Drink. D, R, I, N, K. Drink. Your turn.",
+          "spoken_text": "Drink. The letters are: D, R, I, N, and K. The word is drink. Your turn.",
+          "normalised_text": "Drink. The letters are: D, R, I, N, and K. The word is drink. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "drink",
+          "target_word": "drink",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 15.641541666666667,
+          "at": 15.641541666666667,
+          "end": 22.32154166666667,
+          "duration": 6.68,
+          "spelling_letters": [
+            "D",
+            "R",
+            "I",
+            "N",
+            "K"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "534d4e19cd39dfd97ac435",
+          "source_sample_start": 0,
+          "source_sample_end": 160320
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "drink",
+          "target_word": "drink",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 22.32154166666667,
+          "at": 22.32154166666667,
+          "end": 28.32154166666667,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g3-intro",
+          "block_id": "c15-g3-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.4084166666666667,
+          "duration": 2.4084166666666667
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g3-model-01",
+          "block_id": "c15-g3-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Eat. E, A, T. Eat. Your turn.",
+          "spoken_text": "Eat. The letters are: E, A, and T. The word is eat. Your turn.",
+          "normalised_text": "Eat. The letters are: E, A, and T. The word is eat. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "eat",
+          "target_word": "eat",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.568416666666667,
+          "at": 2.568416666666667,
+          "end": 9.481541666666667,
+          "duration": 6.913125,
+          "spelling_letters": [
+            "E",
+            "A",
+            "T"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "60a841e24bc2515f04ca70",
+          "source_sample_start": 0,
+          "source_sample_end": 165915
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g3-model-02",
+          "block_id": "c15-g3-model-02",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Drink. D, R, I, N, K. Drink. Your turn.",
+          "spoken_text": "Drink. The letters are: D, R, I, N, and K. The word is drink. Your turn.",
+          "normalised_text": "Drink. The letters are: D, R, I, N, and K. The word is drink. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "drink",
+          "target_word": "drink",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 15.641541666666667,
+          "at": 15.641541666666667,
+          "end": 22.32154166666667,
+          "duration": 6.68,
+          "spelling_letters": [
+            "D",
+            "R",
+            "I",
+            "N",
+            "K"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "534d4e19cd39dfd97ac435",
+          "source_sample_start": 0,
+          "source_sample_end": 160320
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G3",
+      "title": "Eat and drink",
+      "page_type": "word_practice",
+      "group_number": 3,
+      "source_story_pages": [
+        "p03"
+      ],
+      "image": "reader/assets/pages/G3.jpg",
+      "targets": [
+        {
+          "word": "eat",
+          "display_word": "eat",
+          "mandatory_spelling": false,
+          "red_bold": true
+        },
+        {
+          "word": "drink",
+          "display_word": "drink",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "eat",
+        "drink"
+      ],
+      "intro": {
+        "audio_id": "G3-intro",
+        "audio": "reader/assets/audio/g3-intro.m4a",
+        "duration": 28.458666666666666,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g3-intro",
+            "block_id": "c15-g3-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.4084166666666667,
+            "duration": 2.4084166666666667
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g3-model-01",
+            "block_id": "c15-g3-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Eat. E, A, T. Eat. Your turn.",
+            "spoken_text": "Eat. The letters are: E, A, and T. The word is eat. Your turn.",
+            "normalised_text": "Eat. The letters are: E, A, and T. The word is eat. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "eat",
+            "target_word": "eat",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.568416666666667,
+            "at": 2.568416666666667,
+            "end": 9.481541666666667,
+            "duration": 6.913125,
+            "spelling_letters": [
+              "E",
+              "A",
+              "T"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "60a841e24bc2515f04ca70",
+            "source_sample_start": 0,
+            "source_sample_end": 165915
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "eat",
+            "target_word": "eat",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 9.481541666666667,
+            "at": 9.481541666666667,
+            "end": 15.481541666666667,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g3-model-02",
+            "block_id": "c15-g3-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Drink. D, R, I, N, K. Drink. Your turn.",
+            "spoken_text": "Drink. The letters are: D, R, I, N, and K. The word is drink. Your turn.",
+            "normalised_text": "Drink. The letters are: D, R, I, N, and K. The word is drink. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "drink",
+            "target_word": "drink",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 15.641541666666667,
+            "at": 15.641541666666667,
+            "end": 22.32154166666667,
+            "duration": 6.68,
+            "spelling_letters": [
+              "D",
+              "R",
+              "I",
+              "N",
+              "K"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "534d4e19cd39dfd97ac435",
+            "source_sample_start": 0,
+            "source_sample_end": 160320
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "drink",
+            "target_word": "drink",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 22.32154166666667,
+            "at": 22.32154166666667,
+            "end": 28.32154166666667,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g3-intro",
+            "block_id": "c15-g3-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.4084166666666667,
+            "duration": 2.4084166666666667
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g3-model-01",
+            "block_id": "c15-g3-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Eat. E, A, T. Eat. Your turn.",
+            "spoken_text": "Eat. The letters are: E, A, and T. The word is eat. Your turn.",
+            "normalised_text": "Eat. The letters are: E, A, and T. The word is eat. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "eat",
+            "target_word": "eat",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.568416666666667,
+            "at": 2.568416666666667,
+            "end": 9.481541666666667,
+            "duration": 6.913125,
+            "spelling_letters": [
+              "E",
+              "A",
+              "T"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "60a841e24bc2515f04ca70",
+            "source_sample_start": 0,
+            "source_sample_end": 165915
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g3-model-02",
+            "block_id": "c15-g3-model-02",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Drink. D, R, I, N, K. Drink. Your turn.",
+            "spoken_text": "Drink. The letters are: D, R, I, N, and K. The word is drink. Your turn.",
+            "normalised_text": "Drink. The letters are: D, R, I, N, and K. The word is drink. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "drink",
+            "target_word": "drink",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 15.641541666666667,
+            "at": 15.641541666666667,
+            "end": 22.32154166666667,
+            "duration": 6.68,
+            "spelling_letters": [
+              "D",
+              "R",
+              "I",
+              "N",
+              "K"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "534d4e19cd39dfd97ac435",
+            "source_sample_start": 0,
+            "source_sample_end": 160320
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c15-g3-q01",
+          "word": "eat",
+          "prompt": "What can you do with a piece of apple?",
+          "prompt_block": {
+            "id": "c15-g3-q01-prompt",
+            "speaker": "narrator",
+            "text": "What can you do with a piece of apple?"
+          },
+          "options": [
+            {
+              "id": "eat",
+              "label": "eat"
+            },
+            {
+              "id": "drink",
+              "label": "drink"
+            }
+          ],
+          "correct_option_id": "eat",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c15-g3-q01",
+            "audio": "reader/assets/audio/c15-g3-q01.m4a",
+            "duration": 2.3466666666666667,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c15-g3-q01-prompt",
+                "block_id": "c15-g3-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What can you do with a piece of apple?",
+                "word": "eat",
+                "target_word": "eat",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.226,
+                "duration": 2.126
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c15-g3-q01-prompt",
+                "block_id": "c15-g3-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What can you do with a piece of apple?",
+                "word": "eat",
+                "target_word": "eat",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.226,
+                "duration": 2.126
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        },
+        {
+          "id": "c15-g3-q02",
+          "word": "drink",
+          "prompt": "What can you do with a cup of water?",
+          "prompt_block": {
+            "id": "c15-g3-q02-prompt",
+            "speaker": "narrator",
+            "text": "What can you do with a cup of water?"
+          },
+          "options": [
+            {
+              "id": "eat",
+              "label": "eat"
+            },
+            {
+              "id": "drink",
+              "label": "drink"
+            }
+          ],
+          "correct_option_id": "drink",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c15-g3-q02",
+            "audio": "reader/assets/audio/c15-g3-q02.m4a",
+            "duration": 2.56,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c15-g3-q02-prompt",
+                "block_id": "c15-g3-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What can you do with a cup of water?",
+                "word": "drink",
+                "target_word": "drink",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.3995,
+                "duration": 2.2995
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c15-g3-q02-prompt",
+                "block_id": "c15-g3-q02-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What can you do with a cup of water?",
+                "word": "drink",
+                "target_word": "drink",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.3995,
+                "duration": 2.2995
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          435,
+          1032
+        ],
+        "widths": [
+          545,
+          545
+        ],
+        "word_tops": [
+          574,
+          574
+        ],
+        "plate_tops": [
+          565,
+          565
+        ],
+        "plate_bottoms": [
+          700,
+          700
+        ],
+        "word_letter_spacing": [
+          0,
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 6
+    },
+    {
+      "audio_id": "p04",
+      "audio": "reader/assets/audio/p04.m4a",
+      "duration": 5.418666666666667,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p04-l01",
+          "block_id": "c15-p04-l01",
+          "role": "naruto",
+          "speaker": "naruto",
+          "text": "No running, please.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 1.5105,
+          "duration": 1.4305,
+          "voice_id": "pakson-storybook.naruto.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p04-l02",
+          "block_id": "c15-p04-l02",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "We can run outside. The last book was back on its shelf.",
+          "start": 1.7105,
+          "at": 1.7105,
+          "end": 5.2629166666666665,
+          "duration": 3.552416666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p04-l01",
+          "block_id": "c15-p04-l01",
+          "role": "naruto",
+          "speaker": "naruto",
+          "text": "No running, please.",
+          "start": 0.08,
+          "at": 0.08,
+          "end": 1.5105,
+          "duration": 1.4305,
+          "voice_id": "pakson-storybook.naruto.v1",
+          "source_ids": []
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-p04-l02",
+          "block_id": "c15-p04-l02",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "We can run outside. The last book was back on its shelf.",
+          "start": 1.7105,
+          "at": 1.7105,
+          "end": 5.2629166666666665,
+          "duration": 3.552416666666667,
+          "voice_id": "pakson-storybook.narrator.v1",
+          "source_ids": []
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "p04",
+      "page_type": "story",
+      "image": "reader/assets/pages/page_04.jpg",
+      "title": "Walking feet",
+      "source_book_page": 4,
+      "source_story_page": 4,
+      "book_page": 7
+    },
+    {
+      "audio_id": "G4-intro",
+      "audio": "reader/assets/audio/g4-intro.m4a",
+      "duration": 14.464,
+      "timeline": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g4-intro",
+          "block_id": "c15-g4-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.4084166666666667,
+          "duration": 2.4084166666666667
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g4-model-01",
+          "block_id": "c15-g4-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Run. R, U, N. Run. Your turn.",
+          "spoken_text": "Run. The letters are: R, U, and N. The word is run. Your turn.",
+          "normalised_text": "Run. The letters are: R, U, and N. The word is run. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "run",
+          "target_word": "run",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.568416666666667,
+          "at": 2.568416666666667,
+          "end": 8.337166666666667,
+          "duration": 5.76875,
+          "spelling_letters": [
+            "R",
+            "U",
+            "N"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "5736439530d4baabf60a85",
+          "source_sample_start": 0,
+          "source_sample_end": 138450
+        },
+        {
+          "kind": "response_gap",
+          "type": "response_gap",
+          "word": "run",
+          "target_word": "run",
+          "cue_state": "your_turn",
+          "ui_phase": "Your turn",
+          "start": 8.337166666666667,
+          "at": 8.337166666666667,
+          "end": 14.337166666666667,
+          "duration": 6,
+          "countdown_numbers": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "after_complete_model": true
+        }
+      ],
+      "segments": [
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g4-intro",
+          "block_id": "c15-g4-intro",
+          "role": "narrator",
+          "speaker": "narrator",
+          "text": "Let’s read and spell together.",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 0,
+          "at": 0,
+          "end": 2.4084166666666667,
+          "duration": 2.4084166666666667
+        },
+        {
+          "kind": "speech",
+          "type": "speech",
+          "id": "c15-g4-model-01",
+          "block_id": "c15-g4-model-01",
+          "speaker": "narrator",
+          "role": "narrator",
+          "text": "Run. R, U, N. Run. Your turn.",
+          "spoken_text": "Run. The letters are: R, U, and N. The word is run. Your turn.",
+          "normalised_text": "Run. The letters are: R, U, and N. The word is run. Your turn.",
+          "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+          "word": "run",
+          "target_word": "run",
+          "cue_state": "read_with_me",
+          "ui_phase": "Read with me",
+          "start": 2.568416666666667,
+          "at": 2.568416666666667,
+          "end": 8.337166666666667,
+          "duration": 5.76875,
+          "spelling_letters": [
+            "R",
+            "U",
+            "N"
+          ],
+          "display_spelling_letters": false,
+          "source_context_key": "5736439530d4baabf60a85",
+          "source_sample_start": 0,
+          "source_sample_end": 138450
+        }
+      ],
+      "effects": [],
+      "bgm_cue": null,
+      "page_id": "G4",
+      "title": "Run",
+      "page_type": "word_practice",
+      "group_number": 4,
+      "source_story_pages": [
+        "p04"
+      ],
+      "image": "reader/assets/pages/G4.jpg",
+      "targets": [
+        {
+          "word": "run",
+          "display_word": "run",
+          "mandatory_spelling": false,
+          "red_bold": true
+        }
+      ],
+      "target_words": [
+        "run"
+      ],
+      "intro": {
+        "audio_id": "G4-intro",
+        "audio": "reader/assets/audio/g4-intro.m4a",
+        "duration": 14.464,
+        "timeline": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g4-intro",
+            "block_id": "c15-g4-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.4084166666666667,
+            "duration": 2.4084166666666667
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g4-model-01",
+            "block_id": "c15-g4-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Run. R, U, N. Run. Your turn.",
+            "spoken_text": "Run. The letters are: R, U, and N. The word is run. Your turn.",
+            "normalised_text": "Run. The letters are: R, U, and N. The word is run. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "run",
+            "target_word": "run",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.568416666666667,
+            "at": 2.568416666666667,
+            "end": 8.337166666666667,
+            "duration": 5.76875,
+            "spelling_letters": [
+              "R",
+              "U",
+              "N"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "5736439530d4baabf60a85",
+            "source_sample_start": 0,
+            "source_sample_end": 138450
+          },
+          {
+            "kind": "response_gap",
+            "type": "response_gap",
+            "word": "run",
+            "target_word": "run",
+            "cue_state": "your_turn",
+            "ui_phase": "Your turn",
+            "start": 8.337166666666667,
+            "at": 8.337166666666667,
+            "end": 14.337166666666667,
+            "duration": 6,
+            "countdown_numbers": [
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "after_complete_model": true
+          }
+        ],
+        "segments": [
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g4-intro",
+            "block_id": "c15-g4-intro",
+            "role": "narrator",
+            "speaker": "narrator",
+            "text": "Let’s read and spell together.",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 0,
+            "at": 0,
+            "end": 2.4084166666666667,
+            "duration": 2.4084166666666667
+          },
+          {
+            "kind": "speech",
+            "type": "speech",
+            "id": "c15-g4-model-01",
+            "block_id": "c15-g4-model-01",
+            "speaker": "narrator",
+            "role": "narrator",
+            "text": "Run. R, U, N. Run. Your turn.",
+            "spoken_text": "Run. The letters are: R, U, and N. The word is run. Your turn.",
+            "normalised_text": "Run. The letters are: R, U, and N. The word is run. Your turn.",
+            "normalisation_reason": "Explicit British letter names and verbal return to whole word avoid Qwen acronym loops; source letters and teaching order unchanged",
+            "word": "run",
+            "target_word": "run",
+            "cue_state": "read_with_me",
+            "ui_phase": "Read with me",
+            "start": 2.568416666666667,
+            "at": 2.568416666666667,
+            "end": 8.337166666666667,
+            "duration": 5.76875,
+            "spelling_letters": [
+              "R",
+              "U",
+              "N"
+            ],
+            "display_spelling_letters": false,
+            "source_context_key": "5736439530d4baabf60a85",
+            "source_sample_start": 0,
+            "source_sample_end": 138450
+          }
+        ],
+        "effects": [],
+        "bgm_cue": null
+      },
+      "questions": [
+        {
+          "id": "c15-g4-q01",
+          "word": "run",
+          "prompt": "What can you do outside on the grass?",
+          "prompt_block": {
+            "id": "c15-g4-q01-prompt",
+            "speaker": "narrator",
+            "text": "What can you do outside on the grass?"
+          },
+          "options": [
+            {
+              "id": "read",
+              "label": "read"
+            },
+            {
+              "id": "run",
+              "label": "run"
+            }
+          ],
+          "correct_option_id": "run",
+          "reward": "stars",
+          "reward_text": "Lovely work!",
+          "wrong_feedback": "Try again",
+          "wrong_feedback_ms": 1200,
+          "keep_original_question_on_wrong": true,
+          "media": {
+            "audio_id": "c15-g4-q01",
+            "audio": "reader/assets/audio/c15-g4-q01.m4a",
+            "duration": 2.6453333333333333,
+            "timeline": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c15-g4-q01-prompt",
+                "block_id": "c15-g4-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What can you do outside on the grass?",
+                "word": "run",
+                "target_word": "run",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.4964166666666667,
+                "duration": 2.3964166666666666
+              }
+            ],
+            "segments": [
+              {
+                "kind": "speech",
+                "type": "speech",
+                "id": "c15-g4-q01-prompt",
+                "block_id": "c15-g4-q01-prompt",
+                "role": "narrator",
+                "speaker": "narrator",
+                "text": "What can you do outside on the grass?",
+                "word": "run",
+                "target_word": "run",
+                "cue_state": "question",
+                "ui_phase": "Listen",
+                "start": 0.1,
+                "at": 0.1,
+                "end": 2.4964166666666667,
+                "duration": 2.3964166666666666
+              }
+            ],
+            "effects": [],
+            "bgm_cue": null
+          }
+        }
+      ],
+      "native_vocabulary": true,
+      "vocabulary_layout": {
+        "centres": [
+          724
+        ],
+        "widths": [
+          780
+        ],
+        "word_tops": [
+          574
+        ],
+        "plate_tops": [
+          565
+        ],
+        "plate_bottoms": [
+          700
+        ],
+        "word_letter_spacing": [
+          0
+        ],
+        "plate_extra_width": 0
+      },
+      "quiz_region": {
+        "x": 170,
+        "y": 710,
+        "width": 1108,
+        "height": 360
+      },
+      "auto_question_advance": true,
+      "display_policy": "whole_words_only_no_letter_rows",
+      "book_page": 8
+    },
+    {
+      "duration": 0,
+      "segments": [],
+      "page_id": "p05",
+      "page_type": "closing_logo",
+      "image": "reader/assets/pages/ending_logo_L04.svg",
+      "title": "Good job!",
+      "source_book_page": 5,
+      "source_story_page": 5,
+      "effects": [],
+      "bgm_cue": null,
+      "book_page": 9
+    }
+  ],
+  "sfx": {
+    "page_turn": {
+      "enabled": false,
+      "gain": 0
+    }
+  },
+  "music": {},
+  "feedback": {
+    "correct": {
+      "file": "feedback/correct.m4a",
+      "duration": 1.2,
+      "sha256": "d1d56e926439288cce2269fefe492fb807cc27da0dd0d73966648fe068c25b97",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 1.2,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -20.14,
+        "true_peak_dbtp": -9.82,
+        "nominal_voice_minus_effect_LU": 0.010000000000001563
+      },
+      "loop": false,
+      "trigger": "selected_answer_only",
+      "play_on_logo": false,
+      "description": "Four-note rounded ascending major-key chime",
+      "audio": "reader/assets/audio/feedback/correct.m4a"
+    },
+    "incorrect": {
+      "file": "feedback/incorrect.m4a",
+      "duration": 0.82,
+      "sha256": "09bfb77bd9a09e110ed5b0407dd51ab6a6217331205e673bd4598f4fe20b2815",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 0.82,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -20.14,
+        "true_peak_dbtp": -10.32,
+        "nominal_voice_minus_effect_LU": 0.010000000000001563
+      },
+      "loop": false,
+      "trigger": "selected_answer_only",
+      "play_on_logo": false,
+      "description": "Three-note gentle descending retry chime; no buzzer",
+      "audio": "reader/assets/audio/feedback/incorrect.m4a"
+    },
+    "logo_reward": {
+      "file": "feedback/logo_reward.m4a",
+      "duration": 1.95,
+      "sha256": "a352b48cb392b7eec1a5cc105a74b05211e66a393770dc365868b823fe764502",
+      "mastered": true,
+      "gain": 1.0,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness": {
+        "analysis_window_seconds": 1.95,
+        "single_playback_zero_padded": false,
+        "integrated_lufs_in_analysis_window": -31.96,
+        "true_peak_dbtp": -18.48,
+        "nominal_voice_minus_effect_LU": 11.830000000000002
+      },
+      "loop": false,
+      "trigger": "closing_logo_navigation_entry",
+      "once_per_navigation_entry": true,
+      "cancel_on_leave": true,
+      "background_soundtrack_on_logo": false,
+      "description": "Original major-key soft wooden/8-bit-like game-clear phrase; no Mario melody copied.",
+      "reuse_mode": "v13 approved original bytes retained",
+      "audio": "reader/assets/audio/feedback/logo_reward.m4a"
+    }
+  },
+  "practice_layout": {
+    "family": "Arial Rounded MT Bold",
+    "word_px": 110,
+    "question_px": 72,
+    "answer_px": 72,
+    "answer_min_height_px": 168,
+    "question_row_px": 173,
+    "row_gap_px": 8,
+    "answer_row_px": 179,
+    "native_viewport": [
+      1448,
+      1086
+    ],
+    "scaled_width_checks": [
+      390,
+      430
+    ],
+    "no_automatic_font_reduction": true,
+    "display_letter_spelling": false,
+    "practice_next_action": "Automatically continue questions after genuine current voice and effect completion plus 900 ms visible reward; show manual Next page only when the entire group is complete. Free swipe skip remains available."
+  },
+  "creditsText": "Original educational story and illustrations for Pakson’s family reading project. British English narration uses local synthetic voice references. Paper animation: StPageFlip · MIT licence."
+}
