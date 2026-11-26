@@ -203,6 +203,17 @@
       "cover_alt": "Pakson and Luffy’s Big Move",
       "href": "./chapter16/read.html",
       "entry_audio": "./chapter16/reader/assets/audio/p00.m4a"
+    },
+    {
+      "id": "pakson-k3-zh-01",
+      "title": "我愛中國",
+      "subtitle": "跟柏宸遊澳門、讀粵語、寫漢字",
+      "subject": "chinese",
+      "level": "K3",
+      "page_count": 12,
+      "cover": "./zh-chapter1/assets/pages/p00.webp",
+      "cover_alt": "《我愛中國》封面，柏宸和小熊貓坐在澳門老街翻開旅行冊",
+      "href": "./zh-chapter1/read.html"
     }
   ]
 }
