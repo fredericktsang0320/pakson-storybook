@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-HK">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f2eee5">
+  <title>我愛中國｜Pakson 有聲繪本</title>
+  <link rel="stylesheet" href="folio.css">
+  <script defer src="pages.js"></script>
+  <script defer src="folio.js"></script>
+</head>
+<body>
+  <main class="reader" aria-label="《我愛中國》有聲繪本">
+    <div id="book" class="book" aria-roledescription="繪本">
+      <img id="incoming" class="incoming" alt="" aria-hidden="true" draggable="false">
+      <div id="leaf" class="leaf">
+        <img id="picture" width="1448" height="1086" src="pages/p00.webp" alt="《我愛中國》封面" draggable="false">
+        <video id="strokes" width="1448" height="1086" src="pages/p14.mp4" playsinline muted preload="none" hidden></video>
+      </div>
+      <div id="choices" class="choices"></div>
+    </div>
+    <nav class="controls" aria-label="閱讀控制">
+      <a id="home" class="control" href="../chinese-books.html" aria-label="返回中文書架"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5M5.8 10v10h12.4V10M10 20v-6h4v6"/></svg></a>
+      <button id="previous" type="button" class="control" aria-label="上一頁" disabled><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></svg></button>
+      <button id="replay" type="button" class="control" aria-label="重聽這一頁"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 9v6h4l5 4V5L7 9Zm13 0a5 5 0 0 1 0 6m2-8a8 8 0 0 1 0 10"/></svg></button>
+      <button id="next" type="button" class="control" aria-label="下一頁"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></svg></button>
+    </nav>
+    <p id="status" class="sr-only" role="status"></p>
+    <audio id="voice" preload="none" playsinline></audio>
+  </main>
+</body>
+</html>
