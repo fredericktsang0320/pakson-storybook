@@ -1,11 +1,11 @@
 /* Web-only viewport; original art and logical practice layout stay intact. */
 html,body{position:fixed;inset:0;width:100%;height:100%;overflow:hidden}
 .reader{position:fixed;inset:0;width:100%;height:100%;height:100dvh;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
-.book-shell{box-shadow:0 4px 30px #182c431c}
+.book-shell{--menu-face:26px;--menu-face-background:#fffaf0b8;--menu-face-border:#a99e8673;--menu-face-ink:#182c43cc;box-shadow:0 4px 30px #182c431c}
 /* Shared quiet reader controls: visible26 / hit44 / icon14 CSS px. */
-.book-controls{--menu-hit:44px;--menu-face:26px;--menu-icon:14px;position:absolute;left:2px;top:50%;transform:translateY(-50%);z-index:220;pointer-events:none;display:flex;flex-direction:column;align-items:center;width:var(--menu-hit);height:calc(2 * var(--menu-hit));gap:0;padding:0;border:0;border-radius:0;background:transparent}
-.book-controls .book-control{position:relative;display:grid;place-items:center;pointer-events:auto;inset:auto;flex:none;width:var(--menu-hit);height:var(--menu-hit);margin:0;padding:0;border:0;border-radius:50%;background:transparent;opacity:1;box-shadow:none;isolation:isolate;color:#182c43cc;text-decoration:none;-webkit-appearance:none;appearance:none;-webkit-tap-highlight-color:transparent}
-.book-controls .book-control::before{content:"";position:absolute;inset:calc((var(--menu-hit) - var(--menu-face))/2);box-sizing:border-box;border:1px solid #a99e8673;border-radius:50%;background:#fffaf0b8;pointer-events:none}
+.book-controls{--menu-hit:44px;--menu-icon:14px;position:absolute;left:2px;top:50%;transform:translateY(-50%);z-index:220;pointer-events:none;display:flex;flex-direction:column;align-items:center;width:var(--menu-hit);height:calc(2 * var(--menu-hit));gap:0;padding:0;border:0;border-radius:0;background:transparent}
+.book-controls .book-control{position:relative;display:grid;place-items:center;pointer-events:auto;inset:auto;flex:none;width:var(--menu-hit);height:var(--menu-hit);margin:0;padding:0;border:0;border-radius:50%;background:transparent;opacity:1;box-shadow:none;isolation:isolate;color:var(--menu-face-ink);text-decoration:none;-webkit-appearance:none;appearance:none;-webkit-tap-highlight-color:transparent}
+.book-controls .book-control::before{content:"";position:absolute;inset:calc((var(--menu-hit) - var(--menu-face))/2);box-sizing:border-box;border:1px solid var(--menu-face-border);border-radius:50%;background:var(--menu-face-background);pointer-events:none}
 .book-controls .book-control .icon{position:static;inset:auto;display:block;width:var(--menu-icon);height:var(--menu-icon);margin:0;filter:none;transform:none;pointer-events:none;z-index:1}
 .book-controls .book-control:hover{background:transparent}
 .book-controls .book-control:focus{outline:none}
@@ -25,3 +25,7 @@ html[data-reader-input="keyboard"] .book-controls .book-control:focus::before{ou
 
 /* Keep the centred dock clear of this legacy long-word label, at its original font size. */
 .book-shell[data-reader-page="u01-review-group-02"] .vocabulary-column[data-word="policeman"]{translate:calc(var(--book-width,1448px)*.069060773) 0;max-width:calc(var(--book-width,1448px)*.386740331)}
+
+/* On-page numbers share the menu discs, while remaining touch-through. */
+.master-page-badge{position:absolute;right:12px;bottom:12px;box-sizing:border-box;width:var(--menu-face);height:var(--menu-face);display:grid;place-items:center;border:1px solid var(--menu-face-border);border-radius:50%;background:var(--menu-face-background);color:var(--menu-face-ink);font:700 12px/1 "Arial Rounded MT Bold","PingFang HK",system-ui,sans-serif;font-variant-numeric:tabular-nums;font-synthesis:none;z-index:170;pointer-events:none}
+.master-page-badge[hidden]{display:none}

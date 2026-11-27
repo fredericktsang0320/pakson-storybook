@@ -58,4 +58,3 @@ html,body{position:relative;inset:auto;width:1448px;height:1086px;overflow:hidde
 @media (hover:hover) and (pointer:fine){.book-controls{gap:0;border-radius:50%}.book-controls .book-control{border-radius:50%}}
 
 /* Future-page-number master: exact approved series tokens. */
-.master-page-badge{position:absolute;right:12px;bottom:12px;width:44px;height:44px;box-sizing:border-box;border:2px solid #182C43;border-radius:50%;background:#FFFAF0;color:#182C43;font:700 18px/1 "Arial Rounded MT Bold","PingFang HK",system-ui,sans-serif;display:grid;place-items:center;z-index:170;pointer-events:none;font-synthesis:none}.master-page-badge[hidden]{display:none!important}
