@@ -139,7 +139,7 @@
     window.PaksonPractice?.sync(state.book?.pages[state.index],state.ready&&!state.turning);
     window.PaksonFeedback?.pageChanged(state.book?.pages[state.index],webStarted&&state.ready&&!state.turning&&!document.hidden);
     drainPracticePlayback();
-    if(state.ready&&!state.turning&&state.book)window.PaksonProgress?.onPage(state.book,state.index,index=>turnTo(index,{autoplay:true}));
+    if(state.ready&&!state.turning&&state.book)window.PaksonProgress?.onPage(state.book,state.index);
   }
   function syncNextHint() {
     const practice=window.PaksonPractice;
