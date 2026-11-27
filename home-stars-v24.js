@@ -1,7 +1,6 @@
 'use strict';
 (() => {
- const button=document.getElementById('paksonBag'),home=document.querySelector('.home-svg'),layer=document.getElementById('bagSparkles');
- if(!button||!home||!layer)return;
+ function create(layer,getOrigin){
  const live=new Map(),motion=matchMedia('(prefers-reduced-motion:reduce)'),MAX_STARS=72;
  const colours=['#ffd25b','#ffe494','#fff4c5','#f9bd3b'];
  const star='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 1.5 3.2 6.65 7.3 1.05-5.25 5.15 1.24 7.25L12 18.2l-6.49 3.4 1.24-7.25L1.5 9.2l7.3-1.05Z" fill="currentColor" stroke="#fff9db" stroke-width=".7" stroke-linejoin="round"/></svg>';
@@ -11,8 +10,8 @@
  function clear(){for(const node of [...live.keys()])dispose(node);}
  function burst(){
   if(document.hidden)return;
-  const matrix=home.getScreenCTM();if(!matrix)return;
-  const origin=new DOMPoint(724,748).matrixTransform(matrix),reduced=motion.matches,count=reduced?7:24;
+  const origin=getOrigin();if(!origin)return;
+  const reduced=motion.matches,count=reduced?7:24;
   while(live.size+count>MAX_STARS)dispose(live.keys().next().value);
   layer.dataset.burstCount=String(Number(layer.dataset.burstCount||0)+1);
   layer.dataset.originX=String(origin.x);layer.dataset.originY=String(origin.y);
@@ -40,8 +39,18 @@
   }
   layer.dataset.activeStars=String(live.size);
  }
- button.addEventListener('click',event=>{event.preventDefault();burst();});
- button.addEventListener('keydown',event=>{if((event.key==='Enter'||event.key===' ')&&!event.repeat){event.preventDefault();burst();}});
  window.addEventListener('pagehide',clear);window.addEventListener('resize',clear);window.visualViewport?.addEventListener('resize',clear);
- document.addEventListener('visibilitychange',()=>{if(document.hidden)clear();});motion.addEventListener?.('change',clear);
+ document.addEventListener('visibilitychange',()=>{if(document.hidden)clear();});
+ motion.addEventListener?.('change',clear);
+ return {burst,clear};
+ }
+ window.PaksonStarBurst={create};
+ const button=document.getElementById('paksonBag'),home=document.querySelector('.home-svg'),layer=document.getElementById('bagSparkles');
+ if(!button||!home||!layer)return;
+ const effect=create(layer,()=>{
+  const matrix=home.getScreenCTM();
+  return matrix?new DOMPoint(724,748).matrixTransform(matrix):null;
+ });
+ button.addEventListener('click',event=>{event.preventDefault();effect.burst();});
+ button.addEventListener('keydown',event=>{if((event.key==='Enter'||event.key===' ')&&!event.repeat){event.preventDefault();effect.burst();}});
 })();

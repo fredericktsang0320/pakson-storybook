@@ -4,6 +4,7 @@
  const room=stage.querySelector('.collection-room'),art=document.getElementById('shelfArt'),shelves=document.getElementById('shelves'),status=document.getElementById('collectionStatus'),heading=document.getElementById('collectionHeading'),home=document.getElementById('homeLink');
  let catalogue=[],layout=null;
  const subject=stage.dataset.subject;
+ const progress=window.PaksonProgress;
  function localPath(path){
   if(typeof path!=='string'||!path.trim())throw Error('Missing book path.');
   const url=new URL(path,location.href),root=new URL('./',location.href);
@@ -17,10 +18,13 @@
  function bookLink(book,index){
   const a=document.createElement('a');a.className='book-link';a.href=localPath(book.href);a.dataset.bookId=book.id;if(book.entry_audio)a.dataset.entryAudio=localPath(book.entry_audio);a.setAttribute('aria-label','閱讀 '+book.title+'，'+book.page_count+' 頁');
   const image=document.createElement('img');image.src=localPath(book.cover);image.alt=book.cover_alt||book.title;image.width=1448;image.height=1086;image.draggable=false;image.decoding='async';image.loading=index<2?'eager':'lazy';
-  const title=document.createElement('span');title.className='book-title';title.textContent=book.title;a.append(image,title);return a;
+  const title=document.createElement('span');title.className='book-title';title.textContent=book.title;a.append(image,title);if(!progress.allowed(subject,book.sequence))progress.lockCard(a,image,title,book);return a;
  }
  function render(){
-  const books=catalogue.filter(book=>book.subject===subject);shelves.replaceChildren();stage.querySelector('.collection-overflow')?.remove();
+  const subjectBooks=catalogue.filter(book=>book.subject===subject);
+  const books=progress.shelfBooks(subjectBooks,subject,progress.shelfMode());
+  progress.shelfToggle(stage.querySelector('.collection-header'),progress.shelfBooks(subjectBooks,subject,true).length>0,render);
+  shelves.replaceChildren();stage.querySelector('.collection-overflow')?.remove();
   room.style.setProperty('--shelf-width',layout.width);room.style.setProperty('--shelf-height',layout.height);
   art.src=localPath(layout.image);art.width=layout.width;art.height=layout.height;
   heading.textContent=subject==='english'?'English':'中文';place(heading,layout.title);place(home,layout.home);
@@ -36,10 +40,14 @@
   // A published catalogue should receive a longer single illustration before
   // exceeding its mapped slots. Preserve access if an oversized list is supplied.
   if(overflow)console.warn('The catalogue needs an extended whole shelf illustration. Extra titles remain accessible below.');
-  if(!books.length){const message=document.createElement('p');message.className='empty-message';message.textContent='新故事準備中';const first=layout.slots[0],second=layout.slots[1]||first;place(message,{x:first.x,y:first.y,width:second.x+second.width-first.x,height:first.height});shelves.append(message);}
+  if(!books.length){const message=document.createElement('p');message.className='empty-message';message.textContent=progress.shelfMode()?'暫時未有讀完嘅書':'新故事準備中';const first=layout.slots[0],second=layout.slots[1]||first;place(message,{x:first.x,y:first.y,width:second.x+second.width-first.x,height:first.height});shelves.append(message);}
   shelves.setAttribute('aria-busy','false');status.textContent=books.length?books.length+' 本圖書。':'新故事準備中。';
   window.dispatchEvent(new CustomEvent('pakson:shelf-ready',{detail:{subject,count:books.length,slots:layout.slots.length}}));
  }
+ window.addEventListener('popstate',()=>{if(layout)render();});
+ window.addEventListener('pageshow',event=>{if(layout&&event.persisted)render();});
+ window.addEventListener('pakson:progress-changed',()=>{if(layout)render();});
+ window.addEventListener('storage',event=>{if(layout&&event.key?.startsWith(progress.keyPrefix))render();});
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),15000);
  Promise.all([fetch('./catalogue.json',{signal:controller.signal}),fetch('./scene-layout-v21.json',{signal:controller.signal})]).then(async responses=>{
   if(responses.some(response=>!response.ok))throw Error('The collection could not open.');

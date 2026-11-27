@@ -1,0 +1,8 @@
+.reread-toggle{position:absolute;right:4%;top:2%;z-index:2;pointer-events:auto;min-height:36px;padding:5px 12px;border:1px solid #8b562d;border-radius:16px;background:#fff1ce;color:#59371f;font:700 15px/1.2 system-ui,sans-serif;cursor:pointer}
+.reread-toggle[hidden],.return-to-unread[hidden]{display:none}
+.book-link[aria-disabled="true"]{cursor:default}
+.locked-cover{position:relative;display:block;width:100%;max-height:84%;min-height:0}
+.locked-cover img{max-height:100%}
+.book-lock{position:absolute;right:5%;bottom:5%;display:grid;place-items:center;width:clamp(22px,5vw,32px);aspect-ratio:1;border-radius:50%;background:#fff3d9;color:#573720;box-shadow:0 1px 4px #58361c80;pointer-events:none}
+.book-lock svg{display:block;width:67%;height:67%;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.return-to-unread{position:absolute;z-index:230;bottom:10px;left:50%;translate:-50% 0;min-height:36px;padding:4px 12px;border:1px solid #a99e8673;border-radius:15px;background:#fffaf0;color:#182c43;font:650 14px/1.15 system-ui,sans-serif;white-space:nowrap;cursor:pointer}

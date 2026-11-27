@@ -22,8 +22,9 @@
     frame.addEventListener('load',()=>{if(opened)safeStart(api()?.openFromCover());else api()?.closeToLibrary();});
     frame.src=url.href;document.body.appendChild(frame);return frame;
   }
-  function warm(){const link=document.querySelector('.book-link');if(link&&!opened)makeFrame(link);}
+  function warm(){const link=document.querySelector('a.book-link[href]:not([aria-disabled="true"])');if(link&&!opened)makeFrame(link);}
   function open(link){
+    if(!link?.matches('a.book-link[href]:not([aria-disabled="true"])'))return;
     makeFrame(link);opened=true;openedAt=performance.now();previousOverflow=document.body.style.overflow;
     document.body.classList.add('pakson-reader-open');frame.classList.add('is-open');frame.setAttribute('aria-hidden','false');
     const reader=api();
@@ -79,7 +80,7 @@
     }).finally(()=>{revisionRequest=null;if(navigator.serviceWorker.controller!==worker)void refreshArtRevision();});return revisionRequest;
   }
   window.PaksonShelfReader={open,close,get frame(){return frame;},get opened(){return opened;},get openedAt(){return openedAt;},get frameArtRevision(){return frameRevision;},get expectedArtRevision(){return revisionFor(bookLink);},refreshArtRevision,takeEntry(){if(!opened||!entry||entry.claimed)return null;entry.claimed=true;return entry;}};
-  document.addEventListener('click',event=>{const link=event.target.closest('.book-link');if(!link||event.button>0||event.metaKey||event.ctrlKey||event.altKey||event.shiftKey)return;event.preventDefault();event.stopImmediatePropagation();open(link);},true);
+  document.addEventListener('click',event=>{const link=event.target.closest('a.book-link[href]:not([aria-disabled="true"])');if(!link||event.button>0||event.metaKey||event.ctrlKey||event.altKey||event.shiftKey)return;event.preventDefault();event.stopImmediatePropagation();open(link);},true);
   window.addEventListener('popstate',()=>{if(!location.hash.startsWith('#read='))hide();});
   window.addEventListener('pagehide',()=>{hide();});
   window.addEventListener('pakson:shelf-ready',()=>{warm();void refreshArtRevision();});

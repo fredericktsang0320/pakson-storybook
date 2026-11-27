@@ -118,6 +118,7 @@
       return;
     }
     if(!state.ready||!entryVisible()||state.turning||state.navigation||audio?.state!=='ended'||audio.page!==page||!audio.node.ended||!page?.audio||page.page_type==='closing_logo')return;
+    if(validNaturalEnd(page,proof))window.PaksonProgress?.mark(state.book,page,'listen');
     naturalEnd={index:state.index,generation:audio.generation};scheduleAutomaticTurn();
   }
   const titleFor = page => ({cover:'Cover',word_practice:`Word practice ${page.group_number}`,review:'D: read and say',song:'Song',closing_logo:'Pakson'})[page.page_type] || `Story page ${page.source_story_page}`;
@@ -138,8 +139,15 @@
     window.PaksonPractice?.sync(state.book?.pages[state.index],state.ready&&!state.turning);
     window.PaksonFeedback?.pageChanged(state.book?.pages[state.index],webStarted&&state.ready&&!state.turning&&!document.hidden);
     drainPracticePlayback();
+    if(state.ready&&!state.turning&&state.book)window.PaksonProgress?.onPage(state.book,state.index,index=>turnTo(index,{autoplay:true}));
   }
   function syncNextHint() {
+    const practice=window.PaksonPractice;
+    const currentPage=state.book?.pages[state.index];
+    if(state.ready&&!state.turning&&currentPage?.page_type==='word_practice'&&
+       practice?.getSession()?.page.page_id===currentPage.page_id&&practice.canAdvancePage()){
+      window.PaksonProgress?.mark(state.book,currentPage,'practice');
+    }
     const show = state.book?.pages[state.index]?.page_type!=='word_practice' && !state.autoTurn && state.ready && !state.turning && state.audio?.state === 'ended' && state.index < (state.book?.pages.length || 0)-1;
     const button = $('nextPageButton');
     if (button.hidden === show) {button.hidden = !show;button.classList.toggle('just-finished',show);}
@@ -833,6 +841,10 @@
     $('menuButton').onclick = () => openMenu(); $('panelClose').onclick = closeMenu; $('reloadButton').onclick = () => location.reload();
     try {
       state.book = window.BOOK_DATA;
+      if(window.PaksonProgress&&!window.PaksonProgress.readerAllowed(state.book)){
+        location.replace($('libraryLink').href);
+        return;
+      }
       if (!window.St?.PageFlip) throw new Error('The paper animation could not load.');
       // Opening a book is a new reading, irrespective of the previous bookmark.
       state.index=0;

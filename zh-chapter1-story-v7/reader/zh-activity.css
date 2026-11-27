@@ -1,0 +1,24 @@
+#zhActivity{position:absolute;inset:0;z-index:180;pointer-events:none}
+#zhActivity button{position:absolute;pointer-events:auto;padding:0;background:none;border:0;box-shadow:none;border-radius:10px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+#zhActivity button[aria-pressed="true"]{box-shadow:inset 0 0 0 2px #f8f2d8d6,0 0 16px #f9de7cab}
+#zhActivity button:focus-visible{outline:2px solid #786f5c;outline-offset:2px}
+#zhActivity video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;pointer-events:none}
+.book-shell.is-turning #zhActivity{visibility:hidden}
+
+/* Keep the forward control clear of the picture answers. */
+.book-shell[data-zh-quiz] .next-page-hint{top:auto;right:46px;bottom:8px;translate:none;width:44px;height:44px;min-width:44px;min-height:44px;padding:0}
+.book-shell[data-zh-quiz] .next-page-hint .icon{width:26px;height:26px}
+
+/* Learning words are printed in the illustration. The red stroke is the live reading cue. */
+.read-word-ring{position:absolute;pointer-events:none;z-index:1}
+.read-word-ring[hidden]{display:none}
+.read-word-ring svg{display:block;width:100%;height:100%;overflow:visible}
+.read-word-ring path{fill:none;stroke:#bb2024;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke;filter:drop-shadow(0 1px 1px #fff6de)}
+.book-shell[data-reader-page="p12"] .master-page-badge{bottom:17%}
+.book-shell[data-reader-page="p17"] .next-page-hint,.book-shell[data-reader-page="p17b"] .next-page-hint{top:35%;right:6px;bottom:auto}
+#zhActivity .logo-star-button{left:28%;top:13%;width:44%;height:44%;border-radius:36%}
+.logo-sparkles{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:900}
+.logo-sparkles .bag-star{position:absolute;display:block;pointer-events:none;filter:drop-shadow(0 2px 2px #a9662a66);will-change:transform,opacity}
+.logo-sparkles .bag-star svg{display:block;width:100%;height:100%}
+
+.book-shell[data-reader-page="p17"] .master-page-badge{bottom:4px}

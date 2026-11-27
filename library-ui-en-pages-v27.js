@@ -6,6 +6,7 @@
  const next=document.getElementById('shelfNext');
  let catalogue=[],layout=null,currentPage=0;
  const subject=stage.dataset.subject;
+ const progress=window.PaksonProgress;
  function localPath(path){
   if(typeof path!=='string'||!path.trim())throw Error('Missing book path.');
   const url=new URL(path,location.href),root=new URL('./',location.href);
@@ -19,10 +20,11 @@
  function bookLink(book,index){
   const a=document.createElement('a');a.className='book-link';a.href=localPath(book.href);a.dataset.bookId=book.id;if(book.entry_audio)a.dataset.entryAudio=localPath(book.entry_audio);a.setAttribute('aria-label','閱讀 '+book.title+'，'+book.page_count+' 頁');
   const image=document.createElement('img');image.src=localPath(book.cover);image.alt=book.cover_alt||book.title;image.width=1448;image.height=1086;image.draggable=false;image.decoding='async';image.loading=index<2?'eager':'lazy';
-  const title=document.createElement('span');title.className='book-title';title.textContent=book.title;a.append(image,title);return a;
+  const title=document.createElement('span');title.className='book-title';title.textContent=book.title;a.append(image,title);if(!progress.allowed(subject,book.sequence))progress.lockCard(a,image,title,book);return a;
  }
+ function displayed(){return progress.shelfBooks(catalogue,subject,progress.shelfMode());}
  function pageCount(){
-  return Math.max(1,Math.ceil(catalogue.length/layout.slots.length));
+  return Math.max(1,Math.ceil(displayed().length/layout.slots.length));
  }
 
  function pageFromLocation(){
@@ -36,7 +38,9 @@
   stage.dataset.shelfPage=String(currentPage);
   const pageSize=layout.slots.length;
   const offset=(currentPage-1)*pageSize;
-  const books=catalogue.slice(offset,offset+pageSize);
+  const all=displayed();
+  const books=all.slice(offset,offset+pageSize);
+  progress.shelfToggle(stage.querySelector('.collection-header'),progress.shelfBooks(catalogue,subject,true).length>0,render);
   shelves.replaceChildren();
   books.forEach((book,index)=>{
    const a=bookLink(book,index);
@@ -46,7 +50,7 @@
   if(!books.length){
    const message=document.createElement('p');
    message.className='empty-message';
-   message.textContent='新故事準備中';
+   message.textContent=progress.shelfMode()?'暫時未有讀完嘅書':'新故事準備中';
    const first=layout.slots[0],second=layout.slots[1]||first;
    place(message,{x:first.x,y:first.y,width:second.x+second.width-first.x,height:first.height});
    shelves.append(message);
@@ -54,7 +58,7 @@
   previous.hidden=currentPage<=1;
   next.hidden=currentPage>=pageCount();
   shelves.setAttribute('aria-busy','false');
-  status.textContent=books.length?'第 '+currentPage+' 頁，共 '+pageCount()+' 頁，'+catalogue.length+' 本圖書。':'新故事準備中。';
+  status.textContent=books.length?'第 '+currentPage+' 頁，共 '+pageCount()+' 頁，'+all.length+' 本圖書。':'新故事準備中。';
   window.dispatchEvent(new CustomEvent('pakson:shelf-ready',{detail:{subject,count:books.length,slots:pageSize,page:currentPage}}));
  }
 
@@ -74,8 +78,11 @@
  previous.addEventListener('click',()=>goToPage(currentPage-1,previous));
  next.addEventListener('click',()=>goToPage(currentPage+1,next));
  window.addEventListener('popstate',()=>{
-  if(layout&&pageFromLocation()!==currentPage)render();
+  if(layout)render();
  });
+ window.addEventListener('pageshow',event=>{if(layout&&event.persisted)render();});
+ window.addEventListener('pakson:progress-changed',()=>{if(layout)render();});
+ window.addEventListener('storage',event=>{if(layout&&event.key?.startsWith(progress.keyPrefix))render();});
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),15000);
  Promise.all([fetch('./catalogue.json',{signal:controller.signal}),fetch('./scene-layout-en-v25.json',{signal:controller.signal})]).then(async responses=>{
   if(responses.some(response=>!response.ok))throw Error('The collection could not open.');
