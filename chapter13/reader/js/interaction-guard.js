@@ -2,7 +2,7 @@
 'use strict';
 (() => {
   let touch = null, mouse = false, lastTouchClick = null;
-  const selector = '#pageStage,.book-control,#nextPageButton,#bookDialog button,.practice-option,.practice-next';
+  const selector = '#pageStage,.book-control,#nextPageButton,#bookDialog button,.practice-option,.practice-next,.logo-effect-trigger';
   const targetFor = event => event.target?.closest?.(selector);
   const ready = () => !!window.paksonReader?.state.ready;
   const options = {capture:true,passive:false};

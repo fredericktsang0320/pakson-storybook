@@ -1,6 +1,6 @@
 {
-  "version": "d3d15d54dfdd94e4",
-  "total_bytes": 344884963,
+  "version": "f53a82b6243d9bcf",
+  "total_bytes": 344900882,
   "speech_edition": "chapter1-approved-v18-unchanged;chapter2-fixed-Qwen-v1;chapter3-fixed-Qwen-v1;chapter4-fixed-Qwen-v1;chapter5-fixed-Qwen-v1;chapter6-fixed-Qwen-v1;chapter7-fixed-Qwen-v1;chapter8-fixed-Qwen-v1;chapter9-fixed-Qwen-v1;chapter10-fixed-Qwen-v1;chapter11-fixed-Qwen-v1;chapter12-fixed-Qwen-v1;chapter13-fixed-Qwen-v1;chapter14-fixed-Qwen-v1;chapter15-fixed-Qwen-v1;chapter16-fixed-Qwen-v1",
   "ui_edition": "whole-shelf-and-one-tap-reader-v21",
   "cache_policy": 20,
@@ -26,7 +26,7 @@
     "chapter14": 1,
     "chapter15": 1,
     "chapter16": 1,
-    "zh-chapter1": 8
+    "zh-chapter1": 9
   },
   "library_books": 17,
   "preserve_complete_prior_on_quota": true,
@@ -130,13 +130,13 @@
     {
       "url": "./catalogue.json",
       "bytes": 7544,
-      "sha256": "82079b87db3ea960d035528d33b7392ca2a2e73c4cfeb4fc54a5177f8c24bbd4",
+      "sha256": "ea18ab0718183f2d8de87dd1023590ba5c434463a9c709b443c6300550d12afb",
       "core": true
     },
     {
       "url": "./chapter2/read.html",
-      "bytes": 7795,
-      "sha256": "0c60b2bdde5ee8a260fb4432edf15f616d1c0ba2678b446c85cc44456bbc54a0",
+      "bytes": 7905,
+      "sha256": "4478822a35451c7a2a78d1dcd218df845d58c8b357e88d549d099b273591f5c6",
       "core": true
     },
     {
@@ -435,8 +435,8 @@
     },
     {
       "url": "./chapter2/reader/js/app-v21.js",
-      "bytes": 57802,
-      "sha256": "95a65b35f4815f7c8616931e409bfe4780811191438662466cbff26ebe4170a8",
+      "bytes": 57823,
+      "sha256": "91c06c8bd998af36b87643ae6b60f3f09aa2cb703a42645d7886ef25902532ee",
       "core": true
     },
     {
@@ -459,8 +459,8 @@
     },
     {
       "url": "./chapter2/reader/js/interaction-guard.js",
-      "bytes": 4092,
-      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
+      "bytes": 4113,
+      "sha256": "c31ca3a33f4e1a9a369096ff5bc09ab1de403633665284701547c6dbb1e01b70",
       "core": true
     },
     {
@@ -663,8 +663,8 @@
     },
     {
       "url": "./read-v23.html",
-      "bytes": 7862,
-      "sha256": "5bbb392a76563fa698c401c0f8d565461e6331bc0bfe6e9f17b3a8666fa63aee",
+      "bytes": 7966,
+      "sha256": "f687a156fd3e6f7f042e7798b069e1244334f7577200d792049f7bbce32aa972",
       "core": true
     },
     {
@@ -993,8 +993,8 @@
     },
     {
       "url": "./reader-v18/js/app-v21.js",
-      "bytes": 59354,
-      "sha256": "34799943c1e9fd5fe2a1356265653e8e54509368b3af2403cffde1a93cfe75d1",
+      "bytes": 59375,
+      "sha256": "0c7814076de9d400131f53af909c141c32cf45d594939fd9e7cf2a58453aef5c",
       "core": true
     },
     {
@@ -1029,8 +1029,8 @@
     },
     {
       "url": "./reader-v18/js/interaction-guard.js",
-      "bytes": 4092,
-      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
+      "bytes": 4113,
+      "sha256": "c31ca3a33f4e1a9a369096ff5bc09ab1de403633665284701547c6dbb1e01b70",
       "core": true
     },
     {
@@ -1107,8 +1107,8 @@
     },
     {
       "url": "./chapter3/read.html",
-      "bytes": 7755,
-      "sha256": "545298c1903fab7da65d3898bcf5fce3e6c8406c13999a23ec05cac30a7a7f36",
+      "bytes": 7865,
+      "sha256": "ee9fcd79aa01625695ee97b5ef755de6dda20e47b274f71244a16394030a122d",
       "core": false
     },
     {
@@ -1359,8 +1359,8 @@
     },
     {
       "url": "./chapter3/reader/js/app-v21.js",
-      "bytes": 57784,
-      "sha256": "dd4309d840910f02889e7b09ca50899e05f43a804b93a03c4d7c1a34af8efa8e",
+      "bytes": 57805,
+      "sha256": "4dc28b22de22c9233b091e1ab2731a4dce719ea6d4a87591fe78fa148faf33bf",
       "core": false
     },
     {
@@ -1383,8 +1383,8 @@
     },
     {
       "url": "./chapter3/reader/js/interaction-guard.js",
-      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
-      "bytes": 4092,
+      "bytes": 4113,
+      "sha256": "c31ca3a33f4e1a9a369096ff5bc09ab1de403633665284701547c6dbb1e01b70",
       "core": false
     },
     {
@@ -1437,8 +1437,8 @@
     },
     {
       "url": "./chapter4/read.html",
-      "bytes": 7743,
-      "sha256": "efb770bdbde7250905a3cf4fe8983aadbfe04fc06a92b9cc003fd2325da03035",
+      "bytes": 7853,
+      "sha256": "af61d40af1d4b2fcb12256d1759c53151ec7b5c350b348ff01204e95516a72b7",
       "core": false
     },
     {
@@ -1677,8 +1677,8 @@
     },
     {
       "url": "./chapter4/reader/js/app-v21.js",
-      "bytes": 57770,
-      "sha256": "fb32dc71a4738539b2dce72c864c09b97454e6d97df452173381f0406f96a35a",
+      "bytes": 57791,
+      "sha256": "b6f61550cb5a170c7f584afccc7a07f83959e05047035c99bba1e4961a0ff752",
       "core": false
     },
     {
@@ -1701,8 +1701,8 @@
     },
     {
       "url": "./chapter4/reader/js/interaction-guard.js",
-      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
-      "bytes": 4092,
+      "bytes": 4113,
+      "sha256": "c31ca3a33f4e1a9a369096ff5bc09ab1de403633665284701547c6dbb1e01b70",
       "core": false
     },
     {
@@ -1755,8 +1755,8 @@
     },
     {
       "url": "./chapter5/read.html",
-      "bytes": 7740,
-      "sha256": "533fda418aa3e4ec6b9ba378f5f512595b7c8f047ed1b6cfa8aa33d3c7895da3",
+      "bytes": 7850,
+      "sha256": "18619e9a13dfd745f134832621cd08f5f48b0e4a8046a2898e52727d38721c48",
       "core": false
     },
     {
@@ -2013,8 +2013,8 @@
     },
     {
       "url": "./chapter5/reader/js/app-v21.js",
-      "bytes": 57770,
-      "sha256": "3721437bbedc88844fdd36d114dda598ee2fa9d69a3f4544ba53082f63a47bcf",
+      "bytes": 57791,
+      "sha256": "50525b69c8a1a68ed50b1c2d1bbf95821685107e397e7bab1f880307b5f2a922",
       "core": false
     },
     {
@@ -2037,8 +2037,8 @@
     },
     {
       "url": "./chapter5/reader/js/interaction-guard.js",
-      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
-      "bytes": 4092,
+      "bytes": 4113,
+      "sha256": "c31ca3a33f4e1a9a369096ff5bc09ab1de403633665284701547c6dbb1e01b70",
       "core": false
     },
     {
@@ -2091,8 +2091,8 @@
     },
     {
       "url": "./chapter6/read.html",
-      "bytes": 7740,
-      "sha256": "49001cae700e438c8cbd7e12fed89494c7f8344780a5ecb4ccb8eda5f5bb2dc8",
+      "bytes": 7850,
+      "sha256": "87361da6b81b41018752a4da91dd0e29638dc197b7455500b6f2c6fecfa1dc22",
       "core": false
     },
     {
@@ -2409,8 +2409,8 @@
     },
     {
       "url": "./chapter6/reader/js/app-v21.js",
-      "bytes": 57770,
-      "sha256": "f85b60d303d4eb1f32265db9aaea92ba7107f7ab94a855a1527c51ff1fa9b4b0",
+      "bytes": 57791,
+      "sha256": "76da9c32d37ebebe97d0a4d1c820fcf438fe0f7424e66a0266e54665a445134a",
       "core": false
     },
     {
@@ -2433,8 +2433,8 @@
     },
     {
       "url": "./chapter6/reader/js/interaction-guard.js",
-      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
-      "bytes": 4092,
+      "bytes": 4113,
+      "sha256": "c31ca3a33f4e1a9a369096ff5bc09ab1de403633665284701547c6dbb1e01b70",
       "core": false
     },
     {
@@ -2511,8 +2511,8 @@
     },
     {
       "url": "./chapter7/read.html",
-      "bytes": 7749,
-      "sha256": "8ba4bb50bcc109c9b92a544766149fee23a65cce67729a0fb50863faa92ff847",
+      "bytes": 7859,
+      "sha256": "5ee642fa4ff98c672c755402a3f7da7d7888291bf8cf01a350f01aee91492e97",
       "core": false
     },
     {
@@ -2697,8 +2697,8 @@
     },
     {
       "url": "./chapter7/reader/js/app-v21.js",
-      "bytes": 57772,
-      "sha256": "49d2d443f046a8ae1df221561a40980922fc08555031181d83a160318c4612f3",
+      "bytes": 57793,
+      "sha256": "06f5b5e295e20ec06a11968108a9d5f3b312cea6874f705b33e2a68f3425e414",
       "core": false
     },
     {
@@ -2721,8 +2721,8 @@
     },
     {
       "url": "./chapter7/reader/js/interaction-guard.js",
-      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
-      "bytes": 4092,
+      "bytes": 4113,
+      "sha256": "c31ca3a33f4e1a9a369096ff5bc09ab1de403633665284701547c6dbb1e01b70",
       "core": false
     },
     {
@@ -2775,8 +2775,8 @@
     },
     {
       "url": "./chapter8/read.html",
-      "bytes": 7767,
-      "sha256": "95ac9805f3db8547b90f38a6af7c13224c3e95dc2c8a8ec3fe8e9b1cf2af25a0",
+      "bytes": 7877,
+      "sha256": "bbf5c605974e9c01999ad628dcfae2c8ff7e0955a35bec4cbcbca26d0a3193e0",
       "core": false
     },
     {
@@ -3033,8 +3033,8 @@
     },
     {
       "url": "./chapter8/reader/js/app-v21.js",
-      "bytes": 57781,
-      "sha256": "5433d20b2e8c03f5f0a39abdbb854dbef8ea818a96a90e48f80b072e7fa44609",
+      "bytes": 57802,
+      "sha256": "eb054b28db6f08ed9d772875937594342f80b4b14bcc5af43ec160241e5a5a1e",
       "core": false
     },
     {
@@ -3057,8 +3057,8 @@
     },
     {
       "url": "./chapter8/reader/js/interaction-guard.js",
-      "bytes": 4092,
-      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
+      "bytes": 4113,
+      "sha256": "c31ca3a33f4e1a9a369096ff5bc09ab1de403633665284701547c6dbb1e01b70",
       "core": false
     },
     {
@@ -3111,8 +3111,8 @@
     },
     {
       "url": "./chapter9/read.html",
-      "bytes": 7767,
-      "sha256": "c76107cdb83c3ec1e930103667d5b36c6117f5abf0a970e9a4c631fe2f6d8c7d",
+      "bytes": 7877,
+      "sha256": "eaff0ebcd578ccb66dbc5607fdcaaf71d65d0d137d2cb123c746eb68fe0c31ca",
       "core": false
     },
     {
@@ -3357,8 +3357,8 @@
     },
     {
       "url": "./chapter9/reader/js/app-v21.js",
-      "bytes": 57795,
-      "sha256": "62b4dc9471f180ef0fee460c74b96f249d70650d7aa071cb2881fa363ce2033d",
+      "bytes": 57816,
+      "sha256": "f862fff676fda9f582c2968ee823b36e722672fcc8019211cfa3f3c4ba178495",
       "core": false
     },
     {
@@ -3381,8 +3381,8 @@
     },
     {
       "url": "./chapter9/reader/js/interaction-guard.js",
-      "bytes": 4092,
-      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
+      "bytes": 4113,
+      "sha256": "c31ca3a33f4e1a9a369096ff5bc09ab1de403633665284701547c6dbb1e01b70",
       "core": false
     },
     {
@@ -3435,8 +3435,8 @@
     },
     {
       "url": "./chapter10/read.html",
-      "bytes": 7761,
-      "sha256": "ca34cc888058b934b043e7d04fe881c833de41a189841c6178ef64be62e12178",
+      "bytes": 7871,
+      "sha256": "a50fd31c5d81a8cef545e30bc1b53aeaa74857c074f5c46351c0a8873c114488",
       "core": false
     },
     {
@@ -3669,8 +3669,8 @@
     },
     {
       "url": "./chapter10/reader/js/app-v21.js",
-      "bytes": 57797,
-      "sha256": "ad0de441181aa7ebb4be28f13c679ad8a9efff3c845a717b10332242e641569d",
+      "bytes": 57818,
+      "sha256": "e4287cbd82cdd5d75a781f895f53bfe7068efb56e0c3fcb5076ea1b244623d03",
       "core": false
     },
     {
@@ -3693,8 +3693,8 @@
     },
     {
       "url": "./chapter10/reader/js/interaction-guard.js",
-      "bytes": 4092,
-      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
+      "bytes": 4113,
+      "sha256": "c31ca3a33f4e1a9a369096ff5bc09ab1de403633665284701547c6dbb1e01b70",
       "core": false
     },
     {
@@ -3747,8 +3747,8 @@
     },
     {
       "url": "./chapter11/read.html",
-      "bytes": 7767,
-      "sha256": "39702ed8d0804d9f71a5299f571b085ea7d2c2e0742c2cde0e686eaeac630dc4",
+      "bytes": 7877,
+      "sha256": "d3e04ce017a3e9443bc634c7808d25a0a837e941a770da3a883473c484d717df",
       "core": false
     },
     {
@@ -3981,8 +3981,8 @@
     },
     {
       "url": "./chapter11/reader/js/app-v21.js",
-      "bytes": 57828,
-      "sha256": "9e32c2d04a55b12ecf4ba8711fb757a0738b40977e0bb0df8fbdc0d6a073d58e",
+      "bytes": 57849,
+      "sha256": "ec26591e65183d10cf7728f585ddb246695b6f9e7f5f650f2206b9caf7ab8be2",
       "core": false
     },
     {
@@ -4005,8 +4005,8 @@
     },
     {
       "url": "./chapter11/reader/js/interaction-guard.js",
-      "bytes": 4092,
-      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
+      "bytes": 4113,
+      "sha256": "c31ca3a33f4e1a9a369096ff5bc09ab1de403633665284701547c6dbb1e01b70",
       "core": false
     },
     {
@@ -4059,8 +4059,8 @@
     },
     {
       "url": "./chapter12/read.html",
-      "bytes": 7791,
-      "sha256": "6c932b2ebb7b87d8b3c78ef28edd8547f39ca9bd9ebfe9d97dc3b945ba0b8498",
+      "bytes": 7901,
+      "sha256": "96f15b55507e4e2867ba4f3b69ee61a1c3a7a2b32aeaf3c806e4ce667dd28e26",
       "core": false
     },
     {
@@ -4335,8 +4335,8 @@
     },
     {
       "url": "./chapter12/reader/js/app-v21.js",
-      "bytes": 57844,
-      "sha256": "1abd8446475bc6f4785bb8a1fc6b9dc642954952991c8cebba0b2f1bd3277238",
+      "bytes": 57865,
+      "sha256": "d741db346026665c0f23f3eb55a1a1410b1aadcdffd1478ee79a720f3c43b3cf",
       "core": false
     },
     {
@@ -4359,8 +4359,8 @@
     },
     {
       "url": "./chapter12/reader/js/interaction-guard.js",
-      "bytes": 4092,
-      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
+      "bytes": 4113,
+      "sha256": "c31ca3a33f4e1a9a369096ff5bc09ab1de403633665284701547c6dbb1e01b70",
       "core": false
     },
     {
@@ -4431,8 +4431,8 @@
     },
     {
       "url": "./chapter13/read.html",
-      "bytes": 7770,
-      "sha256": "c06a1d063f1cff13e4c1e0df4fba9c382a563227b031d7408cdea5cba8e50c27",
+      "bytes": 7880,
+      "sha256": "becbd4bf173fa20aa5cb1c730e4d8c68b42a430969cd6ad7679350456895d318",
       "core": false
     },
     {
@@ -4701,8 +4701,8 @@
     },
     {
       "url": "./chapter13/reader/js/app-v21.js",
-      "bytes": 57779,
-      "sha256": "9430f92ecf54f236f8ef5df80fe9f537d035fe458708ef2a07393e514c3b2dde",
+      "bytes": 57800,
+      "sha256": "ba964a4047ef3ca7c82b2ee6f2ff7385c7af2e04c09f6129d93a2bddb32d0da4",
       "core": false
     },
     {
@@ -4725,8 +4725,8 @@
     },
     {
       "url": "./chapter13/reader/js/interaction-guard.js",
-      "bytes": 4092,
-      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
+      "bytes": 4113,
+      "sha256": "c31ca3a33f4e1a9a369096ff5bc09ab1de403633665284701547c6dbb1e01b70",
       "core": false
     },
     {
@@ -4779,8 +4779,8 @@
     },
     {
       "url": "./chapter14/read.html",
-      "bytes": 7728,
-      "sha256": "cac328f193e44a99ebefc02a03a0a6e10c5a8a25e4a4dd82db88261b5d7a4263",
+      "bytes": 7838,
+      "sha256": "d9ba2a3362babb6f94d5bafba609f8a46437f228bb769b7481a8f6769b3bc0c4",
       "core": false
     },
     {
@@ -5109,8 +5109,8 @@
     },
     {
       "url": "./chapter14/reader/js/app-v21.js",
-      "bytes": 57763,
-      "sha256": "39d4a20f2c88845d39878349d895fa7386c96c027781f0ab173334a59661cf04",
+      "bytes": 57784,
+      "sha256": "83ffbc2902851f14c880bf898f240eacb7e9c47b66b52c9588a117b819fab296",
       "core": false
     },
     {
@@ -5133,8 +5133,8 @@
     },
     {
       "url": "./chapter14/reader/js/interaction-guard.js",
-      "bytes": 4092,
-      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
+      "bytes": 4113,
+      "sha256": "c31ca3a33f4e1a9a369096ff5bc09ab1de403633665284701547c6dbb1e01b70",
       "core": false
     },
     {
@@ -5187,8 +5187,8 @@
     },
     {
       "url": "./chapter15/read.html",
-      "bytes": 7764,
-      "sha256": "c1f32d196bed6ecaea13b250cb4d75958da482d2b005a98936e595f1afe845b8",
+      "bytes": 7874,
+      "sha256": "b86f2ed60204b23d844703be309fc99d13c999b32cb4c42f9a13becf950b538a",
       "core": false
     },
     {
@@ -5367,8 +5367,8 @@
     },
     {
       "url": "./chapter15/reader/js/app-v21.js",
-      "bytes": 57783,
-      "sha256": "f5bbbaef844a545f4c9c515693eeabe758ae114e66abcf9f07584adf295cd91b",
+      "bytes": 57804,
+      "sha256": "c2e8c42c48e33610a5534233904f0734fe684abe6dec6c63f44901f87f627145",
       "core": false
     },
     {
@@ -5391,8 +5391,8 @@
     },
     {
       "url": "./chapter15/reader/js/interaction-guard.js",
-      "bytes": 4092,
-      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
+      "bytes": 4113,
+      "sha256": "c31ca3a33f4e1a9a369096ff5bc09ab1de403633665284701547c6dbb1e01b70",
       "core": false
     },
     {
@@ -5445,8 +5445,8 @@
     },
     {
       "url": "./chapter16/read.html",
-      "bytes": 7755,
-      "sha256": "09ee81e00e77132ca96e53007a9dd2e4530b020b9acc14bb8d398879de6a9162",
+      "bytes": 7865,
+      "sha256": "f1c8b528d6cf41fd210d1a99a7832ac57a4b3cfc114eed7a691319a06f9b0e70",
       "core": false
     },
     {
@@ -5739,8 +5739,8 @@
     },
     {
       "url": "./chapter16/reader/js/app-v21.js",
-      "bytes": 57781,
-      "sha256": "b0fbbfdac8dbb33c14fd08161b5ed1639aa365bb3a6b76328d99bf32d1cb6e1f",
+      "bytes": 57802,
+      "sha256": "22c8753bb8b312056b835829b498445c315b5a7cabfd305ec71f6e0639c0fca8",
       "core": false
     },
     {
@@ -5763,8 +5763,8 @@
     },
     {
       "url": "./chapter16/reader/js/interaction-guard.js",
-      "bytes": 4092,
-      "sha256": "2d2f92c84582a7160cf75d968d474d5d08a913da2cf2a913524d415333504349",
+      "bytes": 4113,
+      "sha256": "c31ca3a33f4e1a9a369096ff5bc09ab1de403633665284701547c6dbb1e01b70",
       "core": false
     },
     {
@@ -5824,31 +5824,31 @@
     {
       "url": "./zh-chapter1-story-v4/read.html",
       "bytes": 250,
-      "sha256": "1b7848d00a55af02dbf0e22a31be906176822f55966c93ba8ffc7fae1ce161f8",
+      "sha256": "46d3359dd85338f56a6f4ae322990654b7e9eaa3a7d7c74f48a6913a1f81397f",
       "core": false
     },
     {
       "url": "./zh-chapter1/read.html",
       "bytes": 250,
-      "sha256": "1b7848d00a55af02dbf0e22a31be906176822f55966c93ba8ffc7fae1ce161f8",
+      "sha256": "46d3359dd85338f56a6f4ae322990654b7e9eaa3a7d7c74f48a6913a1f81397f",
       "core": false
     },
     {
       "url": "./zh-chapter1-story-v5/read.html",
       "bytes": 250,
-      "sha256": "1b7848d00a55af02dbf0e22a31be906176822f55966c93ba8ffc7fae1ce161f8",
+      "sha256": "46d3359dd85338f56a6f4ae322990654b7e9eaa3a7d7c74f48a6913a1f81397f",
       "core": false
     },
     {
       "url": "./zh-chapter1-story-v6/read.html",
       "bytes": 250,
-      "sha256": "1b7848d00a55af02dbf0e22a31be906176822f55966c93ba8ffc7fae1ce161f8",
+      "sha256": "46d3359dd85338f56a6f4ae322990654b7e9eaa3a7d7c74f48a6913a1f81397f",
       "core": false
     },
     {
       "url": "./zh-chapter1-story-v7/read.html",
       "bytes": 250,
-      "sha256": "1b7848d00a55af02dbf0e22a31be906176822f55966c93ba8ffc7fae1ce161f8",
+      "sha256": "46d3359dd85338f56a6f4ae322990654b7e9eaa3a7d7c74f48a6913a1f81397f",
       "core": false
     },
     {
@@ -5864,363 +5864,381 @@
       "core": true
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/correct.m4a",
+      "url": "./zh-chapter1-story-v8/read.html",
+      "bytes": 250,
+      "sha256": "46d3359dd85338f56a6f4ae322990654b7e9eaa3a7d7c74f48a6913a1f81397f",
+      "core": false
+    },
+    {
+      "url": "./closing-effects-v1.css",
+      "bytes": 2127,
+      "sha256": "01c041e526cb3e3ce46c1090516a980dab16c52d643736b09e2bc9e792660053",
+      "core": true
+    },
+    {
+      "url": "./closing-effects-v1.js",
+      "bytes": 8169,
+      "sha256": "42ff681e51c2e987371b3168e05927d5e72f3823fff197361f2dc524e8439300",
+      "core": true
+    },
+    {
+      "url": "./zh-chapter1-story-v9/audio/correct.m4a",
       "bytes": 43862,
       "sha256": "75d839732b3411e195dbbc1efb4537494628c9a692d9a8e0f10cba75d425a799",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/logo_reward.m4a",
+      "url": "./zh-chapter1-story-v9/audio/logo_reward.m4a",
       "bytes": 16220,
       "sha256": "a352b48cb392b7eec1a5cc105a74b05211e66a393770dc365868b823fe764502",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p00.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p00.m4a",
       "bytes": 92730,
       "sha256": "95044e5bc1436205ddd4da2c4b176c76ea51cb00398450990355a06b6b1e9895",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p01.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p01.m4a",
       "bytes": 234326,
       "sha256": "48c22dc7f3cea81e2e07d74b66f40471395fc0e2443d60c4b25613424f897866",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p02.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p02.m4a",
       "bytes": 191224,
       "sha256": "1d6651b684b90a18aaa72aa084018540d4f7140e0ddb395b3eabbb91d3883902",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p03.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p03.m4a",
       "bytes": 215199,
       "sha256": "c9588d2a64eca8ff3082afd8d83f7941a5b1f79ab01de8faa1b5e996c9499415",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p04.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p04.m4a",
       "bytes": 257366,
       "sha256": "0967cd983f4ac48b460d7cd06a12b258003cd1b9b3fee037193c9c439bebc535",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p05.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p05.m4a",
       "bytes": 289633,
       "sha256": "42d0ebb0f097595e4c82375b0f2fb3be68bf6fc8b83d86e06bbda1277d9780e7",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p06.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p06.m4a",
       "bytes": 234694,
       "sha256": "c4318373d9e6e081d67c43805e23fae05f874dadef723c4e0f878df32f85f499",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p07.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p07.m4a",
       "bytes": 222830,
       "sha256": "49b502becf4f82ab20552e590ca584af9530c0098f718b570d4d18afad88ea91",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p08.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p08.m4a",
       "bytes": 239309,
       "sha256": "22133574a89a80753a87dfaddc1bb6e0fa691dff389b00e4cfb48083c087b5d7",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p09.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p09.m4a",
       "bytes": 255942,
       "sha256": "f790548319c326cbba89179d9a190c9e6271cd9fc0736c1dd32da069cd6e7188",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p10.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p10.m4a",
       "bytes": 167729,
       "sha256": "7d2988c3278d929638473b9a65169e1cf0d57fbce8374f423ed2953bf9d96f9e",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p11.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p11.m4a",
       "bytes": 216054,
       "sha256": "bdfcdbdfc8413f2e15e5c8fe15265ddfa5d528df53fdc48bb440b27ee1a2038b",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p12.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p12.m4a",
       "bytes": 285709,
       "sha256": "667bb359153dc94b8357550584b356090a408ef229bcc6e79dc1caee4710f80c",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p13.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p13.m4a",
       "bytes": 254280,
       "sha256": "ec26aec036ddc3bec6a8946fbbd7ee3e3bce2a2e87d9d6ccc5ea2aac62dc9cfd",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p14.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p14.m4a",
       "bytes": 231829,
       "sha256": "1a25045a9ee45bc76bebfb890b31d307fa4a8e9a3b9e9db51944cc7ab3afc764",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p15.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p15.m4a",
       "bytes": 70886,
       "sha256": "9bd5a2951d78711770690c06d92aff6225f631a17f400fa811e5d6f09d8fcdb6",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p16.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p16.m4a",
       "bytes": 73244,
       "sha256": "a90074aa04adf3ff2a49f61e9cacaa1b26cfeb89543b244af4ea36617d726c35",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p17.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p17.m4a",
       "bytes": 64197,
       "sha256": "74e06fbc1d32d7630dbb51b09b5b7705fd37d52de16c9bdbbb567bdcdf31b9ad",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p17b.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p17b.m4a",
       "bytes": 75612,
       "sha256": "af5f4e7cf568499697ae36fc8af51d8244383f339a915c9a4629d8af389bbd07",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/p18.m4a",
+      "url": "./zh-chapter1-story-v9/audio/p18.m4a",
       "bytes": 141832,
       "sha256": "64f6f24200c78015244b104ff4c2b4874059a9b8b3121ad221fc20d1fa9f71f0",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/audio/wrong.m4a",
+      "url": "./zh-chapter1-story-v9/audio/wrong.m4a",
       "bytes": 25636,
       "sha256": "2cde67f27dc94b1d61f1c8637707f14da32e60f0ea29b96d5755e819fff2f911",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/ending_logo_L04.svg",
+      "url": "./zh-chapter1-story-v9/pages/ending_logo_L04.svg",
       "bytes": 2407381,
       "sha256": "4b5cff96582a65971016a7890b05445625a885a6ad472ab4fee80b40a0204fc5",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p00.webp",
+      "url": "./zh-chapter1-story-v9/pages/p00.webp",
       "bytes": 615536,
       "sha256": "8b6ffc4433fd44b8f4dc05322738acfa9dbe34a33e2b16af8794474ce344bd42",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p01.webp",
+      "url": "./zh-chapter1-story-v9/pages/p01.webp",
       "bytes": 705244,
       "sha256": "06be55f67fc59fc658989c332dee49e24291cc4c972d4cf5dc78a88b41757cbc",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p02.webp",
+      "url": "./zh-chapter1-story-v9/pages/p02.webp",
       "bytes": 661256,
       "sha256": "ceaac34e410a66d17ed7f51f14cb8f3aa0b766762417a724453cfcf8de736f88",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p03.webp",
+      "url": "./zh-chapter1-story-v9/pages/p03.webp",
       "bytes": 615334,
       "sha256": "64aca7a59b144334b6c9e90132d40c0ff1c96d64f4a4a57ec7c7f13160783229",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p04.webp",
+      "url": "./zh-chapter1-story-v9/pages/p04.webp",
       "bytes": 697674,
       "sha256": "227c73d20cf72322e6a90b6c36edadce8241a9e15f0cc6514065b356af9f1720",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p05.webp",
+      "url": "./zh-chapter1-story-v9/pages/p05.webp",
       "bytes": 590368,
       "sha256": "9a55c363db65198642d4fec88ed18579125970f64f5142b9655759c7135e9ef0",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p06.webp",
+      "url": "./zh-chapter1-story-v9/pages/p06.webp",
       "bytes": 628698,
       "sha256": "aa32540393b2041f8f50fadf44444d6ed81b8f74c22c2bb752596466a6a6c571",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p07.webp",
+      "url": "./zh-chapter1-story-v9/pages/p07.webp",
       "bytes": 658166,
       "sha256": "d05503ac784950201a08fc0df039eb54aac48a6fef2223e9341ba3fded42af50",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p08.webp",
+      "url": "./zh-chapter1-story-v9/pages/p08.webp",
       "bytes": 459710,
       "sha256": "8a85146deefdfd01f88fc25ba8eeca2e8ccccbcb814c6a516b6aca05a695eeeb",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p09.webp",
+      "url": "./zh-chapter1-story-v9/pages/p09.webp",
       "bytes": 715486,
       "sha256": "e81cabf3722f72d18c768b893205cb3699e019c46ee9c0175665f41018c4cf38",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p10.webp",
+      "url": "./zh-chapter1-story-v9/pages/p10.webp",
       "bytes": 727868,
       "sha256": "65109605ae1e5e971f3a26f378c015da8d921c10615a967904c1d1ee348297c9",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p11.webp",
+      "url": "./zh-chapter1-story-v9/pages/p11.webp",
       "bytes": 668992,
       "sha256": "1e7ae7a359872724ee13ca1112754d69644c2b39ebfb3c6eb3b1ce0ddc4d7b26",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p12.webp",
+      "url": "./zh-chapter1-story-v9/pages/p12.webp",
       "bytes": 517952,
       "sha256": "c6cbda86c8bb35c098dcc5c27de8fc451d9c8c37444cb7f1c3a0e7310d49c7b9",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p13.webp",
+      "url": "./zh-chapter1-story-v9/pages/p13.webp",
       "bytes": 575288,
       "sha256": "d7ea5d83c1ad6d1fad44f634fff9a95a29bce3b9a333df55ffef0d3afcf3a39d",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p14.mp4",
+      "url": "./zh-chapter1-story-v9/pages/p14.mp4",
       "bytes": 1165525,
       "sha256": "74d26486baafcfc83ff0e943a91284ec74106e06892e28e4710f2a82d32fca61",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p14.webp",
+      "url": "./zh-chapter1-story-v9/pages/p14.webp",
       "bytes": 435118,
       "sha256": "0c71e525c5c728af0df9f4a14909d7db5d226b13d56f555a934eac976fb4ca3b",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p15.webp",
+      "url": "./zh-chapter1-story-v9/pages/p15.webp",
       "bytes": 617526,
       "sha256": "92fc8964d16d0e5e677292703718a4472630b68471433b2b7712fc31f93e4115",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p16.webp",
+      "url": "./zh-chapter1-story-v9/pages/p16.webp",
       "bytes": 551808,
       "sha256": "170bfe3ecbafcd97ac0f38954706f835729ab6c70eade1b9473b058b676d78e5",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p17.webp",
+      "url": "./zh-chapter1-story-v9/pages/p17.webp",
       "bytes": 442968,
       "sha256": "0955d81d95001fe645fa4f8c9e92f8655d34c1ce2a16583b795bbd736ac39bbb",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p17b.webp",
+      "url": "./zh-chapter1-story-v9/pages/p17b.webp",
       "bytes": 502530,
       "sha256": "e8ca381e33f3a268c70275911453603d6dbcaf96e1642b78dc1e81e96a92ad8a",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/pages/p18.webp",
+      "url": "./zh-chapter1-story-v9/pages/p18.webp",
       "bytes": 689464,
       "sha256": "7b4c3d1e8defe921adcd42ab3de9b4ada5bb8ed243202f6b8e4c18421e342751",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/read.html",
+      "url": "./zh-chapter1-story-v9/read.html",
       "bytes": 7385,
       "sha256": "9bdabd14dffa091b655ba8feae8f1d222d129d89141cc0f5e1e753cbf1106469",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/reader/js/app-v21.js",
+      "url": "./zh-chapter1-story-v9/reader/js/app-v21.js",
       "bytes": 57634,
       "sha256": "c3ba7ef4c24f4ab11980614036cbb80d2dc3632e15b495f7d8250071a5c968b3",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/reader/js/audio-v21.js",
+      "url": "./zh-chapter1-story-v9/reader/js/audio-v21.js",
       "bytes": 8856,
       "sha256": "3b828232df0d79422ecb8536c6ec954444d3ccf92c5d15e2f68e009694fa3d99",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/reader/js/book-data.js",
+      "url": "./zh-chapter1-story-v9/reader/js/book-data.js",
       "bytes": 32877,
       "sha256": "0d6cc24d7859497437644e700c976f4a5454a8b68f5414a931271827a511bf21",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/reader/js/feedback.js",
+      "url": "./zh-chapter1-story-v9/reader/js/feedback.js",
       "bytes": 6767,
       "sha256": "8ea0b62faf6755b42624cb0f052a1a32599cc4622960f13387c886f9f45897d4",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/reader/js/interaction-guard.js",
+      "url": "./zh-chapter1-story-v9/reader/js/interaction-guard.js",
       "bytes": 4112,
       "sha256": "55413fdf995e4be32944b183dfaefb9a043f18d7eadf9d348da1896c6d44d2fd",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/reader/js/practice-state.js",
+      "url": "./zh-chapter1-story-v9/reader/js/practice-state.js",
       "bytes": 5164,
       "sha256": "798e8a03d16bb18f2267cbd8105fda8c29dc3549e8ad238c936bbe738428e7e6",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/reader/js/practice.js",
+      "url": "./zh-chapter1-story-v9/reader/js/practice.js",
       "bytes": 12521,
       "sha256": "918cd55885586a57c779438a96743aea0a0b17c848d5245926d76eec956f5493",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/reader/js/zh-activity.js",
-      "bytes": 5226,
-      "sha256": "c21f2b515c6a19bca5d17e8645ac24df072b61b67952dbb40df279d6ebfdac11",
+      "url": "./zh-chapter1-story-v9/reader/js/zh-activity.js",
+      "bytes": 8349,
+      "sha256": "518e80f41830c4c276f08a9b3e33aa11523eeba3ab20a9aa80339ae058f065d9",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/reader/practice.css",
+      "url": "./zh-chapter1-story-v9/reader/practice.css",
       "bytes": 7718,
       "sha256": "7691ab8e1796a8aeafb20d09f5c9232b8eaf3314554aaeb401898fcf3dc3a177",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/reader/styles.css",
+      "url": "./zh-chapter1-story-v9/reader/styles.css",
       "bytes": 13484,
       "sha256": "7ab79064a0ad98c0a533299a7ec35da384034fdc98345993b2d3fbe1d5bd35e1",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/reader/vendor/page-flip.LICENSE.txt",
+      "url": "./zh-chapter1-story-v9/reader/vendor/page-flip.LICENSE.txt",
       "bytes": 1063,
       "sha256": "88d7b609a3be5efa2abe8648ddc35d5489579db5e06299545760df45c2c32d66",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/reader/vendor/page-flip.browser.js",
+      "url": "./zh-chapter1-story-v9/reader/vendor/page-flip.browser.js",
       "bytes": 44041,
       "sha256": "8da2746c112f8c1fec8b2a16aa0fc2b4a0d7f6fbae4f8ab0b6eba413467757c5",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/reader/web.css",
+      "url": "./zh-chapter1-story-v9/reader/web.css",
       "bytes": 4256,
       "sha256": "85e3ee94e8f551b24e2dbc0311d62b0ed7db5e75741f300f5df5bff2581efb8e",
       "core": false
     },
     {
-      "url": "./zh-chapter1-story-v8/reader/zh-activity.css",
-      "bytes": 2374,
-      "sha256": "81558c79e800cc1ada590449b802cf358109188d85e43ecee44acf57addef825",
+      "url": "./zh-chapter1-story-v9/reader/zh-activity.css",
+      "bytes": 2198,
+      "sha256": "33a6537b476d454805c1f4da18c84668d51bca83d68c0382e7991a01bce3a944",
       "core": false
     }
   ],

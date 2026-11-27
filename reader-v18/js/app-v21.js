@@ -582,7 +582,7 @@
   }
   function bindSurfaceGesture() {
     const surface=$('pageStage'), shell=$('bookShell');
-    const swipeTargets='#pageStage,#menuButton,#libraryLink,.practice-option,.practice-next,#nextPageButton';
+    const swipeTargets='#pageStage,#menuButton,#libraryLink,.practice-option,.practice-next,#nextPageButton,.logo-effect-trigger';
     let draggedControl=null;
     const streamID=(point,route)=>route==='touch'?point.identifier:point.pointerId;
     const sample = event => {
