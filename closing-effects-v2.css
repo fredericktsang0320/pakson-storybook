@@ -1,0 +1,124 @@
+.logo-effect-trigger {
+  position:absolute; left:23%; top:12%; width:53%; height:74%; z-index:185;
+  padding:0; border:0; border-radius:18%; background:transparent;
+  touch-action:none; -webkit-tap-highlight-color:transparent;
+}
+.logo-effect-trigger:focus-visible { outline:3px solid #756956; outline-offset:3px; }
+.closing-effect { position:absolute; inset:0; z-index:205; pointer-events:none; overflow:hidden; }
+.closing-particle {
+  --dark:color-mix(in srgb,var(--ink),#1b1a49 38%);
+  position:absolute; top:49%; left:50%; width:var(--mark); height:var(--mark);
+  color:var(--ink); opacity:0; filter:drop-shadow(0 3px 2px #271a4e50);
+}
+.closing-front { z-index:1; }
+.closing-heart {
+  background:radial-gradient(ellipse at 25% 24%,#ffd6dd 0 8%,transparent 26%),
+    linear-gradient(145deg,#ff6591 1%,var(--ink) 48%,var(--dark));
+  clip-path:polygon(50% 91%,11% 55%,4% 43%,2% 30%,6% 19%,14% 11%,25% 7%,35% 9%,44% 15%,50% 23%,57% 15%,66% 9%,76% 7%,87% 11%,95% 19%,99% 31%,97% 43%,90% 54%);
+}
+.closing-gem,.closing-seal { background:linear-gradient(125deg,#ffa2bd,var(--ink) 55%,var(--dark)); transform-origin:center; }
+.closing-gem { clip-path:polygon(50% 1%,92% 26%,99% 57%,50% 99%,1% 57%,8% 26%); }
+.closing-seal { border:calc(var(--mark)*.095) dotted #ffd26c; border-radius:50%; }
+.closing-basket {
+  height:calc(var(--mark)*.64); border-radius:24% 24% 31% 31%;
+  border:calc(var(--mark)*.045) solid #8f430f;
+  background:repeating-linear-gradient(0deg,#8b4516 0 5%,#ed941e 6% 16%,#ffc457 17% 20%);
+  box-shadow:inset 0 calc(var(--mark)*.15) #ffd260;
+}
+.closing-basket::before,.closing-bun {
+  content:""; position:absolute; inset:-24% 12% 50%;
+  border-radius:53% 50% 44% 44%;
+  background:repeating-conic-gradient(from 15deg at 50% 19%,#fff2cf 0 19deg,#e2a85c 20deg 29deg);
+  box-shadow:inset 0 -.1em #c78a31; border:3px solid #9a4c18;
+}
+.closing-bun { inset:auto; top:49%; left:50%; height:calc(var(--mark)*.72); }
+.closing-steam {
+  background:#07967f; border-radius:50%;
+  mask:radial-gradient(ellipse at 60% 23%,transparent 28%,black 33% 54%,transparent 59%) top/93% 55% no-repeat,
+    radial-gradient(ellipse at 36% 80%,transparent 25%,black 31% 53%,transparent 59%) bottom/93% 55% no-repeat;
+}
+.closing-flag {
+  height:calc(var(--mark)*.68); border:5px solid #142a58; border-radius:8%;
+  background:repeating-conic-gradient(#18335a 0% 25%,#fff6e3 0% 50%) 0 / 31% 50%;
+}
+.closing-trophy { background:linear-gradient(125deg,#ffe077 11%,#f58c0b 51%,#b51517); clip-path:polygon(25% 7%,75% 7%,77% 15%,98% 15%,95% 44%,75% 57%,58% 66%,58% 80%,80% 84%,80% 96%,20% 96%,20% 84%,42% 80%,42% 66%,25% 57%,5% 44%,2% 15%,23% 15%); }
+.closing-speed { width:calc(var(--mark)*2.5); height:calc(var(--mark)*.54); background:linear-gradient(90deg,transparent,var(--ink) 30%,var(--ink)); clip-path:polygon(0 15%,72% 15%,72% 0,100% 50%,72% 100%,72% 84%,0 84%,16% 50%); }
+.closing-paw::before {
+  content:""; position:absolute; inset:48% 18% 4%; border-radius:53% 53% 41% 41%;
+  background:var(--ink); border-bottom:calc(var(--mark)*.065) solid var(--dark);
+}
+.closing-paw::after {
+  content:""; position:absolute; top:6%; left:40%; width:23%; height:32%;
+  border-radius:50%; background:var(--ink);
+  box-shadow:calc(var(--mark)*-.29) calc(var(--mark)*.17) 0 -.06em,
+    calc(var(--mark)*.29) calc(var(--mark)*.17) 0 -.06em;
+}
+.closing-leaf,.closing-petal { border-radius:85% 8% 88% 18%; background:linear-gradient(145deg,#ffc568,var(--ink) 42%,var(--dark)); }
+.closing-petal { height:calc(var(--mark)*.75); background:linear-gradient(145deg,#ff9bbe,var(--ink) 46%,var(--dark)); }
+.closing-lantern {
+  height:calc(var(--mark)*.82); border-radius:40%;
+  background:repeating-linear-gradient(90deg,transparent 0 17%,#ffbd48 18% 21%),
+    radial-gradient(ellipse at 38% 42%,#ff743f,var(--ink) 49%,var(--dark));
+  border-block:calc(var(--mark)*.075) solid #f4a407;
+}
+.closing-lantern::after {
+  content:""; position:absolute; left:30%; bottom:-32%; width:40%; height:26%;
+  background:repeating-linear-gradient(90deg,#ed600d 0 10%,#ffd346 12% 20%);
+  clip-path:polygon(40% 0,60% 0,100% 96%,0 96%);
+}
+.closing-coin { border-radius:50%; border:calc(var(--mark)*.11) double #f8b91b; background:#a9470d; }
+.closing-pennant {
+  clip-path:polygon(0 0,100% 0,51% 100%);
+  background:linear-gradient(160deg,#faffd2 0 14%,var(--ink) 15% 69%,var(--dark) 72%);
+}
+.closing-paper,.closing-ribbon { height:calc(var(--mark)*.69); border-radius:9%; background:linear-gradient(150deg,var(--ink) 42%,var(--dark) 78%); }
+.closing-ribbon { clip-path:polygon(0 18%,68% 27%,100% 8%,79% 90%,29% 75%,0 100%); }
+.closing-rainbow {
+  border-radius:52%; clip-path:inset(0 0 47% 0);
+  background:radial-gradient(circle,transparent 0 43%,#912ac1 43% 46%,#004bbb 46% 49%,#008f60 49% 52%,#e1b400 52% 55%,#f27714 55% 58%,#dc2752 58% 62%,transparent 62%);
+}
+.closing-clock {
+  border:calc(var(--mark)*.062) solid #182f68; border-radius:50%;
+  box-shadow:inset 0 0 0 calc(var(--mark)*.02) #d39922;
+  background:radial-gradient(circle,#fff8dd 0 54%,transparent 55%),
+    repeating-conic-gradient(#132d62 0deg 4deg,#ffe6a3 5deg 30deg);
+}
+.closing-clock::before,.closing-clock::after { content:""; position:absolute; left:46%; bottom:49%; border-radius:8px; transform-origin:50% 100%; background:#111f55; width:7%; height:33%; transform:rotate(14deg); }
+.closing-clock::after { height:26%; transform:rotate(100deg); background:#b92222; }
+.closing-clock b { position:absolute; inset:45%; z-index:1; border-radius:50%; background:#de4916; }
+.closing-tick { width:calc(var(--mark)*.35); height:calc(var(--mark)*.75); border-radius:5px; background:var(--ink); border:3px solid #ffe0a3; }
+.closing-comet {
+  width:calc(var(--mark)*1.42); height:calc(var(--mark)*.69);
+  background:radial-gradient(ellipse at 77% 36%,#fff9d8 3%,#ffd241 16%,transparent 30%),
+    linear-gradient(105deg,#491db6,#0079db 34%,#f16b12 68%,#ffe453);
+  clip-path:polygon(0 78%,50% 43%,63% 20%,77% 4%,91% 9%,100% 28%,98% 48%,89% 65%,77% 69%,55% 66%,18% 99%,28% 77%);
+}
+.closing-spark,.closing-flare { background:linear-gradient(140deg,#ffd559,var(--ink) 64%,var(--dark)); clip-path:polygon(50% 0,58% 37%,100% 50%,62% 62%,50% 100%,37% 64%,0 50%,36% 38%); }
+.closing-umbrella::before { content:""; position:absolute; inset:4% 0 44%; border-radius:65% 65% 8% 8% / 94% 94% 6% 6%; border-bottom:calc(var(--mark)*.054) solid #003051;
+  background:repeating-linear-gradient(104deg,#1457a8 0 17%,#39cbdf 18% 26%,#1474b9 28% 39%); }
+.closing-umbrella b { position:absolute; top:51%; left:49%; width:20%; height:45%; border-bottom:6px solid #075379; border-left:6px solid #075379; border-radius:0 0 30% 55%; }
+.closing-drop { width:calc(var(--mark)*.58); background:radial-gradient(ellipse at 33% 67%,#78e2f7,var(--ink) 45%,#064f87); border-radius:72% 4% 70% 58%; }
+.closing-ring { height:calc(var(--mark)*.48); border:calc(var(--mark)*.078) solid var(--ink); border-radius:50%; box-shadow:inset 0 0 0 3px #89e9ed,0 0 0 2px #fff4df; }
+.closing-lens::before {
+  content:""; position:absolute; inset:0 11% 22% 9%; border-radius:50%; border:calc(var(--mark)*.074) solid #813c27;
+  background:linear-gradient(140deg,#c0ededcf,#73b7d522 54%,#b6edff99); box-shadow:inset 0 0 0 4px #f0a95b;
+}
+.closing-lens b { position:absolute; left:65%; top:67%; width:17%; height:39%; border-radius:8%; transform:rotate(-28deg); background:linear-gradient(110deg,#722d2d,#e88c51,#65283f); }
+.closing-envelope { height:calc(var(--mark)*.70); border-radius:9%; border:4px solid var(--ink); background:linear-gradient(140deg,#fff2b6,#f0b458); overflow:hidden; }
+.closing-envelope::before { content:""; position:absolute; inset:0 0 25%; background:#ffdb81; clip-path:polygon(0 0,100% 0,50% 100%); }
+.closing-envelope::after { content:""; position:absolute; inset:37% 39% 32%; border-radius:50%; background:#ad254e; box-shadow:inset 0 0 0 3px #e45768; }
+.closing-moon { border-radius:50%; background:radial-gradient(ellipse at 31% 44%,#fff0a3,#ffb93b 64%,#df782a); mask:radial-gradient(circle at 66% 34%,transparent 0 50%,black 51%); }
+.closing-flower { background:radial-gradient(circle,#f3b028 0 12%,#b01070 15% 19%,transparent 21%),conic-gradient(#f550ad,var(--ink),#f550ad,var(--ink),#f550ad); clip-path:polygon(50% 2%,63% 5%,70% 27%,88% 20%,99% 34%,91% 52%,97% 70%,84% 87%,65% 83%,51% 99%,36% 87%,18% 91%,7% 76%,12% 57%,0 36%,13% 21%,32% 25%,37% 7%); }
+.closing-gear { background:radial-gradient(circle,transparent 0 21%,#f7ae17 22% 29%,var(--ink) 31% 53%,var(--dark)); clip-path:polygon(39% 1%,62% 1%,67% 14%,79% 13%,92% 27%,87% 40%,100% 43%,100% 60%,85% 65%,87% 78%,75% 91%,62% 87%,60% 100%,42% 100%,36% 87%,23% 91%,10% 77%,14% 65%,0 60%,0 43%,15% 38%,12% 26%,23% 13%,37% 16%); }
+.closing-bolt { background:linear-gradient(143deg,#ffdc47 12%,#f59718 46%,var(--ink)); clip-path:polygon(55% 0,94% 0,64% 37%,95% 36%,25% 100%,45% 51%,10% 51%); }
+.closing-orbit { height:calc(var(--mark)*.61); border:calc(var(--mark)*.012) dashed var(--ink); box-shadow:0 0 0 3px #f0ad3e,inset 0 0 0 3px #f0ad3e; border-radius:50%; }
+.closing-planet { border-radius:50%; background:radial-gradient(ellipse at 31% 26%,#efadf0,var(--ink) 43%,var(--dark) 70%); }
+.closing-planet::after { content:""; position:absolute; inset:30% -25%; border:calc(var(--mark)*.066) solid #ef9b28; border-right-color:#ffdf7a; border-radius:50%; transform:rotate(-24deg); }
+.closing-book,.closing-page { height:calc(var(--mark)*.68); border:5px solid var(--ink); border-radius:12% 7% 14% 10%; background:repeating-linear-gradient(#fff3d1 0 13%,#d09560 14% 17%,#fff3d1 18% 21%); }
+.closing-book { box-shadow:0 calc(var(--mark)*.036) 0 calc(var(--mark)*.03) var(--dark); }
+.closing-book b { position:absolute; inset:0 48%; background:linear-gradient(90deg,#91512f,#f6deaa); }
+.closing-burst {
+  background:radial-gradient(circle,#fff4b5 4%,#ffda35 21%,#ff9a17 36%,#f2471c 53%,#aa2344 68%);
+  clip-path:polygon(50% 0,57% 22%,74% 2%,74% 27%,94% 10%,85% 37%,100% 35%,88% 50%,100% 66%,81% 63%,89% 89%,68% 78%,60% 100%,49% 82%,29% 98%,30% 76%,9% 89%,19% 66%,0 68%,15% 50%,0 32%,22% 33%,14% 12%,33% 26%,34% 4%,44% 25%);
+}
+.closing-shockwave { border:calc(var(--mark)*.052) double var(--ink); border-radius:50%; box-shadow:0 0 0 calc(var(--mark)*.021) #efa11d,inset 0 0 0 calc(var(--mark)*.016) #ffc62e; }
