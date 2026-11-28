@@ -214,17 +214,6 @@
       "cover": "./zh-chapter1-story-v11/pages/p00.webp",
       "cover_alt": "柏宸和熊貓領隊拿着紅色旅行冊的《我愛中國》封面",
       "href": "./zh-chapter1-story-v11/read.html"
-    },
-    {
-      "id": "pakson-k3-zh-02",
-      "title": "起飛吧！得得",
-      "subtitle": "柏宸陪小天鵝得得練習拍翼，學習健康生活",
-      "subject": "chinese",
-      "level": "K3",
-      "page_count": 31,
-      "cover": "./zh-chapter2-story-v1/pages/p00.png",
-      "cover_alt": "柏宸和小天鵝得得在湖邊的《起飛吧！得得》封面",
-      "href": "./zh-chapter2-story-v1/read-v2.html"
     }
   ]
 }
