@@ -1,0 +1,101 @@
+#zhActivity {
+  position: absolute;
+  inset: 0;
+  z-index: 180;
+  pointer-events: none;
+}
+
+#zhActivity .zh-activity-target {
+  position: absolute;
+  pointer-events: auto;
+  appearance: none;
+  padding: 0;
+  border: 0;
+  background: none;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#zhActivity button[aria-pressed="true"] {
+  box-shadow: inset 0 0 0 2px #fdf1c4, 0 0 14px #f9de7cab;
+}
+
+#zhActivity .zh-activity-target:focus-visible {
+  outline: 2px solid #786f5c;
+  outline-offset: 2px;
+}
+
+#zhActivity .zh-dictation-field {
+  box-sizing: border-box;
+  text-align: center;
+  font: inherit;
+  font-size: clamp(20px, 5vmin, 52px);
+  color: #372a25;
+  cursor: text;
+  touch-action: manipulation;
+}
+
+#zhActivity .zh-dictation-field[aria-invalid="true"] {
+  outline: 2px solid #ad1c24;
+}
+
+#zhActivity .zh-dictation-field[readonly] {
+  box-shadow: inset 0 0 0 2px #a4b282;
+}
+
+#zhActivity video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.book-shell.is-turning #zhActivity {
+  opacity: 0;
+}
+
+.book-shell.is-turning #zhActivity .zh-activity-target {
+  pointer-events: none;
+}
+
+.read-word-ring {
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.read-word-ring[hidden] {
+  display: none;
+}
+
+#zhActivity .logo-star-button {
+  left: 23%;
+  top: 12%;
+  width: 53%;
+  height: 74%;
+  border-radius: 18%;
+}
+
+.logo-sparkles {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 900;
+}
+
+.logo-sparkles .bag-star {
+  position: absolute;
+  display: block;
+  pointer-events: none;
+  filter: drop-shadow(0 2px 2px #a9662a66);
+  will-change: transform, opacity;
+}
+
+.logo-sparkles .bag-star svg {
+  width: 100%;
+  height: 100%;
+}

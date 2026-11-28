@@ -56,7 +56,8 @@
       if (page.page_type === 'cover' || page.page_type === 'closing_logo') return true;
       if (page.page_type === 'word_practice') return has(subject, number, 'practice:' + page.page_id);
       if (page.audio && !has(subject, number, 'listen:' + page.page_id)) return false;
-      return !page.targets?.some(target => target.correct) || has(subject, number, 'quiz:' + page.page_id);
+      const hasQuiz = (subject === 'chinese' && page.exercise) || page.targets?.some(target => target.correct);
+      return !hasQuiz || has(subject, number, 'quiz:' + page.page_id);
     });
   }
 
