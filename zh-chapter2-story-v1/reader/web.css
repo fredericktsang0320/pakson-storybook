@@ -25,6 +25,18 @@ html[data-reader-input="keyboard"] .book-controls .book-control:focus::before{ou
   50%{transform:scale(1.045);background:#ffe28ab8}
 }
 @media (max-width:500px){html{--next-face:64px;--next-gap:6px}.next-page-hint .icon{width:32px;height:32px}}
+
+/* A narrow portrait screen has room below the plate for the next-page control. */
+@media (max-width:500px) and (orientation:portrait){
+  .reader{
+    --portrait-control-space:calc(var(--next-face) + 2 * var(--next-gap));
+    padding:calc(env(safe-area-inset-top) + var(--portrait-control-space))
+      env(safe-area-inset-right)
+      calc(env(safe-area-inset-bottom) + var(--portrait-control-space))
+      env(safe-area-inset-left);
+  }
+  .next-page-hint{top:calc(100% + var(--next-gap));right:var(--next-gap);translate:none}
+}
 .start-gate{position:absolute;inset:0;z-index:500;display:grid;place-items:end center;padding-bottom:7%;background:linear-gradient(transparent 55%,#152b4317);cursor:pointer}
 .start-gate button{min-height:58px;min-width:200px;padding:13px 30px;border-radius:40px;border:2px solid #eab43c;background:#fff9e8;color:#182c43;font-weight:750;font-size:22px;box-shadow:0 4px 16px #182c4333}
 .start-gate button:disabled{opacity:.8}

@@ -1,6 +1,6 @@
 {
-  "version": "4c891837fd93528b",
-  "total_bytes": 455735786,
+  "version": "90361aabe157d5b6",
+  "total_bytes": 455736317,
   "speech_edition": "chapter1-approved-v18-unchanged;chapter2-fixed-Qwen-v1;chapter3-fixed-Qwen-v1;chapter4-fixed-Qwen-v1;chapter5-fixed-Qwen-v1;chapter6-fixed-Qwen-v1;chapter7-fixed-Qwen-v1;chapter8-fixed-Qwen-v1;chapter9-fixed-Qwen-v1;chapter10-fixed-Qwen-v1;chapter11-fixed-Qwen-v1;chapter12-fixed-Qwen-v1;chapter13-fixed-Qwen-v1;chapter14-fixed-Qwen-v1;chapter15-fixed-Qwen-v1;chapter16-fixed-Qwen-v1",
   "ui_edition": "whole-shelf-and-one-tap-reader-v21",
   "cache_policy": 20,
@@ -6748,8 +6748,8 @@
     },
     {
       "url": "./zh-chapter2-story-v1/reader/web.css",
-      "bytes": 5046,
-      "sha256": "527bbf2f6719d0f091918bce5287720734a5d66a56d62224bb524074c03d8163",
+      "bytes": 5577,
+      "sha256": "33223c3420d9b35ca8aec1b162a42ff8076334c5528d20074c7aa71782c8205d",
       "core": false
     },
     {
