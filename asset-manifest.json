@@ -1,6 +1,6 @@
 {
-  "version": "90361aabe157d5b6",
-  "total_bytes": 455736317,
+  "version": "9a92369edc329f35",
+  "total_bytes": 455749497,
   "speech_edition": "chapter1-approved-v18-unchanged;chapter2-fixed-Qwen-v1;chapter3-fixed-Qwen-v1;chapter4-fixed-Qwen-v1;chapter5-fixed-Qwen-v1;chapter6-fixed-Qwen-v1;chapter7-fixed-Qwen-v1;chapter8-fixed-Qwen-v1;chapter9-fixed-Qwen-v1;chapter10-fixed-Qwen-v1;chapter11-fixed-Qwen-v1;chapter12-fixed-Qwen-v1;chapter13-fixed-Qwen-v1;chapter14-fixed-Qwen-v1;chapter15-fixed-Qwen-v1;chapter16-fixed-Qwen-v1",
   "ui_edition": "whole-shelf-and-one-tap-reader-v21",
   "cache_policy": 20,
@@ -130,8 +130,8 @@
     },
     {
       "url": "./catalogue.json",
-      "bytes": 7972,
-      "sha256": "ffb07f3a11e4454aa062c2798c15bdce3e2a1f5d5459ffbed7e43844247be9f8",
+      "bytes": 7975,
+      "sha256": "1801266ffc8c53dc35bab1b1bcbb5b85c8e5ea65fb2e8d50dfb29da730538e8c",
       "core": true
     },
     {
@@ -6658,8 +6658,8 @@
     },
     {
       "url": "./zh-chapter2-story-v1/read.html",
-      "bytes": 7576,
-      "sha256": "4862d3bab4217f60942db82bad569ecb5834cd44f204ad5cf4100e6984ba5c79",
+      "bytes": 7588,
+      "sha256": "2373d82f28f7ad2d41c3df29c25d684650b03fae16113039ee337a314f2cec8c",
       "core": false
     },
     {
@@ -6756,6 +6756,18 @@
       "url": "./zh-chapter2-story-v1/reader/zh-activity.css",
       "bytes": 1773,
       "sha256": "805ff924fba2d39bf364cc8244467aade6e03b400eb7645cf5da8485030ec8e6",
+      "core": false
+    },
+    {
+      "url": "./zh-chapter2-story-v1/reader/web-portrait-v2.css",
+      "bytes": 5577,
+      "sha256": "33223c3420d9b35ca8aec1b162a42ff8076334c5528d20074c7aa71782c8205d",
+      "core": false
+    },
+    {
+      "url": "./zh-chapter2-story-v1/read-v2.html",
+      "bytes": 7588,
+      "sha256": "2373d82f28f7ad2d41c3df29c25d684650b03fae16113039ee337a314f2cec8c",
       "core": false
     }
   ],
